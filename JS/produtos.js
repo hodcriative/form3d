@@ -1,7 +1,7 @@
 /* =========================================================
    CONFIG — troque aqui quando tiver o número real
 ========================================================= */
-const whatsappNumber = window.FORJ3D_CONFIG?.whatsappNumber || "5500000000000";
+const whatsappNumber = window.FORJ3D_CONFIG?.whatsappNumber || "5527997941766";
 const products = window.FORJ3D_PRODUCTS || [];
 const icons = window.FORJ3D_ICONS || {};
 const categories = window.FORJ3D_CATEGORIES || ["Todos"];

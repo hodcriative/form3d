@@ -32,7 +32,7 @@
   const carousel = document.getElementById('carousel');
   const products = window.FORJ3D_PRODUCTS || [];
   const icons = window.FORJ3D_ICONS || {};
-  const whatsappNumber = window.FORJ3D_CONFIG?.whatsappNumber || '5500000000000';
+  const whatsappNumber = window.FORJ3D_CONFIG?.whatsappNumber || '5527997941766';
 
   const featuredIds = [1, 2, 3, 4, 5];
   const featuredProducts = featuredIds

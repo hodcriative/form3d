@@ -3,7 +3,7 @@
    ========================================================= */
 
 window.FORJ3D_CONFIG = {
-  whatsappNumber: "5500000000000"
+  whatsappNumber: "5527997941766"
 };
 
 window.FORJ3D_ICONS = {
