@@ -25,11 +25,16 @@ const icons = {
 const products = [
   {
     id:1,
-    name:"Suporte para controle",
+    name:"Boneco Homem-Aranha",
     price:39.90,
     category:"Acessórios",
     icon:"controle",
-    images: [],
+    images: [
+      "IMG/produtos/aranha/arafrente.jpeg",
+      "IMG/produtos/aranha/araesquerda.jpeg",
+      "IMG/produtos/aranha/aradireita.jpeg",
+      "IMG/produtos/aranha/aracosta.jpeg"
+    ],
     description:"Suporte produzido em impressão 3D, ideal para organizar seu controle de videogame na mesa ou estante. Acabamento fosco e encaixe firme."
   },
   {
