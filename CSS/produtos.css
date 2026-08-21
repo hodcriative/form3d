@@ -6,8 +6,8 @@
     --muted:#8A8A8A;
     --line:#DEDEDE;
     --card:#FFFFFF;
-    --accent:#FF0000;
-    --accent-ink:#FF0000;
+    --accent:#ff3c00;
+    --accent-ink:#fd6233;
     --footer:#2A2A2A;
     --radius:14px;
     --maxw:1180px;
@@ -123,6 +123,7 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    font-family: inherit;
     font-size: 13px;
     font-weight: 600;
     padding: 11px 20px;
@@ -139,11 +140,11 @@
   
   .btn-accent {
     background: var(--accent);
-    color: var(--ink);
+    color: var(--card);
 }
   
   .btn-accent:hover {
-    box-shadow: 0 6px 20px rgba(0,229,255,0.35);
+    box-shadow:0 6px 20px rgba(255, 60, 0, 0.35); ;
 }
   
   .btn-outline {
@@ -166,7 +167,7 @@
   .page-hero span.section-tag {
     font-family: 'JetBrains Mono', monospace;
     font-size: 12px;
-    color: var(--muted);
+    color: var(--accent);
     text-transform: uppercase;
     letter-spacing: .04em;
     display: block;
@@ -363,7 +364,7 @@
   
   .card:hover .card-cta { 
     background: var(--accent); 
-    color: var(--ink);
+    color: #fff;
 }
 
   .empty-state { 
@@ -695,7 +696,6 @@ header.scrolled {
   height: 380px;
   right: -130px;
   top: -120px;
-  background: radial-gradient(circle, rgba(0,229,255,.13), transparent 68%);
   transform: translate3d(0, var(--hero-parallax, 0px), 0);
 }
 
@@ -735,7 +735,7 @@ header.scrolled {
 }
 
 .search-wrap input:focus {
-  box-shadow: 0 0 0 4px rgba(0,229,255,.10);
+  box-shadow: 0 0 0 4px rgba(255,60,0,.10);
 }
 
 .filters {
@@ -797,7 +797,7 @@ header.scrolled {
   z-index: -1;
   background: radial-gradient(
     260px circle at var(--mx, 50%) var(--my, 0%),
-    rgba(0,229,255,.10),
+    rgba(255, 102, 0, 0.1),
     transparent 62%
   );
   opacity: 0;
@@ -809,10 +809,10 @@ header.scrolled {
     translateY(-9px)
     rotateX(var(--tilt-x, 0deg))
     rotateY(var(--tilt-y, 0deg));
-  border-color: rgba(0,229,255,.28);
+  border-color: 0 6px 20px rgba(255, 60, 0, 0.35); 
   box-shadow:
     0 22px 50px rgba(42,42,42,.10),
-    0 4px 12px rgba(0,229,255,.06);
+    0 4px 12px rgba(255,60,0,.06);
 }
 
 .card:hover::before {
@@ -917,7 +917,7 @@ header.scrolled {
 
 .card:hover .card-cta {
   transform: translateY(-1px);
-  box-shadow: 0 8px 20px rgba(0,229,255,.18);
+  box-shadow: 0 6px 20px rgba(255, 60, 0, 0.35); 
 }
 
 .card:hover .card-cta::before {
@@ -1014,7 +1014,7 @@ header.scrolled {
   left: 21%;
   top: 21%;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(0,229,255,.09), transparent 68%);
+  background: radial-gradient(circle, rgba(255,60,0,.09), transparent 68%);
   filter: blur(8px);
   pointer-events: none;
 }
@@ -1093,7 +1093,7 @@ header.scrolled {
 }
 
 .thumb.active {
-  box-shadow: 0 0 0 3px rgba(0,229,255,.10);
+  box-shadow: 0 0 0 3px rgba(255,60,0,.10);
 }
 
 .p-name {
@@ -1112,17 +1112,31 @@ header.scrolled {
   line-height: 1.8;
 }
 
+.p-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .p-cta {
   position: relative;
   overflow: hidden;
   padding: 13px 19px;
   border-radius: 11px;
-  box-shadow: 0 9px 24px rgba(0,229,255,.16);
+  box-shadow: 0 9px 24px rgba(255,60,0,.16);
+  border: none;
+  cursor: pointer;
 }
 
 .p-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 30px rgba(0,229,255,.23);
+  box-shadow: 0 14px 30px rgba(255,60,0,.23);
+}
+
+.p-cta-whats {
+  padding: 13px 19px;
+  border-radius: 11px;
 }
 
 /* ---------- Relacionados ---------- */
@@ -1148,7 +1162,7 @@ header.scrolled {
 
 .related-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(0,229,255,.25);
+  border-color: rgba(255,60,0,.25);
   box-shadow: 0 16px 30px rgba(42,42,42,.08);
 }
 
@@ -1170,7 +1184,7 @@ footer::before {
   right: -180px;
   top: -220px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(0,229,255,.12), transparent 68%);
+  background: radial-gradient(circle, rgba(255,60,0,.12), transparent 68%);
 }
 
 /* ---------- Reveal controlado por IntersectionObserver ---------- */
@@ -1367,7 +1381,7 @@ footer::before {
 }
 
 .gallery-main:focus-visible {
-  outline: 3px solid rgba(0,229,255,.22);
+  outline: 3px solid rgba(255,60,0,.22);
   outline-offset: 3px;
 }
 
@@ -1386,7 +1400,7 @@ footer::before {
   height: 118px;
   display: none;
   pointer-events: none;
-  border: 1.5px solid rgba(0,229,255,.82);
+  border: 1.5px solid rgba(255,60,0,.82);
   border-radius: 8px;
   background: rgba(255,255,255,.16);
   box-shadow:
@@ -1486,7 +1500,7 @@ footer::before {
 }
 
 .thumb:focus-visible {
-  outline: 3px solid rgba(0,229,255,.18);
+  outline: 3px solid rgba(255,60,0,.18);
   outline-offset: 2px;
 }
 

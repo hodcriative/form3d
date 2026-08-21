@@ -155,6 +155,7 @@ function openProduct(id){
 
   const message = `Olá! Tenho interesse no produto ${p.name}`;
   document.getElementById('modalWhats').href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+  document.getElementById('modalAddCart').dataset.id = p.id;
 
   const related = products.filter(x => x.category === p.category && x.id !== p.id).slice(0,3);
   document.getElementById('relatedGrid').innerHTML = related.map(r => `
@@ -305,6 +306,11 @@ function closeModal(){
     history.back();
   }
 }
+
+document.getElementById('modalAddCart').addEventListener('click', () => {
+  const id = Number(document.getElementById('modalAddCart').dataset.id);
+  if (id && window.FORJ3D_CART) window.FORJ3D_CART.addToCart(id);
+});
 
 document.getElementById('modalClose').addEventListener('click', closeModal);
 overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
