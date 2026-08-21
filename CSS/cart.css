@@ -297,3 +297,29 @@
     width: 100%;
   }
 }
+
+
+/* =========================================
+   CARRINHO - HOVER FORJ3D
+   ========================================= */
+
+.cart-trigger {
+    color: var(--ink);
+    background: #fff;
+    border-color: var(--line);
+
+    transition:
+        background .2s ease,
+        color .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease,
+        transform .15s ease;
+}
+
+.cart-trigger:hover {
+    color: #fff !important;
+    background: var(--accent) !important;
+    border-color: var(--accent) !important;
+    box-shadow: 0 6px 18px rgba(255, 60, 0, 0.25);
+    transform: translateY(-1px);
+}

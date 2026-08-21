@@ -146,6 +146,20 @@
   .btn-accent:hover {
     box-shadow:0 6px 20px rgba(255, 60, 0, 0.35); ;
 }
+
+  /* Botão "Falar no WhatsApp" do cabeçalho segue o mesmo padrão outline
+     usado no index.html, mantendo o .btn-accent preenchido só para o
+     CTA "Adicionar ao carrinho" do modal. */
+  header .btn-accent {
+    background: transparent;
+    border-color: var(--accent);
+    color: var(--accent-ink);
+}
+
+  header .btn-accent:hover {
+    background: #ff3c00;
+    color: #fff;
+}
   
   .btn-outline {
     border-color: var(--ink);
