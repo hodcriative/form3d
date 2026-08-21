@@ -824,9 +824,13 @@ header.scrolled {
   position: relative;
   aspect-ratio: 1 / 1;
   min-height: 0;
-  padding: 18px;
+  padding: 0;
   border-radius: 13px;
   overflow: hidden;
+}
+
+.card-img:has(svg) {
+  padding: 18px;
 }
 
 .card-img::after {
@@ -836,6 +840,10 @@ header.scrolled {
   border: 1px solid rgba(42,42,42,.05);
   border-radius: 10px;
   pointer-events: none;
+}
+
+.card-img:not(:has(svg))::after {
+  display: none;
 }
 
 .card-img img,
@@ -849,17 +857,17 @@ header.scrolled {
 
 .card-img img {
   display: block;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
-  padding: 6px;
-  transform: scale(.94);
+  padding: 0;
+  transform: scale(1);
   transition:
     transform .55s cubic-bezier(.2,.8,.2,1),
     filter .35s ease;
 }
 
 .card:hover .card-img img {
-  transform: scale(1.04) translateY(-3px);
+  transform: scale(1.06);
   filter: saturate(1.04) contrast(1.02);
 }
 
