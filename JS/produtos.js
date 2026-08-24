@@ -11,6 +11,9 @@ const categories = window.FORJ3D_CATEGORIES || ["Todos"];
 ========================================================= */
 let activeCategory = "Todos";
 let searchTerm = "";
+let sortMode = "relevancia";
+let priceMin = null;
+let priceMax = null;
 
 /* =========================================================
    RENDER — FILTROS
@@ -34,11 +37,18 @@ categories.forEach(cat => {
    RENDER — GRID
 ========================================================= */
 function getFiltered(){
-  return products.filter(p => {
+  const list = products.filter(p => {
     const matchesCategory = activeCategory === "Todos" || p.category === activeCategory;
     const matchesSearch = p.name.toLowerCase().includes(searchTerm.toLowerCase());
-    return matchesCategory && matchesSearch;
+    const matchesMin = priceMin === null || p.price >= priceMin;
+    const matchesMax = priceMax === null || p.price <= priceMax;
+    return matchesCategory && matchesSearch && matchesMin && matchesMax;
   });
+
+  if (sortMode === "menor-preco") list.sort((a, b) => a.price - b.price);
+  if (sortMode === "maior-preco") list.sort((a, b) => b.price - a.price);
+
+  return list;
 }
 
 function getProductImages(p){
@@ -100,9 +110,40 @@ searchClear.addEventListener('click', () => {
 });
 
 /* =========================================================
+   ORDENAÇÃO E FAIXA DE PREÇO
+========================================================= */
+const sortSelect = document.getElementById('sortSelect');
+const priceMinInput = document.getElementById('priceMin');
+const priceMaxInput = document.getElementById('priceMax');
+
+sortSelect.addEventListener('change', () => {
+  sortMode = sortSelect.value;
+  renderGrid();
+});
+
+function parsePrice(value){
+  const n = parseFloat(value);
+  return Number.isFinite(n) && n >= 0 ? n : null;
+}
+
+let priceDebounce;
+function handlePriceChange(){
+  clearTimeout(priceDebounce);
+  priceDebounce = setTimeout(() => {
+    priceMin = parsePrice(priceMinInput.value);
+    priceMax = parsePrice(priceMaxInput.value);
+    renderGrid();
+  }, 300);
+}
+
+priceMinInput.addEventListener('input', handlePriceChange);
+priceMaxInput.addEventListener('input', handlePriceChange);
+
+/* =========================================================
    MODAL DE PRODUTO
 ========================================================= */
 const overlay = document.getElementById('modalOverlay');
+let currentShareProduct = null;
 
 function openProduct(id){
   const p = products.find(x => x.id === id);
@@ -156,6 +197,7 @@ function openProduct(id){
   const message = `Olá! Tenho interesse no produto ${p.name}`;
   document.getElementById('modalWhats').href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
   document.getElementById('modalAddCart').dataset.id = p.id;
+  currentShareProduct = p;
 
   const related = products.filter(x => x.category === p.category && x.id !== p.id).slice(0,3);
   document.getElementById('relatedGrid').innerHTML = related.map(r => `
@@ -311,6 +353,44 @@ document.getElementById('modalAddCart').addEventListener('click', () => {
   const id = Number(document.getElementById('modalAddCart').dataset.id);
   if (id && window.FORJ3D_CART) window.FORJ3D_CART.addToCart(id);
 });
+
+/* =========================================================
+   COMPARTILHAR PRODUTO
+   Usa a Web Share API nativa quando disponível (principalmente
+   mobile); no desktop, copia o link direto do produto (com o
+   hash #produto/id) para a área de transferência.
+========================================================= */
+async function shareProduct(){
+  const p = currentShareProduct;
+  if (!p) return;
+
+  const url = `${location.origin}${location.pathname}#produto/${p.id}`;
+  const text = `Olha esse produto da FORJ3D: ${p.name}`;
+  const shareLabel = document.getElementById('modalShareLabel');
+
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: p.name, text, url });
+    } catch (e) {
+      // usuário cancelou o compartilhamento — não faz nada
+    }
+    return;
+  }
+
+  try {
+    await navigator.clipboard.writeText(url);
+    if (shareLabel) {
+      const original = shareLabel.textContent;
+      shareLabel.textContent = 'Link copiado!';
+      setTimeout(() => { shareLabel.textContent = original; }, 2000);
+    }
+  } catch (e) {
+    // clipboard indisponível — abre o compartilhamento pelo WhatsApp como último recurso
+    window.open(`https://wa.me/?text=${encodeURIComponent(text + ' ' + url)}`, '_blank', 'noopener');
+  }
+}
+
+document.getElementById('modalShare').addEventListener('click', shareProduct);
 
 document.getElementById('modalClose').addEventListener('click', closeModal);
 overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });

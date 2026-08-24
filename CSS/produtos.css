@@ -290,6 +290,93 @@
     color: #fff;
 }
 
+  /* ORDENAÇÃO + FAIXA DE PREÇO */
+  .toolbar-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 20px;
+    margin-top: 18px;
+}
+
+  .toolbar-label {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: var(--muted);
+    margin-bottom: 6px;
+}
+
+  .sort-wrap select {
+    font-family: inherit;
+    font-size: 13px;
+    padding: 9px 34px 9px 12px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--card);
+    color: var(--ink);
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238A8A8A' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    transition: border-color .2s ease;
+}
+
+  .sort-wrap select:focus {
+    border-color: var(--ink);
+    outline: none;
+}
+
+  .price-range-inputs {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+  .price-range-inputs input {
+    width: 76px;
+    font-family: inherit;
+    font-size: 13px;
+    padding: 9px 10px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--card);
+    color: var(--ink);
+    transition: border-color .2s ease;
+}
+
+  .price-range-inputs input::-webkit-outer-spin-button,
+  .price-range-inputs input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+  .price-range-inputs input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+  .price-range-inputs input:focus {
+    border-color: var(--ink);
+    outline: none;
+}
+
+  .price-range-sep {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+  @media (max-width: 640px) {
+    .toolbar-row {
+      gap: 14px;
+}
+    .price-range-inputs input {
+      width: 64px;
+}
+}
+
   /* GRID */
   .catalog {
     padding: 36px 0 80px;
@@ -1151,6 +1238,15 @@ header.scrolled {
 .p-cta-whats {
   padding: 13px 19px;
   border-radius: 11px;
+}
+
+.p-share {
+  padding: 13px 19px;
+  border-radius: 11px;
+}
+
+.p-share #modalShareLabel {
+  transition: opacity .15s ease;
 }
 
 /* ---------- Relacionados ---------- */
