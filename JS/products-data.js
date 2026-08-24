@@ -36,42 +36,58 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 2,
-    name: "Vaso geométrico",
-    price: 54.90,
+    name: "Mestre Roshi - Dragon Ball",
+    price: 190.00,
     category: "Decoração",
     icon: "vaso",
     material: "PETG · translúcido",
-    images: [],
+    images: [
+      "IMG/produtos/kame/kamefrente.jpeg",
+      "IMG/produtos/kame/kameesq.jpeg",
+      "IMG/produtos/kame/kamelado.jpeg",
+      "IMG/produtos/kame/kamecosta.jpeg",
+    ],
     description: "Vaso com design geométrico moderno, impresso em PETG translúcido. Perfeito para plantas pequenas ou suculentas."
   },
   {
     id: 3,
-    name: "Luminária modular",
-    price: 89.90,
+    name: "Spider-Man - Brand New Day ",
+    price: 120.00,
     category: "Decoração",
     icon: "luminaria",
     material: "PLA · difusor",
-    images: [],
+    images: [
+      "IMG/produtos/aranha2/ara2fren.jpeg",
+      "IMG/produtos/aranha2/ara2esquerda.jpeg",
+      "IMG/produtos/aranha2/ara2costa.jpeg",
+    ],
     description: "Luminária de mesa com difusor impresso em 3D, montagem modular e luz aconchegante para o ambiente."
   },
   {
     id: 4,
-    name: "Suporte para celular",
-    price: 32.90,
+    name: "Batmóvel",
+    price: 350.00,
     category: "Acessórios",
     icon: "celular",
     material: "PLA+ · rígido",
-    images: [],
+    images: [
+      "IMG/produtos/batmov/batfechado.jpeg",
+      "IMG/produtos/batmov/bataberto.jpeg",
+      "IMG/produtos/batmov/batesq.jpeg",
+      "IMG/produtos/batmov/batcima.jpeg",
+    ],
     description: "Suporte compacto para celular, ideal para mesa de trabalho ou cabeceira. Material rígido e resistente."
   },
   {
     id: 5,
-    name: "Miniatura personalizada",
-    price: 64.90,
+    name: "Nossa Senhora Aparecida",
+    price: 25.00,
     category: "Decoração",
     icon: "miniatura",
     material: "Resina · detalhado",
-    images: [],
+    images: [
+      "IMG/produtos/aparecida/apare.jpeg",
+    ],
     description: "Miniatura impressa em resina com alto nível de detalhe. Personalizamos conforme sua referência."
   },
   {
