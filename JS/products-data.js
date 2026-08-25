@@ -54,86 +54,86 @@ window.FORJ3D_PRODUCTS = [
     name: "Spider-Man - Brand New Day ",
     price: 120.00,
     category: "Decoração",
-    icon: "luminaria",
-    material: "PLA · difusor",
+    icon: "",
+    material: "",
     images: [
       "IMG/produtos/aranha2/ara2fren.jpeg",
       "IMG/produtos/aranha2/ara2esquerda.jpeg",
       "IMG/produtos/aranha2/ara2costa.jpeg",
     ],
-    description: "Luminária de mesa com difusor impresso em 3D, montagem modular e luz aconchegante para o ambiente."
+    description: ""
   },
   {
     id: 4,
     name: "Batmóvel",
     price: 350.00,
     category: "Acessórios",
-    icon: "celular",
-    material: "PLA+ · rígido",
+    icon: "",
+    material: "",
     images: [
       "IMG/produtos/batmov/batfechado.jpeg",
       "IMG/produtos/batmov/bataberto.jpeg",
       "IMG/produtos/batmov/batesq.jpeg",
       "IMG/produtos/batmov/batcima.jpeg",
     ],
-    description: "Suporte compacto para celular, ideal para mesa de trabalho ou cabeceira. Material rígido e resistente."
+    description: ""
   },
   {
     id: 5,
     name: "Estátua Mecha Blastoise - Multicolorida Separada",
     price: 230.00,
     category: "Decoração",
-    icon: "miniatura",
-    material: "Resina · detalhado",
+    icon: "",
+    material: "",
     images: [
       "IMG/produtos/blastoise/blasfrente.jpeg",
       "IMG/produtos/blastoise/blaslado2.jpeg",
       "IMG/produtos/blastoise/blaslado.jpeg",
       "IMG/produtos/blastoise/blascosta.jpeg",
     ],
-    description: "Miniatura impressa em resina com alto nível de detalhe. Personalizamos conforme sua referência."
+    description: ""
   },
   {
     id: 6,
     name: "Nossa Senhora Aparecida",
     price: 25.00,
     category: "Decoração",
-    icon: "miniatura",
-    material: "Resina · detalhado",
+    icon: "",
+    material: "",
     images: [
       "IMG/produtos/aparecida/apare.jpeg",
     ],
-    description: "Miniatura impressa em resina com alto nível de detalhe. Personalizamos conforme sua referência."
+    description: ""
   },
   {
     id: 7,
     name: "Porta-chaves de parede",
     price: 29.90,
     category: "Utilidades",
-    icon: "porta_chaves",
-    material: "PLA · precisão",
+    icon: "",
+    material: "",
     images: [],
-    description: "Porta-chaves compacto para fixar na parede, com acabamento em camadas finas para maior precisão."
+    description: ""
   },
   {
     id: 8,
     name: "Quadro decorativo 3D",
     price: 74.90,
     category: "Decoração",
-    icon: "quadro",
-    material: "PLA · relevo",
+    icon: "",
+    material: "",
     images: [],
-    description: "Quadro com relevo impresso em 3D, textura única que faz o design ganhar profundidade na parede."
+    description: ""
   },
   {
     id: 9,
     name: "Porta-copos em par",
     price: 24.90,
     category: "Utilidades",
-    icon: "porta_copo",
-    material: "PLA · resistente",
+    icon: "",
+    material: "",
     images: [],
-    description: "Par de porta-copos com base emborrachável, resistentes a líquidos e fáceis de limpar."
+    description: ""
   }
 ];
 
