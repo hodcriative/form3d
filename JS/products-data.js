@@ -80,6 +80,21 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 5,
+    name: "Estátua Mecha Blastoise - Multicolorida Separada",
+    price: 230.00,
+    category: "Decoração",
+    icon: "miniatura",
+    material: "Resina · detalhado",
+    images: [
+      "IMG/produtos/blastoise/blasfrente.jpeg",
+      "IMG/produtos/blastoise/blaslado2.jpeg",
+      "IMG/produtos/blastoise/blaslado.jpeg",
+      "IMG/produtos/blastoise/blascosta.jpeg",
+    ],
+    description: "Miniatura impressa em resina com alto nível de detalhe. Personalizamos conforme sua referência."
+  },
+  {
+    id: 6,
     name: "Nossa Senhora Aparecida",
     price: 25.00,
     category: "Decoração",
@@ -89,16 +104,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/aparecida/apare.jpeg",
     ],
     description: "Miniatura impressa em resina com alto nível de detalhe. Personalizamos conforme sua referência."
-  },
-  {
-    id: 6,
-    name: "Organizador de mesa",
-    price: 47.90,
-    category: "Organizadores",
-    icon: "organizador",
-    material: "PLA · modular",
-    images: [],
-    description: "Organizador modular para canetas, clipes e acessórios de escritório. Encaixa em qualquer mesa."
   },
   {
     id: 7,
