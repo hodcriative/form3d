@@ -152,7 +152,7 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Protetor contra Vespas e Insetos"
   },
-    {
+  {
     id: 10,
     name: "Porta Canetas Mario",
     price: 78.99,
@@ -167,7 +167,7 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Lixeira, Organizador e Porta - Canetas em Partes Separadas"
   },
-      {
+  {
     id: 11,
     name: "Pegador de Insetos Supremo",
     price: 35.00,
@@ -179,6 +179,48 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/insetosupremo/inseto2.jpeg",
       "IMG/produtos/insetosupremo/inseto3.jpeg",
       "IMG/produtos/insetosupremo/inseto4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 12,
+    name: "Luminária Dragon Ball",
+    price: 68.99,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/iluminariadrag/iluminaria.jpeg",
+      "IMG/produtos/iluminariadrag/iluminaria2.jpeg",
+      "IMG/produtos/iluminariadrag/iluminaria3.jpeg",
+      "IMG/produtos/iluminariadrag/iluminaria4.jpeg",
+    ],
+    description: "Son Goku com Aura de Energia DIY",
+  },
+  {
+    id: 13,
+    name: "Mani Dock Max",
+    price: 26.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/manidock/mani1.jpeg",
+      "IMG/produtos/manidock/mani2.jpeg",
+      "IMG/produtos/manidock/mani3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 14,
+    name: "Fúria da Luz",
+    price: 60.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/furialuz/furia.jpeg",
+      "IMG/produtos/furialuz/furia2.jpeg",
     ],
     description: ""
   }
