@@ -107,32 +107,79 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 7,
-    name: "Porta-chaves de parede",
-    price: 29.90,
+    name: "PipeBug Trap",
+    price: 35.00,
     category: "Utilidades",
     icon: "",
     material: "",
-    images: [],
+    images: [
+      "IMG/produtos/pipebug/pipe.jpeg",
+      "IMG/produtos/pipebug/pipe2.jpeg",
+      "IMG/produtos/pipebug/pipe3.jpeg",
+      "IMG/produtos/pipebug/pipe4.jpeg",
+    ],
     description: ""
   },
   {
     id: 8,
-    name: "Quadro decorativo 3D",
-    price: 74.90,
+    name: "Protetor de Solo para Plantas",
+    price: 12.00,
     category: "Decoração",
     icon: "",
     material: "",
-    images: [],
-    description: ""
+    images: [
+      "IMG/produtos/protetorplan/prote.jpeg",
+      "IMG/produtos/protetorplan/prote2.jpeg",
+      "IMG/produtos/protetorplan/prote3.jpeg",
+      "IMG/produtos/protetorplan/prote4.jpeg",
+      "IMG/produtos/protetorplan/prote5.jpeg",
+      "IMG/produtos/protetorplan/prote6.jpeg",
+    ],
+    description: "Protetor de Solo contra Insetos e Gatos"
   },
   {
     id: 9,
-    name: "Porta-copos em par",
-    price: 24.90,
+    name: "Bug - Off Snap Can Lid",
+    price: 10.00,
     category: "Utilidades",
     icon: "",
     material: "",
-    images: [],
+    images: [
+      "IMG/produtos/protetorvespa/vespa.jpeg",
+      "IMG/produtos/protetorvespa/vespa2.jpeg",
+      "IMG/produtos/protetorvespa/vespa3.jpeg",
+      "IMG/produtos/protetorvespa/vespa4.jpeg",
+    ],
+    description: "Protetor contra Vespas e Insetos"
+  },
+    {
+    id: 10,
+    name: "Porta Canetas Mario",
+    price: 78.99,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/lixeiraorga/lixe.jpeg",
+      "IMG/produtos/lixeiraorga/lixe2.jpeg",
+      "IMG/produtos/lixeiraorga/lixe3.jpeg",
+      "IMG/produtos/lixeiraorga/lixe4.jpeg",
+    ],
+    description: "Lixeira, Organizador e Porta - Canetas em Partes Separadas"
+  },
+      {
+    id: 11,
+    name: "Pegador de Insetos Supremo",
+    price: 35.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/insetosupremo/inseto.jpeg",
+      "IMG/produtos/insetosupremo/inseto2.jpeg",
+      "IMG/produtos/insetosupremo/inseto3.jpeg",
+      "IMG/produtos/insetosupremo/inseto4.jpeg",
+    ],
     description: ""
   }
 ];
