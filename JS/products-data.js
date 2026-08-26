@@ -38,7 +38,7 @@ window.FORJ3D_PRODUCTS = [
     id: 2,
     name: "Mestre Roshi - Dragon Ball",
     price: 190.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "vaso",
     material: "PETG · translúcido",
     images: [
