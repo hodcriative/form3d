@@ -32,7 +32,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/aranha/aradireita.jpeg",
       "IMG/produtos/aranha/aracosta.jpeg"
     ],
-    description: "Suporte produzido em impressão 3D, ideal para organizar seu controle de videogame na mesa ou estante. Acabamento fosco e encaixe firme."
+    description: "Boneco decorativo do Homem-Aranha impresso em 3D, em pose de ação sobre teia."
   },
   {
     id: 2,
@@ -47,13 +47,13 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/kame/kamelado.jpeg",
       "IMG/produtos/kame/kamecosta.jpeg",
     ],
-    description: "Vaso com design geométrico moderno, impresso em PETG translúcido. Perfeito para plantas pequenas ou suculentas."
+    description: "Estátua do Mestre Roshi (Dragon Ball) em pose de combate."
   },
   {
     id: 3,
     name: "Spider-Man - Brand New Day ",
     price: 120.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -61,13 +61,13 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/aranha2/ara2esquerda.jpeg",
       "IMG/produtos/aranha2/ara2costa.jpeg",
     ],
-    description: ""
+    description: "Estátua do Homem-Aranha no icônico traje de Brand New Day, em pose dinâmica de combate."
   },
   {
     id: 4,
     name: "Batmóvel",
     price: 350.00,
-    category: "Acessórios",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -76,13 +76,13 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/batmov/batesq.jpeg",
       "IMG/produtos/batmov/batcima.jpeg",
     ],
-    description: ""
+    description: "Miniatura colecionável detalhada do Batmóvel (Tumbler)."
   },
   {
     id: 5,
     name: "Estátua Mecha Blastoise - Multicolorida Separada",
     price: 230.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -91,7 +91,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/blastoise/blaslado.jpeg",
       "IMG/produtos/blastoise/blascosta.jpeg",
     ],
-    description: ""
+    description: "Estátua do Blastoise em versão mecha, com canhões articulados nos ombros."
   },
   {
     id: 6,
@@ -99,7 +99,7 @@ window.FORJ3D_PRODUCTS = [
     price: 25.00,
     category: "Decoração",
     icon: "",
-    material: "",
+    material: "Imagem de Nossa Senhora Aparecida impressa em 3D, ideal presentes e decorações.",
     images: [
       "IMG/produtos/aparecida/apare.jpeg",
     ],
@@ -118,13 +118,13 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/pipebug/pipe3.jpeg",
       "IMG/produtos/pipebug/pipe4.jpeg",
     ],
-    description: ""
+    description: "Armadilha para insetos em formato do clássico cano verde do Mario, disfarçada de item decorativo."
   },
   {
     id: 8,
     name: "Protetor de Solo para Plantas",
     price: 12.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -135,7 +135,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/protetorplan/prote5.jpeg",
       "IMG/produtos/protetorplan/prote6.jpeg",
     ],
-    description: "Protetor de Solo contra Insetos e Gatos"
+    description: "Disco protetor para vasos de plantas: evita que gatos cavem a terra e afasta insetos, mantendo o solo protegido sem prejudicar o crescimento das raízes."
   },
   {
     id: 9,
@@ -150,13 +150,13 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/protetorvespa/vespa3.jpeg",
       "IMG/produtos/protetorvespa/vespa4.jpeg",
     ],
-    description: "Protetor contra Vespas e Insetos"
+    description: "Tampa de encaixe rápido para latas de bebida, feita para impedir que vespas e outros insetos entrem no recipiente em ambientes externos."
   },
   {
     id: 10,
     name: "Porta Canetas Mario",
     price: 78.99,
-    category: "Utilidades",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -165,7 +165,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/lixeiraorga/lixe3.jpeg",
       "IMG/produtos/lixeiraorga/lixe4.jpeg",
     ],
-    description: "Lixeira, Organizador e Porta - Canetas em Partes Separadas"
+    description: "Organizador temático inspirado no Mario, com tampa articulada no formato do boné e das luvas do personagem. Pode ser usado como lixeira de mesa, porta-canetas ou organizador de miudezas."
   },
   {
     id: 11,
@@ -180,13 +180,13 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/insetosupremo/inseto3.jpeg",
       "IMG/produtos/insetosupremo/inseto4.jpeg",
     ],
-    description: ""
+    description: "Pegador de insetos com cabo ergonômico e pá curva, projetado para capturar e remover insetos com segurança e sem contato direto."
   },
   {
     id: 12,
     name: "Luminária Dragon Ball",
     price: 68.99,
-    category: "Utilidades",
+    category: "Decoração",
     icon: "",
     material: "",
     images: [
@@ -195,13 +195,13 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/iluminariadrag/iluminaria3.jpeg",
       "IMG/produtos/iluminariadrag/iluminaria4.jpeg",
     ],
-    description: "Son Goku com Aura de Energia DIY",
+    description: "Luminária decorativa do Son Goku carregando uma Kamehameha, com fio de LED formando o feixe de energia entre as mãos e o cristal na base.",
   },
   {
     id: 13,
     name: "Mani Dock Max",
     price: 26.00,
-    category: "Utilidades",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -209,21 +209,21 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/manidock/mani2.jpeg",
       "IMG/produtos/manidock/mani3.jpeg",
     ],
-    description: ""
+    description: "Suporte ergonômico para apoio dos dedos durante esmaltação ou procedimentos de manicure, com canaletas em U que acomodam até 4 dedos confortavelmente."
   },
   {
     id: 14,
     name: "Fúria da Luz",
     price: 60.00,
-    category: "Utilidades",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
       "IMG/produtos/furialuz/furia.jpeg",
       "IMG/produtos/furialuz/furia2.jpeg",
     ],
-    description: ""
+    description: "Estátua da Fúria da Luz (Light Fury), de Como Treinar o Seu Dragão, com acabamento branco perolado e pose sentada."
   }
 ];
 
-window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Utilidades", "Acessórios", "Organizadores"];
+window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
