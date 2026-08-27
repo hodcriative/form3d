@@ -320,8 +320,40 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/bailarinagira/bailagir2.jpeg",
       "IMG/produtos/bailarinagira/bailagir3.jpeg",
     ],
-    description: "Decoração"
-  }
+    description: ""
+  },
+  {
+    id: 21,
+    name: "Chaveiro Giratório Corinthians",
+    price: 13.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveicorin/corintians.jpeg",
+      "IMG/produtos/chaveicorin/corintians2.jpeg",
+      "IMG/produtos/chaveicorin/corintians3.jpeg",
+      "IMG/produtos/chaveicorin/corintians4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 22,
+    name: "Lanterna Chapéu Seletor",
+    price: 70.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/lantechape/lantechapeu.jpeg",
+      "IMG/produtos/lantechape/lantechapeu2.jpeg",
+      "IMG/produtos/lantechape/lantechapeu3.jpeg",
+      "IMG/produtos/lantechape/lantechapeu4.jpeg",
+      "IMG/produtos/lantechape/lantechapeu5.jpeg",
+      "IMG/produtos/lantechape/lantechapeu6.jpeg",
+    ],
+    description: ""
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
