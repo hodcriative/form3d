@@ -58,7 +58,11 @@ function getProductImages(p){
 function productVisual(p, className = ''){
   const images = getProductImages(p);
   if (images.length) {
-    return `<img class="${className}" src="${images[0]}" alt="${p.name}" loading="lazy" draggable="false">`;
+    const base = `<img class="${className}" src="${images[0]}" alt="${p.name}" loading="lazy" draggable="false">`;
+    const hover = images.length > 1
+      ? `<img class="card-img-hover" src="${images[1]}" alt="" aria-hidden="true" loading="lazy" draggable="false">`
+      : '';
+    return base + hover;
   }
   return icons[p.icon] || '';
 }

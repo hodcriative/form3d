@@ -1,4 +1,4 @@
- :root{
+:root{
     --bg:#F5F5F5;
     --bg-grid: rgba(42,42,42,0.05);
     --ink:#2A2A2A;
@@ -760,49 +760,23 @@
 
 #carousel .card {
   position: relative;
-  isolation: isolate;
-  overflow: hidden;
   cursor: pointer;
   padding: 14px;
   border-radius: 18px;
   border: 1px solid var(--line);
-  transform: translateY(var(--reveal-y, 0)) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg));
+  transform: translateY(var(--reveal-y, 0));
   opacity: var(--reveal-opacity, 1);
   transition:
-    transform .45s cubic-bezier(.2,.8,.2,1),
-    box-shadow .35s ease,
+    transform .3s ease,
+    box-shadow .3s ease,
     border-color .25s ease,
-    opacity .6s ease;
-}
-
-#carousel .card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background: radial-gradient(
-    260px circle at var(--mx, 50%) var(--my, 0%),
-    rgba(255,60,0,.10),
-    transparent 62%
-  );
-  opacity: 0;
-  transition: opacity .3s ease;
+    opacity .5s ease;
 }
 
 #carousel .card:hover {
-  transform:
-    translateY(-9px)
-    rotateX(var(--tilt-x, 0deg))
-    rotateY(var(--tilt-y, 0deg));
+  transform: translateY(-6px);
   border-color: rgba(255,60,0,.28);
-  box-shadow:
-    0 22px 50px rgba(42,42,42,.10),
-    0 4px 12px rgba(255,60,0,.06);
-}
-
-#carousel .card:hover::before {
-  opacity: 1;
+  box-shadow: 0 16px 34px rgba(42,42,42,.12);
 }
 
 #carousel .card-img {
@@ -835,15 +809,20 @@
   max-height: 100%;
   object-fit: cover;
   object-position: center;
-  transform: scale(1);
-  transition:
-    transform .55s cubic-bezier(.2,.8,.2,1),
-    filter .35s ease;
 }
 
-#carousel .card:hover .card-img img {
-  transform: scale(1.06);
-  filter: saturate(1.04) contrast(1.02);
+/* Segunda foto do produto: aparece com um fade ao passar o mouse */
+#carousel .card-img-hover {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .35s ease;
+  pointer-events: none;
+}
+
+#carousel .card:hover .card-img-hover {
+  opacity: 1;
 }
 
 #carousel .card-img svg {
@@ -852,11 +831,6 @@
   max-height: 100%;
   object-fit: contain;
   transform-origin: center;
-  transition: transform .55s cubic-bezier(.2,.8,.2,1);
-}
-
-#carousel .card:hover .card-img svg {
-  transform: scale(1.08) rotate(-2deg);
 }
 
 #carousel .card-dots {
@@ -898,48 +872,28 @@
 }
 
 #carousel .card-cta {
-  position: relative;
-  overflow: hidden;
   border-radius: 10px;
   transition:
-    background .25s ease,
-    transform .25s ease,
-    box-shadow .25s ease;
-}
-
-#carousel .card-cta::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -55%;
-  width: 35%;
-  transform: skewX(-18deg);
-  background: rgba(255,255,255,.16);
-  transition: left .55s ease;
+    background .2s ease,
+    transform .2s ease;
 }
 
 #carousel .card:hover .card-cta {
   transform: translateY(-1px);
-  box-shadow: 0 8px 20px rgba(255,60,0,.18);
-}
-
-#carousel .card:hover .card-cta::before {
-  left: 125%;
 }
 
 #carousel .card.js-reveal {
   opacity: 0;
-  transform: translateY(28px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg));
+  transform: translateY(28px);
 }
 
 #carousel .card.js-reveal.is-visible {
   opacity: 1;
-  transform: translateY(0) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg));
+  transform: translateY(0);
   transition:
-    opacity .65s ease,
-    transform .65s cubic-bezier(.2,.8,.2,1),
-    box-shadow .35s ease,
+    opacity .5s ease,
+    transform .5s ease,
+    box-shadow .3s ease,
     border-color .25s ease;
 }
 

@@ -46,7 +46,10 @@
   const productVisual = product => {
     const images = getImages(product);
     if (images.length) {
-      return `<img src="${images[0]}" alt="${product.name}" loading="lazy" draggable="false">`;
+      const hover = images.length > 1
+        ? `<img class="card-img-hover" src="${images[1]}" alt="" aria-hidden="true" loading="lazy" draggable="false">`
+        : '';
+      return `<img src="${images[0]}" alt="${product.name}" loading="lazy" draggable="false">${hover}`;
     }
     return icons[product.icon] || '';
   };

@@ -223,7 +223,46 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/furialuz/furia2.jpeg",
     ],
     description: "Estátua da Fúria da Luz (Light Fury), de Como Treinar o Seu Dragão, com acabamento branco perolado e pose sentada."
-  }
+  },
+  {
+    id: 15,
+    name: "Goku SSJ3 Urbano",
+    price: 115.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/gokuurbano/urbano.jpeg",
+      "IMG/produtos/gokuurbano/urbano2.jpeg",
+      "IMG/produtos/gokuurbano/urbano3.jpeg",
+      "IMG/produtos/gokuurbano/urbano4.jpeg",
+    ],
+    description: "Colecionáveis"
+  },
+  {
+    id: 16,
+    name: "Decoração para Aniversários",
+    price: 115.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/aniversarios/aniversarios.jpeg",
+      "IMG/produtos/aniversarios/aniversarios2.jpeg",
+      "IMG/produtos/aniversarios/aniversarios15.jpeg",
+      "IMG/produtos/aniversarios/aniversarios18.jpeg",
+      "IMG/produtos/aniversarios/aniversarios26.jpeg",
+      "IMG/produtos/aniversarios/aniversarios30.jpeg",
+      "IMG/produtos/aniversarios/aniversarios40.jpeg",
+      "IMG/produtos/aniversarios/aniversarios50.jpeg",
+      "IMG/produtos/aniversarios/aniversarios60.jpeg",
+      "IMG/produtos/aniversarios/aniversarios60s.jpeg",
+      "IMG/produtos/aniversarios/aniversarios70.jpeg",
+      "IMG/produtos/aniversarios/aniversarios85.jpeg",
+      "IMG/produtos/aniversarios/aniversarios90.jpeg",
+    ],
+    description: "Colecionáveis"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];

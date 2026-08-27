@@ -140,111 +140,13 @@
 
 
     /* =====================================================
-       TILT 3D DOS CARDS
+       OBSERVA NOVOS CARDS ADICIONADOS AO GRID
+       (para aplicar o reveal ao aparecerem)
        ===================================================== */
-
-    const setupTilt = (card) => {
-
-      if (
-        card.dataset.tiltReady === "1"
-      ) {
-        return;
-      }
-
-      card.dataset.tiltReady = "1";
-
-
-      card.addEventListener(
-        "pointermove",
-        (event) => {
-
-          const rect =
-            card.getBoundingClientRect();
-
-          const x =
-            (event.clientX - rect.left) /
-            rect.width;
-
-          const y =
-            (event.clientY - rect.top) /
-            rect.height;
-
-
-          const rotateY =
-            (x - 0.5) * 4;
-
-          const rotateX =
-            (0.5 - y) * 4;
-
-
-          card.style.setProperty(
-            "--tilt-x",
-            `${rotateX}deg`
-          );
-
-          card.style.setProperty(
-            "--tilt-y",
-            `${rotateY}deg`
-          );
-
-
-          card.style.setProperty(
-            "--mx",
-            `${x * 100}%`
-          );
-
-          card.style.setProperty(
-            "--my",
-            `${y * 100}%`
-          );
-
-        }
-      );
-
-
-      card.addEventListener(
-        "pointerleave",
-        () => {
-
-          card.style.setProperty(
-            "--tilt-x",
-            "0deg"
-          );
-
-          card.style.setProperty(
-            "--tilt-y",
-            "0deg"
-          );
-
-          card.style.setProperty(
-            "--mx",
-            "50%"
-          );
-
-          card.style.setProperty(
-            "--my",
-            "0%"
-          );
-
-        }
-      );
-
-    };
-
 
     const prepareCards = (
       root = document
     ) => {
-
-      root
-        .querySelectorAll(
-          ".card, .related-card"
-        )
-        .forEach((card) => {
-
-          setupTilt(card);
-
-        });
 
       prepareReveal(root);
 
