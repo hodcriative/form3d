@@ -287,10 +287,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/gokumult/gokumult.jpeg",
-      "IMG/produtos/gokumult/gokumult2.jpeg",
-      "IMG/produtos/gokumult/gokumult3.jpeg",
-      "IMG/produtos/gokumult/gokumult4.jpeg",
+      "IMG/produtos/gokumulti/gokumult.jpeg",
+      "IMG/produtos/gokumulti/gokumult2.jpeg",
+      "IMG/produtos/gokumulti/gokumult3.jpeg",
+      "IMG/produtos/gokumulti/gokumult4.jpeg",
     ],
     description: ""
   },
