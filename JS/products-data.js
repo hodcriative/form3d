@@ -312,13 +312,13 @@ window.FORJ3D_PRODUCTS = [
     id: 20,
     name: "Bailarina Giratória - Torre de Rabanetes Antiestresse",
     price: 30.00,
-    category: "Utilidades",
+    category: "Decoração",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/bailarinagira/bailagira.jpeg",
-      "IMG/produtos/bailarinagira/bailagir2.jpeg",
-      "IMG/produtos/bailarinagira/bailagir3.jpeg",
+      "IMG/produtos/bailarinagira/bailagira2.jpeg",
+      "IMG/produtos/bailarinagira/bailagira3.jpeg",
+      "IMG/produtos/bailarinagira/bailagira.gif",
     ],
     description: ""
   },
@@ -354,6 +354,24 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: ""
   },
+  {
+    id: 23,
+    name: "Fonte de Ambiente Mágica - Perpétuo Móvel",
+    price: 120.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/fontemagic/fonte.jpeg",
+      "IMG/produtos/fontemagic/fonte2.jpeg",
+      "IMG/produtos/fontemagic/fonte3.jpeg",
+      "IMG/produtos/fontemagic/fonte4.jpeg",
+      "IMG/produtos/fontemagic/fonte5.jpeg",
+      "IMG/produtos/fontemagic/fonte6.jpeg",
+      "IMG/produtos/fontemagic/fonte7.jpeg",
+    ],
+    description: ""
+  }
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
