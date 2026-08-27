@@ -237,13 +237,13 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/gokuurbano/urbano3.jpeg",
       "IMG/produtos/gokuurbano/urbano4.jpeg",
     ],
-    description: "Colecionáveis"
+    description: ""
   },
   {
     id: 16,
     name: "Decoração para Aniversários",
     price: 115.00,
-    category: "Colecionáveis",
+    category: "Decoração",
     icon: "",
     material: "",
     images: [
@@ -261,8 +261,53 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/aniversarios/aniversarios85.jpeg",
       "IMG/produtos/aniversarios/aniversarios90.jpeg",
     ],
-    description: "Colecionáveis"
+    description: ""
   },
+  {
+    id: 17,
+    name: "Marcos Fotográficos Bebê 1 Mês - 1 Ano",
+    price: 45.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/bebe1ano/bebe1.jpeg",
+      "IMG/produtos/bebe1ano/bebe2.jpeg",
+      "IMG/produtos/bebe1ano/bebe3.jpeg",
+      "IMG/produtos/bebe1ano/bebe4.jpeg",
+      "IMG/produtos/bebe1ano/bebe5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 18,
+    name: "Goku Multi - Part",
+    price: 110.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/gokumult/gokumult.jpeg",
+      "IMG/produtos/gokumult/gokumult2.jpeg",
+      "IMG/produtos/gokumult/gokumult3.jpeg",
+      "IMG/produtos/gokumult/gokumult4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 19,
+    name: "Suporte de Guarda - Sol para Telefone",
+    price: 45.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/supguardasol/supguarda.jpeg",
+      "IMG/produtos/supguardasol/supguarda2.jpeg",
+      "IMG/produtos/supguardasol/supguarda3.jpeg",
+    ],
+    description: ""
+  }
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
