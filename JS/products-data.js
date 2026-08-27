@@ -307,6 +307,20 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/supguardasol/supguarda3.jpeg",
     ],
     description: ""
+  },
+  {
+    id: 20,
+    name: "Bailarina Giratória - Torre de Rabanetes Antiestresse",
+    price: 30.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/bailarinagira/bailagira.jpeg",
+      "IMG/produtos/bailarinagira/bailagir2.jpeg",
+      "IMG/produtos/bailarinagira/bailagir3.jpeg",
+    ],
+    description: "Decoração"
   }
 ];
 
