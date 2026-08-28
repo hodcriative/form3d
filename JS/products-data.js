@@ -27,10 +27,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "controle",
     material: "PLA · fosco",
     images: [
-      "IMG/produtos/aranha/arafrente.jpeg",
-      "IMG/produtos/aranha/araesquerda.jpeg",
-      "IMG/produtos/aranha/aradireita.jpeg",
-      "IMG/produtos/aranha/aracosta.jpeg"
+      "IMG/produtos/geek/aranha/arafrente.jpeg",
+      "IMG/produtos/geek/aranha/araesquerda.jpeg",
+      "IMG/produtos/geek/aranha/aradireita.jpeg",
+      "IMG/produtos/geek/aranha/aracosta.jpeg"
     ],
     description: "Boneco decorativo do Homem-Aranha impresso em 3D, em pose de ação sobre teia."
   },
@@ -42,10 +42,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "vaso",
     material: "PETG · translúcido",
     images: [
-      "IMG/produtos/kame/kamefrente.jpeg",
-      "IMG/produtos/kame/kameesq.jpeg",
-      "IMG/produtos/kame/kamelado.jpeg",
-      "IMG/produtos/kame/kamecosta.jpeg",
+      "IMG/produtos/geek/kame/kamefrente.jpeg",
+      "IMG/produtos/geek/kame/kameesq.jpeg",
+      "IMG/produtos/geek/kame/kamelado.jpeg",
+      "IMG/produtos/geek/kame/kamecosta.jpeg",
     ],
     description: "Estátua do Mestre Roshi (Dragon Ball) em pose de combate."
   },
@@ -57,9 +57,9 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/aranha2/ara2fren.jpeg",
-      "IMG/produtos/aranha2/ara2esquerda.jpeg",
-      "IMG/produtos/aranha2/ara2costa.jpeg",
+      "IMG/produtos/geek/aranha2/ara2fren.jpeg",
+      "IMG/produtos/geek/aranha2/ara2esquerda.jpeg",
+      "IMG/produtos/geek/aranha2/ara2costa.jpeg",
     ],
     description: "Estátua do Homem-Aranha no icônico traje de Brand New Day, em pose dinâmica de combate."
   },
@@ -71,10 +71,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/batmov/batfechado.jpeg",
-      "IMG/produtos/batmov/bataberto.jpeg",
-      "IMG/produtos/batmov/batesq.jpeg",
-      "IMG/produtos/batmov/batcima.jpeg",
+      "IMG/produtos/geek/batmov/batfechado.jpeg",
+      "IMG/produtos/geek/batmov/bataberto.jpeg",
+      "IMG/produtos/geek/batmov/batesq.jpeg",
+      "IMG/produtos/geek/batmov/batcima.jpeg",
     ],
     description: "Miniatura colecionável detalhada do Batmóvel (Tumbler)."
   },
@@ -86,10 +86,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/blastoise/blasfrente.jpeg",
-      "IMG/produtos/blastoise/blaslado2.jpeg",
-      "IMG/produtos/blastoise/blaslado.jpeg",
-      "IMG/produtos/blastoise/blascosta.jpeg",
+      "IMG/produtos/geek/blastoise/blasfrente.jpeg",
+      "IMG/produtos/geek/blastoise/blaslado2.jpeg",
+      "IMG/produtos/geek/blastoise/blaslado.jpeg",
+      "IMG/produtos/geek/blastoise/blascosta.jpeg",
     ],
     description: "Estátua do Blastoise em versão mecha, com canhões articulados nos ombros."
   },
@@ -113,10 +113,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/pipebug/pipe.jpeg",
-      "IMG/produtos/pipebug/pipe2.jpeg",
-      "IMG/produtos/pipebug/pipe3.jpeg",
-      "IMG/produtos/pipebug/pipe4.jpeg",
+      "IMG/produtos/geek/pipebug/pipe.jpeg",
+      "IMG/produtos/geek/pipebug/pipe2.jpeg",
+      "IMG/produtos/geek/pipebug/pipe3.jpeg",
+      "IMG/produtos/geek/pipebug/pipe4.jpeg",
     ],
     description: "Armadilha para insetos em formato do clássico cano verde do Mario, disfarçada de item decorativo."
   },
@@ -160,10 +160,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/lixeiraorga/lixe.jpeg",
-      "IMG/produtos/lixeiraorga/lixe2.jpeg",
-      "IMG/produtos/lixeiraorga/lixe3.jpeg",
-      "IMG/produtos/lixeiraorga/lixe4.jpeg",
+      "IMG/produtos/geek/lixeiraorga/lixe.jpeg",
+      "IMG/produtos/geek/lixeiraorga/lixe2.jpeg",
+      "IMG/produtos/geek/lixeiraorga/lixe3.jpeg",
+      "IMG/produtos/geek/lixeiraorga/lixe4.jpeg",
     ],
     description: "Organizador temático inspirado no Mario, com tampa articulada no formato do boné e das luvas do personagem. Pode ser usado como lixeira de mesa, porta-canetas ou organizador de miudezas."
   },
@@ -190,10 +190,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/iluminariadrag/iluminaria.jpeg",
-      "IMG/produtos/iluminariadrag/iluminaria2.jpeg",
-      "IMG/produtos/iluminariadrag/iluminaria3.jpeg",
-      "IMG/produtos/iluminariadrag/iluminaria4.jpeg",
+      "IMG/produtos/geek/iluminariadrag/iluminaria.jpeg",
+      "IMG/produtos/geek/iluminariadrag/iluminaria2.jpeg",
+      "IMG/produtos/geek/iluminariadrag/iluminaria3.jpeg",
+      "IMG/produtos/geek/iluminariadrag/iluminaria4.jpeg",
     ],
     description: "Luminária decorativa do Son Goku carregando uma Kamehameha, com fio de LED formando o feixe de energia entre as mãos e o cristal na base.",
   },
@@ -219,8 +219,8 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/furialuz/furia.jpeg",
-      "IMG/produtos/furialuz/furia2.jpeg",
+      "IMG/produtos/geek/furialuz/furia.jpeg",
+      "IMG/produtos/geek/furialuz/furia2.jpeg",
     ],
     description: "Estátua da Fúria da Luz (Light Fury), de Como Treinar o Seu Dragão, com acabamento branco perolado e pose sentada."
   },
@@ -232,10 +232,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/gokuurbano/urbano.jpeg",
-      "IMG/produtos/gokuurbano/urbano2.jpeg",
-      "IMG/produtos/gokuurbano/urbano3.jpeg",
-      "IMG/produtos/gokuurbano/urbano4.jpeg",
+      "IMG/produtos/geek/gokuurbano/urbano.jpeg",
+      "IMG/produtos/geek/gokuurbano/urbano2.jpeg",
+      "IMG/produtos/geek/gokuurbano/urbano3.jpeg",
+      "IMG/produtos/geek/gokuurbano/urbano4.jpeg",
     ],
     description: ""
   },
@@ -287,10 +287,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/gokumulti/gokumult.jpeg",
-      "IMG/produtos/gokumulti/gokumult2.jpeg",
-      "IMG/produtos/gokumulti/gokumult3.jpeg",
-      "IMG/produtos/gokumulti/gokumult4.jpeg",
+      "IMG/produtos/geek/gokumulti/gokumult.jpeg",
+      "IMG/produtos/geek/gokumulti/gokumult2.jpeg",
+      "IMG/produtos/geek/gokumulti/gokumult3.jpeg",
+      "IMG/produtos/geek/gokumulti/gokumult4.jpeg",
     ],
     description: ""
   },
@@ -302,9 +302,9 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/supguardasol/supguarda.jpeg",
-      "IMG/produtos/supguardasol/supguarda2.jpeg",
-      "IMG/produtos/supguardasol/supguarda3.jpeg",
+      "IMG/produtos/suportes/supguardasol/supguarda.jpeg",
+      "IMG/produtos/suportes/supguardasol/supguarda2.jpeg",
+      "IMG/produtos/suportes/supguardasol/supguarda3.jpeg",
     ],
     description: ""
   },
@@ -330,10 +330,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/chaveicorin/corintians.jpeg",
-      "IMG/produtos/chaveicorin/corintians2.jpeg",
-      "IMG/produtos/chaveicorin/corintians3.jpeg",
-      "IMG/produtos/chaveicorin/corintians4.jpeg",
+      "IMG/produtos/chaveiros/chaveicorin/corintians.jpeg",
+      "IMG/produtos/chaveiros/chaveicorin/corintians2.jpeg",
+      "IMG/produtos/chaveiros/chaveicorin/corintians3.jpeg",
+      "IMG/produtos/chaveiros/chaveicorin/corintians4.jpeg",
     ],
     description: ""
   },
@@ -345,12 +345,12 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/lantechape/lantechapeu.jpeg",
-      "IMG/produtos/lantechape/lantechapeu2.jpeg",
-      "IMG/produtos/lantechape/lantechapeu3.jpeg",
-      "IMG/produtos/lantechape/lantechapeu4.jpeg",
-      "IMG/produtos/lantechape/lantechapeu5.jpeg",
-      "IMG/produtos/lantechape/lantechapeu6.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu2.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu3.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu4.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu5.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu6.jpeg",
     ],
     description: ""
   },
@@ -371,7 +371,141 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/fontemagic/fonte7.jpeg",
     ],
     description: ""
-  }
+  },
+  {
+    id: 24,
+    name: "Chaveiro BMW M2",
+    price: 64.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw2.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw3.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw4.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw5.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 25,
+    name: "Suporte para Vinho",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinho/sup1.jpeg",
+      "IMG/produtos/suportes/supvinho/sup2.jpeg",
+      "IMG/produtos/suportes/supvinho/sup3.jpeg",
+      "IMG/produtos/suportes/supvinho/sup4.jpeg",
+      "IMG/produtos/suportes/supvinho/sup5.jpeg",
+      "IMG/produtos/suportes/supvinho/sup6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 26,
+    name: "Suporte para Vinho VinoGrace - Estilo Voronoi",
+    price: 45.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinograce/vinograce.jpeg",
+      "IMG/produtos/suportes/supvinograce/vinograce2.jpeg",
+      "IMG/produtos/suportes/supvinograce/vinograce3.jpeg",
+      "IMG/produtos/suportes/supvinograce/vinograce4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 27,
+    name: "Suporte para Garrafa de Vinho em Formato de Cachorro",
+    price: 59.98,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhocach/vinhach.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 28,
+    name: "Suporte para Garrafa de Vinho em Formato de Ganso",
+    price: 50.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supganso/suporteganso.jpeg",
+      "IMG/produtos/suportes/supganso/suporteganso2.jpeg",
+      "IMG/produtos/suportes/supganso/suporteganso3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 29,
+    name: "Suporte para Garrafa de Vinho do Deus Grego",
+    price: 46.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supgrego/suporgrego.jpeg",
+      "IMG/produtos/suportes/supgrego/suporgrego2.jpeg",
+      "IMG/produtos/suportes/supgrego/suporgrego3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 30,
+    name: "Suporte para Garrafa de Vinho com Balanço Cinétcio Inovador V2",
+    price: 29.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supbalanco/supbalan.jpeg",
+      "IMG/produtos/suportes/supbalanco/supbalan2.jpeg",
+      "IMG/produtos/suportes/supbalanco/supbalan3.jpeg",
+      "IMG/produtos/suportes/supbalanco/supbalan4.jpeg",
+      "IMG/produtos/suportes/supbalanco/supbalan5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 31,
+    name: "Suporte para Garrafa de Vinho e Taças",
+    price: 110.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhotaca/supvinta.jpeg",
+      "IMG/produtos/suportes/supvinhotaca/supvinta2.jpeg",
+      "IMG/produtos/suportes/supvinhotaca/supvinta3.jpeg",
+      "IMG/produtos/suportes/supvinhotaca/supvinta4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 32,
+    name: "Suprte para Garrafas de Vinhos Moderno",
+    price: 74.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinmoderno/supmoder.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supmoder2.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supmoder3.jpeg",
+    ],
+    description: "Versões para 4 e 5 Garrafas"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
