@@ -506,6 +506,65 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Versões para 4 e 5 Garrafas"
   },
+  {
+    id: 33,
+    name: "Suprte De Barril de Vinhos Bag-in-Box",
+    price: 82.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supbarril/supvinbarril.jpeg",
+      "IMG/produtos/suportes/supbarril/supvinbarril2.jpeg",
+      "IMG/produtos/suportes/supbarril/supvinbarril3.jpeg",
+      "IMG/produtos/suportes/supbarril/supvinbarril4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 34,
+    name: "Suprte para Garrafas de Vinhos",
+    price: 92.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcinho2/supor.jpeg",
+      "IMG/produtos/suportes/supcinho2/supor2.jpeg",
+      "IMG/produtos/suportes/supcinho2/supor3.jpeg",
+      "IMG/produtos/suportes/supcinho2/supor4.jpeg",
+      "IMG/produtos/suportes/supcinho2/supor5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 35,
+    name: "Suprte para Garrafas de Vinho",
+    price: 62.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinmoderno/supmoder.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supmoder2.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supmoder3.jpeg",
+    ],
+    description: "Coelho / Coelhinho / Páscoa"
+  },
+  {
+    id: 36,
+    name: "Suprte para Garrafas de Vinhos Moderno",
+    price: 74.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinmoderno/supmoder.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supmoder2.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supmoder3.jpeg",
+    ],
+    description: ""
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
