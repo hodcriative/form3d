@@ -553,17 +553,82 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 36,
-    name: "Suprte para Garrafas de Vinhos Moderno",
-    price: 74.00,
+    name: "Suprte para Garrafas de Vinhos Arara",
+    price: 200.00,
     category: "Decoração",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/suportes/supvinmoderno/supmoder.jpeg",
-      "IMG/produtos/suportes/supvinmoderno/supmoder2.jpeg",
-      "IMG/produtos/suportes/supvinmoderno/supmoder3.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara2.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara3.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara4.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara5.jpeg",
     ],
     description: ""
+  },
+  {
+    id: 37,
+    name: "Rack Orgânico para Vinho e Taças",
+    price: 155.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/rackvinho/rackvin.jpeg",
+      "IMG/produtos/suportes/rackvinho/rackvin2.jpeg",
+      "IMG/produtos/suportes/rackvinho/rackvin3.jpeg",
+      "IMG/produtos/suportes/rackvinho/rackvin4.jpeg",
+      "IMG/produtos/suportes/rackvinho/rackvin5.jpeg",
+    ],
+    description: "Suporte para 4 Garrafas"
+  },
+  {
+    id: 38,
+    name: "Suporte para Vinho VinoGrace Elegance",
+    price: 42.99,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinograceele/vinele.jpeg",
+      "IMG/produtos/suportes/supvinograceele/vinele2.jpeg",
+      "IMG/produtos/suportes/supvinograceele/vinele3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 39,
+    name: "O Expositor de Vinho",
+    price: 58.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/expositorvin/expovin.jpeg",
+      "IMG/produtos/suportes/expositorvin/expovin2.jpeg",
+      "IMG/produtos/suportes/expositorvin/expovin3.jpeg",
+      "IMG/produtos/suportes/expositorvin/expovin4.jpeg",
+      "IMG/produtos/suportes/expositorvin/expovin5.jpeg",
+    ],
+    description: "Anel & Base da Montanha da Perdição"
+  },
+  {
+    id: 40,
+    name: "Suporte para Garrafas de Vinho  - Polvo",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supolvo/suppolvo.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo2.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo3.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo4.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo5.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo6.jpeg",
+    ],
+    description: "Suporte em Formato de Polvo."
   },
 ];
 
