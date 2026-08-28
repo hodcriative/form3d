@@ -545,9 +545,9 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/suportes/supvinmoderno/supmoder.jpeg",
-      "IMG/produtos/suportes/supvinmoderno/supmoder2.jpeg",
-      "IMG/produtos/suportes/supvinmoderno/supmoder3.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supcoelho.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supcoelho2.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supcoelho3.jpeg",
     ],
     description: "Coelho / Coelhinho / Páscoa"
   },
