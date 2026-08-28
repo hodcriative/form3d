@@ -738,20 +738,45 @@ window.FORJ3D_PRODUCTS = [
     description: ""
   },
   {
-    id: 47,
+    id: 48,
     name: "Suporte para Garrafa de Vinho",
-    price: 59.00,
+    price: 140.00,
     category: "Decoração",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho.jpeg",
-      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho2.jpeg",
-      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho3.jpeg",
-      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho4.jpeg",
-      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho5.jpeg",
+      "IMG/produtos/suportes/supvinho4/vinsups.jpeg",
+      "IMG/produtos/suportes/supvinho4/vinsups2.jpeg",
+      "IMG/produtos/suportes/supvinho4/vinsups3.jpeg",
+      "IMG/produtos/suportes/supvinho4/vinsups4.jpeg",
     ],
-    description: "Formato de Coelho"
+    description: ""
+  },
+  {
+    id: 49,
+    name: "Adega de Vinhos Infinita",
+    price: 69.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/adegavinho/adegavin.jpeg",
+      "IMG/produtos/suportes/adegavinho/adegavin2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 50,
+    name: "Suporte Minimalista para Garrafa de Vinho",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supmini/supvinmini.jpeg",
+      "IMG/produtos/suportes/supmini/supvinmini2.jpeg",
+    ],
+    description: ""
   },
 ];
 
