@@ -629,6 +629,130 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Suporte em Formato de Polvo."
   },
+  {
+    id: 41,
+    name: "Suporte para Garrafa de Vinho",
+    price: 110.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcranio/cranio.jpeg",
+      "IMG/produtos/suportes/supcranio/cranio2.jpeg",
+      "IMG/produtos/suportes/supcranio/cranio3.jpeg",
+    ],
+    description: "Lâmpada de Crânio"
+  },
+  {
+    id: 42,
+    name: "Suporte para Garrafas de Vinho",
+    price: 57.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinho3/vinhosup.jpeg",
+      "IMG/produtos/suportes/supvinho3/vinhosup2.jpeg",
+      "IMG/produtos/suportes/supvinho3/vinhosup3.jpeg",
+      "IMG/produtos/suportes/supvinho3/vinhosup4.jpeg",
+      "IMG/produtos/suportes/supvinho3/vinhosup5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 43,
+    name: "Suporte para Garrafas de Vinho - Dachshund",
+    price: 33.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcachopasco/cachopas.jpeg",
+      "IMG/produtos/suportes/supcachopasco/cachopas2.jpeg",
+      "IMG/produtos/suportes/supcachopasco/cachopas3.jpeg",
+      "IMG/produtos/suportes/supcachopasco/cachopas4.jpeg",
+    ],
+    description: "Cachorro de Páscoa"
+  },
+  {
+    id: 44,
+    name: "Suporte para Garrafas",
+    price: 57.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supportavin/supporta.jpeg",
+      "IMG/produtos/suportes/supportavin/supporta2.jpeg",
+      "IMG/produtos/suportes/supportavin/supporta3.jpeg",
+    ],
+    description: "Porta Vinhos"
+  },
+  {
+    id: 45,
+    name: "Suporte para Garrafa de Vinho",
+    price: 80.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix2.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix3.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix4.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix5.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix6.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix7.jpeg",
+    ],
+    description: "Formato de Fênix"
+  },
+  {
+    id: 46,
+    name: "Suporte para Garrafa de Vinho",
+    price: 75.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supbasebol/basebol.jpeg",
+      "IMG/produtos/suportes/supbasebol/basebol2.jpeg",
+      "IMG/produtos/suportes/supbasebol/basebol3.jpeg",
+    ],
+    description: "Batedeiro de Beisebol"
+  },
+  {
+    id: 47,
+    name: "Suporte para 5 Garrafas de Vinho",
+    price: 86.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supgarrafas/supvingarra.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra2.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra3.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra4.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra5.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 47,
+    name: "Suporte para Garrafa de Vinho",
+    price: 59.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho.jpeg",
+      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho2.jpeg",
+      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho3.jpeg",
+      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho4.jpeg",
+      "IMG/produtos/suportes/supvinhocoelho2/supvincoelho5.jpeg",
+    ],
+    description: "Formato de Coelho"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
