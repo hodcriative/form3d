@@ -529,11 +529,11 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/suportes/supcinho2/supor.jpeg",
-      "IMG/produtos/suportes/supcinho2/supor2.jpeg",
-      "IMG/produtos/suportes/supcinho2/supor3.jpeg",
-      "IMG/produtos/suportes/supcinho2/supor4.jpeg",
-      "IMG/produtos/suportes/supcinho2/supor5.jpeg",
+      "IMG/produtos/suportes/supvinho2/supor.jpeg",
+      "IMG/produtos/suportes/supvinho2/supor2.jpeg",
+      "IMG/produtos/suportes/supvinho2/supor3.jpeg",
+      "IMG/produtos/suportes/supvinho2/supor4.jpeg",
+      "IMG/produtos/suportes/supvinho2/supor5.jpeg",
     ],
     description: ""
   },
@@ -545,9 +545,9 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/suportes/supvinmoderno/supcoelho.jpeg",
-      "IMG/produtos/suportes/supvinmoderno/supcoelho2.jpeg",
-      "IMG/produtos/suportes/supvinmoderno/supcoelho3.jpeg",
+      "IMG/produtos/suportes/supvinhocoelho/supcoelho.jpeg",
+      "IMG/produtos/suportes/supvinhocoelho/supcoelho2.jpeg",
+      "IMG/produtos/suportes/supvinhocoelho/supcoelho3.jpeg",
     ],
     description: "Coelho / Coelhinho / Páscoa"
   },
