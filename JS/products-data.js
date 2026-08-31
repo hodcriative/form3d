@@ -1279,7 +1279,7 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/supsenhoraneis/supsauron.jpg",
+      "IMG/produtos/geek/supsenhoraneis/supsaurons.png",
     ],
     description: "Formato da Mão de Sauron"
   },
