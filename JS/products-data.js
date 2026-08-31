@@ -1011,6 +1011,46 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Vinhos, Lanches."
   },
+  {
+    id: 66,
+    name: "Suporte para Garrafa de Vinho",
+    price: 89.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supolvo2/suppolvin.jpeg",
+      "IMG/produtos/suportes/supolvo2/suppolvin2.jpeg",
+      "IMG/produtos/suportes/supolvo2/suppolvin3.jpeg",
+      "IMG/produtos/suportes/supolvo2/suppolvin4.jpeg",
+    ],
+    description: "Formato de Polvo."
+  },
+  {
+    id: 67,
+    name: "Suporte para Garrafa de Vinho",
+    price: 87.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supflamingobebado/supflamingo.jpeg",
+      "IMG/produtos/suportes/supflamingobebado/supflamingo2.jpeg",
+    ],
+    description: "Formato de Flamingo Bêbado."
+  },
+  {
+    id: 68,
+    name: "Suporte para Garrafa de Vinho",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supesqueleto/supesque.jpeg",
+    ],
+    description: "Formato de Esqueleto."
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
