@@ -919,6 +919,98 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Elegância Egípicia."
   },
+  {
+    id: 60,
+    name: "Suporte para Garrafa de Vinho",
+    price: 82.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvingolfe/supvingol.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol2.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol3.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol4.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol5.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol6.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol7.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol8.jpeg",
+    ],
+    description: "Bolsa de Golfe."
+  },
+  {
+    id: 61,
+    name: "Suporte para Garrafa de Vinho",
+    price: 67.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supboneconeve/supbuneve.jpeg",
+      "IMG/produtos/suportes/supboneconeve/supbuneve2.jpeg",
+      "IMG/produtos/suportes/supboneconeve/supbuneve3.jpeg",
+      "IMG/produtos/suportes/supboneconeve/supbuneve4.jpeg",
+    ],
+    description: "Formato de Boneco de Neve."
+  },
+  {
+    id: 62,
+    name: "Suporte para Garrafa de Vinho",
+    price: 48.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supchama/supcha.jpeg",
+      "IMG/produtos/suportes/supchama/supcha2.jpeg",
+      "IMG/produtos/suportes/supchama/supcha3.jpeg",
+    ],
+    description: "Formato de Chama."
+  },
+  {
+    id: 63,
+    name: "Suporte para Garrafa de Vinho - Bear With Me",
+    price: 48.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supbearwhi/supbearwhitch.jpeg",
+      "IMG/produtos/suportes/supbearwhi/supbearwhitch2.jpeg",
+      "IMG/produtos/suportes/supbearwhi/supbearwhitch3.jpeg",
+      "IMG/produtos/suportes/supbearwhi/supbearwhitch4.jpeg",
+    ],
+    description: "Presente Divertido."
+  },
+  {
+    id: 64,
+    name: "Suporte para Garrafa de Vinho",
+    price: 45.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinnamorados/supnamo2.jpeg",
+      "IMG/produtos/suportes/supvinnamorados/supnamo.gif",
+      "IMG/produtos/suportes/supvinnamorados/supnamo3.jpeg",
+      "IMG/produtos/suportes/supvinnamorados/supnamo4.jpeg",
+    ],
+    description: "Dia dos Namorados."
+  },
+  {
+    id: 65,
+    name: "Suporte Definitivo para Cama e Sofá",
+    price: 78.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcamasofa/supcama.jpeg",
+      "IMG/produtos/suportes/supcamasofa/supcama2.jpeg",
+      "IMG/produtos/suportes/supcamasofa/supcama3.jpeg",
+    ],
+    description: "Vinhos, Lanches."
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
