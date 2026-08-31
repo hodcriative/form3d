@@ -1047,9 +1047,125 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/suportes/supesqueleto/supesque.jpeg",
+      "IMG/produtos/suportes/supesqueleto/supesque.jpg",
     ],
     description: "Formato de Esqueleto."
+  },
+  {
+    id: 69,
+    name: "Suporte para Garrafa de Vinho",
+    price: 60.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvincobra/supcobra.jpeg",
+      "IMG/produtos/suportes/supvincobra/supcobra2.gif",
+      "IMG/produtos/suportes/supvincobra/supcobra3.jpeg",
+    ],
+    description: "Formato de Cobra."
+  },
+  {
+    id: 70,
+    name: "Suporte para Garrafa de Vinho",
+    price: 60.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvincoracao/supcoracao.jpeg",
+      "IMG/produtos/suportes/supvincoracao/supcoracao2.jpeg",
+      "IMG/produtos/suportes/supvincoracao/supcoracao3.jpeg",
+    ],
+    description: "Formato de Coração."
+  },
+  {
+    id: 71,
+    name: "Suporte para Garrafa de Vinho",
+    price: 80.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvincabecadrag/supcabecadrag3.jpeg",
+      "IMG/produtos/suportes/supvincabecadrag/supcabecadrag2.jpeg",
+      "IMG/produtos/suportes/supvincabecadrag/supcabecadrag.jpeg",
+    ],
+    description: "Formato de Cabeça de Dragão."
+  },
+  {
+    id: 72,
+    name: "Suporte para Garrafa de Vinho",
+    price: 82.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvindrag/supdrag.jpeg",
+      "IMG/produtos/suportes/supvindrag/supdrag2.jpeg",
+      "IMG/produtos/suportes/supvindrag/supdrag3.jpeg",
+      "IMG/produtos/suportes/supvindrag/supdrag4.jpeg",
+    ],
+    description: "Formato de Dragão."
+  },
+  {
+    id: 73,
+    name: "Suporte Gigante para Garrafa de Vinho",
+    price: 57.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinpistao/suppistao.jpeg",
+      "IMG/produtos/suportes/supvinpistao/suppistao2.gif",
+      "IMG/produtos/suportes/supvinpistao/suppistao3.jpeg",
+      "IMG/produtos/suportes/supvinpistao/suppistao4.jpeg",
+    ],
+    description: "Formato de Pistão."
+  },
+  {
+    id: 74,
+    name: "Suporte para Garrafa de Vinho",
+    price: 45.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinnoel/supnoel.jpeg",
+      "IMG/produtos/suportes/supvinnoel/supnoel2.jpeg",
+      "IMG/produtos/suportes/supvinnoel/supnoel3.jpeg",
+    ],
+    description: "Decoração de Natal Branco de Papai Noel."
+  },
+  {
+    id: 75,
+    name: "Caixa Expositora de Whisky",
+    price: 170.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/caixawisk/caixwis.jpeg",
+      "IMG/produtos/suportes/caixawisk/caixwis2.gif",
+      "IMG/produtos/suportes/caixawisk/caixwis3.jpeg",
+      "IMG/produtos/suportes/caixawisk/caixwis4.jpeg",
+    ],
+    description: "."
+  },
+  {
+    id: 76,
+    name: "Pokemon Charizard",
+    price: 38.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/charizardams/charizads.jpeg",
+      "IMG/produtos/geek/charizardams/charizads2.gif",
+      "IMG/produtos/geek/charizardams/charizads3.jpeg",
+
+    ],
+    description: "Sem AMS – Fogo Lendário"
   },
 ];
 
