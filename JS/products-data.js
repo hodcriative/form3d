@@ -114,6 +114,7 @@ window.FORJ3D_PRODUCTS = [
     material: "",
     images: [
       "IMG/produtos/geek/pipebug/pipe.jpeg",
+      "IMG/produtos/geek/pipebug/pipe5.gif",
       "IMG/produtos/geek/pipebug/pipe2.jpeg",
       "IMG/produtos/geek/pipebug/pipe3.jpeg",
       "IMG/produtos/geek/pipebug/pipe4.jpeg",
@@ -129,6 +130,7 @@ window.FORJ3D_PRODUCTS = [
     material: "",
     images: [
       "IMG/produtos/protetorplan/prote.jpeg",
+      "IMG/produtos/protetorplan/prote7.gif",
       "IMG/produtos/protetorplan/prote2.jpeg",
       "IMG/produtos/protetorplan/prote3.jpeg",
       "IMG/produtos/protetorplan/prote4.jpeg",
@@ -176,6 +178,7 @@ window.FORJ3D_PRODUCTS = [
     material: "",
     images: [
       "IMG/produtos/insetosupremo/inseto.jpeg",
+      "IMG/produtos/insetosupremo/inseto5.gif",
       "IMG/produtos/insetosupremo/inseto2.jpeg",
       "IMG/produtos/insetosupremo/inseto3.jpeg",
       "IMG/produtos/insetosupremo/inseto4.jpeg",
@@ -317,8 +320,8 @@ window.FORJ3D_PRODUCTS = [
     material: "",
     images: [
       "IMG/produtos/bailarinagira/bailagira2.jpeg",
-      "IMG/produtos/bailarinagira/bailagira3.jpeg",
       "IMG/produtos/bailarinagira/bailagira.gif",
+      "IMG/produtos/bailarinagira/bailagira3.jpeg",
     ],
     description: ""
   },
@@ -1166,6 +1169,145 @@ window.FORJ3D_PRODUCTS = [
 
     ],
     description: "Sem AMS – Fogo Lendário"
+  },
+  {
+    id: 77,
+    name: "Pokemon Blaziken",
+    price: 37.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/blazikenams/blazikenam.jpeg",
+      "IMG/produtos/geek/blazikenams/blazikenam2.gif",
+    ],
+    description: "Sem AMS –  Fúria Ardente para Montar"
+  },
+  {
+    id: 78,
+    name: "Suporte Universal para Controle",
+    price: 90.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolwolwe/supwol.jpeg",
+      "IMG/produtos/geek/supcontrolwolwe/supwol2.jpeg",
+      "IMG/produtos/geek/supcontrolwolwe/supwol3.jpeg",
+    ],
+    description: "Design Wolwerine"
+  },
+  {
+    id: 79,
+    name: "Suporte Universal para Controle GTA VI",
+    price: 160.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolgta/supgta.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta2.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta3.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta4.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta5.jpeg",
+    ],
+    description: "Para Plasytation 5 e Xbox"
+  },
+  {
+    id: 80,
+    name: "Suporte para Controle Playstation 5 GTA VI",
+    price: 35.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolgta2/supgtaps.jpeg",
+    ],
+    description: "Para Plasytation 5 e Xbox"
+  },
+  {
+    id: 81,
+    name: "Suporte para Controle e Headset",
+    price: 49.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolhead/supconhea.jpeg",
+      "IMG/produtos/geek/supcontrolhead/supconhea2.jpeg",
+      "IMG/produtos/geek/supcontrolhead/supconhea3.jpeg",
+      "IMG/produtos/geek/supcontrolhead/supconhea4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 82,
+    name: "Suporte para Controle",
+    price: 69.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolyoshi/supyohi.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi2.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi3.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi4.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 83,
+    name: "Suporte Duplo para Controle de Playstation 5",
+    price: 33.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supduploplays/supduplo.jpeg",
+      "IMG/produtos/geek/supduploplays/supduplo2.jpeg",
+      "IMG/produtos/geek/supduploplays/supduplo3.jpeg",
+      "IMG/produtos/geek/supduploplays/supduplo4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 84,
+    name: "Suporte Universal para Controle Senhor dos Aníes",
+    price: 90.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supsenhoraneis/supsauron.jpg",
+    ],
+    description: "Formato da Mão de Sauron"
+  },
+  {
+    id: 85,
+    name: "Suporte Universal para Controle Pokémon",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcraneocubone/supcubone.jpeg",
+      "IMG/produtos/geek/supcraneocubone/supcubone2.jpeg",
+    ],
+    description: "Formato da Crânio de Cubone"
+  },
+  {
+    id: 86,
+    name: "Suporte Universal para Controle God of War",
+    price: 67.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolkratos/supkratos.jpeg",
+      "IMG/produtos/geek/supcontrolkratos/supkratos2.jpeg",
+    ],
+    description: "Formato do Torso de Kratos"
   },
 ];
 
