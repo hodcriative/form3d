@@ -778,6 +778,73 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: ""
   },
+  {
+    id: 51,
+    name: "Suporte para Garrafa de Vinho",
+    price: 69.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcabecroco/supcro.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro2.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro3.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro4.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro5.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro6.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro7.jpeg",
+    ],
+    description: "Formato Cabeça de Crocodilo."
+  },
+  {
+    id: 52,
+    name: "Suporte para Copos e Garrafas",
+    price: 92.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcopogarra/supcoga.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga2.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga3.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga4.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga5.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 53,
+    name: "Suporte para Garrafa de Vinho",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcanhao/supcan.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan2.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan3.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan4.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan5.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan6.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan7.jpeg",
+    ],
+    description: "Formato de Canhão."
+  },
+  {
+    id: 54,
+    name: "Suporte de Garrafas para Geladeiras e Armários",
+    price: 65.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supgeladeiraarma/supgela.jpeg",
+      "IMG/produtos/suportes/supgeladeiraarma/supgela2.jpeg",
+      "IMG/produtos/suportes/supgeladeiraarma/supgela3.jpeg",
+    ],
+    description: "Coporta 4 ou 6 Garrafas."
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
