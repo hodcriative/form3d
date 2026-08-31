@@ -845,6 +845,80 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Coporta 4 ou 6 Garrafas."
   },
+  {
+    id: 55,
+    name: "Suporte para Garrafa de Vinho",
+    price: 65.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supobsicavalo/supobcava.jpeg",
+      "IMG/produtos/suportes/supobsicavalo/supobcava2.gif",
+      "IMG/produtos/suportes/supobsicavalo/supobcava3.jpeg",
+    ],
+    description: "Formato de Cavalo de Obsidiana."
+  },
+  {
+    id: 56,
+    name: "Suporte de Prateleira para Copos",
+    price: 69.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supprateleira/supprate.jpeg",
+      "IMG/produtos/suportes/supprateleira/supprate2.jpeg",
+      "IMG/produtos/suportes/supprateleira/supprate3.jpeg",
+    ],
+    description: "Stanley, Yeti, Hydro Flask."
+  },
+  {
+    id: 57,
+    name: "Adega de Vinho para Geladeira",
+    price: 38.98,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/adegageladeira/adegavins.jpeg",
+      "IMG/produtos/suportes/adegageladeira/adegavins2.jpeg",
+      "IMG/produtos/suportes/adegageladeira/adegavins3.jpeg",
+      "IMG/produtos/suportes/adegageladeira/adegavins4.jpeg",
+    ],
+    description: "Empilhável."
+  },
+  {
+    id: 58,
+    name: "Suporte para Garrafa de Vinho",
+    price: 80.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supdragaonordico/supnordico.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico2.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico3.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico4.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico4.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico6.jpeg",
+    ],
+    description: "Dragão Nórdigo."
+  },
+  {
+    id: 59,
+    name: "Suporte para Garrafa de Vinho Anubis",
+    price: 90.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supanubis/supanu.jpeg",
+      "IMG/produtos/suportes/supanubis/supanu2.jpeg",
+      "IMG/produtos/suportes/supanubis/supanu3.jpeg",
+    ],
+    description: "Elegância Egípicia."
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
