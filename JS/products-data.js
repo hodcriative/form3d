@@ -320,6 +320,7 @@ window.FORJ3D_PRODUCTS = [
     material: "",
     images: [
       "IMG/produtos/bailarinagira/bailagira2.jpeg",
+      "IMG/produtos/bailarinagira/bailagira.gif",
       "IMG/produtos/bailarinagira/bailagira3.jpeg",
     ],
     description: ""
