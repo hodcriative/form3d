@@ -129,13 +129,13 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/protetorplan/prote.jpeg",
-      "IMG/produtos/protetorplan/prote7.gif",
-      "IMG/produtos/protetorplan/prote2.jpeg",
-      "IMG/produtos/protetorplan/prote3.jpeg",
-      "IMG/produtos/protetorplan/prote4.jpeg",
-      "IMG/produtos/protetorplan/prote5.jpeg",
-      "IMG/produtos/protetorplan/prote6.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote7.gif",
+      "IMG/produtos/protetores/protetorplan/prote2.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote3.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote4.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote5.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote6.jpeg",
     ],
     description: "Disco protetor para vasos de plantas: evita que gatos cavem a terra e afasta insetos, mantendo o solo protegido sem prejudicar o crescimento das raízes."
   },
@@ -147,10 +147,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/protetorvespa/vespa.jpeg",
-      "IMG/produtos/protetorvespa/vespa2.jpeg",
-      "IMG/produtos/protetorvespa/vespa3.jpeg",
-      "IMG/produtos/protetorvespa/vespa4.jpeg",
+      "IMG/produtos/protetores/protetorvespa/vespa.jpeg",
+      "IMG/produtos/protetores/protetorvespa/vespa2.jpeg",
+      "IMG/produtos/protetores/protetorvespa/vespa3.jpeg",
+      "IMG/produtos/protetores/protetorvespa/vespa4.jpeg",
     ],
     description: "Tampa de encaixe rápido para latas de bebida, feita para impedir que vespas e outros insetos entrem no recipiente em ambientes externos."
   },
@@ -1308,6 +1308,196 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/supcontrolkratos/supkratos2.jpeg",
     ],
     description: "Formato do Torso de Kratos"
+  },
+  {
+    id: 87,
+    name: "Cruz com Híperdetalhes",
+    price: 33.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolkratos/cruzhiperdeta.jpeg",
+      "IMG/produtos/geek/supcontrolkratos/cruzhiperdeta2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 88,
+    name: "Protetor de Cabo USB-C",
+    price: 12.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/protetores/protetorcabousb/protetorusb.jpeg",
+      "IMG/produtos/protetores/protetorcabousb/protetorusb2.jpeg",
+      "IMG/produtos/protetores/protetorcabousb/protetorusb3.jpeg",
+      "IMG/produtos/protetores/protetorcabousb/protetorusb4.jpeg",
+    ],
+    description: "Atualizado"
+  },
+  {
+    id: 89,
+    name: "Castor Mabel Hoppers",
+    price: 125.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/castormabel/castmabel.jpeg",
+      "IMG/produtos/geek/castormabel/castmabel2.jpeg",
+      "IMG/produtos/geek/castormabel/castmabel3.jpeg",
+      "IMG/produtos/geek/castormabel/castmabel4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 90,
+    name: "Par de Renas Minimalistas",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/renasminimalistas/renasmini.jpeg",
+      "IMG/produtos/renasminimalistas/renasmini2.jpeg",
+      "IMG/produtos/renasminimalistas/renasmini3.jpeg",
+      "IMG/produtos/renasminimalistas/renasmini4.jpeg",
+    ],
+    description: "Decoração Moderna para Lareira"
+  },
+  {
+    id: 91,
+    name: "Mewtwo TCG",
+    price: 33.51,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mewtwotcg/mewtwocard.jpeg",
+      "IMG/produtos/geek/mewtwotcg/mewtwocard2.jpeg",
+    ],
+    description: "Cartão em Relevo"
+  },
+  {
+    id: 92,
+    name: "Suporte GTA VI",
+    price: 39.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolgta3/supgtavis.jpeg",
+      "IMG/produtos/geek/supcontrolgta3/supgtavis2.jpeg",
+      "IMG/produtos/geek/supcontrolgta3/supgtavis3.jpeg",
+      "IMG/produtos/geek/supcontrolgta3/supgtavis4.jpeg",
+    ],
+    description: "Suporte para DualSense e Xbox"
+  },
+  {
+    id: 93,
+    name: "Máscara Bobo da Corte",
+    price: 69.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mascarabobocorte/mascbobo.jpeg",
+      "IMG/produtos/geek/mascarabobocorte/mascbobo2.jpeg",
+    ],
+    description: "Coleção de Máscaras Usáveis"
+  },
+  {
+    id: 94,
+    name: "Observador Alienígena",
+    price: 325.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/observadoralien/observaalien.jpeg",
+      "IMG/produtos/geek/observadoralien/observaalien2.jpeg",
+      "IMG/produtos/geek/observadoralien/observaalien3.jpeg",
+      "IMG/produtos/geek/observadoralien/observaalien4.jpeg",
+    ],
+    description: "3 Pés THEM 1947"
+  },
+  {
+    id: 95,
+    name: "Decoração de Terror de Halloween",
+    price: 78.52,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/haloweencaveira/decohalowen.jpeg",
+      "IMG/produtos/geek/haloweencaveira/decohalowen2.jpeg",
+      "IMG/produtos/geek/haloweencaveira/decohalowen3.jpeg",
+      "IMG/produtos/geek/haloweencaveira/decohalowen4.jpeg",
+      "IMG/produtos/geek/haloweencaveira/decohalowen5.jpeg",
+    ],
+    description: "Caveira & Túmulo"
+  },
+  {
+    id: 96,
+    name: "Bandeja de Cubos de Gelo Pokemon",
+    price: 36.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/bandejagelopoke/bandegepoke.jpeg",
+      "IMG/produtos/geek/bandejagelopoke/bandegepoke2.jpeg",
+      "IMG/produtos/geek/bandejagelopoke/bandegepoke3.jpeg",
+      "IMG/produtos/geek/bandejagelopoke/bandegepoke4.jpeg",
+    ],
+    description: "Forma de Gelo"
+  },
+  {
+    id: 97,
+    name: "Dragão No Monitor",
+    price: 34.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/dragaomonitor/dragmoni.jpeg",
+      "IMG/produtos/geek/dragaomonitor/dragmoni2.jpeg",
+      "IMG/produtos/geek/dragaomonitor/dragmoni3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 98,
+    name: "Suporte universal para Controle GTA VI",
+    price: 68.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supunivgta/supunivgta.jpeg",
+      "IMG/produtos/geek/supunivgta/supunivgta2.jpeg",
+      "IMG/produtos/geek/supunivgta/supunivgta3.jpeg",
+      "IMG/produtos/geek/supunivgta/supunivgta4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 99,
+    name: "Brinquedo/Chaveiro Fluffy Tails",
+    price: 31.65,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/fluffysamo/fluffychavei.jpeg",
+      "IMG/produtos/geek/fluffysamo/fluffychavei2.jpeg",
+      "IMG/produtos/geek/fluffysamo/fluffychavei3.jpeg",
+      "IMG/produtos/geek/fluffysamo/fluffychavei4.jpeg",
+      "IMG/produtos/geek/fluffysamo/fluffychavei5.jpeg",
+    ],
+    description: "Cachorro Samoyeda Flexível"
   },
 ];
 
