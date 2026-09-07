@@ -1317,8 +1317,8 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/supcontrolkratos/cruzhiperdeta.jpeg",
-      "IMG/produtos/geek/supcontrolkratos/cruzhiperdeta2.jpeg",
+      "IMG/produtos/geek/cruzhiper/cruzhiperdeta.jpeg",
+      "IMG/produtos/geek/cruzhiper/cruzhiperdeta2.jpeg",
     ],
     description: ""
   },
@@ -1476,10 +1476,10 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/supunivgta/supunivgta.jpeg",
-      "IMG/produtos/geek/supunivgta/supunivgta2.jpeg",
-      "IMG/produtos/geek/supunivgta/supunivgta3.jpeg",
-      "IMG/produtos/geek/supunivgta/supunivgta4.jpeg",
+      "IMG/produtos/geek/supcontrolgta4/supunivgta.jpeg",
+      "IMG/produtos/geek/supcontrolgta4/supunivgta2.jpeg",
+      "IMG/produtos/geek/supcontrolgta4/supunivgta3.jpeg",
+      "IMG/produtos/geek/supcontrolgta4/supunivgta4.jpeg",
     ],
     description: ""
   },
@@ -1498,6 +1498,289 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/fluffysamo/fluffychavei5.jpeg",
     ],
     description: "Cachorro Samoyeda Flexível"
+  },
+  {
+    id: 100,
+    name: "Chaveiro Flamengo",
+    price: 21.74,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiflamengo/mengochavei.jpeg",
+      "IMG/produtos/chaveiros/chaveiflamengo/mengochavei2.jpeg",
+    ],
+    description: "Escudo do Remo"
+  },
+  {
+    id: 101,
+    name: "Chaveiro Fé",
+    price: 16.34,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveife/fechavei.jpeg",
+      "IMG/produtos/chaveiros/chaveife/fechavei3.jpeg",
+      "IMG/produtos/chaveiros/chaveife/fechavei2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 102,
+    name: "Chaveiro de Cruz",
+    price: 17.43,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveicruz/cruzchavei.jpeg",
+      "IMG/produtos/chaveiros/chaveicruz/cruzchavei2.jpeg",
+    ],
+    description: "Símbolo de Coração e Cruz"
+  },
+  {
+    id: 103,
+    name: "Chaveiros Times do Rio de Janeiro",
+    price: 20.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveitimrio/timeriochave.jpeg",
+      "IMG/produtos/chaveiros/chaveitimrio/timeriochave2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 104,
+    name: "Chaveiro Cruz de Jesus",
+    price: 21.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chavecruzje/jechavei.jpeg",
+      "IMG/produtos/chaveiros/chavecruzje/jechavei2.jpeg",
+    ],
+    description: "Crucifixo Cristão 3D"
+  },
+  {
+    id: 105,
+    name: "Chaveiro Jesus Vive",
+    price: 12.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiviveje/jevivechavei.jpeg",
+      "IMG/produtos/chaveiros/chaveiviveje/jevivechavei2.jpeg",
+      "IMG/produtos/chaveiros/chaveiviveje/jevivechavei3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 106,
+    name: "101 Dálmatas",
+    price: 86.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/patchdalmata/dalma.jpeg",
+      "IMG/produtos/geek/patchdalmata/dalma2.jpeg",
+      "IMG/produtos/geek/patchdalmata/dalma3.jpeg",
+      "IMG/produtos/geek/patchdalmata/dalma4.jpeg",
+      "IMG/produtos/geek/patchdalmata/dalma5.jpeg",
+    ],
+    description: "Patch"
+  },
+  {
+    id: 107,
+    name: "Suporte para Lata de Monster Energy",
+    price: 65.99,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatamons/supmonst.jpeg",
+      "IMG/produtos/suportes/suplatamons/supmonst2.jpeg",
+      "IMG/produtos/suportes/suplatamons/supmonst3.jpeg",
+      "IMG/produtos/suportes/suplatamons/supmonst4.jpeg",
+    ],
+    description: "Possui Alça"
+  },
+  {
+    id: 108,
+    name: "Pato Donald o Gangster",
+    price: 80.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/donaldgangster/donaldgans.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans2.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans3.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans4.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans5.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans6.jpeg",
+    ],
+    description: "Possui Alça"
+  },
+  {
+    id: 109,
+    name: "Piloto de Motocross",
+    price: 30.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/motocrossmonstro/pilotomonster.jpeg",
+      "IMG/produtos/geek/motocrossmonstro/pilotomonster2.jpeg",
+      "IMG/produtos/geek/motocrossmonstro/pilotomonster3.jpeg",
+      "IMG/produtos/geek/motocrossmonstro/pilotomonster4.jpeg",
+    ],
+    description: "Mini Monster"
+  },
+  {
+    id: 110,
+    name: "Quadro Decorativo Corinthians",
+    price: 46.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/quadros/quadrocorinthians/quadrocorin.jpeg",
+    ],
+    description: "Quadro 3D com Logo"
+  },
+  {
+    id: 111,
+    name: "Porta Lata do Flamengo",
+    price: 150.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portaflamengo/portamengo.jpeg",
+      "IMG/produtos/portalatas/portaflamengo/portamengo2.jpeg",
+    ],
+    description: "Alça e Patch Libertadores"
+  },
+  {
+    id: 112,
+    name: "Porta Lata do Corinthians",
+    price: 170.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portacorinthians/portacorin.jpeg",
+      "IMG/produtos/portalatas/portacorinthians/portacorin2.jpeg",
+    ],
+    description: "Alça e Patch Libertadores"
+  },
+  {
+    id: 113,
+    name: "Troféu do Melhor Pai",
+    price: 37.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/trofeumelhorpai/trofmelhorpai.jpeg",
+      "IMG/produtos/geek/trofeumelhorpai/trofmelhorpai2.jpeg",
+    ],
+    description: "Presente para o Dia dos Pais"
+  },
+  {
+    id: 114,
+    name: "Chaveiro Meu Pai, Meu Orgulho",
+    price: 37.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveipai/chaveipaiorgu.jpeg",
+    ],
+    description: "Presente para o Dia dos Pais"
+  },
+  {
+    id: 115,
+    name: "Porta Chaves",
+    price: 12.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/portachaves/portachavecruz.jpeg",
+      "IMG/produtos/chaveiros/portachaves/portachavecruz2.jpeg",
+      "IMG/produtos/chaveiros/portachaves/portachavecruz3.jpeg",
+    ],
+    description: "Cruz de Batismo"
+  },
+  {
+    id: 116,
+    name: "Luna Park II",
+    price: 650.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/lunapark/parkluna.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna2.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna3.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna4.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna5.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna6.gif",
+    ],
+    description: "Circuito de Bolinhas de Gude"
+  },
+  {
+    id: 117,
+    name: "Porta Cartões",
+    price: 38.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/portacartoesbarbeiro/portbarbeiro.jpeg",
+      "IMG/produtos/suportes/portacartoesbarbeiro/portbarbeiro2.jpeg",
+      "IMG/produtos/suportes/portacartoesbarbeiro/portbarbeiro3.jpeg",
+    ],
+    description: "Visita de Barbeiro"
+  },
+  {
+    id: 118,
+    name: "Boneco Stitch",
+    price: 100.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitch/bonecostitch.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch2.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch3.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch4.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch5.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch6.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch7.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 119,
+    name: "Stitch",
+    price: 97.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitch2/stitchboneco.jpeg",
+      "IMG/produtos/geek/stitch2/stitchboneco2.jpeg",
+      "IMG/produtos/geek/stitch2/stitchboneco3.jpeg",
+    ],
+    description: ""
   },
 ];
 
