@@ -1728,11 +1728,11 @@ window.FORJ3D_PRODUCTS = [
     material: "",
     images: [
       "IMG/produtos/geek/lunapark/parkluna.jpeg",
-      "IMG/produtos/geek/lunapark/parkluna2.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna6.gif",
       "IMG/produtos/geek/lunapark/parkluna3.jpeg",
       "IMG/produtos/geek/lunapark/parkluna4.jpeg",
       "IMG/produtos/geek/lunapark/parkluna5.jpeg",
-      "IMG/produtos/geek/lunapark/parkluna6.gif",
+      "IMG/produtos/geek/lunapark/parkluna2.jpeg",
     ],
     description: "Circuito de Bolinhas de Gude"
   },
@@ -1764,7 +1764,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/stitch/bonecostitch4.jpeg",
       "IMG/produtos/geek/stitch/bonecostitch5.jpeg",
       "IMG/produtos/geek/stitch/bonecostitch6.jpeg",
-      "IMG/produtos/geek/stitch/bonecostitch7.jpeg",
     ],
     description: ""
   },
@@ -1781,6 +1780,487 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/stitch2/stitchboneco3.jpeg",
     ],
     description: ""
+  },
+  {
+    id: 120,
+    name: "Chaveiro Stitch",
+    price: 61.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveirostitch/stichave.jpeg",
+      "IMG/produtos/chaveiros/chaveirostitch/stichave2.jpeg",
+      "IMG/produtos/chaveiros/chaveirostitch/stichave3.jpeg",
+    ],
+    description: "Multicolorido"
+  },
+  {
+    id: 121,
+    name: "Ponto Flexível",
+    price: 52.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pontoflexivelstitch/stitchponto.jpeg",
+      "IMG/produtos/geek/pontoflexivelstitch/stitchponto2.jpeg",
+      "IMG/produtos/geek/pontoflexivelstitch/stitchponto3.jpeg",
+    ],
+    description: "Formato Stitch"
+  },
+  {
+    id: 122,
+    name: "Stitch Mini Flexi",
+    price: 45.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini.jpeg",
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini2.jpeg",
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini3.jpeg",
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini4.jpeg",
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini5.jpeg",
+    ],
+    description: "Figura Articulada Fofa"
+  },
+  {
+    id: 123,
+    name: "Teclado Clicker Fidget Stitch",
+    price: 32.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitchtecladoclicker/teclastitch.jpeg",
+      "IMG/produtos/geek/stitchtecladoclicker/teclastitch2.jpeg",
+      "IMG/produtos/geek/stitchtecladoclicker/teclastitch3.jpeg",
+      "IMG/produtos/geek/stitchtecladoclicker/teclastitch4.jpeg",
+      "IMG/produtos/geek/stitchtecladoclicker/teclastitch5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 124,
+    name: "Cruz Decorativa Religiosa - Jesus",
+    price: 32.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/cruzdecorativa/cruzdeco.jpeg",
+      "IMG/produtos/geek/cruzdecorativa/cruzdeco3.gif",
+      "IMG/produtos/geek/cruzdecorativa/cruzdeco2.jpeg",
+    ],
+    description: "Base Encaixável"
+  },
+  {
+    id: 125,
+    name: "Balde de Pipoca Hoplita",
+    price: 130.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/baldepipocahoplita/baldecapa2.jpeg",
+      "IMG/produtos/geek/baldepipocahoplita/baldecapa.jpeg",
+    ],
+    description: "Para Sua Próxima Odisseia"
+  },
+  {
+    id: 126,
+    name: "Mickey Mouse",
+    price: 99.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mickeynatal/natalmickey5.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey2.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey3.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey4.jpeg",
+    ],
+    description: "Versão de Natal"
+  },
+  {
+    id: 127,
+    name: "Mickey Mouse - 55cm",
+    price: 580.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mickeynatal/natalmickey.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey2.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey3.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey4.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey5.jpeg",
+    ],
+    description: "Versão de Natal"
+  },
+  {
+    id: 128,
+    name: "Jogo de Equilíbrio",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/jogoequidino/dinoequi.jpeg",
+      "IMG/produtos/geek/jogoequidino/dinoequi2.jpeg",
+      "IMG/produtos/geek/jogoequidino/dinoequi3.jpeg",
+    ],
+    description: "Formato de Dinossauro"
+  },
+  {
+    id: 129,
+    name: "Jogo de Equilíbrio",
+    price: 60.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/jogoequidino/dinoequi4.jpeg",
+    ],
+    description: "Formato de Dinossauro"
+  },
+  {
+    id: 130,
+    name: "Jogo de Equilíbrio",
+    price: 68.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/jogoequidrag/dragequi.jpeg",
+      "IMG/produtos/geek/jogoequidrag/dragequi2.jpeg",
+      "IMG/produtos/geek/jogoequidrag/dragequi3.jpeg",
+    ],
+    description: "Formato de Dragão"
+  },
+  {
+    id: 131,
+    name: "Jogo de Equilíbrio",
+    price: 110.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/jogoequipoke/pokeequi.jpeg",
+      "IMG/produtos/geek/jogoequipoke/pokeequi2.jpeg",
+    ],
+    description: "Formato de Pokémom"
+  },
+  {
+    id: 132,
+    name: "Abridor de Abas de Lata de Refrigerante",
+    price: 26.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/abricowboy/cowabri.jpeg",
+    ],
+    description: "Modelo Chapéu de Cowboy"
+  },
+  {
+    id: 133,
+    name: "Suporte para Long Neck",
+    price: 160.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplongneck/suplong.jpeg",
+      "IMG/produtos/suportes/suplongneck/suplong2.jpeg",
+      "IMG/produtos/suportes/suplongneck/suplong3.jpeg",
+      "IMG/produtos/suportes/suplongneck/suplong4.jpeg",
+      "IMG/produtos/suportes/suplongneck/suplong5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 134,
+    name: "Pluto Disney",
+    price: 120.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/plutodisney/displuto.jpeg",
+      "IMG/produtos/geek/plutodisney/displuto2.jpeg",
+      "IMG/produtos/geek/plutodisney/displuto3.jpeg",
+      "IMG/produtos/geek/plutodisney/displuto4.jpeg",
+      "IMG/produtos/geek/plutodisney/displuto5.jpeg",
+    ],
+    description: "25cm de Altura"
+  },
+  {
+    id: 135,
+    name: "Angel - Stitch",
+    price: 84.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/angelstitch/angelsti.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti2.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti3.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti4.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti5.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti6.jpeg",
+    ],
+    description: "21cm de Altura"
+  },
+  {
+    id: 136,
+    name: "Monkey D. Luffy",
+    price: 70.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/luffy/monkluffy.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy2.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy3.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy4.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy5.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy6.jpeg",
+    ],
+    description: "27cm de Altura"
+  },
+  {
+    id: 137,
+    name: "Capitão América",
+    price: 150.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/capamerica/america.jpeg",
+      "IMG/produtos/geek/capamerica/america2.jpeg",
+      "IMG/produtos/geek/capamerica/america3.jpeg",
+      "IMG/produtos/geek/capamerica/america4.jpeg",
+      "IMG/produtos/geek/capamerica/america5.jpeg",
+    ],
+    description: "22cm de Altura"
+  },
+  {
+    id: 138,
+    name: "Suporte para Lata de Monster Energy",
+    price: 94.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatamons/supmonst.jpeg",
+      "IMG/produtos/suportes/suplatamons/supmonst2.jpeg",
+      "IMG/produtos/suportes/suplatamons/supmonst3.jpeg",
+      "IMG/produtos/suportes/suplatamons/supmonst4.jpeg",
+    ],
+    description: "Possui Alça"
+  },
+  {
+    id: 139,
+    name: "Suporte para Latas de Monster Energy",
+    price: 65.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supmonter/suplatamons.jpeg",
+      "IMG/produtos/suportes/supmonter/suplatamons2.jpeg",
+      "IMG/produtos/suportes/supmonter/suplatamons3.jpeg",
+      "IMG/produtos/suportes/supmonter/suplatamons4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 140,
+    name: "Kit Monster",
+    price: 49.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/kitmonster/kitmons.jpeg",
+      "IMG/produtos/geek/kitmonster/kitmons2.jpeg",
+      "IMG/produtos/geek/kitmonster/kitmons3.jpeg",
+      "IMG/produtos/geek/kitmonster/kitmons4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 141,
+    name: "Chaveiro Monster Energy",
+    price: 26.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveimonster/monschavei.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster/monschavei2.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster/monschavei3.jpeg",
+    ],
+    description: "Abridor de Latas"
+  },
+  {
+    id: 142,
+    name: "Porta Lata Monster",
+    price: 60.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portalatasmonster/portamons.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons2.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons3.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons4.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons5.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons6.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons7.jpeg",
+    ],
+    description: "Garra 3D"
+  },
+  {
+    id: 142,
+    name: "Resfriador de lata",
+    price: 55.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/resfriadorcoca/resfriacoca.jpeg",
+    ],
+    description: "Coca-Cola"
+  },
+  {
+    id: 143,
+    name: "Chaveiro abridor de Latas",
+    price: 25.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveimonster2/monsterchaves.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster2/monsterchaves2.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster2/monsterchaves3.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster2/monsterchaves4.jpeg",
+    ],
+    description: "Garra 3D"
+  },
+  {
+    id: 144,
+    name: "Chaveiro Mini Suporte",
+    price: 10.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiminimonster/monsminicha.jpeg",
+      "IMG/produtos/chaveiros/chaveiminimonster/monsminicha2.jpeg",
+      "IMG/produtos/chaveiros/chaveiminimonster/monsminicha3.jpeg",
+    ],
+    description: "Para Latas de Monster Energy"
+  },
+  {
+    id: 145,
+    name: "Arte de Parede Jesus Cristo",
+    price: 29.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/arteparedeje/paredearte.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 146,
+    name: "Cruz de Jesus Cristo",
+    price: 25.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/cruzje2/jescruz.jpeg",
+      "IMG/produtos/geek/cruzje2/jescruz2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 147,
+    name: "Cristo na Cruz",
+    price: 37.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/cristocruz/cristoarte.jpeg",
+      "IMG/produtos/geek/cristocruz/cristoarte2.jpeg",
+    ],
+    description: "Arte de Parede"
+  },
+  {
+    id: 148,
+    name: "Porta Pincéis de Maquiagem",
+    price: 55.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/portapincel/portpin.jpeg",
+      "IMG/produtos/geek/portapincel/portpin2.jpeg",
+    ],
+    description: "Formato de Laço"
+  },
+  {
+    id: 149,
+    name: "Tigela de Molho para Lanches em Coração",
+    price: 90.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/tijelamolho/molhalanche.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche2.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche3.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche4.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche5.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche6.jpeg",
+    ],
+    description: "Licença Comercial Gratuita"
+  },
+  {
+    id: 150,
+    name: "Kit de Porta-Copos de Pneu de Fórmula 1",
+    price: 50.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portapneu/portapneus.jpeg",
+      "IMG/produtos/portalatas/portapneu/portapneus2.jpeg",
+      "IMG/produtos/portalatas/portapneu/portapneus3.jpeg",
+    ],
+    description: "Possui Suporte de Pit Stop"
+  },
+  {
+    id: 151,
+    name: "Chaveiro Quickdraw II",
+    price: 36.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiquick/chaveiquickdraw.jpeg",
+      "IMG/produtos/chaveiros/chaveiquick/chaveiquickdraw2.jpeg",
+      "IMG/produtos/chaveiros/chaveiquick/chaveiquickdraw3.jpeg",
+      "IMG/produtos/chaveiros/chaveiquick/chaveiquickdraw4.jpeg",
+    ],
+    description: "Edição Revólver"
   },
 ];
 
