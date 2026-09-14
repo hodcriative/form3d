@@ -56,8 +56,8 @@
 
   const productUrl = product => `produtos.html#produto/${product.id}`;
 
-  const cardHTML = product => `
-    <a class="card" href="${productUrl(product)}" aria-label="Ver detalhes de ${product.name}">
+  const cardHTML = (product, i) => `
+    <a class="card" style="--i:${i}" href="${productUrl(product)}" aria-label="Ver detalhes de ${product.name}">
       <div class="card-img">
         ${productVisual(product)}
         <div class="card-dots" aria-hidden="true">
@@ -71,7 +71,7 @@
     </a>`;
 
   if (carousel) {
-    carousel.innerHTML = featuredProducts.map(cardHTML).join('');
+    carousel.innerHTML = featuredProducts.map((product, i) => cardHTML(product, i)).join('');
   }
 
   // Carousel controls

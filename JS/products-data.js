@@ -2262,6 +2262,35 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Edição Revólver"
   },
+  {
+    id: 152,
+    name: "Bugs Mafioso",
+    price: 230.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/bugsmafioso/bugmafi.jpeg",
+      "IMG/produtos/geek/bugsmafioso/bugmafi2.jpeg",
+    ],
+    description: "Edição Gangster"
+  },
+  {
+    id: 153,
+    name: "Vegeta Super Sayan 4",
+    price: 176.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper2.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper3.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper4.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper5.jpeg",
+    ],
+    description: "Edição Gangster"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];

@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="CSS/nav-mobile.css">
     <link rel="stylesheet" href="CSS/cart.css">
     <link rel="stylesheet" href="CSS/whatsapp-float.css">
+    <link rel="stylesheet" href="CSS/instagram-float.css">
+    <link rel="stylesheet" href="CSS/spider-viewer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
   </head>
 
@@ -93,26 +95,28 @@
 
     <section class="hero" id="top">
 
+      <div class="hero-atmosphere" aria-hidden="true"></div>
+
       <div class="wrap hero-inner">
 
-        <div>
+        <div class="hero-copy">
           <div class="eyebrow">
-            <span class="blink"></span> 
+            <span class="blink"></span>
             IMPRESSÃO 3D SOB MEDIDA
           </div>
 
           <h1 class="hero-title display">
-            Sua ideia, 
+            Sua ideia,
             <span class="stroke">
               camada
-            </span> 
+            </span>
             por camada, até virar produto.
           </h1>
 
           <p class="hero-sub">
             Fabricamos e personalizamos peças em impressão 3D, do suporte que faltava na sua mesa ao objeto que só existe na sua cabeça. Você escolhe, a gente imprime.
           </p>
-          
+
           <div class="hero-ctas">
             <a href="#produtos" class="btn btn-accent">Ver produtos</a>
             <a href="https://wa.me/5527997941766" target="_blank" rel="noopener" class="btn btn-outline">
@@ -130,40 +134,21 @@
 
           <div class="plate">
 
+            <div class="plate-photo">
+              <img src="IMG/banner-forj3d.jpg" alt="Peça FORJ3D saindo da impressora 3D">
+            </div>
+
             <div class="corner tl"></div>
             <div class="corner tr"></div>
             <div class="corner bl"></div>
             <div class="corner br"></div>
 
-            <div class="piece piece-a">
-              <svg viewBox="0 0 64 64" fill="none">
-                <path d="M32 4 58 18v28L32 60 6 46V18L32 4Z" stroke="#8A8A8A" stroke-width="1.4"/>
-                <path d="M6 18 32 32l26-14M32 32v28" stroke="#8A8A8A" stroke-width="1.4"/>
-              </svg>
-            </div>
-
-            <div class="piece piece-main">
-              <svg viewBox="0 0 120 120" fill="none">
-                <rect x="20" y="46" width="80" height="58" rx="6" fill="#F5F5F5" stroke="#2A2A2A" stroke-width="1.5"/>
-                <path d="M20 46 40 16h40l20 30" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
-                <path d="M40 16 44 46M80 16 76 46" stroke="#2A2A2A" stroke-width="1"/>
-                <circle cx="60" cy="75" r="14" fill="none" stroke="#FF0000" stroke-width="2"/>
-                <path d="M60 61v28M46 75h28" stroke="#FF0000" stroke-width="1.2"/>
-              </svg>
-            </div>
-
-            <div class="piece piece-b">
-              <svg viewBox="0 0 56 56" fill="none">
-                <circle cx="28" cy="28" r="20" stroke="#8A8A8A" stroke-width="1.4"/>
-                <circle cx="28" cy="28" r="11" stroke="#FF0000" stroke-width="1.4"/>
-              </svg>
-            </div>
+            <div class="piece-tag piece-tag-a mono">PLA · 0,2mm</div>
+            <div class="piece-tag piece-tag-b mono">produção própria</div>
 
             <div class="layer-status mono">
               <span id="layer-count">camada 000/312</span>
-              <div class="layer-bar"><div class="layer-bar-fill" id="layer-fill"></div>
-            </div>
-
+              <div class="layer-bar"><div class="layer-bar-fill" id="layer-fill"></div></div>
             </div>
 
           </div>
@@ -180,11 +165,19 @@
 
         <div class="sobre-visual reveal">
 
-          <svg viewBox="0 0 200 160" fill="none">
-            <path d="M40 140 60 40h80l20 100" stroke="#2A2A2A" stroke-width="1.6"/>
-            <path d="M60 40 100 90l40-50M100 90v50" stroke="#FF0000" stroke-width="1.6"/>
-            <path d="M40 140h120" stroke="#2A2A2A" stroke-width="1.6"/>
-          </svg>
+          <div class="f3d-viewer" id="f3dViewer">
+            <div class="f3d-stage" id="f3dStage">
+              <div class="f3d-shadow"></div>
+            </div>
+            <div class="f3d-corner f3d-tl"></div>
+            <div class="f3d-corner f3d-tr"></div>
+            <div class="f3d-corner f3d-bl"></div>
+            <div class="f3d-corner f3d-br"></div>
+            <div class="f3d-hint" id="f3dHint">arraste para girar</div>
+            <div class="f3d-slider-wrap">
+              <input type="range" class="f3d-slider" id="f3dSlider" min="0" max="360" step="0.1" value="0" aria-label="Girar modelo">
+            </div>
+          </div>
 
         </div>
 
@@ -205,22 +198,22 @@
           
           <div class="chips">
 
-            <div class="chip">
+            <div class="chip reveal">
               <span class="ic"></span>
               Produção própria
             </div>
 
-            <div class="chip">
+            <div class="chip reveal">
               <span class="ic"></span>
               Personalização total
             </div>
 
-            <div class="chip">
+            <div class="chip reveal">
               <span class="ic"></span>
               Impressão de qualidade
             </div>
 
-            <div class="chip">
+            <div class="chip reveal">
               <span class="ic"></span>
               Atendimento pelo WhatsApp
             </div>
@@ -239,16 +232,14 @@
 
         <div class="produtos-head-row reveal">
 
-          <div>
-
+<div class="hero-copy">
+          <div class="eyebrow">
+            <span class="blink"></span>
+            PRODUTOS PRONTOS
+          </div>
             <span class="section-tag mono">
               vitrine
             </span>
-
-            <h2 class="section-title display"
-            >Produtos em destaque
-          </h2>
-
           </div>
 
           <div class="carousel-controls">
@@ -338,24 +329,7 @@
               <li><a href="#top">Home</a></li>
               <li><a href="#sobre">Sobre</a></li>
               <li><a href="#produtos">Produtos</a></li>
-              <li><a href="#contato">Contato</a></li>
-            </ul>
-
-          </div>
-
-          <div>
-
-            <h4>Contato</h4>
-            <ul>
-              <li><a href="https://wa.me/5527997941766" target="_blank" rel="noopener">WhatsApp</a></li>
-              <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
-            </ul>
-
-          </div>
-
-        </div>
-
-        <div class="foot-bottom">
+                <div class="foot-bottom">
           <span>© 2026 FORJ3D. Todos os direitos reservados.</span>
           <span>Feito com impressão 3D e café.</span>
         </div>
@@ -364,12 +338,14 @@
       
     </footer>
 
+    <script src="JS/spider-viewer.js" defer></script>
     <script src="JS/nav-mobile.js"></script>
     <script src="JS/products-data.js"></script>
     <script src="JS/cart.js"></script>
     <script src="JS/index.js"></script>
     <script src="JS/products-effects.js"></script>
     <script src="JS/whatsapp-float.js"></script>
+    <script src="JS/instagram-float.js"></script>
 
   </body>
 
