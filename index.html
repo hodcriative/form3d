@@ -10,7 +10,17 @@
     <link rel="stylesheet" href="CSS/cart.css">
     <link rel="stylesheet" href="CSS/whatsapp-float.css">
     <link rel="stylesheet" href="CSS/instagram-float.css">
-    <link rel="stylesheet" href="CSS/spider-viewer.css">
+    <link rel="stylesheet" href="CSS/hero-fluid-viewer.css">
+    <link rel="stylesheet" href="CSS/spider-fluid-viewer.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -132,25 +142,8 @@
 
         <div class="hero-visual">
 
-          <div class="plate">
-
-            <div class="plate-photo">
-              <img src="IMG/banner-forj3d.jpg" alt="Peça FORJ3D saindo da impressora 3D">
-            </div>
-
-            <div class="corner tl"></div>
-            <div class="corner tr"></div>
-            <div class="corner bl"></div>
-            <div class="corner br"></div>
-
-            <div class="piece-tag piece-tag-a mono">PLA · 0,2mm</div>
-            <div class="piece-tag piece-tag-b mono">produção própria</div>
-
-            <div class="layer-status mono">
-              <span id="layer-count">camada 000/312</span>
-              <div class="layer-bar"><div class="layer-bar-fill" id="layer-fill"></div></div>
-            </div>
-
+          <div class="hero-fluid" id="heroFluid">
+            <canvas id="heroFluidCanvas"></canvas>
           </div>
 
         </div>
@@ -165,18 +158,9 @@
 
         <div class="sobre-visual reveal">
 
-          <div class="f3d-viewer" id="f3dViewer">
-            <div class="f3d-stage" id="f3dStage">
-              <div class="f3d-shadow"></div>
-            </div>
-            <div class="f3d-corner f3d-tl"></div>
-            <div class="f3d-corner f3d-tr"></div>
-            <div class="f3d-corner f3d-bl"></div>
-            <div class="f3d-corner f3d-br"></div>
-            <div class="f3d-hint" id="f3dHint">arraste para girar</div>
-            <div class="f3d-slider-wrap">
-              <input type="range" class="f3d-slider" id="f3dSlider" min="0" max="360" step="0.1" value="0" aria-label="Girar modelo">
-            </div>
+          <div class="spider-fluid" id="spiderFluid">
+            <canvas id="spiderFluidCanvas"></canvas>
+            <div class="spider-hint" id="spiderHint">arraste para girar</div>
           </div>
 
         </div>
@@ -338,7 +322,8 @@
       
     </footer>
 
-    <script src="JS/spider-viewer.js" defer></script>
+    <script type="module" src="JS/hero-fluid-viewer.js"></script>
+    <script type="module" src="JS/spider-fluid-viewer.js"></script>
     <script src="JS/nav-mobile.js"></script>
     <script src="JS/products-data.js"></script>
     <script src="JS/cart.js"></script>
