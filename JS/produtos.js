@@ -15,6 +15,12 @@ let sortMode = "relevancia";
 let priceMin = null;
 let priceMax = null;
 
+const urlParams = new URLSearchParams(location.search);
+const categoriaFromUrl = urlParams.get('categoria');
+if (categoriaFromUrl && categories.includes(categoriaFromUrl)) {
+  activeCategory = categoriaFromUrl;
+}
+
 /* =========================================================
    RENDER — FILTROS
 ========================================================= */
@@ -55,12 +61,36 @@ function getProductImages(p){
   return Array.isArray(p.images) ? p.images.filter(Boolean) : [];
 }
 
+/* =========================================================
+   IMAGENS OTIMIZADAS (.webp)
+   As fotos originais (jpeg/png) ficam só como matéria-prima.
+   O site carrega as versões geradas por `npm run optimize-images`:
+     nome.webp        -> versão grande (galeria/zoom)
+     nome-thumb.webp  -> miniatura (cards/grade)
+   Se a versão otimizada de alguma foto ainda não existir (script
+   não rodou pra ela), o onerror cai de volta pro arquivo original,
+   então nada quebra visualmente — só fica mais pesado até rodar o script.
+========================================================= */
+const OPTIMIZABLE_EXT = /\.(jpe?g|png)$/i;
+
+function toFullSrc(src){
+  return OPTIMIZABLE_EXT.test(src) ? src.replace(OPTIMIZABLE_EXT, '.webp') : src;
+}
+
+function toThumbSrc(src){
+  return OPTIMIZABLE_EXT.test(src) ? src.replace(OPTIMIZABLE_EXT, '-thumb.webp') : src;
+}
+
+function fallbackAttr(originalSrc){
+  return `onerror="this.onerror=null;this.src='${originalSrc}';"`;
+}
+
 function productVisual(p, className = ''){
   const images = getProductImages(p);
   if (images.length) {
-    const base = `<img class="${className}" src="${images[0]}" alt="${p.name}" loading="lazy" draggable="false">`;
+    const base = `<img class="${className}" src="${toThumbSrc(images[0])}" alt="${p.name}" loading="lazy" draggable="false" ${fallbackAttr(images[0])}>`;
     const hover = images.length > 1
-      ? `<img class="card-img-hover" src="${images[1]}" alt="" aria-hidden="true" loading="lazy" draggable="false">`
+      ? `<img class="card-img-hover" src="${toThumbSrc(images[1])}" alt="" aria-hidden="true" loading="lazy" draggable="false" ${fallbackAttr(images[1])}>`
       : '';
     return base + hover;
   }
@@ -165,7 +195,7 @@ function openProduct(id){
 
   function renderGalleryImage(src, index = 0){
     const visual = src
-      ? `<img src="${src}" alt="${p.name} - imagem ${index + 1}" draggable="false">`
+      ? `<img src="${toFullSrc(src)}" alt="${p.name} - imagem ${index + 1}" draggable="false" ${fallbackAttr(src)}>`
       : `${icons[p.icon] || ''}`;
 
     galleryMain.innerHTML = `
@@ -181,7 +211,7 @@ function openProduct(id){
 
   thumbs.innerHTML = galleryItems.map((src, i) => `
     <button class="thumb ${i === 0 ? 'active' : ''}" type="button" data-i="${i}" aria-label="Visualizar imagem ${i + 1}">
-      ${src ? `<img src="${src}" alt="${p.name} - miniatura ${i + 1}" loading="lazy" draggable="false">` : (icons[p.icon] || '')}
+      ${src ? `<img src="${toThumbSrc(src)}" alt="${p.name} - miniatura ${i + 1}" loading="lazy" draggable="false" ${fallbackAttr(src)}>` : (icons[p.icon] || '')}
     </button>
   `).join('');
 
