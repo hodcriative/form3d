@@ -30,19 +30,44 @@
 
 .spider-hint {
   position: absolute;
-  left: 50%;
-  bottom: 18px;
-  transform: translateX(-50%);
-  font-size: 11px;
-  color: rgba(255, 255, 255, 0.55);
-  letter-spacing: 0.02em;
+  right: 16px;
+  bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
   pointer-events: none;
   transition: opacity 0.5s ease;
-  white-space: nowrap;
 }
 
 .spider-hint.spider-hint-hidden {
   opacity: 0;
+}
+
+.spider-hint-icon {
+  width: 40px;
+  height: 40px;
+  color: rgba(255, 255, 255, 0.7);
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
+  animation: spider-hint-swing 2.6s ease-in-out infinite;
+}
+
+.spider-hint-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@keyframes spider-hint-swing {
+  0%, 100% { transform: rotate(-14deg); }
+  50% { transform: rotate(14deg); }
 }
 
 @media (max-width: 720px) {
