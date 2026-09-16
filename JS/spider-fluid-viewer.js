@@ -164,13 +164,31 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
   // ---------- carregamento sob demanda ----------
   // só inicializa o Three.js e baixa o .glb quando a seção "quem somos"
-  // estiver perto de entrar na tela.
+  // estiver perto de entrar na tela E o visitante já tiver aceitado
+  // o banner de cookies (o que vier depois, dispara o init()).
+  let inView = false;
+  let consentGiven = window.forj3dHasConsent ? window.forj3dHasConsent() : true;
+
+  function tryInit() {
+    if (inView && consentGiven) init();
+  }
+
+  if (!consentGiven) {
+    container.classList.add('media-gated');
+    document.addEventListener('forj3d:consent-accepted', () => {
+      consentGiven = true;
+      container.classList.remove('media-gated');
+      tryInit();
+    }, { once: true });
+  }
+
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            init();
+            inView = true;
+            tryInit();
             observer.disconnect();
           }
         });
@@ -179,6 +197,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
     );
     observer.observe(container);
   } else {
-    init();
+    inView = true;
+    tryInit();
   }
 })();

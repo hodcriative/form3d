@@ -2317,3 +2317,52 @@ window.forj3dToThumbSrc = function (src) {
 window.forj3dFallbackAttr = function (originalSrc) {
   return `onerror="this.onerror=null;this.src='${originalSrc}';"`;
 };
+
+/* =========================================================
+   COOKIES/CONSENTIMENTO — libera fotos e vídeos (viewers 3D)
+   só depois que o visitante aceita o banner de cookies.
+   A UI do banner fica em cookie-consent.js; aqui só ficam os
+   helpers que index.js/cart.js/produtos.js e os viewers 3D
+   usam para checar consentimento e montar as imagens.
+========================================================= */
+window.FORJ3D_CONSENT_KEY = 'forj3d_cookie_consent';
+
+window.forj3dHasConsent = function () {
+  try {
+    return localStorage.getItem(window.FORJ3D_CONSENT_KEY) === 'accepted';
+  } catch (e) {
+    return false;
+  }
+};
+
+// Placeholder leve (SVG inline, sem requisição de rede) com um cadeado —
+// ocupa o lugar da foto/vídeo real até o consentimento ser dado.
+window.FORJ3D_MEDIA_PLACEHOLDER = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">' +
+    '<rect width="400" height="400" fill="#EDEDED"/>' +
+    '<g transform="translate(200,200)" fill="none" stroke="#B7B7B7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">' +
+      '<rect x="-30" y="-6" width="60" height="46" rx="8"/>' +
+      '<path d="M -18 -6 V -22 A 18 18 0 0 1 18 -22 V -6"/>' +
+    '</g>' +
+  '</svg>'
+);
+
+// Monta o atributo de src de uma imagem já respeitando o consentimento:
+// aceito -> src real direto; não aceito -> guarda a URL real em
+// data-gated-src e mostra o placeholder no lugar.
+window.forj3dMediaAttrs = function (src) {
+  return window.forj3dHasConsent()
+    ? `src="${src}"`
+    : `data-gated-src="${src}" src="${window.FORJ3D_MEDIA_PLACEHOLDER}"`;
+};
+
+// Chamado pelo banner de cookies quando o visitante aceita: troca todo
+// placeholder já renderizado pela foto real e avisa os viewers 3D
+// (hero-fluid-viewer.js / spider-fluid-viewer.js) que já podem carregar.
+window.forj3dReleaseMedia = function () {
+  document.querySelectorAll('[data-gated-src]').forEach((img) => {
+    img.src = img.getAttribute('data-gated-src');
+    img.removeAttribute('data-gated-src');
+  });
+  document.dispatchEvent(new CustomEvent('forj3d:consent-accepted'));
+};

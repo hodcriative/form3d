@@ -74,9 +74,9 @@ const fallbackAttr = window.forj3dFallbackAttr;
 function productVisual(p, className = ''){
   const images = getProductImages(p);
   if (images.length) {
-    const base = `<img class="${className}" src="${toThumbSrc(images[0])}" alt="${p.name}" loading="lazy" draggable="false" ${fallbackAttr(images[0])}>`;
+    const base = `<img class="${className}" ${window.forj3dMediaAttrs(toThumbSrc(images[0]))} alt="${p.name}" loading="lazy" draggable="false" ${fallbackAttr(images[0])}>`;
     const hover = images.length > 1
-      ? `<img class="card-img-hover" src="${toThumbSrc(images[1])}" alt="" aria-hidden="true" loading="lazy" draggable="false" ${fallbackAttr(images[1])}>`
+      ? `<img class="card-img-hover" ${window.forj3dMediaAttrs(toThumbSrc(images[1]))} alt="" aria-hidden="true" loading="lazy" draggable="false" ${fallbackAttr(images[1])}>`
       : '';
     return base + hover;
   }
@@ -181,7 +181,7 @@ function openProduct(id){
 
   function renderGalleryImage(src, index = 0){
     const visual = src
-      ? `<img src="${toFullSrc(src)}" alt="${p.name} - imagem ${index + 1}" draggable="false" ${fallbackAttr(src)}>`
+      ? `<img ${window.forj3dMediaAttrs(toFullSrc(src))} alt="${p.name} - imagem ${index + 1}" draggable="false" ${fallbackAttr(src)}>`
       : `${icons[p.icon] || ''}`;
 
     galleryMain.innerHTML = `
@@ -197,7 +197,7 @@ function openProduct(id){
 
   thumbs.innerHTML = galleryItems.map((src, i) => `
     <button class="thumb ${i === 0 ? 'active' : ''}" type="button" data-i="${i}" aria-label="Visualizar imagem ${i + 1}">
-      ${src ? `<img src="${toThumbSrc(src)}" alt="${p.name} - miniatura ${i + 1}" loading="lazy" draggable="false" ${fallbackAttr(src)}>` : (icons[p.icon] || '')}
+      ${src ? `<img ${window.forj3dMediaAttrs(toThumbSrc(src))} alt="${p.name} - miniatura ${i + 1}" loading="lazy" draggable="false" ${fallbackAttr(src)}>` : (icons[p.icon] || '')}
     </button>
   `).join('');
 

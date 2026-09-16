@@ -47,9 +47,9 @@
     const images = getImages(product);
     if (images.length) {
       const hover = images.length > 1
-        ? `<img class="card-img-hover" src="${window.forj3dToThumbSrc(images[1])}" alt="" aria-hidden="true" loading="lazy" draggable="false" ${window.forj3dFallbackAttr(images[1])}>`
+        ? `<img class="card-img-hover" ${window.forj3dMediaAttrs(window.forj3dToThumbSrc(images[1]))} alt="" aria-hidden="true" loading="lazy" draggable="false" ${window.forj3dFallbackAttr(images[1])}>`
         : '';
-      return `<img src="${window.forj3dToThumbSrc(images[0])}" alt="${product.name}" loading="lazy" draggable="false" ${window.forj3dFallbackAttr(images[0])}>${hover}`;
+      return `<img ${window.forj3dMediaAttrs(window.forj3dToThumbSrc(images[0]))} alt="${product.name}" loading="lazy" draggable="false" ${window.forj3dFallbackAttr(images[0])}>${hover}`;
     }
     return icons[product.icon] || '';
   };

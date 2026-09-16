@@ -15,6 +15,7 @@ import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
   const canvas = document.getElementById('heroFluidCanvas');
   if (!container || !canvas) return;
 
+  function start() {
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // Troque aqui pelos caminhos dos seus próprios modelos quando quiser.
@@ -253,5 +254,19 @@ import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
   window.addEventListener('resize', handleResize);
   if (window.ResizeObserver) {
     new ResizeObserver(handleResize).observe(container);
+  }
+  } // fim de start()
+
+  // ---------- gate de cookies ----------
+  // só baixa os modelos 3D (arquivos pesados) depois que o visitante
+  // aceitar o banner de cookies.
+  if (window.forj3dHasConsent && window.forj3dHasConsent()) {
+    start();
+  } else {
+    container.classList.add('media-gated');
+    document.addEventListener('forj3d:consent-accepted', () => {
+      container.classList.remove('media-gated');
+      start();
+    }, { once: true });
   }
 })();
