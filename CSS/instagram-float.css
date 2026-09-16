@@ -44,7 +44,7 @@
 }
 
 .ig-float-label {
-  font-family: var(--font-body, 'Manrope', sans-serif);
+  font-family: var(--font-body, 'Inter', sans-serif);
   font-size: 13px;
   font-weight: 600;
   white-space: nowrap;

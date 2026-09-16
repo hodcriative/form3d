@@ -63,27 +63,13 @@ function getProductImages(p){
 
 /* =========================================================
    IMAGENS OTIMIZADAS (.webp)
-   As fotos originais (jpeg/png) ficam só como matéria-prima.
-   O site carrega as versões geradas por `npm run optimize-images`:
-     nome.webp        -> versão grande (galeria/zoom)
-     nome-thumb.webp  -> miniatura (cards/grade)
-   Se a versão otimizada de alguma foto ainda não existir (script
-   não rodou pra ela), o onerror cai de volta pro arquivo original,
-   então nada quebra visualmente — só fica mais pesado até rodar o script.
+   Helpers compartilhados, definidos em products-data.js
+   (carregado antes deste arquivo em produtos.html):
+     window.forj3dToFullSrc / forj3dToThumbSrc / forj3dFallbackAttr
 ========================================================= */
-const OPTIMIZABLE_EXT = /\.(jpe?g|png)$/i;
-
-function toFullSrc(src){
-  return OPTIMIZABLE_EXT.test(src) ? src.replace(OPTIMIZABLE_EXT, '.webp') : src;
-}
-
-function toThumbSrc(src){
-  return OPTIMIZABLE_EXT.test(src) ? src.replace(OPTIMIZABLE_EXT, '-thumb.webp') : src;
-}
-
-function fallbackAttr(originalSrc){
-  return `onerror="this.onerror=null;this.src='${originalSrc}';"`;
-}
+const toFullSrc = window.forj3dToFullSrc;
+const toThumbSrc = window.forj3dToThumbSrc;
+const fallbackAttr = window.forj3dFallbackAttr;
 
 function productVisual(p, className = ''){
   const images = getProductImages(p);

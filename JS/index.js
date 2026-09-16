@@ -47,9 +47,9 @@
     const images = getImages(product);
     if (images.length) {
       const hover = images.length > 1
-        ? `<img class="card-img-hover" src="${images[1]}" alt="" aria-hidden="true" loading="lazy" draggable="false">`
+        ? `<img class="card-img-hover" src="${window.forj3dToThumbSrc(images[1])}" alt="" aria-hidden="true" loading="lazy" draggable="false" ${window.forj3dFallbackAttr(images[1])}>`
         : '';
-      return `<img src="${images[0]}" alt="${product.name}" loading="lazy" draggable="false">${hover}`;
+      return `<img src="${window.forj3dToThumbSrc(images[0])}" alt="${product.name}" loading="lazy" draggable="false" ${window.forj3dFallbackAttr(images[0])}>${hover}`;
     }
     return icons[product.icon] || '';
   };
@@ -117,4 +117,34 @@
   } else {
     document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
   }
+})();
+
+// Formulário de contato — monta a mensagem e abre no WhatsApp
+(() => {
+  const form = document.getElementById('contatoForm');
+  if (!form) return;
+
+  const whatsappNumber = window.FORJ3D_CONFIG?.whatsappNumber || '5527997941766';
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const nome = form.nome.value.trim();
+    const sobrenome = form.sobrenome.value.trim();
+    const telefone = form.telefone.value.trim();
+    const email = form.email.value.trim();
+    const descricao = form.descricao.value.trim();
+
+    const linhas = [
+      `Olá! Meu nome é ${nome} ${sobrenome}.`,
+      `Telefone: ${telefone}`,
+      `E-mail: ${email}`,
+      '',
+      'Descrição da montagem do produto:',
+      descricao
+    ];
+
+    const mensagem = encodeURIComponent(linhas.join('\n'));
+    window.open(`https://wa.me/${whatsappNumber}?text=${mensagem}`, '_blank', 'noopener');
+  });
 })();

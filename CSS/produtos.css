@@ -3,14 +3,19 @@
     --bg-grid: rgba(42,42,42,0.05);
     --ink:#2A2A2A;
     --ink-soft:#5C5C5C;
-    --muted:#8A8A8A;
+    --muted:#767676;
     --line:#DEDEDE;
     --card:#FFFFFF;
-    --accent:#ff3c00;
-    --accent-ink:#fd6233;
+    --accent:#00E5FF;
+    --accent-ink:#00A8BF;
     --footer:#2A2A2A;
+    --radius-sm:9px;
     --radius:14px;
+    --radius-lg:18px;
     --maxw:1180px;
+    --font-display:'Big Shoulders Display', sans-serif;
+    --font-body:'Inter', sans-serif;
+    --font-mono:'JetBrains Mono', monospace;
   }
 
   * {
@@ -25,7 +30,7 @@
   body { 
     background: var(--bg); 
     color: var(--ink); 
-    font-family: 'Inter', sans-serif; 
+    font-family: var(--font-body); 
     -webkit-font-smoothing: antialiased; 
 }
 
@@ -58,12 +63,12 @@
 }
 
   .display {
-    font-family: 'Space Grotesk', sans-serif; 
-    font-weight: 600;
+    font-family: var(--font-display); 
+    font-weight: 700;
 }
 
   :focus-visible { 
-    outline: 2px solid var(--accent); 
+    outline: 2px solid var(--ink); 
     outline-offset: 2px; 
 }
 
@@ -100,7 +105,7 @@
 }
 
   .logo-accent, .footer-logo .logo-accent {
-    color: var(--accent);
+    color: var(--accent-ink);
 }
   
   .navlinks { 
@@ -127,7 +132,7 @@
     font-size: 13px;
     font-weight: 600;
     padding: 11px 20px;
-    border-radius: 9px;
+    border-radius: var(--radius-sm);
     cursor: pointer;
     border: 1px solid transparent;
     transition: transform .15s ease, box-shadow .15s ease, background .2s ease;
@@ -144,7 +149,7 @@
 }
   
   .btn-accent:hover {
-    box-shadow:0 6px 20px rgba(255, 60, 0, 0.35); ;
+    box-shadow:0 6px 20px rgba(0, 229, 255, 0.35); ;
 }
 
   /* Botão "Falar no WhatsApp" do cabeçalho segue o mesmo padrão outline
@@ -157,7 +162,7 @@
 }
 
   header .btn-accent:hover {
-    background: #ff3c00;
+    background: var(--accent-ink);
     color: #fff;
 }
   
@@ -181,7 +186,7 @@
   .page-hero span.section-tag {
     font-family: 'JetBrains Mono', monospace;
     font-size: 12px;
-    color: var(--accent);
+    color: var(--accent-ink);
     text-transform: uppercase;
     letter-spacing: .04em;
     display: block;
@@ -211,7 +216,7 @@
     font-size: 14px;
     padding: 13px 40px 13px 42px;
     border: 1px solid var(--line);
-    border-radius: 10px;
+    border-radius: var(--radius-sm);
     background: var(--card);
     color: var(--ink);
     transition: border-color .2s ease;
@@ -314,7 +319,7 @@
     font-size: 13px;
     padding: 9px 34px 9px 12px;
     border: 1px solid var(--line);
-    border-radius: 10px;
+    border-radius: var(--radius-sm);
     background: var(--card);
     color: var(--ink);
     cursor: pointer;
@@ -342,7 +347,7 @@
     font-size: 13px;
     padding: 9px 10px;
     border: 1px solid var(--line);
-    border-radius: 10px;
+    border-radius: var(--radius-sm);
     background: var(--card);
     color: var(--ink);
     transition: border-color .2s ease;
@@ -410,7 +415,7 @@
   
   .card-img {
     aspect-ratio: 1/1;
-    border-radius: 10px;
+    border-radius: var(--radius-sm);
     background: var(--bg);
     display: flex;
     align-items: center;
@@ -457,7 +462,7 @@
     font-size: 12px; 
     font-weight: 600; 
     padding: 10px; 
-    border-radius: 8px; 
+    border-radius: var(--radius-sm); 
     background: var(--ink); 
     color: #fff; 
     transition: background .2s ease;
@@ -513,7 +518,7 @@
 
   .modal {
     background: var(--bg); 
-    border-radius: 18px; 
+    border-radius: var(--radius-lg); 
     max-width: 920px; 
     width: 100%; 
     max-height: 88vh; 
@@ -552,7 +557,7 @@
   
   .gallery-main { 
     aspect-ratio: 1/1; 
-    border-radius: 14px; 
+    border-radius: var(--radius); 
     background: var(--card); 
     border: 1px solid var(--line);
     display: flex; 
@@ -575,7 +580,7 @@
   .thumb { 
     width: 64px; 
     height: 64px; 
-    border-radius: 8px; 
+    border-radius: var(--radius-sm); 
     background: var(--card); 
     border: 1.5px solid var(--line); 
     display: flex; 
@@ -647,7 +652,7 @@
   .related-card { 
     background: var(--card); 
     border: 1px solid var(--line); 
-    border-radius :10px; 
+    border-radius: var(--radius-sm); 
     padding: 10px; 
     cursor: pointer; 
     transition: transform .2s ease; 
@@ -831,12 +836,12 @@ header.scrolled {
 
 .search-wrap input {
   min-height: 50px;
-  border-radius: 14px;
+  border-radius: var(--radius);
   box-shadow: 0 8px 25px rgba(42,42,42,.035);
 }
 
 .search-wrap input:focus {
-  box-shadow: 0 0 0 4px rgba(255,60,0,.10);
+  box-shadow: 0 0 0 4px rgba(0, 229, 255,.10);
 }
 
 .filters {
@@ -882,7 +887,7 @@ header.scrolled {
   flex-direction: column;
   height: 100%;
   padding: 14px;
-  border-radius: 18px;
+  border-radius: var(--radius-lg);
   transform: translateY(var(--reveal-y, 0));
   opacity: var(--reveal-opacity, 1);
   transition:
@@ -904,7 +909,7 @@ header.scrolled {
   min-height: 0;
   flex-shrink: 0;
   padding: 0;
-  border-radius: 13px;
+  border-radius: var(--radius);
   overflow: hidden;
 }
 
@@ -917,7 +922,7 @@ header.scrolled {
   position: absolute;
   inset: 10px;
   border: 1px solid rgba(42,42,42,.05);
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   pointer-events: none;
 }
 
@@ -979,7 +984,7 @@ header.scrolled {
 
 .card-cta {
   margin-top: auto;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   transition:
     background .2s ease,
     transform .2s ease;
@@ -1065,7 +1070,7 @@ header.scrolled {
   min-width: 0;
   min-height: 320px;
   padding: clamp(22px, 4vw, 44px);
-  border-radius: 18px;
+  border-radius: var(--radius-lg);
   background:
     radial-gradient(circle at 50% 35%, rgba(255,255,255,.95), rgba(255,255,255,.72) 62%, rgba(42,42,42,.025));
   box-shadow: inset 0 0 0 1px rgba(42,42,42,.035);
@@ -1079,7 +1084,7 @@ header.scrolled {
   left: 21%;
   top: 21%;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,60,0,.09), transparent 68%);
+  background: radial-gradient(circle, rgba(0, 229, 255,.09), transparent 68%);
   filter: blur(8px);
   pointer-events: none;
 }
@@ -1158,7 +1163,7 @@ header.scrolled {
 }
 
 .thumb.active {
-  box-shadow: 0 0 0 3px rgba(255,60,0,.10);
+  box-shadow: 0 0 0 3px rgba(0, 229, 255,.10);
 }
 
 .p-name {
@@ -1188,25 +1193,25 @@ header.scrolled {
   position: relative;
   overflow: hidden;
   padding: 13px 19px;
-  border-radius: 11px;
-  box-shadow: 0 9px 24px rgba(255,60,0,.16);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 9px 24px rgba(0, 229, 255,.16);
   border: none;
   cursor: pointer;
 }
 
 .p-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 30px rgba(255,60,0,.23);
+  box-shadow: 0 14px 30px rgba(0, 229, 255,.23);
 }
 
 .p-cta-whats {
   padding: 13px 19px;
-  border-radius: 11px;
+  border-radius: var(--radius-sm);
 }
 
 .p-share {
   padding: 13px 19px;
-  border-radius: 11px;
+  border-radius: var(--radius-sm);
 }
 
 .p-share #modalShareLabel {
@@ -1236,7 +1241,7 @@ header.scrolled {
 
 .related-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(255,60,0,.25);
+  border-color: rgba(0, 229, 255,.25);
   box-shadow: 0 16px 30px rgba(42,42,42,.08);
 }
 
@@ -1258,7 +1263,7 @@ footer::before {
   right: -180px;
   top: -220px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,60,0,.12), transparent 68%);
+  background: radial-gradient(circle, rgba(0, 229, 255,.12), transparent 68%);
 }
 
 /* ---------- Reveal controlado por IntersectionObserver ---------- */
@@ -1358,13 +1363,13 @@ footer::before {
 
   .card {
     padding: 10px;
-    border-radius: 14px;
+    border-radius: var(--radius);
   }
 
   .card-img {
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: var(--radius-sm);
   }
 
   .card-name {
@@ -1385,7 +1390,7 @@ footer::before {
   }
 
   .modal {
-    border-radius: 16px;
+    border-radius: var(--radius-lg);
   }
 
   .modal-body {
@@ -1455,7 +1460,7 @@ footer::before {
 }
 
 .gallery-main:focus-visible {
-  outline: 3px solid rgba(255,60,0,.22);
+  outline: 3px solid rgba(0, 229, 255,.22);
   outline-offset: 3px;
 }
 
@@ -1474,8 +1479,8 @@ footer::before {
   height: 118px;
   display: none;
   pointer-events: none;
-  border: 1.5px solid rgba(255,60,0,.82);
-  border-radius: 8px;
+  border: 1.5px solid rgba(0, 229, 255,.82);
+  border-radius: var(--radius-sm);
   background: rgba(255,255,255,.16);
   box-shadow:
     0 5px 16px rgba(42,42,42,.13),
@@ -1497,7 +1502,7 @@ footer::before {
   pointer-events: none;
   display: none;
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: var(--radius-lg);
   background: var(--card);
   box-shadow:
     0 28px 60px rgba(42,42,42,.18),
@@ -1574,7 +1579,7 @@ footer::before {
 }
 
 .thumb:focus-visible {
-  outline: 3px solid rgba(255,60,0,.18);
+  outline: 3px solid rgba(0, 229, 255,.18);
   outline-offset: 2px;
 }
 

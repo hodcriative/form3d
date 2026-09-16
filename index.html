@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORJ3D Impressão 3D e produtos personalizados</title>
+    <meta name="description" content="Impressão 3D sob medida: do suporte que faltava na sua mesa ao objeto que só existe na sua cabeça. Você escolhe, a gente imprime.">
+    <link rel="icon" type="image/svg+xml" href="IMG/favicon.svg">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="FORJ3D — Ideias que ganham forma">
+    <meta property="og:description" content="Impressão 3D sob medida: do suporte que faltava na sua mesa ao objeto que só existe na sua cabeça. Você escolhe, a gente imprime.">
+    <meta property="og:image" content="IMG/banner-forj3d.jpg">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/watermark.css">
     <link rel="stylesheet" href="CSS/nav-mobile.css">
@@ -24,7 +32,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
   </head>
 
@@ -105,7 +113,11 @@
 
     <section class="hero" id="top">
 
-      <div class="hero-atmosphere" aria-hidden="true"></div>
+      <div class="hero-atmosphere" aria-hidden="true">
+        <span class="ripple ripple-a"></span>
+        <span class="ripple ripple-b"></span>
+        <span class="ripple ripple-c"></span>
+      </div>
 
       <div class="wrap hero-inner">
 
@@ -270,24 +282,73 @@
 
         <div class="cta-strip reveal">
 
-          <div>
+          <div class="cta-strip-grid">
 
-            <h3>
-              Tem uma ideia em mente?
-            </h3>
+            <div class="cta-info">
 
-            <p>
-              Conta pra gente pelo WhatsApp e a transformamos em objeto.
-            </p>
-            
+              <h3>
+                Tem uma ideia em mente?
+              </h3>
+
+              <p>
+                Conta pra gente pelo WhatsApp e a transformamos em objeto.
+              </p>
+
+              <a class="btn btn-accent" href="https://wa.me/5527997941766" target="_blank" rel="noopener">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.07L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2Z"/>
+                </svg>
+                Comprar pelo WhatsApp
+              </a>
+
+            </div>
+
+            <form class="cta-form" id="contatoForm">
+
+              <div class="cta-form-row">
+                <div class="field">
+                  <label for="cf-nome">Nome</label>
+                  <input type="text" id="cf-nome" name="nome" placeholder="Seu nome" autocomplete="given-name" required>
+                </div>
+                <div class="field">
+                  <label for="cf-sobrenome">Sobrenome</label>
+                  <input type="text" id="cf-sobrenome" name="sobrenome" placeholder="Seu sobrenome" autocomplete="family-name" required>
+                </div>
+              </div>
+
+              <div class="cta-form-row">
+                <div class="field">
+                  <label for="cf-telefone">Telefone</label>
+                  <input type="tel" id="cf-telefone" name="telefone" placeholder="(00) 00000-0000" autocomplete="tel" required>
+                </div>
+                <div class="field">
+                  <label for="cf-email">E-mail</label>
+                  <input type="email" id="cf-email" name="email" placeholder="voce@email.com" autocomplete="email" required>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="cf-descricao">Descrição da montagem do produto</label>
+                <textarea id="cf-descricao" name="descricao" rows="4" placeholder="Conte como você imagina a peça: tamanho, cor, referência..." required></textarea>
+              </div>
+
+              <label class="cta-form-consent">
+                <input type="checkbox" id="cf-consent" name="consentimento" required>
+                <span>
+                  Li e concordo com a <a href="privacidade.html" target="_blank" rel="noopener">Política de Privacidade</a>, e autorizo o envio dos meus dados via WhatsApp para contato da FORJ3D.
+                </span>
+              </label>
+
+              <button type="submit" class="cta-form-submit">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.07L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2Z"/>
+                </svg>
+                Enviar pelo WhatsApp
+              </button>
+
+            </form>
+
           </div>
-
-          <a class="btn btn-accent" href="https://wa.me/5527997941766" target="_blank" rel="noopener">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.07L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2Z"/>
-            </svg>
-            Comprar pelo WhatsApp
-          </a>
 
         </div>
 

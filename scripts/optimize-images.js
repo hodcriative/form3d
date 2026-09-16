@@ -29,7 +29,16 @@ const FULL_QUALITY = 80;
 const THUMB_MAX = 480;    // lado maior da miniatura (cards/grade)
 const THUMB_QUALITY = 70;
 
-const SOURCE_EXT = /\.(jpe?g|png)$/i;
+// GIFs animados (giro/detalhe de produto) pesam muito mais por serem
+// várias dezenas de frames em resolução crua — usamos um teto de
+// tamanho e qualidade mais agressivos só para eles.
+const GIF_FULL_MAX = 800;
+const GIF_FULL_QUALITY = 60;
+const GIF_THUMB_MAX = 480;
+const GIF_THUMB_QUALITY = 55;
+
+const SOURCE_EXT = /\.(jpe?g|png|gif)$/i;
+const GIF_EXT = /\.gif$/i;
 const CONCURRENCY = 4; // processa N imagens em paralelo (evita estourar memória)
 
 let processed = 0;
@@ -62,19 +71,28 @@ async function processFile(srcPath) {
     return;
   }
 
+  const isGif = GIF_EXT.test(srcPath);
+  const fullMax = isGif ? GIF_FULL_MAX : FULL_MAX;
+  const fullQuality = isGif ? GIF_FULL_QUALITY : FULL_QUALITY;
+  const thumbMax = isGif ? GIF_THUMB_MAX : THUMB_MAX;
+  const thumbQuality = isGif ? GIF_THUMB_QUALITY : THUMB_QUALITY;
+  // {animated:true} preserva todos os frames do GIF na conversão;
+  // para jpeg/png não faz diferença (imagem de frame único).
+  const readOpts = isGif ? { animated: true } : {};
+
   try {
     if (needsFull) {
-      await sharp(srcPath)
+      await sharp(srcPath, readOpts)
         .rotate() // respeita a orientação EXIF (fotos de celular)
-        .resize({ width: FULL_MAX, height: FULL_MAX, fit: 'inside', withoutEnlargement: true })
-        .webp({ quality: FULL_QUALITY })
+        .resize({ width: fullMax, height: fullMax, fit: 'inside', withoutEnlargement: true })
+        .webp({ quality: fullQuality })
         .toFile(fullOut);
     }
     if (needsThumb) {
-      await sharp(srcPath)
+      await sharp(srcPath, readOpts)
         .rotate()
-        .resize({ width: THUMB_MAX, height: THUMB_MAX, fit: 'inside', withoutEnlargement: true })
-        .webp({ quality: THUMB_QUALITY })
+        .resize({ width: thumbMax, height: thumbMax, fit: 'inside', withoutEnlargement: true })
+        .webp({ quality: thumbQuality })
         .toFile(thumbOut);
     }
 
@@ -111,7 +129,7 @@ function formatMB(bytes) {
 
   console.log('Procurando fotos de produtos...');
   const files = walk(SRC_DIR);
-  console.log(`Encontradas ${files.length} fotos (jpg/jpeg/png).\n`);
+  console.log(`Encontradas ${files.length} fotos/gifs (jpg/jpeg/png/gif).\n`);
 
   await runQueue(files);
 

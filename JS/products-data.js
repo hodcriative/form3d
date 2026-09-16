@@ -2294,3 +2294,26 @@ window.FORJ3D_PRODUCTS = [
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
+
+/* =========================================================
+   Helpers de imagem otimizada — compartilhados por index.js,
+   cart.js e produtos.js. Toda foto/gif em IMG/produtos/** tem
+   uma versão .webp (cheia) e -thumb.webp (miniatura) gerada
+   por scripts/optimize-images.js. Se a versão otimizada ainda
+   não existir (script não rodou pra ela), o onerror cai de
+   volta pro arquivo original — nada quebra visualmente, só
+   fica mais pesado até rodar o script.
+========================================================= */
+window.FORJ3D_OPTIMIZABLE_EXT = /\.(jpe?g|png|gif)$/i;
+
+window.forj3dToFullSrc = function (src) {
+  return window.FORJ3D_OPTIMIZABLE_EXT.test(src) ? src.replace(window.FORJ3D_OPTIMIZABLE_EXT, '.webp') : src;
+};
+
+window.forj3dToThumbSrc = function (src) {
+  return window.FORJ3D_OPTIMIZABLE_EXT.test(src) ? src.replace(window.FORJ3D_OPTIMIZABLE_EXT, '-thumb.webp') : src;
+};
+
+window.forj3dFallbackAttr = function (originalSrc) {
+  return `onerror="this.onerror=null;this.src='${originalSrc}';"`;
+};

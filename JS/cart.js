@@ -88,7 +88,7 @@
 
   function itemVisual(p) {
     if (Array.isArray(p.images) && p.images.length) {
-      return `<img src="${p.images[0]}" alt="${p.name}" loading="lazy" draggable="false">`;
+      return `<img src="${window.forj3dToThumbSrc(p.images[0])}" alt="${p.name}" loading="lazy" draggable="false" ${window.forj3dFallbackAttr(p.images[0])}>`;
     }
     return icons[p.icon] || '';
   }
