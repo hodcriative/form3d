@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="CSS/hero-fluid-viewer.css">
     <link rel="stylesheet" href="CSS/spider-fluid-viewer.css">
     <link rel="stylesheet" href="CSS/cookie-consent.css">
+    <link rel="stylesheet" href="CSS/page-transition.css">
 
     <script type="importmap">
       {
@@ -38,6 +39,22 @@
   </head>
 
   <body>
+
+    <div class="page-transition" id="pageTransition" aria-hidden="true">
+      <span class="ptb ptb-a"></span>
+      <span class="ptb ptb-b"></span>
+    </div>
+    <script>
+      // roda antes de qualquer outro script — evita "piscar" a página nova
+      // sem a cobertura, quando se chega aqui vindo de uma transição.
+      (function () {
+        try {
+          if (sessionStorage.getItem('forj3d_transition') === '1') {
+            document.getElementById('pageTransition').classList.add('is-covered');
+          }
+        } catch (e) { /* sem sessionStorage disponível — segue normal */ }
+      })();
+    </script>
 
     <div class="watermark-overlay" aria-hidden="true"></div>
 
@@ -270,7 +287,7 @@
         <div class="carousel reveal" id="carousel" aria-label="Produtos em destaque"></div>
 
         <div class="ver-todos reveal">
-          <a href="produtos.html" class="btn btn-outline">Ver todos os produtos</a>
+          <a href="produtos.html" class="btn btn-outline js-bubble-transition">Ver todos os produtos</a>
         </div>
 
       </div>
@@ -447,6 +464,7 @@
     <script src="JS/products-effects.js"></script>
     <script src="JS/whatsapp-float.js"></script>
     <script src="JS/instagram-float.js"></script>
+    <script src="JS/page-transition.js"></script>
 
   </body>
 

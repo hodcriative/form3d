@@ -1,0 +1,74 @@
+/* =========================================================
+   TRANSIÇÃO DE PÁGINA — "bolhas" líquidas
+   Usada só no botão "Ver todos os produtos" (classe
+   .js-bubble-transition, ver JS/page-transition.js).
+   Como o site não é uma SPA (cada página recarrega de
+   verdade), a cobertura acontece na página de saída e a
+   revelação acontece na página de chegada, sincronizadas
+   por um flag no sessionStorage.
+   ========================================================= */
+.page-transition {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.page-transition .ptb {
+  position: absolute;
+  left: 50%;
+  bottom: -10%;
+  width: 220vmax;
+  height: 220vmax;
+  border-radius: 50%;
+  background: var(--deep);
+  transform: translate(-50%, 0) scale(0);
+}
+
+.page-transition .ptb-b {
+  width: 190vmax;
+  height: 190vmax;
+  background: var(--accent);
+}
+
+.page-transition.is-covering,
+.page-transition.is-covered {
+  pointer-events: auto;
+}
+
+.page-transition.is-covering .ptb-a {
+  animation: ptb-grow .6s cubic-bezier(.61,.09,.3,1) forwards;
+}
+
+.page-transition.is-covering .ptb-b {
+  animation: ptb-grow .6s cubic-bezier(.61,.09,.3,1) .12s forwards;
+}
+
+.page-transition.is-covered .ptb {
+  transform: translate(-50%, 0) scale(1);
+}
+
+.page-transition.is-revealing .ptb-a {
+  animation: ptb-shrink .55s cubic-bezier(.61,.09,.3,1) .12s forwards;
+}
+
+.page-transition.is-revealing .ptb-b {
+  animation: ptb-shrink .55s cubic-bezier(.61,.09,.3,1) forwards;
+}
+
+@keyframes ptb-grow {
+  from { transform: translate(-50%, 0) scale(0); }
+  to   { transform: translate(-50%, 0) scale(1); }
+}
+
+@keyframes ptb-shrink {
+  from { transform: translate(-50%, 0) scale(1); }
+  to   { transform: translate(-50%, 0) scale(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-transition .ptb {
+    animation: none !important;
+  }
+}
