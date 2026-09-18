@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="CSS/whatsapp-float.css">
     <link rel="stylesheet" href="CSS/instagram-float.css">
     <link rel="stylesheet" href="CSS/hero-fluid-viewer.css">
-    <link rel="stylesheet" href="CSS/spider-fluid-viewer.css">
+    <link rel="stylesheet" href="CSS/charizard-fluid-viewer.css">
     <link rel="stylesheet" href="CSS/cookie-consent.css">
     <link rel="stylesheet" href="CSS/page-transition.css">
 
@@ -188,16 +188,44 @@
 
         <div class="sobre-visual reveal">
 
-          <div class="spider-fluid" id="spiderFluid">
-            <canvas id="spiderFluidCanvas"></canvas>
-            <div class="spider-hint" id="spiderHint">
-              <svg class="spider-hint-icon" viewBox="0 0 64 64" width="64" height="64" fill="none" aria-hidden="true">
+          <div class="charizard-fluid" id="charizardFluid">
+            <canvas id="charizardFluidCanvas"></canvas>
+            <div class="charizard-hint" id="charizardHint">
+              <svg class="charizard-hint-icon" viewBox="0 0 64 64" width="64" height="64" fill="none" aria-hidden="true">
                 <path d="M36.6 4.4 A28 28 0 0 1 58.2 22.2" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
                 <path d="M58.2 22.2 L49.2 16.2 M58.2 22.2 L51.2 30.2" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M27.4 59.6 A28 28 0 0 1 5.8 41.8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
                 <path d="M5.8 41.8 L14.8 47.8 M5.8 41.8 L12.8 33.8" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              <span class="spider-hint-text">360°</span>
+              <span class="charizard-hint-text">360°</span>
+            </div>
+
+            <!-- Ajuste o caminho/extensão se o arquivo não for esse -->
+            <img
+              class="charizard-compare-image"
+              id="charizardCompareImage"
+              src="GLB/desenho-charizard.webp"
+              alt="Desenho do Charizard"
+              draggable="false"
+            >
+
+            <div
+              class="charizard-compare-handle"
+              id="charizardCompareHandle"
+              role="slider"
+              aria-label="Comparar desenho com modelo 3D"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="100"
+              tabindex="0"
+            >
+              <span class="charizard-compare-line"></span>
+              <span class="charizard-compare-grip">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 6 3 12 9 18"/>
+                  <polyline points="15 6 21 12 15 18"/>
+                </svg>
+              </span>
             </div>
           </div>
 
@@ -455,7 +483,8 @@
     </footer>
 
     <script type="module" src="JS/hero-fluid-viewer.js"></script>
-    <script type="module" src="JS/spider-fluid-viewer.js"></script>
+    <script type="module" src="JS/charizard-fluid-viewer.js"></script>
+    <script src="JS/charizard-compare-slider.js"></script>
     <script src="JS/nav-mobile.js"></script>
     <script src="JS/products-data.js"></script>
     <script src="JS/cookie-consent.js"></script>

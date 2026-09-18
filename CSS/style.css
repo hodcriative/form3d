@@ -600,11 +600,6 @@
 
   .sobre-visual {
     aspect-ratio: 4/3;
-    border-radius: var(--radius);
-    border:  1px solid var(--line);
-    background:
-      radial-gradient(circle at 30% 20%, rgba(0, 229, 255,0.10), transparent 60%),
-      var(--bg);
     display: flex;
     align-items: center;
     justify-content: center;

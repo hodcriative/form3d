@@ -1,17 +1,6 @@
-/* ===== Banner do hero — visualizador 3D com distorção de fluido =====
-   Substitui o antigo .plate (foto estática). */
 .hero-fluid {
   position: absolute;
   inset: 0;
-  border: 1px solid rgba(255, 255, 255, 0.10);
-  border-radius: 18px;
-  overflow: hidden;
-  background:
-    radial-gradient(ellipse at 50% 20%, rgba(0, 229, 255, 0.10), transparent 55%),
-    linear-gradient(180deg, #14161c 0%, #08090c 100%);
-  opacity: 0;
-  animation: heroReveal .6s ease forwards;
-  animation-delay: .3s;
 }
 
 .hero-fluid canvas {
@@ -19,11 +8,4 @@
   width: 100%;
   height: 100%;
   touch-action: none;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-fluid {
-    opacity: 1 !important;
-    animation: none !important;
-  }
 }
