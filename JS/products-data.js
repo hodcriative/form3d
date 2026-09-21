@@ -2291,6 +2291,98 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Edição Gangster"
   },
+  {
+    id: 154,
+    name: "Dia dos Pais",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/diadospais/paifi.png",
+      "IMG/produtos/diadospais/paifi2.png",
+      "IMG/produtos/diadospais/paifi3.png",
+      "IMG/produtos/diadospais/paifi4.png",
+    ],
+    description: "Pai e Filha - Pai e Filho"
+  },
+  {
+    id: 155,
+    name: "Pato Datty Justiceiro",
+    price: 180.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/patodattyjusti/patojusti.png",
+      "IMG/produtos/geek/patodattyjusti/patojusti2.jpeg",
+      "IMG/produtos/geek/patodattyjusti/patojusti3.jpeg",
+      "IMG/produtos/geek/patodattyjusti/patojusti4.jpeg",
+      "IMG/produtos/geek/patodattyjusti/patojusti5.jpeg",
+      "IMG/produtos/geek/patodattyjusti/patojusti6.gif",
+    ],
+    description: ""
+  },
+  {
+    id: 156,
+    name: "Suporte para Lata Demônio Derretido",
+    price: 80.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatademo/supdemo.png",
+      "IMG/produtos/suportes/suplatademo/supdemo2.jpeg",
+      "IMG/produtos/suportes/suplatademo/supdemo3.jpeg",
+      "IMG/produtos/suportes/suplatademo/supdemo4.jpeg",
+
+    ],
+    description: "Caneca de cerveja"
+  },
+  {
+    id: 157,
+    name: "Porta-copos Giroscópico",
+    price: 69.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portacopogira/portagira.png",
+      "IMG/produtos/portalatas/portacopogira/portagira2.jpeg",
+    ],
+    description: "Para carrinho de bebê "
+  },
+  {
+    id: 158,
+    name: "Porta-Latinha Cthulhu",
+    price: 65.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portalatacthulhu/portcthulhu.png",
+      "IMG/produtos/portalatas/portalatacthulhu/portcthulhu2.jpeg",
+      "IMG/produtos/portalatas/portalatacthulhu/portcthulhu3.jpeg",
+      "IMG/produtos/portalatas/portalatacthulhu/portcthulhu4.jpeg",
+    ],
+    description: "Para caneca de cerveja alta de 473ml"
+  },
+  {
+    id: 159,
+    name: "Suporte de Lata Lobisomem",
+    price: 85.77,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatalobi/suplobi.jpeg",
+      "IMG/produtos/suportes/suplatalobi/suplobi2.jpeg",
+      "IMG/produtos/suportes/suplatalobi/suplobi3.jpeg",
+      "IMG/produtos/suportes/suplatalobi/suplobi4.jpeg",
+      "IMG/produtos/suportes/suplatalobi/suplobi5.png",
+    ],
+    description: "Para caneca de cerveja"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
