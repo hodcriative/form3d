@@ -45,14 +45,14 @@
 
     <div class="watermark-overlay" aria-hidden="true"></div>
 
-    <header>
+    <header id="top">
 
       <div class="wrap">
 
         <nav>
 
-          <a href="index.html" class="logo display js-bubble-transition">
-            <img src="IMG/logo/Logo_Texto-navbar.svg" alt="FORJ3D" class="logo-img">
+          <a href="#top" class="logo display" aria-label="Voltar ao topo">
+            <img src="IMG/logo/Logo_Texto-navbar.png" alt="FORJ3D" class="logo-img">
           </a>
 
           <div class="navlinks">
@@ -109,7 +109,7 @@
       <section class="page-hero">
 
         <div class="wrap">
-          <img src="IMG/logo/Logo.svg" alt="FORJ3D" class="section-icon">
+          <img src="IMG/logo/Logo.png" alt="FORJ3D" class="section-icon">
           <span class="section-tag">
             catálogo completo
           </span>
@@ -284,7 +284,9 @@
           <div class="footer-brand">
 
             <div class="footer-logo display">
-              <img src="IMG/logo/Logo_Texto.svg" alt="FORJ3D" class="footer-logo-img">
+              <a href="#top" aria-label="Voltar ao topo">
+                <img src="IMG/logo/Logo_Texto.png" alt="FORJ3D" class="footer-logo-img">
+              </a>
             </div>
 
             <p class="footer-tagline">
@@ -311,9 +313,10 @@
           <div class="footer-col">
             <h4>Navegação</h4>
             <ul>
+              <li><a href="#top">Topo da página</a></li>
+              <li><a href="#catalogo">Catálogo</a></li>
               <li><a href="index.html" class="js-bubble-transition">Home</a></li>
               <li><a href="index.html#sobre" class="js-bubble-transition">Sobre</a></li>
-              <li><a href="produtos.html">Produtos</a></li>
               <li><a href="index.html#contato" class="js-bubble-transition">Contato</a></li>
             </ul>
           </div>
@@ -358,6 +361,18 @@
     <script src="JS/whatsapp-float.js"></script>
     <script src="JS/instagram-float.js"></script>
     <script src="JS/page-transition.js"></script>
+
+    <script>
+      // O header é "position: sticky", então a âncora nativa "#top"
+      // acha que ele já está no topo e não rola a página. Forçamos
+      // o scroll manualmente nos links da logo (nav e footer).
+      document.querySelectorAll('a[href="#top"]').forEach(function (link) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      });
+    </script>
 
   </body>
 </html>
