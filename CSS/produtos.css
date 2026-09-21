@@ -189,6 +189,13 @@
     padding: 44px 0 30px;
     text-align: left;
 }
+
+  .section-icon {
+    display:block;
+    height:40px;
+    width:auto;
+    margin-bottom:14px;
+  }
   
   .page-hero span.section-tag {
     font-family: 'JetBrains Mono', monospace;

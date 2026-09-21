@@ -254,47 +254,10 @@
     z-index:-1;
     overflow:hidden;
     background:
-      radial-gradient(620px circle at 12% 10%, rgba(0, 229, 255,0.18), transparent 60%),
-      var(--deep);
+      radial-gradient(800px circle at 18% 0%, rgba(255,255,255,0.22), transparent 60%),
+      radial-gradient(700px circle at 85% 100%, rgba(0,229,255,0.08), transparent 60%),
+      linear-gradient(160deg, #0A2A3D 0%, #123A52 55%, #0F4A5C 100%);
     pointer-events:none;
-  }
-
-  .ripple {
-    position:absolute;
-    border-radius:50%;
-    filter:blur(2px);
-  }
-
-  .ripple-a {
-    width:460px;
-    height:460px;
-    right:-140px;
-    top:-100px;
-    background:radial-gradient(circle at 35% 35%, rgba(0, 229, 255, 0.30), rgba(0, 229, 255, 0.04) 65%, transparent 72%);
-    animation:drift 22s ease-in-out infinite;
-  }
-
-  .ripple-b {
-    width:280px;
-    height:280px;
-    right:60px;
-    top:120px;
-    background:radial-gradient(circle at 40% 40%, rgba(42,42,42,0.10), transparent 70%);
-    animation:drift 26s ease-in-out infinite reverse;
-  }
-
-  .ripple-c {
-    width:620px;
-    height:620px;
-    left:-220px;
-    bottom:-380px;
-    background:radial-gradient(circle at 60% 30%, rgba(0, 229, 255, 0.22), rgba(0, 229, 255, 0.03) 65%, transparent 72%);
-    animation:drift 30s ease-in-out infinite;
-  }
-
-  @keyframes drift {
-    0%, 100% { transform:translateY(0) scale(1); }
-    50% { transform:translateY(-20px) scale(1.05); }
   }
 
   .hero-inner {
@@ -319,35 +282,12 @@
   .hero-copy > *:nth-child(3) { animation-delay:.32s; }
   .hero-copy > *:nth-child(4) { animation-delay:.46s; }
 
-  .eyebrow {
-    display:inline-flex;
-    align-items:center;
-    gap:8px;
-    font-family:'JetBrains Mono', monospace;
-    font-size:12px;
-    color:var(--accent-ink);
-    background:rgba(0, 229, 255,0.09);
-    border:1px solid rgba(0, 229, 255,0.25);
-    padding:5px 10px;
-    border-radius:6px;
-    margin-bottom:22px;
+  .section-icon {
+    display:block;
+    height:40px;
+    width:auto;
+    margin-bottom:14px;
   }
-
-  
-  .hero .eyebrow,
-  #produtos .eyebrow {
-    color:var(--accent);
-  }
-
-  .eyebrow .blink {
-    width:6px;
-    height:6px;
-    background:var(--accent); 
-    border-radius:50%;
-    animation:blink 1.6s infinite;
-  }
-  
-  @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:.25;} }
   
   h1.hero-title {
     font-size:50px;
