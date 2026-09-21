@@ -102,6 +102,12 @@
     font-size:19px;
   }
 
+  .logo-img {
+    display:block;
+    height:40px;
+    width:auto;
+  }
+
   .logo .dot {
     width:8px;
     height:8px;
@@ -971,6 +977,12 @@
     color: #fff;
     font-size: 18px;
     margin-bottom: 12px;
+  }
+
+  .footer-logo-img {
+    display:block;
+    height:34px;
+    width:auto;
   }
 
   .footer-tagline {

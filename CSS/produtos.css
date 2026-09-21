@@ -96,6 +96,12 @@
     gap: 8px; 
     font-size: 19px; 
 }
+
+  .logo-img {
+    display: block;
+    height: 40px;
+    width: auto;
+}
   
   .logo .dot { 
     width: 8px; 
@@ -696,6 +702,12 @@
   .footer-logo { 
     color: #fff; 
     font-size: 17px; 
+}
+
+  .footer-logo-img {
+    display: block;
+    height: 34px;
+    width: auto;
 }
   
   .footer-links { 
