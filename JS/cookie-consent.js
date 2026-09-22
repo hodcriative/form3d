@@ -1,9 +1,4 @@
-/* =========================================================
-   BANNER DE COOKIES
-   Enquanto o visitante não aceita, fotos de produto e os
-   visualizadores 3D ficam bloqueados (ver forj3dMediaAttrs em
-   products-data.js e o gate em hero/spider-fluid-viewer.js).
-   ========================================================= */
+// banner de cookies
 (function () {
   const KEY = window.FORJ3D_CONSENT_KEY || 'forj3d_cookie_consent';
 
@@ -12,7 +7,7 @@
   }
 
   function setStored(value) {
-    try { localStorage.setItem(KEY, value); } catch (e) { /* ambiente sem storage — segue sem persistir */ }
+    try { localStorage.setItem(KEY, value); } catch (e) {}
   }
 
   function buildBanner() {
@@ -52,10 +47,7 @@
   function init() {
     const consent = getStored();
 
-    // já respondeu antes — não mostra o banner de novo.
-    // (se aceitou, forj3dMediaAttrs já libera direto na primeira montagem
-    // das imagens; nada mais a fazer aqui.)
-    if (consent === 'accepted' || consent === 'rejected') return;
+    if (consent === 'accepted') return;
 
     const banner = buildBanner();
 
@@ -71,7 +63,6 @@
     });
   }
 
-  // permite reabrir o banner (ex.: link "Preferências de cookies" no rodapé)
   window.forj3dOpenCookiePrefs = function () {
     const existing = document.querySelector('.cookie-banner');
     if (existing) { existing.removeAttribute('hidden'); return; }

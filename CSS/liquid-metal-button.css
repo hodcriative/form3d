@@ -1,23 +1,4 @@
-/* =========================================================
-   FORJ3D — "Liquid Metal" para os botões do site (exceto os
-   flutuantes de WhatsApp/Instagram, que mantêm o visual original).
-
-   O efeito é uma LINHA que contorna o botão com um brilho líquido
-   percorrendo o contorno no sentido horário — não um brilho
-   girando por cima do preenchimento. Técnica: duas camadas de
-   background (fundo metálico recortado por dentro da borda +
-   conic-gradient recortado só na faixa da borda), com o ângulo do
-   conic-gradient animado via @property pra girar suave.
-
-   Este arquivo é uma CAMADA POR CIMA dos estilos que já existem
-   (style.css / produtos.css / cart.css / etc). Não redefine
-   layout, tamanho ou posição — só fundo, borda, sombra e cor do
-   texto — então é seguro carregar por último (depois inclusive
-   de CSS/liquid-glass.css, que cuida só dos painéis).
-
-   O ripple (JS/liquid-metal-button.js) injeta um <span
-   class="lm-ripple-layer"> dentro do botão clicado.
-========================================================= */
+/* ---------- LIQUID METAL — botões do site ---------- */
 
 @property --lm-angle {
   syntax: '<angle>';
@@ -34,10 +15,7 @@
   to   { transform: translate(-50%, -50%) scale(1); opacity: 0; }
 }
 
-/* =========================================================
-   MECÂNICA COMPARTILHADA — estrutura, borda líquida animada e
-   ripple, comum a todos os grupos de botão (fora wa-float/ig-float).
-========================================================= */
+/* ---------- mecânica compartilhada: borda animada + ripple ---------- */
 .btn,
 .cta-form-submit,
 .cookie-accept,
@@ -78,9 +56,7 @@
   animation-duration: var(--lm-ring-speed-fast, 1.8s);
 }
 
-/* camada onde o JS desenha o ripple do clique — clip próprio,
-   não afeta irmãos como o .cart-badge (que tem seu próprio
-   position:absolute e continua por cima, fora dessa camada) */
+/* camada do ripple de clique */
 .lm-ripple-layer {
   position: absolute;
   inset: 0;
@@ -98,10 +74,7 @@
   animation: lm-ripple-pop .6s ease-out forwards;
 }
 
-/* =========================================================
-   GRUPO 1 — botões "cheios" / CTAs principais
-   (pílula metálica em ciano, texto branco, borda com brilho branco)
-========================================================= */
+/* ---------- grupo 1: CTAs principais (pílula ciano) ---------- */
 .btn-accent,
 .cta-form-submit,
 .cookie-accept,
@@ -140,10 +113,7 @@
     0 1px 2px 0 rgba(0, 0, 0, .22) !important;
 }
 
-/* =========================================================
-   GRUPO 2 — botões "contorno" / secundários / ícones utilitários
-   (pílula clara/prateada discreta, texto escuro, borda com brilho ciano)
-========================================================= */
+/* ---------- grupo 2: secundários / ícones (pílula prateada) ---------- */
 .btn-outline,
 .btn-ghost,
 .cbtn,
@@ -195,8 +165,7 @@
     0 10px 20px -14px rgba(0, 168, 191, .4) !important;
 }
 
-/* pressionar qualquer botão (dos dois grupos): achata e afunda,
-   como a pílula reagindo ao toque no componente original */
+/* ---------- estado pressionado ---------- */
 .btn:active,
 .cta-form-submit:active,
 .cookie-accept:active,
@@ -217,9 +186,7 @@
     inset 0 1px 2px rgba(0, 0, 0, .2) !important;
 }
 
-/* =========================================================
-   RESPONSIVO — mobile
-========================================================= */
+/* ---------- responsivo: mobile ---------- */
 @media (max-width: 640px) {
   .btn,
   .cta-form-submit,
@@ -239,12 +206,7 @@
   }
 }
 
-/* =========================================================
-   ACESSIBILIDADE — respeita "reduzir movimento"
-   (a regra global em style.css já zera animation/transition
-   com *{...!important}; isso só garante que a borda pare
-   girando numa posição neutra, sem depender só do timing)
-========================================================= */
+/* ---------- acessibilidade: reduzir movimento ---------- */
 @media (prefers-reduced-motion: reduce) {
   .btn,
   .cta-form-submit,

@@ -1,5 +1,4 @@
-// navbar em pílula — ativa o item clicado e sincroniza a versão
-// desktop com a versão dentro do menu mobile (hambúrguer)
+// navbar em pílula
 (function () {
   const groups = document.querySelectorAll('.pill-nav');
   if (!groups.length) return;
@@ -22,10 +21,7 @@
   });
 })();
 
-// compensa a altura do header fixo/sticky nos links âncora (#sobre,
-// #produtos, #contato, #catalogo...), senão o scroll nativo alinha o
-// topo da seção com o topo da tela e o header cobre o começo dela —
-// dando a impressão de que o link aponta pro meio do conteúdo.
+// offset do header nos links âncora
 (function () {
   const header = document.querySelector('header');
   if (!header) return;

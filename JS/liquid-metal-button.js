@@ -1,10 +1,4 @@
-/* =========================================================
-   FORJ3D — ripple de clique para o efeito "liquid metal"
-   (CSS/liquid-metal-button.css). Um único listener delegado
-   cobre também botões criados depois (cards de filtro,
-   linhas do carrinho, banner de cookies), sem precisar mexer
-   em produtos.js / cart.js / cookie-consent.js.
-========================================================= */
+// ripple de clique — liquid metal
 (function () {
   const SELECTOR = [
     '.btn', '.cta-form-submit', '.cookie-accept', '.cookie-reject',
@@ -43,7 +37,7 @@
     layer.appendChild(span);
 
     span.addEventListener('animationend', () => span.remove());
-    setTimeout(() => span.remove(), 700); // rede de segurança
+    setTimeout(() => span.remove(), 700);
   }
 
   function handlePress(event) {

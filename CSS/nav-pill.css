@@ -1,18 +1,11 @@
-/* =========================================================
-   NAVBAR EM PÍLULA — compartilhada entre index.html e produtos.html
-   Réplica em CSS/JS puro do componente React "BottomNavBar"
-   (cápsula arredondada, item ativo com fundo + rótulo animado,
-   efeito de clique e entrada em spring).
-   ========================================================= */
+/* ---------- NAVBAR EM PÍLULA ---------- */
 
 @keyframes pillNavIn {
   from { transform: scale(.92); opacity: 0; }
   to   { transform: scale(1); opacity: 1; }
 }
 
-/* compensa a altura do header sticky (medida em JS/nav-pill.js) nos
-   alvos dos links âncora da navbar, senão o header cobre o início
-   da seção depois do scroll */
+/* offset do header sticky nos links âncora */
 #top,
 #sobre,
 #produtos,
@@ -126,10 +119,7 @@
   color: var(--accent-ink);
 }
 
-/* mantém a cápsula desktop escondida no breakpoint mobile (o menu
-   hambúrguer assume a navegação abaixo de 880px) — precisa ficar
-   dentro da media query pra não perder pra .navlinks.pill-nav, que
-   tem especificidade maior que a regra original em display:none */
+/* cápsula desktop escondida no mobile */
 @media (max-width: 880px) {
   .navlinks.pill-nav {
     display: none;
