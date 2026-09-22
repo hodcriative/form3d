@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 
 (function () {
   const container = document.getElementById('heroFluid');
@@ -14,7 +15,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
     let width = container.clientWidth || 1;
     let height = container.clientHeight || 1;
 
-    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'low-power' });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     renderer.setSize(width, height);
     renderer.outputColorSpace = THREE.SRGBColorSpace;
@@ -57,7 +58,11 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
       object.position.set(-center.x * scale, -center.y * scale, -center.z * scale);
     }
 
+    // o modelo é comprimido com Draco — precisa do decoder pra abrir
+    const dracoLoader = new DRACOLoader();
+    dracoLoader.setDecoderPath('https://unpkg.com/three@0.160.0/examples/jsm/libs/draco/');
     const loader = new GLTFLoader();
+    loader.setDRACOLoader(dracoLoader);
 
     loader.loadAsync(MODEL_PATH).then((gltf) => {
       const model = gltf.scene;
@@ -69,15 +74,55 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
       console.error('[hero-fluid] falha ao carregar o modelo 3D:', err);
     });
 
-    function animate() {
-      requestAnimationFrame(animate);
+    // ---------- loop (só roda enquanto o hero está visível na tela) ----------
+    let rafId = null;
+    let isRunning = false;
+
+    function frame() {
+      rafId = requestAnimationFrame(frame);
       if (!prefersReduced) {
         modelGroup.rotation.y += 0.0035;
       }
       renderer.render(scene, camera);
     }
 
-    animate();
+    function play() {
+      if (isRunning) return;
+      isRunning = true;
+      frame();
+    }
+
+    function pause() {
+      isRunning = false;
+      if (rafId !== null) cancelAnimationFrame(rafId);
+      rafId = null;
+    }
+
+    if ('IntersectionObserver' in window) {
+      const visObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting && document.visibilityState === 'visible') {
+              play();
+            } else {
+              pause();
+            }
+          });
+        },
+        { threshold: 0.01 }
+      );
+      visObserver.observe(container);
+    } else {
+      play();
+    }
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        pause();
+      } else if (container.getBoundingClientRect().bottom > 0) {
+        play();
+      }
+    });
 
     function handleResize() {
       width = container.clientWidth;

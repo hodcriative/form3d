@@ -5,30 +5,37 @@
    Este arquivo é só uma CAMADA POR CIMA dos estilos que já
    existem (style.css / produtos.css / cart.css / etc). Ele não
    redefine layout, tamanho ou posição de nada — só troca fundo,
-   borda, sombra e desfoque, então é seguro carregar por último.
+   borda, sombra, cor do texto e desfoque, então é seguro
+   carregar por último.
 
    IMPORTANTE: precisa ser o ÚLTIMO <link rel="stylesheet"> do
    <head>, depois de todos os outros CSS do site.
+
+   v2: texto de todos os botões em branco (por isso o vidro
+   "neutro" deixou de ser claro e passou a ser escuro — branco
+   em cima de vidro claro não teria contraste nenhum). Também
+   reduzido o custo de desfoque (blur menor, sem
+   mix-blend-mode) pra pesar menos na página.
 ========================================================= */
 
 :root {
-  --lg-blur: 22px;
-  --lg-saturate: 180%;
+  --lg-blur: 14px;
+  --lg-saturate: 150%;
 
-  --lg-tint: rgba(255, 255, 255, 0.16);
-  --lg-tint-strong: rgba(255, 255, 255, 0.30);
-  --lg-border: rgba(255, 255, 255, 0.65);
-  --lg-border-soft: rgba(255, 255, 255, 0.35);
+  /* vidro neutro — agora escuro, pra suportar texto branco em
+     qualquer fundo (claro ou escuro) por baixo */
+  --lg-tint: rgba(22, 28, 36, 0.42);
+  --lg-tint-strong: rgba(22, 28, 36, 0.58);
+  --lg-border: rgba(255, 255, 255, 0.5);
+  --lg-border-soft: rgba(255, 255, 255, 0.26);
 
-  --lg-shadow: 0 10px 30px -12px rgba(6, 20, 30, 0.35);
-  --lg-shadow-sm: 0 6px 16px -8px rgba(6, 20, 30, 0.28);
-  --lg-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.75);
-  --lg-shade: inset 0 -1px 0 rgba(0, 0, 0, 0.06);
+  --lg-shadow: 0 10px 26px -12px rgba(6, 12, 20, 0.45);
+  --lg-shadow-sm: 0 6px 16px -8px rgba(6, 12, 20, 0.38);
+  --lg-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.4);
 
-  --lg-accent-tint: linear-gradient(135deg, rgba(0, 229, 255, 0.55), rgba(0, 168, 191, 0.45));
-  --lg-accent-tint-hover: linear-gradient(135deg, rgba(0, 229, 255, 0.72), rgba(0, 168, 191, 0.60));
-  --lg-accent-border: rgba(255, 255, 255, 0.55);
-  --lg-accent-text: #04323b;
+  --lg-accent-tint: linear-gradient(135deg, rgba(0, 168, 191, 0.72), rgba(0, 90, 110, 0.72));
+  --lg-accent-tint-hover: linear-gradient(135deg, rgba(0, 190, 215, 0.82), rgba(0, 110, 132, 0.82));
+  --lg-accent-border: rgba(255, 255, 255, 0.5);
 }
 
 /* =========================================================
@@ -44,8 +51,8 @@
 .card:hover .card-cta {
   background: var(--lg-accent-tint) !important;
   border: 1px solid var(--lg-accent-border) !important;
-  color: var(--lg-accent-text) !important;
-  box-shadow: 0 10px 26px -10px rgba(0, 229, 255, 0.55), var(--lg-highlight) !important;
+  color: #fff !important;
+  box-shadow: 0 8px 22px -10px rgba(0, 168, 191, 0.55), var(--lg-highlight) !important;
   backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
   -webkit-backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
 }
@@ -55,10 +62,10 @@
 .cookie-accept:hover,
 .filter-btn.active:hover {
   background: var(--lg-accent-tint-hover) !important;
-  color: var(--lg-accent-text) !important;
+  color: #fff !important;
 }
 
-/* ---- 2. botões "contorno" / secundários / utilitários ---- */
+/* ---- 2. botões "contorno" / secundários / utilitários / card ---- */
 .btn-outline,
 .btn-ghost,
 .cbtn,
@@ -70,10 +77,12 @@
 .search-clear,
 .filter-btn:not(.active),
 .thumb,
-.cookie-reject {
+.cookie-reject,
+.card-cta {
   background: var(--lg-tint) !important;
   border: 1px solid var(--lg-border-soft) !important;
-  box-shadow: var(--lg-shadow-sm), var(--lg-highlight), var(--lg-shade) !important;
+  color: #fff !important;
+  box-shadow: var(--lg-shadow-sm), var(--lg-highlight) !important;
   backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
   -webkit-backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
 }
@@ -92,25 +101,16 @@
 .cookie-reject:hover {
   background: var(--lg-tint-strong) !important;
   border-color: var(--lg-border) !important;
-}
-
-/* ---- 2b. "Ver produto" do card — vidro escuro (fica sobre fotos) ---- */
-.card-cta {
-  background: rgba(20, 22, 26, 0.45) !important;
-  border: 1px solid rgba(255, 255, 255, 0.22) !important;
   color: #fff !important;
-  box-shadow: var(--lg-shadow-sm), var(--lg-highlight) !important;
-  backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
-  -webkit-backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
 }
 
 #site-header .cart-trigger:hover {
   background: var(--lg-accent-tint) !important;
   border-color: var(--lg-accent-border) !important;
-  color: var(--lg-accent-text) !important;
+  color: #fff !important;
 }
 
-/* brilho especular no topo — o "vidro" comum a todos os botões */
+/* estrutura + transição — comum a todos os botões */
 .btn,
 .cbtn,
 .cart-trigger,
@@ -125,7 +125,6 @@
 .cookie-accept,
 .cookie-reject {
   position: relative;
-  isolation: isolate;
   transition:
     transform 0.2s ease,
     box-shadow 0.25s ease,
@@ -134,10 +133,9 @@
 }
 
 /* .wa-float/.ig-float já são "position: fixed" no CSS original —
-   aqui só isola o blend do brilho, sem mexer no position */
+   não mexemos no position, só na transição */
 .wa-float,
 .ig-float {
-  isolation: isolate;
   transition:
     transform 0.2s ease,
     box-shadow 0.25s ease,
@@ -146,6 +144,8 @@
     opacity 0.25s ease;
 }
 
+/* brilho especular no topo — só um gradiente simples (sem
+   mix-blend-mode, que é mais caro pra a GPU compor) */
 .btn::before,
 .cbtn::before,
 .cart-trigger::before,
@@ -164,11 +164,8 @@
   content: "";
   position: absolute;
   inset: 0;
-  z-index: -1;
   border-radius: inherit;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0) 55%);
-  opacity: 0.55;
-  mix-blend-mode: overlay;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0) 55%);
   pointer-events: none;
 }
 
@@ -191,50 +188,50 @@
 }
 
 /* ---- 3. botões flutuantes (WhatsApp / Instagram) ---- */
-/* mantém a cor da marca, só passa a ser um vidro colorido      */
+/* mantém a cor da marca (já é branco o texto/ícone original) */
 .wa-float {
-  background: linear-gradient(135deg, rgba(37, 211, 102, 0.78), rgba(18, 140, 66, 0.68)) !important;
+  background: linear-gradient(135deg, rgba(37, 211, 102, 0.82), rgba(18, 140, 66, 0.72)) !important;
   border: 1px solid rgba(255, 255, 255, 0.4) !important;
-  box-shadow: 0 12px 28px rgba(37, 211, 102, 0.35), var(--lg-highlight) !important;
+  box-shadow: 0 10px 24px rgba(37, 211, 102, 0.32), var(--lg-highlight) !important;
   backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
   -webkit-backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
 }
 
 .ig-float {
-  background: linear-gradient(135deg, rgba(240, 148, 51, 0.72), rgba(188, 24, 136, 0.72)) !important;
+  background: linear-gradient(135deg, rgba(240, 148, 51, 0.76), rgba(188, 24, 136, 0.76)) !important;
   border: 1px solid rgba(255, 255, 255, 0.4) !important;
-  box-shadow: 0 12px 28px rgba(188, 24, 136, 0.35), var(--lg-highlight) !important;
+  box-shadow: 0 10px 24px rgba(188, 24, 136, 0.32), var(--lg-highlight) !important;
   backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
   -webkit-backdrop-filter: blur(var(--lg-blur)) saturate(var(--lg-saturate));
 }
 
 .wa-float:hover {
-  background: linear-gradient(135deg, rgba(37, 211, 102, 0.9), rgba(18, 140, 66, 0.8)) !important;
+  background: linear-gradient(135deg, rgba(37, 211, 102, 0.94), rgba(18, 140, 66, 0.84)) !important;
 }
 
 .ig-float:hover {
-  background: linear-gradient(135deg, rgba(240, 148, 51, 0.86), rgba(188, 24, 136, 0.86)) !important;
+  background: linear-gradient(135deg, rgba(240, 148, 51, 0.9), rgba(188, 24, 136, 0.9)) !important;
 }
 
 /* =========================================================
    FORMULÁRIO DE CONTATO — painel e campos em vidro
 ========================================================= */
 .cta-form {
-  background: linear-gradient(180deg, rgba(18, 50, 68, 0.55), rgba(8, 28, 40, 0.68)) !important;
+  background: linear-gradient(180deg, rgba(18, 50, 68, 0.6), rgba(8, 28, 40, 0.72)) !important;
   border: 1px solid rgba(255, 255, 255, 0.18) !important;
   box-shadow:
-    0 30px 70px -24px rgba(0, 0, 0, 0.5),
+    0 24px 56px -20px rgba(0, 0, 0, 0.5),
     inset 0 1px 0 rgba(255, 255, 255, 0.14) !important;
-  backdrop-filter: blur(30px) saturate(160%);
-  -webkit-backdrop-filter: blur(30px) saturate(160%);
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
 }
 
 .field input,
 .field textarea {
   background: rgba(255, 255, 255, 0.06) !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .field input:focus,
@@ -244,31 +241,26 @@
   box-shadow: 0 0 0 3px rgba(0, 229, 255, 0.18) !important;
 }
 
-.cta-form-consent input[type="checkbox"] {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-
 /* =========================================================
    BANNER DE COOKIES — mesmo painel de vidro do formulário
 ========================================================= */
 .cookie-banner {
-  background: linear-gradient(180deg, rgba(18, 50, 68, 0.6), rgba(8, 28, 40, 0.72)) !important;
+  background: linear-gradient(180deg, rgba(18, 50, 68, 0.65), rgba(8, 28, 40, 0.76)) !important;
   border: 1px solid rgba(255, 255, 255, 0.16) !important;
   box-shadow:
-    0 20px 50px -18px rgba(0, 0, 0, 0.45),
+    0 18px 44px -18px rgba(0, 0, 0, 0.45),
     inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
-  backdrop-filter: blur(26px) saturate(160%);
-  -webkit-backdrop-filter: blur(26px) saturate(160%);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
 }
 
 /* =========================================================
    RESPONSIVO — mobile
-   (mesmo desfoque, só ajustado pra telas e toque pequenos)
+   (desfoque mais leve ainda, telas e toque pequenos)
 ========================================================= */
 @media (max-width: 640px) {
   :root {
-    --lg-blur: 16px;
+    --lg-blur: 9px;
   }
 
   .btn,
@@ -290,11 +282,13 @@
 
   .cta-form {
     border-radius: 20px;
+    backdrop-filter: blur(14px) saturate(150%);
+    -webkit-backdrop-filter: blur(14px) saturate(150%);
   }
 
-  .wa-float,
-  .ig-float {
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28), var(--lg-highlight) !important;
+  .cookie-banner {
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
   }
 }
 
@@ -316,18 +310,19 @@
   .card-cta,
   .thumb,
   .cookie-reject {
-    background: rgba(255, 255, 255, 0.94) !important;
+    background: rgba(22, 28, 36, 0.92) !important;
   }
 
   .btn-accent,
   .cta-form-submit,
   .cookie-accept,
   .filter-btn.active {
-    background: var(--accent) !important;
-    color: var(--ink) !important;
+    background: var(--accent-ink) !important;
+    color: #fff !important;
   }
 
-  .cta-form {
+  .cta-form,
+  .cookie-banner {
     background: var(--deep) !important;
   }
 }

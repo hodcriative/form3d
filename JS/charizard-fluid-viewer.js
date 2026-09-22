@@ -134,14 +134,53 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
       console.error('[charizard-fluid] falha ao carregar o modelo 3D:', err);
     });
 
-    // ---------- loop ----------
-    function animate() {
-      requestAnimationFrame(animate);
+    // ---------- loop (só roda enquanto a seção está visível) ----------
+    let rafId = null;
+    let isRunning = false;
+
+    function frame() {
+      rafId = requestAnimationFrame(frame);
       controls.update(); // necessário por causa do damping e do autoRotate
       renderer.render(scene, camera);
     }
 
-    animate();
+    function play() {
+      if (isRunning) return;
+      isRunning = true;
+      frame();
+    }
+
+    function pause() {
+      isRunning = false;
+      if (rafId !== null) cancelAnimationFrame(rafId);
+      rafId = null;
+    }
+
+    play();
+
+    if ('IntersectionObserver' in window) {
+      const playObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting && document.visibilityState === 'visible') {
+              play();
+            } else {
+              pause();
+            }
+          });
+        },
+        { threshold: 0.01 }
+      );
+      playObserver.observe(container);
+    }
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        pause();
+      } else if (container.getBoundingClientRect().bottom > 0) {
+        play();
+      }
+    });
 
     // ---------- resize ----------
     function handleResize() {
