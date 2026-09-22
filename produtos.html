@@ -15,12 +15,14 @@
     <link rel="stylesheet" href="CSS/produtos.css">
     <link rel="stylesheet" href="CSS/watermark.css">
     <link rel="stylesheet" href="CSS/nav-mobile.css">
+    <link rel="stylesheet" href="CSS/nav-pill.css">
     <link rel="stylesheet" href="CSS/cart.css">
     <link rel="stylesheet" href="CSS/whatsapp-float.css">
     <link rel="stylesheet" href="CSS/instagram-float.css">
     <link rel="stylesheet" href="CSS/cookie-consent.css">
     <link rel="stylesheet" href="CSS/page-transition.css">
     <link rel="stylesheet" href="CSS/liquid-glass.css">
+    <link rel="stylesheet" href="CSS/liquid-metal-button.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,11 +58,27 @@
             <img src="IMG/logo/Logo_Texto-navbar.png" alt="FORJ3D" class="logo-img">
           </a>
 
-          <div class="navlinks">
-            <a href="index.html" class="js-bubble-transition">Voltar</a>
-            <a href="#catalogo">Catálogo</a>
-          <!--  <a href="produtos.html" class="active">Produtos</a>
-            <a-- href="index.html#contato">Contato</a-->
+          <div class="navlinks pill-nav" data-pill-group="produtos-nav">
+            <a href="index.html" class="pill-link js-bubble-transition" data-pill="voltar">
+              <span class="pill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 12H5"/>
+                  <path d="m11 18-6-6 6-6"/>
+                </svg>
+              </span>
+              <span class="pill-label">Voltar</span>
+            </a>
+            <a href="#catalogo" class="pill-link active" data-pill="catalogo">
+              <span class="pill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="7" height="7" rx="1"/>
+                  <rect x="14" y="3" width="7" height="7" rx="1"/>
+                  <rect x="3" y="14" width="7" height="7" rx="1"/>
+                  <rect x="14" y="14" width="7" height="7" rx="1"/>
+                </svg>
+              </span>
+              <span class="pill-label">Catálogo</span>
+            </a>
           </div>
 
           <div class="nav-actions">
@@ -97,9 +115,27 @@
       </div>
 
       <div class="mobile-menu" id="mobileMenu">
-        <div class="wrap mobile-menu-links">
-          <a href="index.html" class="js-bubble-transition">Voltar</a>
-          <a href="#catalogo">Catálogo</a>
+        <div class="wrap mobile-menu-links pill-nav" data-pill-group="produtos-nav">
+          <a href="index.html" class="pill-link js-bubble-transition" data-pill="voltar">
+            <span class="pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 12H5"/>
+                <path d="m11 18-6-6 6-6"/>
+              </svg>
+            </span>
+            <span class="pill-label">Voltar</span>
+          </a>
+          <a href="#catalogo" class="pill-link active" data-pill="catalogo">
+            <span class="pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7" rx="1"/>
+                <rect x="14" y="3" width="7" height="7" rx="1"/>
+                <rect x="3" y="14" width="7" height="7" rx="1"/>
+                <rect x="14" y="14" width="7" height="7" rx="1"/>
+              </svg>
+            </span>
+            <span class="pill-label">Catálogo</span>
+          </a>
         </div>
       </div>
 
@@ -354,6 +390,8 @@
     </footer>
 
     <script src="JS/nav-mobile.js"></script>
+    <script src="JS/nav-pill.js"></script>
+    <script src="JS/liquid-metal-button.js"></script>
     <script src="JS/products-data.js"></script>
     <script src="JS/cookie-consent.js"></script>
     <script src="JS/cart.js"></script>

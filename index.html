@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/watermark.css">
     <link rel="stylesheet" href="CSS/nav-mobile.css">
+    <link rel="stylesheet" href="CSS/nav-pill.css">
     <link rel="stylesheet" href="CSS/cart.css">
     <link rel="stylesheet" href="CSS/whatsapp-float.css">
     <link rel="stylesheet" href="CSS/instagram-float.css">
@@ -23,6 +24,7 @@
     <link rel="stylesheet" href="CSS/cookie-consent.css">
     <link rel="stylesheet" href="CSS/page-transition.css">
     <link rel="stylesheet" href="CSS/liquid-glass.css">
+    <link rel="stylesheet" href="CSS/liquid-metal-button.css">
 
     <script type="importmap">
       {
@@ -71,11 +73,45 @@
             </a>
           </div>
 
-          <div class="navlinks">
-            <a href="#top">Home</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#produtos">Produtos</a>
-            <a href="#contato">Contato</a>
+          <div class="navlinks pill-nav" data-pill-group="index-nav">
+            <a href="#top" class="pill-link active" data-pill="home">
+              <span class="pill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 11.5 12 4l8 7.5"/>
+                  <path d="M6 10v9a1 1 0 0 0 1 1h3v-6h4v6h3a1 1 0 0 0 1-1v-9"/>
+                </svg>
+              </span>
+              <span class="pill-label">Home</span>
+            </a>
+            <a href="#sobre" class="pill-link" data-pill="sobre">
+              <span class="pill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9"/>
+                  <line x1="12" y1="11" x2="12" y2="16"/>
+                  <line x1="12" y1="7.5" x2="12" y2="7.51"/>
+                </svg>
+              </span>
+              <span class="pill-label">Sobre</span>
+            </a>
+            <a href="#produtos" class="pill-link" data-pill="produtos">
+              <span class="pill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"/>
+                  <path d="M3 8l9 5 9-5"/>
+                  <path d="M12 13v8"/>
+                </svg>
+              </span>
+              <span class="pill-label">Produtos</span>
+            </a>
+            <a href="#contato" class="pill-link" data-pill="contato">
+              <span class="pill-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="5" width="18" height="14" rx="2"/>
+                  <path d="m3 7 9 6 9-6"/>
+                </svg>
+              </span>
+              <span class="pill-label">Contato</span>
+            </a>
           </div>
 
           <div class="nav-actions">
@@ -117,11 +153,45 @@
       </div>
 
       <div class="mobile-menu" id="mobileMenu">
-        <div class="wrap mobile-menu-links">
-          <a href="#top">Home</a>
-          <a href="#sobre">Sobre</a>
-          <a href="#produtos">Produtos</a>
-          <a href="#contato">Contato</a>
+        <div class="wrap mobile-menu-links pill-nav" data-pill-group="index-nav">
+          <a href="#top" class="pill-link active" data-pill="home">
+            <span class="pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 11.5 12 4l8 7.5"/>
+                <path d="M6 10v9a1 1 0 0 0 1 1h3v-6h4v6h3a1 1 0 0 0 1-1v-9"/>
+              </svg>
+            </span>
+            <span class="pill-label">Home</span>
+          </a>
+          <a href="#sobre" class="pill-link" data-pill="sobre">
+            <span class="pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/>
+                <line x1="12" y1="11" x2="12" y2="16"/>
+                <line x1="12" y1="7.5" x2="12" y2="7.51"/>
+              </svg>
+            </span>
+            <span class="pill-label">Sobre</span>
+          </a>
+          <a href="#produtos" class="pill-link" data-pill="produtos">
+            <span class="pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"/>
+                <path d="M3 8l9 5 9-5"/>
+                <path d="M12 13v8"/>
+              </svg>
+            </span>
+            <span class="pill-label">Produtos</span>
+          </a>
+          <a href="#contato" class="pill-link" data-pill="contato">
+            <span class="pill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2"/>
+                <path d="m3 7 9 6 9-6"/>
+              </svg>
+            </span>
+            <span class="pill-label">Contato</span>
+          </a>
         </div>
 
       </div>
@@ -471,6 +541,8 @@
     <script type="module" src="JS/charizard-fluid-viewer.js"></script>
     <script src="JS/charizard-compare-slider.js"></script>
     <script src="JS/nav-mobile.js"></script>
+    <script src="JS/nav-pill.js"></script>
+    <script src="JS/liquid-metal-button.js"></script>
     <script src="JS/products-data.js"></script>
     <script src="JS/cookie-consent.js"></script>
     <script src="JS/cart.js"></script>
