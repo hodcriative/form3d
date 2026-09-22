@@ -759,10 +759,22 @@
     margin-bottom: 6px;
     color: var(--ink);
   }
-  
+
   .cta-strip p {
     color: var(--ink-soft);
     font-size: 14px;
+  }
+
+  @media (min-width: 881px) {
+    .cta-strip h3 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .cta-strip p {
+      font-size: 17px;
+      line-height: 1.6;
+    }
   }
 
   /* ---------- FORMULÁRIO DE CONTATO ---------- */
@@ -907,10 +919,6 @@
     }
     .cta-form-row {
       grid-template-columns: 1fr;
-    }
-
-    .cta-info .btn {
-      display: none;
     }
 
     .cta-mobile-trigger {
