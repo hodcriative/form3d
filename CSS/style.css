@@ -1123,6 +1123,9 @@
 
 #carousel .card {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
   cursor: pointer;
   padding: 14px;
   border-radius: var(--radius-lg);
@@ -1130,11 +1133,8 @@
   background: var(--card);
   transform: translateY(var(--reveal-y, 0));
   opacity: var(--reveal-opacity, 1);
-  transition:
-    transform .3s ease,
-    box-shadow .3s ease,
-    border-color .25s ease,
-    opacity .5s ease;
+  transition: transform .3s ease, box-shadow .3s ease,
+              border-color .25s ease, opacity .5s ease;
 }
 
 #carousel .card:hover {
@@ -1147,6 +1147,7 @@
   position: relative;
   aspect-ratio: 1 / 1;
   min-height: 0;
+  flex-shrink: 0;
   padding: 0;
   border-radius: var(--radius);
   overflow: hidden;
@@ -1236,6 +1237,7 @@
 }
 
 #carousel .card-cta {
+  margin-top: auto;
   border-radius: var(--radius-sm);
   transition:
     background .2s ease,

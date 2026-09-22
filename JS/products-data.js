@@ -21,7 +21,7 @@ window.FORJ3D_ICONS = {
 window.FORJ3D_PRODUCTS = [
   {
     id: 1,
-    name: "Boneco Homem-Aranha",
+    name: "Boneco Homem-Aranha boneco",
     price: 39.90,
     category: "Acessórios",
     icon: "controle",
