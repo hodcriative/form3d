@@ -80,7 +80,7 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 5,
-    name: "Estátua Mecha Blastoise - Multicolorida Separada",
+    name: "Estátua Mecha Blastoise",
     price: 230.00,
     category: "Colecionáveis",
     icon: "",
@@ -91,7 +91,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/blastoise/blaslado.jpeg",
       "IMG/produtos/geek/blastoise/blascosta.jpeg",
     ],
-    description: "Estátua do Blastoise em versão mecha, com canhões articulados nos ombros."
+    description: "Estátua do Blastoise em versão mecha, Multicolorida Separada."
   },
   {
     id: 6,
