@@ -408,50 +408,69 @@
 
             </div>
 
-            <form class="cta-form" id="contatoForm">
+            <button type="button" class="btn btn-accent cta-mobile-trigger" id="ctaMobileTrigger">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.07L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2Z"/>
+              </svg>
+              Fazer pedido personalizado
+            </button>
 
-              <div class="cta-form-row">
-                <div class="field">
-                  <label for="cf-nome">Nome</label>
-                  <input type="text" id="cf-nome" name="nome" placeholder="Seu nome" autocomplete="given-name" required>
-                </div>
-                <div class="field">
-                  <label for="cf-sobrenome">Sobrenome</label>
-                  <input type="text" id="cf-sobrenome" name="sobrenome" placeholder="Seu sobrenome" autocomplete="family-name" required>
-                </div>
+            <div class="cta-form-modal" id="ctaFormModal">
+              <div class="cta-form-modal-inner">
+
+                <button type="button" class="modal-close" id="ctaFormModalClose" aria-label="Fechar">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6 6 18M6 6l12 12"/>
+                  </svg>
+                </button>
+
+                <form class="cta-form" id="contatoForm">
+
+                  <div class="cta-form-row">
+                    <div class="field">
+                      <label for="cf-nome">Nome</label>
+                      <input type="text" id="cf-nome" name="nome" placeholder="Seu nome" autocomplete="given-name" required>
+                    </div>
+                    <div class="field">
+                      <label for="cf-sobrenome">Sobrenome</label>
+                      <input type="text" id="cf-sobrenome" name="sobrenome" placeholder="Seu sobrenome" autocomplete="family-name" required>
+                    </div>
+                  </div>
+
+                  <div class="cta-form-row">
+                    <div class="field">
+                      <label for="cf-telefone">Telefone</label>
+                      <input type="tel" id="cf-telefone" name="telefone" placeholder="(00) 00000-0000" autocomplete="tel" required>
+                    </div>
+                    <div class="field">
+                      <label for="cf-email">E-mail</label>
+                      <input type="email" id="cf-email" name="email" placeholder="voce@email.com" autocomplete="email" required>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label for="cf-descricao">Descrição da montagem do produto</label>
+                    <textarea id="cf-descricao" name="descricao" rows="4" placeholder="Conte como você imagina a peça: tamanho, cor, referência..." required></textarea>
+                  </div>
+
+                  <label class="cta-form-consent">
+                    <input type="checkbox" id="cf-consent" name="consentimento" required>
+                    <span>
+                      Li e concordo com a <a href="privacidade.html" target="_blank" rel="noopener">Política de Privacidade</a>, e autorizo o envio dos meus dados via WhatsApp para contato da FORJ3D.
+                    </span>
+                  </label>
+
+                  <button type="submit" class="cta-form-submit">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.07L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2Z"/>
+                    </svg>
+                    Enviar pelo WhatsApp
+                  </button>
+
+                </form>
+
               </div>
-
-              <div class="cta-form-row">
-                <div class="field">
-                  <label for="cf-telefone">Telefone</label>
-                  <input type="tel" id="cf-telefone" name="telefone" placeholder="(00) 00000-0000" autocomplete="tel" required>
-                </div>
-                <div class="field">
-                  <label for="cf-email">E-mail</label>
-                  <input type="email" id="cf-email" name="email" placeholder="voce@email.com" autocomplete="email" required>
-                </div>
-              </div>
-
-              <div class="field">
-                <label for="cf-descricao">Descrição da montagem do produto</label>
-                <textarea id="cf-descricao" name="descricao" rows="4" placeholder="Conte como você imagina a peça: tamanho, cor, referência..." required></textarea>
-              </div>
-
-              <label class="cta-form-consent">
-                <input type="checkbox" id="cf-consent" name="consentimento" required>
-                <span>
-                  Li e concordo com a <a href="privacidade.html" target="_blank" rel="noopener">Política de Privacidade</a>, e autorizo o envio dos meus dados via WhatsApp para contato da FORJ3D.
-                </span>
-              </label>
-
-              <button type="submit" class="cta-form-submit">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.07L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2Z"/>
-                </svg>
-                Enviar pelo WhatsApp
-              </button>
-
-            </form>
+            </div>
 
           </div>
 

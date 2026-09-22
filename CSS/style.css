@@ -889,12 +889,91 @@
     transform: scale(0.98);
   }
 
+  .cta-mobile-trigger {
+    display: none;
+  }
+
+  .cta-form-modal {
+    display: contents;
+  }
+
+  .cta-form-modal .modal-close {
+    display: none;
+  }
+
   @media (max-width: 880px) {
     .cta-strip-grid {
       grid-template-columns: 1fr;
     }
     .cta-form-row {
       grid-template-columns: 1fr;
+    }
+
+    .cta-info {
+      display: none;
+    }
+
+    .cta-mobile-trigger {
+      display: inline-flex;
+      justify-self: center;
+    }
+
+    .cta-form-modal {
+      display: flex;
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: rgba(8, 20, 28, 0.55);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+    }
+
+    .cta-form-modal.open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .cta-form-modal-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      background:
+        radial-gradient(650px circle at 88% -20%, rgba(0, 229, 255, .22), transparent 60%),
+        var(--deep);
+      padding: 76px 22px 40px;
+    }
+
+    .cta-form-modal .modal-close {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+    }
+
+    .cta-form-modal .cta-form {
+      background: none;
+      border: none;
+      box-shadow: none;
+      padding: 0;
+      border-radius: 0;
+    }
+
+    body.cta-modal-open {
+      overflow: hidden;
+    }
+
+    #contato .cta-strip.reveal.in {
+      transform: none;
     }
 
     /* ---- formulário em estilo "passo a passo", só no mobile ---- */

@@ -119,6 +119,35 @@
   }
 })();
 
+// Formulário de contato — pop-up mobile
+(() => {
+  const trigger = document.getElementById('ctaMobileTrigger');
+  const modal = document.getElementById('ctaFormModal');
+  const closeBtn = document.getElementById('ctaFormModalClose');
+  if (!trigger || !modal) return;
+
+  function openModal() {
+    modal.classList.add('open');
+    document.body.classList.add('cta-modal-open');
+  }
+
+  function closeModal() {
+    modal.classList.remove('open');
+    document.body.classList.remove('cta-modal-open');
+  }
+
+  trigger.addEventListener('click', openModal);
+  closeBtn?.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
+
+  window.forj3dCloseCtaModal = closeModal;
+})();
+
 // Formulário de contato — monta a mensagem e abre no WhatsApp
 (() => {
   const form = document.getElementById('contatoForm');
@@ -146,5 +175,6 @@
 
     const mensagem = encodeURIComponent(linhas.join('\n'));
     window.open(`https://wa.me/${whatsappNumber}?text=${mensagem}`, '_blank', 'noopener');
+    window.forj3dCloseCtaModal?.();
   });
 })();
