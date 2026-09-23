@@ -93,15 +93,22 @@
   }
 }
 
-/* ---------- formulário de contato: painel e campos ---------- */
-.cta-form {
-  background: linear-gradient(180deg, rgba(18, 50, 68, 0.6), rgba(8, 28, 40, 0.72)) !important;
-  border: 1px solid rgba(255, 255, 255, 0.18) !important;
-  box-shadow:
-    0 24px 56px -20px rgba(0, 0, 0, 0.5),
-    inset 0 1px 0 rgba(255, 255, 255, 0.14) !important;
-  backdrop-filter: blur(20px) saturate(150%);
-  -webkit-backdrop-filter: blur(20px) saturate(150%);
+/* ---------- formulário de contato: painel e campos ----------
+   Só no desktop/tablet, onde o .cta-form aparece inline na
+   página. No mobile ele vira modal (ver .cta-form-modal em
+   style.css, que já zera border/background/padding do próprio
+   .cta-form) — sem essa condição, o !important daqui reaparecia
+   por cima do reset do modal e colava a borda no texto. */
+@media (min-width: 881px) {
+  .cta-form {
+    background: linear-gradient(180deg, rgba(18, 50, 68, 0.6), rgba(8, 28, 40, 0.72)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    box-shadow:
+      0 24px 56px -20px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(255, 255, 255, 0.14) !important;
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+  }
 }
 
 .field input,
@@ -134,12 +141,6 @@
 @media (max-width: 640px) {
   :root {
     --lg-blur: 9px;
-  }
-
-  .cta-form {
-    border-radius: 20px;
-    backdrop-filter: blur(14px) saturate(150%);
-    -webkit-backdrop-filter: blur(14px) saturate(150%);
   }
 
   .cookie-banner {

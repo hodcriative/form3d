@@ -984,9 +984,8 @@
       transform: none;
     }
 
-    /* ---- formulário em estilo "passo a passo", só no mobile ---- */
+    /* ---- formulário mais espaçado no mobile ---- */
     .cta-form {
-      counter-reset: formstep;
       gap: 28px;
       padding: 30px 22px;
       border-radius: 20px;
@@ -997,23 +996,13 @@
     }
 
     .field {
-      counter-increment: formstep;
       gap: 9px;
     }
 
     .field label {
-      display: flex;
-      align-items: flex-start;
-      gap: 6px;
       font-size: 12px;
       line-height: 1.4;
       color: rgba(255,255,255,0.7);
-    }
-
-    .field label::before {
-      content: counter(formstep) ".";
-      color: var(--accent);
-      font-weight: 700;
     }
 
     .field input,
