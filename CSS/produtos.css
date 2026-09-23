@@ -941,14 +941,48 @@ header.scrolled {
   transform: translateX(120%);
 }
 
-/* ---------- Catálogo ---------- */
+/* ---------- Catálogo ----------
+   Fundo escuro igual ao usado na vitrine da home (#produtos em
+   style.css): cobre só a área dos cards, cresce sozinho conforme
+   a lista de produtos aumenta (a seção não tem altura fixa) e não
+   muda a cor dos cards, que continuam brancos por cima. */
 .catalog {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: var(--deep);
+  padding: 36px 0 80px;
+}
+
+.catalog::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(700px circle at 90% 0%, rgba(0, 229, 255,.14), transparent 60%);
+  pointer-events: none;
+}
+
+.catalog > .wrap {
   position: relative;
   z-index: 1;
 }
 
 .results-meta {
   letter-spacing: .01em;
+  color: rgba(255,255,255,.55);
+}
+
+.empty-state {
+  color: rgba(255,255,255,.7);
+}
+
+.empty-state svg {
+  color: rgba(255,255,255,.4);
+}
+
+.empty-state h3 {
+  color: #fff;
 }
 
 .grid {
