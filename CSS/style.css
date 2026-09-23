@@ -288,6 +288,13 @@
     width:auto;
     margin-bottom:14px;
   }
+
+  .section-icons {
+    display:block;
+    height:80px;
+    width:auto;
+    margin-bottom:14px;
+  }
   
   h1.hero-title {
     font-size:50px;

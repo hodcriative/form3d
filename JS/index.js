@@ -34,7 +34,7 @@
   const icons = window.FORJ3D_ICONS || {};
   const whatsappNumber = window.FORJ3D_CONFIG?.whatsappNumber || '5527997941766';
 
-  const featuredIds = [1, 2, 3, 4, 5];
+  const featuredIds = [80, 108, 5, 4, 3, 45, 78];
   const featuredProducts = featuredIds
     .map(id => products.find(product => product.id === id))
     .filter(Boolean);

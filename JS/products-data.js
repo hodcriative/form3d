@@ -21,8 +21,8 @@ window.FORJ3D_ICONS = {
 window.FORJ3D_PRODUCTS = [
   {
     id: 1,
-    name: "Boneco Homem-Aranha boneco",
-    price: 39.90,
+    name: "Boneco Homem-Aranha",
+    price: 150.00,
     category: "Acessórios",
     icon: "controle",
     material: "PLA · fosco",
@@ -438,8 +438,8 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 28,
-    name: "Suporte para Garrafa de Vinho em Formato de Ganso",
-    price: 50.00,
+    name: "Suporte para Garrafa de Vinho",
+    price: 70.00,
     category: "Decoração",
     icon: "",
     material: "",
@@ -448,7 +448,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/suportes/supganso/suporteganso2.jpeg",
       "IMG/produtos/suportes/supganso/suporteganso3.jpeg",
     ],
-    description: ""
+    description: "Formato de Ganso"
   },
   {
     id: 29,
