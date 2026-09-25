@@ -1597,18 +1597,18 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 107,
-    name: "Suporte para Lata de Monster Energy",
-    price: 65.99,
+    name: "Suporte para Latas de Cerveja",
+    price: 87.33,
     category: "Decoração",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/suportes/suplatamons/supmonst.jpeg",
-      "IMG/produtos/suportes/suplatamons/supmonst2.jpeg",
-      "IMG/produtos/suportes/suplatamons/supmonst3.jpeg",
-      "IMG/produtos/suportes/suplatamons/supmonst4.jpeg",
+      "IMG/produtos/suportes/suplatacerveja2/supcerjin.png",
+      "IMG/produtos/suportes/suplatacerveja2/supcerjin2.jpeg",
+      "IMG/produtos/suportes/suplatacerveja2/supcerjin3.jpeg",
+      "IMG/produtos/suportes/suplatacerveja2/supcerjin4.jpeg",
     ],
-    description: "Possui Alça"
+    description: ""
   },
   {
     id: 108,
@@ -2382,6 +2382,52 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/suportes/suplatalobi/suplobi5.png",
     ],
     description: "Para caneca de cerveja"
+  },
+  {
+    id: 160,
+    name: "Suporte de Lata com Alça",
+    price: 87.36,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatacaveira/supcavei.jpeg",
+      "IMG/produtos/suportes/suplatacaveira/supcavei2.gif",
+      "IMG/produtos/suportes/suplatacaveira/supcavei3.png",
+      "IMG/produtos/suportes/suplatacaveira/supcavei4.jpeg",
+      "IMG/produtos/suportes/suplatacaveira/supcavei5.gif",
+      "IMG/produtos/suportes/suplatacaveira/supcavei6.jpeg",
+    ],
+    description: "Estilo caveira"
+  },
+  {
+    id: 161,
+    name: "Suporte de caneca Viking ",
+    price: 75.93,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcaneviki/supvikin.jpeg",
+      "IMG/produtos/suportes/supcaneviki/supvikin2.jpeg",
+      "IMG/produtos/suportes/supcaneviki/supvikin3.jpeg",
+    ],
+    description: "Para lata - Cor Única"
+  },
+  {
+    id: 162,
+    name: "Suporte para Latas de Cerveja",
+    price: 71.46,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatacerveja/supcerve.jpeg",
+      "IMG/produtos/suportes/suplatacerveja/supcerve2.jpg",
+      "IMG/produtos/suportes/suplatacerveja/supcerve3.jpeg",
+      "IMG/produtos/suportes/suplatacerveja/supcerve4.jpeg",
+    ],
+    description: ""
   },
 ];
 
