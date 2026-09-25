@@ -396,7 +396,7 @@ window.FORJ3D_PRODUCTS = [
     id: 25,
     name: "Suporte para Vinho",
     price: 40.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -413,7 +413,7 @@ window.FORJ3D_PRODUCTS = [
     id: 26,
     name: "Suporte para Vinho VinoGrace",
     price: 45.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -428,7 +428,7 @@ window.FORJ3D_PRODUCTS = [
     id: 27,
     name: "Suporte para Garrafa de Vinho em Formato de Cachorro",
     price: 59.98,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -440,7 +440,7 @@ window.FORJ3D_PRODUCTS = [
     id: 28,
     name: "Suporte para Garrafa de Vinho",
     price: 70.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -454,7 +454,7 @@ window.FORJ3D_PRODUCTS = [
     id: 29,
     name: "Suporte para Garrafa de Vinho do Deus Grego",
     price: 46.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -468,7 +468,7 @@ window.FORJ3D_PRODUCTS = [
     id: 30,
     name: "Suporte para Garrafa de Vinho",
     price: 29.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -484,7 +484,7 @@ window.FORJ3D_PRODUCTS = [
     id: 31,
     name: "Suporte para Garrafa de Vinho e Taças",
     price: 110.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -499,7 +499,7 @@ window.FORJ3D_PRODUCTS = [
     id: 32,
     name: "Suprte para Garrafas de Vinhos Moderno",
     price: 74.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -513,7 +513,7 @@ window.FORJ3D_PRODUCTS = [
     id: 33,
     name: "Suprte De Barril de Vinhos Bag-in-Box",
     price: 82.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -528,7 +528,7 @@ window.FORJ3D_PRODUCTS = [
     id: 34,
     name: "Suprte para Garrafas de Vinhos",
     price: 92.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -544,7 +544,7 @@ window.FORJ3D_PRODUCTS = [
     id: 35,
     name: "Suprte para Garrafas de Vinho",
     price: 62.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -558,7 +558,7 @@ window.FORJ3D_PRODUCTS = [
     id: 36,
     name: "Suprte para Garrafas de Vinhos Arara",
     price: 200.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -574,7 +574,7 @@ window.FORJ3D_PRODUCTS = [
     id: 37,
     name: "Rack Orgânico para Vinho e Taças",
     price: 155.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -590,7 +590,7 @@ window.FORJ3D_PRODUCTS = [
     id: 38,
     name: "Suporte para Vinho VinoGrace Elegance",
     price: 42.99,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -604,7 +604,7 @@ window.FORJ3D_PRODUCTS = [
     id: 39,
     name: "O Expositor de Vinho",
     price: 58.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -619,7 +619,7 @@ window.FORJ3D_PRODUCTS = [
     id: 40,
     name: "Suporte para Garrafas de Vinho  - Polvo",
     price: 40.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -636,7 +636,7 @@ window.FORJ3D_PRODUCTS = [
     id: 41,
     name: "Suporte para Garrafa de Vinho",
     price: 110.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -650,7 +650,7 @@ window.FORJ3D_PRODUCTS = [
     id: 42,
     name: "Suporte para Garrafas de Vinho",
     price: 57.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -666,7 +666,7 @@ window.FORJ3D_PRODUCTS = [
     id: 43,
     name: "Suporte para Garrafas de Vinho - Dachshund",
     price: 33.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -681,7 +681,7 @@ window.FORJ3D_PRODUCTS = [
     id: 44,
     name: "Suporte para Garrafas",
     price: 57.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -695,7 +695,7 @@ window.FORJ3D_PRODUCTS = [
     id: 45,
     name: "Suporte para Garrafa de Vinho",
     price: 80.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -713,7 +713,7 @@ window.FORJ3D_PRODUCTS = [
     id: 46,
     name: "Suporte para Garrafa de Vinho",
     price: 75.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -727,7 +727,7 @@ window.FORJ3D_PRODUCTS = [
     id: 47,
     name: "Suporte para 5 Garrafas de Vinho",
     price: 86.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -744,7 +744,7 @@ window.FORJ3D_PRODUCTS = [
     id: 48,
     name: "Suporte para Garrafa de Vinho",
     price: 140.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -759,7 +759,7 @@ window.FORJ3D_PRODUCTS = [
     id: 49,
     name: "Adega de Vinhos Infinita",
     price: 69.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -772,7 +772,7 @@ window.FORJ3D_PRODUCTS = [
     id: 50,
     name: "Suporte Minimalista para Garrafa de Vinho",
     price: 40.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -785,7 +785,7 @@ window.FORJ3D_PRODUCTS = [
     id: 51,
     name: "Suporte para Garrafa de Vinho",
     price: 69.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -803,7 +803,7 @@ window.FORJ3D_PRODUCTS = [
     id: 52,
     name: "Suporte para Copos e Garrafas",
     price: 92.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -820,7 +820,7 @@ window.FORJ3D_PRODUCTS = [
     id: 53,
     name: "Suporte para Garrafa de Vinho",
     price: 40.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -838,7 +838,7 @@ window.FORJ3D_PRODUCTS = [
     id: 54,
     name: "Suporte de Garrafas para Geladeiras e Armários",
     price: 65.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -852,7 +852,7 @@ window.FORJ3D_PRODUCTS = [
     id: 55,
     name: "Suporte para Garrafa de Vinho",
     price: 65.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -866,7 +866,7 @@ window.FORJ3D_PRODUCTS = [
     id: 56,
     name: "Suporte de Prateleira para Copos",
     price: 69.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -880,7 +880,7 @@ window.FORJ3D_PRODUCTS = [
     id: 57,
     name: "Adega de Vinho para Geladeira",
     price: 38.98,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -895,7 +895,7 @@ window.FORJ3D_PRODUCTS = [
     id: 58,
     name: "Suporte para Garrafa de Vinho",
     price: 80.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -912,7 +912,7 @@ window.FORJ3D_PRODUCTS = [
     id: 59,
     name: "Suporte para Garrafa de Vinho Anubis",
     price: 90.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -926,7 +926,7 @@ window.FORJ3D_PRODUCTS = [
     id: 60,
     name: "Suporte para Garrafa de Vinho",
     price: 82.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -945,7 +945,7 @@ window.FORJ3D_PRODUCTS = [
     id: 61,
     name: "Suporte para Garrafa de Vinho",
     price: 67.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -960,7 +960,7 @@ window.FORJ3D_PRODUCTS = [
     id: 62,
     name: "Suporte para Garrafa de Vinho",
     price: 48.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -974,7 +974,7 @@ window.FORJ3D_PRODUCTS = [
     id: 63,
     name: "Suporte para Garrafa de Vinho - Bear With Me",
     price: 48.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -989,7 +989,7 @@ window.FORJ3D_PRODUCTS = [
     id: 64,
     name: "Suporte para Garrafa de Vinho",
     price: 45.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1004,7 +1004,7 @@ window.FORJ3D_PRODUCTS = [
     id: 65,
     name: "Suporte Definitivo para Cama e Sofá",
     price: 78.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1018,7 +1018,7 @@ window.FORJ3D_PRODUCTS = [
     id: 66,
     name: "Suporte para Garrafa de Vinho",
     price: 89.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1033,7 +1033,7 @@ window.FORJ3D_PRODUCTS = [
     id: 67,
     name: "Suporte para Garrafa de Vinho",
     price: 87.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1046,7 +1046,7 @@ window.FORJ3D_PRODUCTS = [
     id: 68,
     name: "Suporte para Garrafa de Vinho",
     price: 40.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1058,7 +1058,7 @@ window.FORJ3D_PRODUCTS = [
     id: 69,
     name: "Suporte para Garrafa de Vinho",
     price: 60.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1072,7 +1072,7 @@ window.FORJ3D_PRODUCTS = [
     id: 70,
     name: "Suporte para Garrafa de Vinho",
     price: 60.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1086,7 +1086,7 @@ window.FORJ3D_PRODUCTS = [
     id: 71,
     name: "Suporte para Garrafa de Vinho",
     price: 80.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1100,7 +1100,7 @@ window.FORJ3D_PRODUCTS = [
     id: 72,
     name: "Suporte para Garrafa de Vinho",
     price: 82.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1115,7 +1115,7 @@ window.FORJ3D_PRODUCTS = [
     id: 73,
     name: "Suporte Gigante para Garrafa de Vinho",
     price: 57.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1130,7 +1130,7 @@ window.FORJ3D_PRODUCTS = [
     id: 74,
     name: "Suporte para Garrafa de Vinho",
     price: 45.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1159,7 +1159,7 @@ window.FORJ3D_PRODUCTS = [
     id: 76,
     name: "Pokemon Charizard",
     price: 38.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1174,7 +1174,7 @@ window.FORJ3D_PRODUCTS = [
     id: 77,
     name: "Pokemon Blaziken",
     price: 37.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1187,7 +1187,7 @@ window.FORJ3D_PRODUCTS = [
     id: 78,
     name: "Suporte Universal para Controle",
     price: 90.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1201,7 +1201,7 @@ window.FORJ3D_PRODUCTS = [
     id: 79,
     name: "Suporte Universal para Controle GTA VI",
     price: 160.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1217,7 +1217,7 @@ window.FORJ3D_PRODUCTS = [
     id: 80,
     name: "Suporte para Controle Playstation 5 GTA VI",
     price: 35.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1229,7 +1229,7 @@ window.FORJ3D_PRODUCTS = [
     id: 81,
     name: "Suporte para Controle e Headset",
     price: 49.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1244,7 +1244,7 @@ window.FORJ3D_PRODUCTS = [
     id: 82,
     name: "Suporte para Controle",
     price: 69.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1260,7 +1260,7 @@ window.FORJ3D_PRODUCTS = [
     id: 83,
     name: "Suporte Duplo para Controle de Playstation 5",
     price: 33.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1275,7 +1275,7 @@ window.FORJ3D_PRODUCTS = [
     id: 84,
     name: "Suporte Universal para Controle Senhor dos Aníes",
     price: 90.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1287,7 +1287,7 @@ window.FORJ3D_PRODUCTS = [
     id: 85,
     name: "Suporte Universal para Controle Pokémon",
     price: 40.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1300,7 +1300,7 @@ window.FORJ3D_PRODUCTS = [
     id: 86,
     name: "Suporte Universal para Controle God of War",
     price: 67.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1326,7 +1326,7 @@ window.FORJ3D_PRODUCTS = [
     id: 88,
     name: "Protetor de Cabo USB-C",
     price: 12.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -1341,7 +1341,7 @@ window.FORJ3D_PRODUCTS = [
     id: 89,
     name: "Castor Mabel Hoppers",
     price: 125.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1371,7 +1371,7 @@ window.FORJ3D_PRODUCTS = [
     id: 91,
     name: "Mewtwo TCG",
     price: 33.51,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1384,7 +1384,7 @@ window.FORJ3D_PRODUCTS = [
     id: 92,
     name: "Suporte GTA VI",
     price: 39.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1399,7 +1399,7 @@ window.FORJ3D_PRODUCTS = [
     id: 93,
     name: "Máscara Bobo da Corte",
     price: 69.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1412,7 +1412,7 @@ window.FORJ3D_PRODUCTS = [
     id: 94,
     name: "Observador Alienígena",
     price: 325.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1443,7 +1443,7 @@ window.FORJ3D_PRODUCTS = [
     id: 96,
     name: "Bandeja de Cubos de Gelo Pokemon",
     price: 36.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -1458,7 +1458,7 @@ window.FORJ3D_PRODUCTS = [
     id: 97,
     name: "Dragão No Monitor",
     price: 34.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1472,7 +1472,7 @@ window.FORJ3D_PRODUCTS = [
     id: 98,
     name: "Suporte universal para Controle GTA VI",
     price: 68.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -1583,7 +1583,7 @@ window.FORJ3D_PRODUCTS = [
     id: 106,
     name: "101 Dálmatas",
     price: 86.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1599,7 +1599,7 @@ window.FORJ3D_PRODUCTS = [
     id: 107,
     name: "Suporte para Latas de Cerveja",
     price: 87.33,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -1614,7 +1614,7 @@ window.FORJ3D_PRODUCTS = [
     id: 108,
     name: "Pato Donald o Gangster",
     price: 80.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1631,7 +1631,7 @@ window.FORJ3D_PRODUCTS = [
     id: 109,
     name: "Piloto de Motocross",
     price: 30.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1658,7 +1658,7 @@ window.FORJ3D_PRODUCTS = [
     id: 111,
     name: "Porta Lata do Flamengo",
     price: 150.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -1671,7 +1671,7 @@ window.FORJ3D_PRODUCTS = [
     id: 112,
     name: "Porta Lata do Corinthians",
     price: 170.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -1709,7 +1709,7 @@ window.FORJ3D_PRODUCTS = [
     id: 115,
     name: "Porta Chaves",
     price: 12.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1723,7 +1723,7 @@ window.FORJ3D_PRODUCTS = [
     id: 116,
     name: "Luna Park II",
     price: 650.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1740,7 +1740,7 @@ window.FORJ3D_PRODUCTS = [
     id: 117,
     name: "Porta Cartões",
     price: 38.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -1754,7 +1754,7 @@ window.FORJ3D_PRODUCTS = [
     id: 118,
     name: "Boneco Stitch",
     price: 100.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1771,7 +1771,7 @@ window.FORJ3D_PRODUCTS = [
     id: 119,
     name: "Stitch",
     price: 97.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1799,7 +1799,7 @@ window.FORJ3D_PRODUCTS = [
     id: 121,
     name: "Ponto Flexível",
     price: 52.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1813,7 +1813,7 @@ window.FORJ3D_PRODUCTS = [
     id: 122,
     name: "Stitch Mini Flexi",
     price: 45.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1859,7 +1859,7 @@ window.FORJ3D_PRODUCTS = [
     id: 125,
     name: "Balde de Pipoca Hoplita",
     price: 130.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -1872,7 +1872,7 @@ window.FORJ3D_PRODUCTS = [
     id: 126,
     name: "Mickey Mouse",
     price: 99.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1888,7 +1888,7 @@ window.FORJ3D_PRODUCTS = [
     id: 127,
     name: "Mickey Mouse - 55cm",
     price: 580.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1904,7 +1904,7 @@ window.FORJ3D_PRODUCTS = [
     id: 128,
     name: "Jogo de Equilíbrio",
     price: 40.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1918,7 +1918,7 @@ window.FORJ3D_PRODUCTS = [
     id: 129,
     name: "Jogo de Equilíbrio",
     price: 60.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1930,7 +1930,7 @@ window.FORJ3D_PRODUCTS = [
     id: 130,
     name: "Jogo de Equilíbrio",
     price: 68.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1944,7 +1944,7 @@ window.FORJ3D_PRODUCTS = [
     id: 131,
     name: "Jogo de Equilíbrio",
     price: 110.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -1957,7 +1957,7 @@ window.FORJ3D_PRODUCTS = [
     id: 132,
     name: "Abridor de Abas de Lata de Refrigerante",
     price: 26.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -1969,7 +1969,7 @@ window.FORJ3D_PRODUCTS = [
     id: 133,
     name: "Suporte para Long Neck",
     price: 160.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -1985,7 +1985,7 @@ window.FORJ3D_PRODUCTS = [
     id: 134,
     name: "Pluto Disney",
     price: 120.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -2001,7 +2001,7 @@ window.FORJ3D_PRODUCTS = [
     id: 135,
     name: "Angel - Stitch",
     price: 84.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -2018,7 +2018,7 @@ window.FORJ3D_PRODUCTS = [
     id: 136,
     name: "Monkey D. Luffy",
     price: 70.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -2035,7 +2035,7 @@ window.FORJ3D_PRODUCTS = [
     id: 137,
     name: "Capitão América",
     price: 150.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -2051,7 +2051,7 @@ window.FORJ3D_PRODUCTS = [
     id: 138,
     name: "Suporte para Lata de Monster Energy",
     price: 94.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2066,7 +2066,7 @@ window.FORJ3D_PRODUCTS = [
     id: 139,
     name: "Suporte para Latas de Monster Energy",
     price: 65.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2110,7 +2110,7 @@ window.FORJ3D_PRODUCTS = [
     id: 142,
     name: "Porta Lata Monster",
     price: 60.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2128,7 +2128,7 @@ window.FORJ3D_PRODUCTS = [
     id: 142,
     name: "Resfriador de lata",
     price: 55.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2207,7 +2207,7 @@ window.FORJ3D_PRODUCTS = [
     id: 148,
     name: "Porta Pincéis de Maquiagem",
     price: 55.00,
-    category: "Decoração",
+    category: "Organizadores",
     icon: "",
     material: "",
     images: [
@@ -2237,7 +2237,7 @@ window.FORJ3D_PRODUCTS = [
     id: 150,
     name: "Kit de Porta-Copos de Pneu de Fórmula 1",
     price: 50.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2266,7 +2266,7 @@ window.FORJ3D_PRODUCTS = [
     id: 152,
     name: "Bugs Mafioso",
     price: 230.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -2279,7 +2279,7 @@ window.FORJ3D_PRODUCTS = [
     id: 153,
     name: "Vegeta Super Sayan 4",
     price: 176.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -2310,7 +2310,7 @@ window.FORJ3D_PRODUCTS = [
     id: 155,
     name: "Pato Datty Justiceiro",
     price: 180.00,
-    category: "Decoração",
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
@@ -2327,7 +2327,7 @@ window.FORJ3D_PRODUCTS = [
     id: 156,
     name: "Suporte para Lata Demônio Derretido",
     price: 80.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2343,7 +2343,7 @@ window.FORJ3D_PRODUCTS = [
     id: 157,
     name: "Porta-copos Giroscópico",
     price: 69.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2356,7 +2356,7 @@ window.FORJ3D_PRODUCTS = [
     id: 158,
     name: "Porta-Latinha Cthulhu",
     price: 65.00,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2371,7 +2371,7 @@ window.FORJ3D_PRODUCTS = [
     id: 159,
     name: "Suporte de Lata Lobisomem",
     price: 85.77,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2387,7 +2387,7 @@ window.FORJ3D_PRODUCTS = [
     id: 160,
     name: "Suporte de Lata com Alça",
     price: 87.36,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2404,7 +2404,7 @@ window.FORJ3D_PRODUCTS = [
     id: 161,
     name: "Suporte de caneca Viking ",
     price: 75.93,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
@@ -2418,7 +2418,7 @@ window.FORJ3D_PRODUCTS = [
     id: 162,
     name: "Suporte para Latas de Cerveja",
     price: 71.46,
-    category: "Decoração",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [

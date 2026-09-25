@@ -1,11 +1,11 @@
 :root{
-    --bg:#F5F5F5;
+    --bg:#F4EFE6;
     --bg-grid: rgba(42,42,42,0.05);
     --ink:#2A2A2A;
     --ink-soft:#5C5C5C;
     --muted:#767676;
-    --line:#DEDEDE;
-    --card:#FFFFFF;
+    --line:#E4DDD0;
+    --card:#FFFDF8;
     --accent:#00E5FF;
     --accent-ink:#00A8BF;
     --footer:#2A2A2A;
@@ -78,7 +78,7 @@
   /* ---------- NAVBAR ---------- */
   header {
     position:sticky; top:0; z-index:50;
-    background:rgba(240,241,236,0.85);
+    background:rgba(244,239,230,0.85);
     backdrop-filter:blur(10px);
     border-bottom:1px solid transparent;
     transition:border-color .3s ease, box-shadow .3s ease;
@@ -626,8 +626,12 @@
     display:flex;
     gap: 20px;
     overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
-    padding-bottom:8px;
+    /* espaço para o hover (translateY) e a sombra não serem cortados */
+    padding: 12px 0 40px;
+    margin: -12px 0 -32px;
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
@@ -1228,7 +1232,7 @@
 
 #carousel .card-img {
   position: relative;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   min-height: 0;
   flex-shrink: 0;
   padding: 0;
