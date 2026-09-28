@@ -23,7 +23,7 @@ window.FORJ3D_PRODUCTS = [
     id: 1,
     name: "Boneco Homem-Aranha",
     price: 150.00,
-    category: "Acessórios",
+    category: "Colecionáveis",
     icon: "controle",
     material: "PLA · fosco",
     images: [
@@ -51,7 +51,7 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 3,
-    name: "Spider-Man - Brand New Day ",
+    name: "Spider-Man - Brand New Day",
     price: 120.00,
     category: "Colecionáveis",
     icon: "",
@@ -830,7 +830,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/suportes/supcanhao/supcan4.jpeg",
       "IMG/produtos/suportes/supcanhao/supcan5.jpeg",
       "IMG/produtos/suportes/supcanhao/supcan6.jpeg",
-      "IMG/produtos/suportes/supcanhao/supcan7.jpeg",
     ],
     description: "Formato de Canhão."
   },
@@ -844,7 +843,6 @@ window.FORJ3D_PRODUCTS = [
     images: [
       "IMG/produtos/suportes/supgeladeiraarma/supgela.jpeg",
       "IMG/produtos/suportes/supgeladeiraarma/supgela2.jpeg",
-      "IMG/produtos/suportes/supgeladeiraarma/supgela3.jpeg",
     ],
     description: "Coporta 4 ou 6 Garrafas."
   },
@@ -858,7 +856,6 @@ window.FORJ3D_PRODUCTS = [
     images: [
       "IMG/produtos/suportes/supobsicavalo/supobcava.jpeg",
       "IMG/produtos/suportes/supobsicavalo/supobcava2.gif",
-      "IMG/produtos/suportes/supobsicavalo/supobcava3.jpeg",
     ],
     description: "Formato de Cavalo de Obsidiana."
   },
@@ -903,7 +900,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/suportes/supdragaonordico/supnordico2.jpeg",
       "IMG/produtos/suportes/supdragaonordico/supnordico3.jpeg",
       "IMG/produtos/suportes/supdragaonordico/supnordico4.jpeg",
-      "IMG/produtos/suportes/supdragaonordico/supnordico4.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico5.jpeg",
       "IMG/produtos/suportes/supdragaonordico/supnordico6.jpeg",
     ],
     description: "Dragão Nórdigo."
@@ -1252,7 +1249,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/supcontrolyoshi/supyohi2.jpeg",
       "IMG/produtos/geek/supcontrolyoshi/supyohi3.jpeg",
       "IMG/produtos/geek/supcontrolyoshi/supyohi4.jpeg",
-      "IMG/produtos/geek/supcontrolyoshi/supyohi5.jpeg",
     ],
     description: ""
   },
@@ -1266,7 +1262,6 @@ window.FORJ3D_PRODUCTS = [
     images: [
       "IMG/produtos/geek/supduploplays/supduplo.jpeg",
       "IMG/produtos/geek/supduploplays/supduplo2.jpeg",
-      "IMG/produtos/geek/supduploplays/supduplo3.jpeg",
       "IMG/produtos/geek/supduploplays/supduplo4.jpeg",
     ],
     description: ""
@@ -1837,7 +1832,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/stitchtecladoclicker/teclastitch2.jpeg",
       "IMG/produtos/geek/stitchtecladoclicker/teclastitch3.jpeg",
       "IMG/produtos/geek/stitchtecladoclicker/teclastitch4.jpeg",
-      "IMG/produtos/geek/stitchtecladoclicker/teclastitch5.jpeg",
     ],
     description: ""
   },
@@ -2338,7 +2332,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/portalatas/portacopogira/portagira.png",
       "IMG/produtos/portalatas/portacopogira/portagira2.jpeg",
     ],
-    description: "Para carrinho de bebê "
+    description: "Para carrinho de bebê"
   },
   {
     id: 158,
@@ -2390,7 +2384,7 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 161,
-    name: "Suporte de caneca Viking ",
+    name: "Suporte de caneca Viking",
     price: 75.93,
     category: "Utilidades",
     icon: "",
@@ -2460,7 +2454,7 @@ window.FORJ3D_PRODUCTS = [
     material: "",
     images: [
       "IMG/produtos/suportes/suppolvohead/supcopohead.png",
-      "IMG/produtos/suportes/suppolvohead/supcopohead.png",
+      "IMG/produtos/suportes/suppolvohead/supcopohead2.png",
     ],
     description: "Formato de Polvo"
   },
@@ -2616,7 +2610,7 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 176,
-    name: "Pikachu Magikarp Poncho ",
+    name: "Pikachu Magikarp Poncho",
     price: 65.00,
     category: "Colecionáveis",
     icon: "",
@@ -2629,7 +2623,7 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: ""
   },
-    {
+  {
     id: 177,
     name: "Resfriador de lata",
     price: 55.00,
