@@ -1,0 +1,79 @@
+/* =========================================================
+   FOOTER — padrão de links inspirado no footer da HOD Creative
+   (hodcriativ.netlify.app), adaptado às cores da FORJ3D.
+   Arquivo separado e carregado por último nas 3 páginas: para
+   voltar ao footer anterior, basta remover o <link> dele no HTML.
+========================================================= */
+
+/* Linha de destaque no topo do footer (na HOD é laranja; aqui, ciano) */
+footer {
+  border-top: 2px solid var(--accent, #00E5FF);
+}
+
+/* Títulos das colunas: Inter em caixa alta, espaçada e mais suave */
+footer .footer-col h4 {
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.72);
+  margin-bottom: 22px;
+}
+
+/* Links: maiores, brancos e com mais respiro entre eles */
+footer .footer-col ul {
+  gap: 14px;
+  font-size: 15px;
+}
+
+footer .footer-col ul a {
+  color: #fff;
+  font-weight: 400;
+  transition: color .2s ease;
+}
+
+footer .footer-col ul a:hover,
+footer .footer-col ul a:focus-visible {
+  color: var(--accent, #00E5FF);
+}
+
+/* Descrição da marca */
+footer .footer-tagline {
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 280px;
+  color: rgba(255,255,255,.85);
+}
+
+/* Redes sociais: círculos preenchidos, sem contorno */
+footer .footer-social {
+  gap: 12px;
+  margin-top: 14px;
+}
+
+footer .footer-social a {
+  width: 38px;
+  height: 38px;
+  border: none;
+  background: rgba(255,255,255,.12);
+  color: #fff;
+}
+
+footer .footer-social a:hover,
+footer .footer-social a:focus-visible {
+  background: var(--accent, #00E5FF);
+  color: #0A2A3D;
+}
+
+/* Linha inferior: divisória mais visível e texto mais claro */
+footer .footer-top {
+  border-bottom-color: rgba(255,255,255,.18);
+  padding-bottom: 48px;
+}
+
+footer .foot-bottom {
+  padding-top: 26px;
+  font-size: 13px;
+  color: rgba(255,255,255,.8);
+}
