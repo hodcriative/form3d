@@ -295,6 +295,23 @@
   width:auto;
   margin-bottom:14px;
 }
+
+/* Logo da seção "Tem uma ideia em mente?": centralizada sobre o texto
+   e flutuando para cima e para baixo, de forma suave e contínua. */
+.cta-info .section-icons {
+  align-self:center;
+  animation: logo-float 4.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes logo-float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-12px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta-info .section-icons { animation: none; }
+}
   
   h1.hero-title {
     font-size:50px;
