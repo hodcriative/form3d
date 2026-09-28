@@ -43,6 +43,7 @@ import { DRACOLoader } from '../vendor/three/examples/jsm/loaders/DRACOLoader.js
     scene.add(camera);
 
     const modelGroup = new THREE.Group();
+    modelGroup.rotation.y = Math.PI;
     scene.add(modelGroup);
 
     function normalize(object) {

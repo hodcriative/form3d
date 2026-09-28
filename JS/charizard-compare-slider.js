@@ -18,6 +18,7 @@
     image.style.clipPath = `inset(0 ${100 - pct}% 0 0)`;
     handle.style.left = pct + '%';
     handle.setAttribute('aria-valuenow', String(Math.round(pct)));
+    container.classList.toggle('is-showing-model', pct < 100);
   }
 
   function pctFromClientX(clientX) {
