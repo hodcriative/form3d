@@ -2538,6 +2538,50 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: ""
   },
+  {
+    id: 170,
+    name: "Armadura Vestível",
+    price: 900.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/armaduravestivel/cospalyarmadu4.png",
+      "IMG/produtos/geek/armaduravestivel/cospalyarmadu2.jpeg",
+      "IMG/produtos/geek/armaduravestivel/cospalyarmadu3.jpeg",
+      "IMG/produtos/geek/armaduravestivel/cospalyarmadu.jpeg",
+    ],
+    description: "Cosplay Completo"
+  },
+  {
+    id: 171,
+    name: "Mewtwo Pokémon",
+    price: 87.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo.jpeg",
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo2.jpeg",
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo3.jpeg",
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo4.jpeg",
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo5.jpeg",
+    ],
+    description: "Cosplay Completo"
+  },
+  {
+    id: 172,
+    name: "Cyberpunk 2077 DR12",
+    price: 150.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/cyberpunk2077/cyberrevolve.jpeg",
+      "IMG/produtos/geek/cyberpunk2077/cyberrevolve2.jpeg",
+    ],
+    description: "Quasar Revólver Técnico"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
