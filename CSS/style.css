@@ -312,6 +312,19 @@
   .cta-info .section-icons { margin-left:109px; }
 }
 
+/* Mobile: logo, título e texto centralizados, alinhados com o botão
+   "Fazer pedido personalizado" (que já é centralizado). */
+@media (max-width: 880px) {
+  .cta-strip .cta-info {
+    align-items:center;
+    text-align:center;
+  }
+  .cta-info .section-icons {
+    align-self:center;
+    margin-left:0;
+  }
+}
+
 @keyframes logo-float {
   0%, 100% { transform: translateY(0); }
   50%      { transform: translateY(-12px); }
