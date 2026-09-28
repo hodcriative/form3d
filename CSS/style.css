@@ -304,7 +304,7 @@
 .cta-info .section-icons {
   align-self:flex-start;
   margin-left:74px;
-  animation: logo-float 4.5s ease-in-out infinite;
+  animation: logo-float 3.8s ease-in-out infinite;
   will-change: transform;
 }
 
@@ -327,7 +327,7 @@
 
 @keyframes logo-float {
   0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-12px); }
+  50%      { transform: translateY(-18px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
