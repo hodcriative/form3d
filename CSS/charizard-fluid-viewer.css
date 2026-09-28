@@ -24,9 +24,48 @@
   position: absolute;
   right: 16px;
   bottom: 84px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(20, 22, 27, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.15s ease;
+}
+
+.charizard-fluid.is-showing-model .charizard-disclaimer {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.charizard-disclaimer:hover,
+.charizard-disclaimer:focus-visible {
+  background: rgba(20, 22, 27, 0.92);
+}
+
+.charizard-disclaimer:active {
+  transform: scale(0.94);
+}
+
+.charizard-disclaimer-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.charizard-disclaimer-tooltip {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 10px);
   padding: 6px 12px;
   border-radius: 999px;
-  background: rgba(20, 22, 27, 0.75);
+  background: rgba(20, 22, 27, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.6);
   color: #fff;
   font-family: 'JetBrains Mono', monospace;
@@ -35,13 +74,15 @@
   letter-spacing: 0.02em;
   white-space: nowrap;
   pointer-events: none;
-  z-index: 2;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transform: translateY(4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-.charizard-fluid.is-showing-model .charizard-disclaimer {
+.charizard-disclaimer:hover .charizard-disclaimer-tooltip,
+.charizard-disclaimer:focus-visible .charizard-disclaimer-tooltip {
   opacity: 1;
+  transform: translateY(0);
 }
 
 .charizard-hint {
