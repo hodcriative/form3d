@@ -296,12 +296,20 @@
   margin-bottom:14px;
 }
 
-/* Logo da seção "Tem uma ideia em mente?": centralizada sobre o texto
-   e flutuando para cima e para baixo, de forma suave e contínua. */
+/* Logo da seção "Tem uma ideia em mente?": posicionada logo acima da
+   letra "e" de "ideia" e flutuando para cima e para baixo, de forma
+   suave e contínua. O deslocamento acompanha o tamanho do título
+   (26px no mobile, 34px no desktop) — se o texto do título mudar,
+   esses valores precisam ser ajustados. */
 .cta-info .section-icons {
-  align-self:center;
+  align-self:flex-start;
+  margin-left:74px;
   animation: logo-float 4.5s ease-in-out infinite;
   will-change: transform;
+}
+
+@media (min-width: 881px) {
+  .cta-info .section-icons { margin-left:109px; }
 }
 
 @keyframes logo-float {
