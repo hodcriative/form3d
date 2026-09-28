@@ -2429,6 +2429,115 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: ""
   },
+  {
+    id: 163,
+    name: "Patolino X Kratos",
+    price: 210.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/patolinoxkratos/patokrat.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat2.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat3.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat4.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat5.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 164,
+    name: "Shadow the Hedgehog",
+    price: 130.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/shadowhege/shadowhe.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe2.png",
+      "IMG/produtos/geek/shadowhege/shadowhe3.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe4.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe5.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 165,
+    name: "Suporte para Copo e Headset",
+    price: 130.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suppolvohead/supcopohead.png",
+      "IMG/produtos/suportes/suppolvohead/supcopohead.png",
+    ],
+    description: "Formato de Polvo"
+  },
+  {
+    id: 166,
+    name: "Batman Absoluto",
+    price: 110.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/batmanabsoluto/batabso.jpeg",
+      "IMG/produtos/geek/batmanabsoluto/batabso2.jpeg",
+      "IMG/produtos/geek/batmanabsoluto/batabso3.jpeg",
+      "IMG/produtos/geek/batmanabsoluto/batabso4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 167,
+    name: "Leroy STITCH",
+    price: 150.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/leroystitch/leroysti.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti2.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti3.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti4.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti5.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 168,
+    name: "Raiden Chibi",
+    price: 95.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/raidenchibi/raidenchi.jpeg",
+      "IMG/produtos/geek/raidenchibi/raidenchi2.jpeg",
+      "IMG/produtos/geek/raidenchibi/raidenchi3.jpeg",
+      "IMG/produtos/geek/raidenchibi/raidenchi4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 169,
+    name: "Ryu",
+    price: 88.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/ryustreet/ryus.jpeg",
+      "IMG/produtos/geek/ryustreet/ryus2.jpeg",
+      "IMG/produtos/geek/ryustreet/ryus3.jpeg",
+      "IMG/produtos/geek/ryustreet/ryus4.jpeg",
+    ],
+    description: ""
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
