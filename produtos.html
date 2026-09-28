@@ -2,6 +2,8 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' data: blob:; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://wa.me https://api.whatsapp.com">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos FORJ3D | Catálogo de impressão 3D</title>
     <meta name="description" content="Catálogo de produtos personalizados em impressão 3D da FORJ3D. Veja preços, fotos e compre pelo WhatsApp.">
@@ -24,9 +26,7 @@
     <link rel="stylesheet" href="CSS/liquid-glass.css">
     <link rel="stylesheet" href="CSS/liquid-metal-button.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/fonts.css">
 
   </head>
 
@@ -36,15 +36,7 @@
       <span class="ptb ptb-a"></span>
       <span class="ptb ptb-b"></span>
     </div>
-    <script>
-      (function () {
-        try {
-          if (sessionStorage.getItem('forj3d_transition') === '1') {
-            document.getElementById('pageTransition').classList.add('is-covered');
-          }
-        } catch (e) { /* sem sessionStorage disponível — segue normal */ }
-      })();
-    </script>
+    <script src="JS/transition-cover.js"></script>
 
     <div class="watermark-overlay" aria-hidden="true"></div>
 
@@ -374,7 +366,7 @@
               <li><a href="https://wa.me/5527997941766" target="_blank" rel="noopener">(27) 99794-1766</a></li>
               <li><a href="https://www.instagram.com/forj_3d/" target="_blank" rel="noopener">@forj_3d</a></li>
               <li><a href="privacidade.html">Política de Privacidade</a></li>
-              <li><a href="#" onclick="window.forj3dOpenCookiePrefs && window.forj3dOpenCookiePrefs(); return false;">Preferências de cookies</a></li>
+              <li><a href="#" data-cookie-notice>Aviso de cookies</a></li>
             </ul>
           </div>
 
@@ -401,17 +393,7 @@
     <script src="JS/instagram-float.js"></script>
     <script src="JS/page-transition.js"></script>
 
-    <script>
-      // O header é "position: sticky", então a âncora nativa "#top"
-      // acha que ele já está no topo e não rola a página. Forçamos
-      // o scroll manualmente nos links da logo (nav e footer).
-      document.querySelectorAll('a[href="#top"]').forEach(function (link) {
-        link.addEventListener('click', function (e) {
-          e.preventDefault();
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-      });
-    </script>
+    <script src="JS/scroll-top.js"></script>
 
   </body>
 </html>

@@ -14,17 +14,45 @@
     return products.find(p => p.id === id);
   }
 
+  // Limite por item: evita pedidos absurdos e valores gigantes no total.
+  const MAX_QTY = 99;
+
+  function toQty(value) {
+    const n = Number(value);
+    if (!Number.isInteger(n) || n < 1) return 0;
+    return Math.min(n, MAX_QTY);
+  }
+
+  // O localStorage pode ter sido alterado por fora (extensões, outros
+  // sites no mesmo domínio etc.). Só aceita itens com ID de produto
+  // existente e quantidade inteira válida — qualquer outra coisa é
+  // descartada antes de chegar ao HTML ou à mensagem do WhatsApp.
+  function sanitizeCart(list) {
+    if (!Array.isArray(list)) return [];
+    const clean = [];
+    list.forEach(item => {
+      const id = Number(item && item.id);
+      const qty = toQty(item && item.qty);
+      if (!qty || !getProduct(id)) return;
+      const existing = clean.find(i => i.id === id);
+      if (existing) existing.qty = Math.min(existing.qty + qty, MAX_QTY);
+      else clean.push({ id, qty });
+    });
+    return clean;
+  }
+
   function loadCart() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      const parsed = raw ? JSON.parse(raw) : [];
-      return Array.isArray(parsed) ? parsed : [];
+      return sanitizeCart(raw ? JSON.parse(raw) : []);
     } catch (e) {
       return [];
     }
   }
 
   let cart = loadCart();
+  // Regrava já a versão validada, descartando o que estava inválido.
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(cart)); } catch (e) {}
 
   function money(v) {
     return 'R$ ' + v.toFixed(2).replace('.', ',');
@@ -42,16 +70,20 @@
   }
 
   function persist() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(cart));
+    cart = sanitizeCart(cart);
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(cart)); } catch (e) {}
     renderCart();
     updateBadge();
     updateCheckoutLink();
   }
 
   function addToCart(id, qty = 1) {
+    id = Number(id);
+    qty = toQty(qty);
+    if (!qty || !getProduct(id)) return;
     const existing = cart.find(item => item.id === id);
     if (existing) {
-      existing.qty += qty;
+      existing.qty = Math.min(existing.qty + qty, MAX_QTY);
     } else {
       cart.push({ id, qty });
     }
@@ -62,10 +94,11 @@
   function setQty(id, qty) {
     const item = cart.find(item => item.id === id);
     if (!item) return;
-    if (qty <= 0) {
+    qty = Number(qty);
+    if (!Number.isFinite(qty) || qty <= 0) {
       cart = cart.filter(i => i.id !== id);
     } else {
-      item.qty = qty;
+      item.qty = Math.min(Math.floor(qty), MAX_QTY);
     }
     persist();
   }

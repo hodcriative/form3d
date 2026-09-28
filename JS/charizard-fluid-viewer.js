@@ -3,10 +3,10 @@
    Modelo estático (sem esqueleto/ossos), já na pose final.
    Vanilla JS + Three.js (via importmap, sem build/bundler).
    ========================================================= */
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import * as THREE from '../vendor/three/build/three.module.min.js';
+import { GLTFLoader } from '../vendor/three/examples/jsm/loaders/GLTFLoader.js';
+import { DRACOLoader } from '../vendor/three/examples/jsm/loaders/DRACOLoader.js';
+import { OrbitControls } from '../vendor/three/examples/jsm/controls/OrbitControls.js';
 
 (function () {
   const container = document.getElementById('charizardFluid');
@@ -104,7 +104,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
     const loader = new GLTFLoader();
     const dracoLoader = new DRACOLoader();
-    dracoLoader.setDecoderPath('https://unpkg.com/three@0.160.0/examples/jsm/libs/draco/');
+    dracoLoader.setDecoderPath('vendor/three/examples/jsm/libs/draco/');
     loader.setDRACOLoader(dracoLoader);
 
     loader.loadAsync(MODEL_PATH).then((gltf) => {
@@ -200,22 +200,11 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
   // ---------- carregamento sob demanda ----------
   // só inicializa o Three.js e baixa o .glb quando a seção "quem somos"
-  // estiver perto de entrar na tela E o visitante já tiver aceitado
-  // o banner de cookies (o que vier depois, dispara o init()).
+  // estiver perto de entrar na tela.
   let inView = false;
-  let consentGiven = window.forj3dHasConsent ? window.forj3dHasConsent() : true;
 
   function tryInit() {
-    if (inView && consentGiven) init();
-  }
-
-  if (!consentGiven) {
-    container.classList.add('media-gated');
-    document.addEventListener('forj3d:consent-accepted', () => {
-      consentGiven = true;
-      container.classList.remove('media-gated');
-      tryInit();
-    }, { once: true });
+    if (inView) init();
   }
 
   if ('IntersectionObserver' in window) {

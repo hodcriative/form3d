@@ -1,6 +1,6 @@
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
+import * as THREE from '../vendor/three/build/three.module.min.js';
+import { GLTFLoader } from '../vendor/three/examples/jsm/loaders/GLTFLoader.js';
+import { DRACOLoader } from '../vendor/three/examples/jsm/loaders/DRACOLoader.js';
 
 (function () {
   const container = document.getElementById('heroFluid');
@@ -60,7 +60,7 @@ import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 
     // o modelo é comprimido com Draco — precisa do decoder pra abrir
     const dracoLoader = new DRACOLoader();
-    dracoLoader.setDecoderPath('https://unpkg.com/three@0.160.0/examples/jsm/libs/draco/');
+    dracoLoader.setDecoderPath('vendor/three/examples/jsm/libs/draco/');
     const loader = new GLTFLoader();
     loader.setDRACOLoader(dracoLoader);
 
@@ -139,13 +139,5 @@ import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
     }
   }
 
-  if (window.forj3dHasConsent && window.forj3dHasConsent()) {
-    start();
-  } else {
-    container.classList.add('media-gated');
-    document.addEventListener('forj3d:consent-accepted', () => {
-      container.classList.remove('media-gated');
-      start();
-    }, { once: true });
-  }
+  start();
 })();
