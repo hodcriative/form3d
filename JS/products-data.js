@@ -2582,6 +2582,65 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Quasar Revólver Técnico"
   },
+  {
+    id: 173,
+    name: "Poké - Equilíbrio",
+    price: 185.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pokeequilibrio/equipoke.png",
+      "IMG/produtos/geek/pokeequilibrio/equipoke2.jpeg",
+      "IMG/produtos/geek/pokeequilibrio/equipoke3.jpeg",
+      "IMG/produtos/geek/pokeequilibrio/equipoke4.jpeg",
+      "IMG/produtos/geek/pokeequilibrio/equipoke5.jpeg",
+    ],
+    description: "Jogo do Equilíbrio"
+  },
+  {
+    id: 174,
+    name: "Lâminas do Caos",
+    price: 140.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/laminaskaos/kratoslamina.png",
+      "IMG/produtos/geek/laminaskaos/kratoslamina2.jpeg",
+      "IMG/produtos/geek/laminaskaos/kratoslamina3.jpeg",
+    ],
+    description: "Kratos God of War"
+  },
+  {
+    id: 175,
+    name: "Punisher Sonic",
+    price: 120.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/punishersonic/sonicpuni.jpeg",
+      "IMG/produtos/geek/punishersonic/sonicpuni2.jpeg",
+      "IMG/produtos/geek/punishersonic/sonicpuni3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 176,
+    name: "Pikachu Magikarp Poncho ",
+    price: 65.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pikachumagi/pikamagi.jpeg",
+      "IMG/produtos/geek/pikachumagi/pikamagi2.jpg",
+      "IMG/produtos/geek/pikachumagi/pikamagi3.jpg",
+      "IMG/produtos/geek/pikachumagi/pikamagi4.png",
+    ],
+    description: ""
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
