@@ -2125,18 +2125,6 @@ window.FORJ3D_PRODUCTS = [
     description: "Garra 3D"
   },
   {
-    id: 142,
-    name: "Resfriador de lata",
-    price: 55.00,
-    category: "Utilidades",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/portalatas/resfriadorcoca/resfriacoca.jpeg",
-    ],
-    description: "Coca-Cola"
-  },
-  {
     id: 143,
     name: "Chaveiro abridor de Latas",
     price: 25.00,
@@ -2640,6 +2628,18 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/pikachumagi/pikamagi4.png",
     ],
     description: ""
+  },
+    {
+    id: 177,
+    name: "Resfriador de lata",
+    price: 55.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/resfriadorcoca/resfriacoca.jpeg",
+    ],
+    description: "Coca-Cola"
   },
 ];
 
