@@ -2635,6 +2635,45 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Coca-Cola"
   },
+  {
+    id: 178,
+    name: "Minions Voadores de Ovnis",
+    price: 69.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/minionsovini/ovminion.jpeg",
+      "IMG/produtos/geek/minionsovini/ovminion2.jpeg",
+      "IMG/produtos/geek/minionsovini/ovminion3.png",
+      "IMG/produtos/geek/minionsovini/ovminion4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 179,
+    name: "Yujiro Sigma",
+    price: 62.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/yujirosigma/yujirosi.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 180,
+    name: "Estátua do Batman",
+    price: 1800.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/yujirosigma/yujirosi.jpeg",
+    ],
+    description: "Em Tamnho Real"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
