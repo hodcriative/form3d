@@ -1,0 +1,25 @@
+/* =========================================================
+   Trava o arraste lateral da página no celular.
+   Alguns elementos decorativos (marca d'água, brilhos do hero,
+   alça do comparador do Charizard, transição de página) passam
+   um pouco da largura da tela. No iPhone isso deixava a página
+   inteira "solta" para arrastar para os lados.
+   - overflow-x: clip corta o excesso sem criar um novo container
+     de rolagem, então o header "sticky" continua funcionando.
+   - overscroll-behavior-x evita o efeito elástico lateral.
+   Carrossel e filtros continuam rolando normalmente, porque têm
+   o próprio overflow-x: auto.
+========================================================= */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden; /* navegadores antigos */
+  overscroll-behavior-x: none;
+}
+
+@supports (overflow: clip) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+}
