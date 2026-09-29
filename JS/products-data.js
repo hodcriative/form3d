@@ -2670,9 +2670,45 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/yujirosigma/yujirosi.jpeg",
+      "IMG/produtos/geek/batestatua/batmanest.png",
+      "IMG/produtos/geek/batestatua/batmanest2.png",
+      "IMG/produtos/geek/batestatua/batmanest3.jpeg",
+      "IMG/produtos/geek/batestatua/batmanest4.png",
+      "IMG/produtos/geek/batestatua/batmanest5.png",
     ],
     description: "Em Tamnho Real"
+  },
+  {
+    id: 181,
+    name: "Stitch",
+    price: 90.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitch3/stibune.jpeg",
+      "IMG/produtos/geek/stitch3/stibune2.jpeg",
+      "IMG/produtos/geek/stitch3/stibune3.jpeg",
+      "IMG/produtos/geek/stitch3/stibune4.jpeg",
+      "IMG/produtos/geek/stitch3/stibune5.jpeg",
+      "IMG/produtos/geek/stitch3/stibune6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 182,
+    name: "Bluto Peaky Blinders",
+    price: 155.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/blutopeaky/peakyblu.png",
+      "IMG/produtos/geek/blutopeaky/peakyblu2.jpeg",
+      "IMG/produtos/geek/blutopeaky/peakyblu3.jpeg",
+      "IMG/produtos/geek/blutopeaky/peakyblu4.jpeg",
+    ],
+    description: "Multipartes"
   },
 ];
 
