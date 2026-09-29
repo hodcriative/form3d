@@ -165,6 +165,12 @@ priceMaxInput.addEventListener('input', handlePriceChange);
 const overlay = document.getElementById('modalOverlay');
 let currentShareProduct = null;
 
+// true quando o próprio site criou a entrada #produto/id no histórico
+// (ao abrir o produto pela grade). Nesse caso, fechar o modal volta uma
+// entrada; caso contrário (link compartilhado aberto direto), só limpa
+// o hash da URL, sem tirar o visitante do site.
+let pushedProductEntry = false;
+
 /* ---------- "Você também pode gostar" ----------
    1. Se o produto tiver o campo `related` em products-data.js
       (ex.: related: [155, 3, 5]), mostra esses produtos, nessa ordem.
@@ -210,6 +216,7 @@ function getRelatedProducts(p){
 function openProduct(id){
   const p = products.find(x => x.id === id);
   if (!p) return;
+  const wasOpen = overlay.classList.contains('open');
 
   document.getElementById('modalCat').textContent = p.category;
   document.getElementById('modalProductName').textContent = p.name;
@@ -285,7 +292,15 @@ function openProduct(id){
   document.body.style.overflow = 'hidden';
 
   if (location.hash !== `#produto/${p.id}`) {
-    history.pushState({ produto: p.id }, '', `#produto/${p.id}`);
+    if (wasOpen) {
+      // trocando de produto com o modal já aberto (ex.: "Você também pode
+      // gostar"): substitui a entrada atual em vez de empilhar outra, para
+      // que fechar o modal volte ao catálogo e não ao produto anterior
+      history.replaceState({ produto: p.id }, '', `#produto/${p.id}`);
+    } else {
+      history.pushState({ produto: p.id }, '', `#produto/${p.id}`);
+      pushedProductEntry = true;
+    }
   }
 }
 
@@ -409,7 +424,12 @@ function closeModal(){
   // botão de voltar do navegador leva para a página anterior de verdade,
   // e não reabre o produto
   if (location.hash.match(/#produto\//)) {
-    history.back();
+    if (pushedProductEntry) {
+      pushedProductEntry = false;
+      history.back();
+    } else {
+      history.replaceState(null, '', location.pathname + location.search);
+    }
   }
 }
 
@@ -467,6 +487,7 @@ function checkHash(){
   if (match) {
     openProduct(Number(match[1]));
   } else {
+    pushedProductEntry = false;
     closeModalUI();
   }
 }
