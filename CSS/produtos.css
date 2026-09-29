@@ -1761,3 +1761,12 @@ footer::before {
     transition: none;
   }
 }
+/* Detalhe do produto (desktop): informações e botões centralizados na
+   altura da galeria, em vez de grudados no topo com espaço vazio embaixo.
+   No mobile a coluna fica abaixo das fotos, então não muda nada. */
+@media (min-width: 881px) {
+  .modal-body > div:last-child {
+    align-self: center;
+    padding-bottom: 48px; /* compensa as miniaturas: centro fica na foto principal */
+  }
+}
