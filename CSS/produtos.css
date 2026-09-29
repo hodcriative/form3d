@@ -1770,3 +1770,12 @@ footer::before {
     padding-bottom: 48px; /* compensa as miniaturas: centro fica na foto principal */
   }
 }
+
+/* Celular: a grade de "Você também pode gostar" tem 2 colunas, então
+   mostra só 2 sugestões (a 3ª ficaria sozinha na linha de baixo).
+   Com o campo related, aparecem os 2 primeiros IDs da lista. */
+@media (max-width: 480px) {
+  .related-grid .related-card:nth-child(n+3) {
+    display: none;
+  }
+}
