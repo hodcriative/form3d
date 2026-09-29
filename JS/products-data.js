@@ -2710,6 +2710,69 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Multipartes"
   },
+  {
+    id: 183,
+    name: "Porta - Chaves",
+    price: 87.55,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/portachavemust/mustanport.png",
+      "IMG/produtos/chaveiros/portachavemust/mustanport2.jpeg",
+      "IMG/produtos/chaveiros/portachavemust/mustanport3.jpeg",
+      "IMG/produtos/chaveiros/portachavemust/mustanport4.jpeg",
+    ],
+    description: "Mustang GT"
+  },
+  {
+    id: 184,
+    name: "Pikachu Urbano",
+    price: 164.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pikaurbano/urbanopika.png",
+      "IMG/produtos/geek/pikaurbano/urbanopika2.jpeg",
+      "IMG/produtos/geek/pikaurbano/urbanopika3.jpeg",
+      "IMG/produtos/geek/pikaurbano/urbanopika4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 185,
+    name: "Scooby Doo Urbano",
+    price: 220.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo.png",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo2.jpeg",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo3.jpeg",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo4.jpeg",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 186,
+    name: "Angel",
+    price: 115.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/angelstitch/angelsti.webp",
+      "IMG/produtos/geek/angelstitch/angelsti2.webp",
+      "IMG/produtos/geek/angelstitch/angelsti3.webp",
+      "IMG/produtos/geek/angelstitch/angelsti4.webp",
+      "IMG/produtos/geek/angelstitch/angelsti5.webp",
+      "IMG/produtos/geek/angelstitch/angelsti6.webp",
+    ],
+    description: "21cm de Altura"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
