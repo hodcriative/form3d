@@ -13,6 +13,26 @@ de cada produto em JS/products-data.js.
 Não é necessário editar o index.html. A Home e o catálogo usam a
 mesma base de produtos (JS/products-data.js).
 
+"VOCÊ TAMBÉM PODE GOSTAR" (sugestões no detalhe do produto)
+-----------------------------------------------------------
+Por padrão, o site sorteia 3 produtos da mesma categoria a cada vez
+que o produto é aberto.
+
+Para escolher as sugestões de um produto, adicione o campo "related"
+no cadastro dele em JS/products-data.js, com os IDs desejados:
+
+    {
+      id: 108,
+      name: "Pato Donald o Gangster",
+      ...
+      related: [155, 3, 5],
+    },
+
+- Aparecem exatamente esses produtos, na ordem da lista.
+- Se a lista tiver menos de 3, o restante é completado com produtos
+  sorteados da mesma categoria.
+- IDs que não existem (ex.: produto removido) são ignorados.
+
 CADASTRANDO UM PRODUTO NOVO
 ---------------------------
 1. Coloque as fotos em uma pasta dentro de IMG/produtos/.

@@ -165,6 +165,48 @@ priceMaxInput.addEventListener('input', handlePriceChange);
 const overlay = document.getElementById('modalOverlay');
 let currentShareProduct = null;
 
+/* ---------- "Você também pode gostar" ----------
+   1. Se o produto tiver o campo `related` em products-data.js
+      (ex.: related: [155, 3, 5]), mostra esses produtos, nessa ordem.
+   2. Se não tiver (ou se a lista tiver menos de 3), completa com
+      produtos sorteados da mesma categoria — muda a cada abertura.
+   IDs inexistentes ou repetidos são ignorados. */
+const RELATED_LIMIT = 3;
+
+function shuffled(list){
+  const copy = list.slice();
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+function getRelatedProducts(p){
+  const chosen = [];
+  const seen = new Set([p.id]);
+
+  if (Array.isArray(p.related)) {
+    p.related.forEach(rawId => {
+      const id = Number(rawId);
+      if (seen.has(id)) return;
+      const product = products.find(x => x.id === id);
+      if (!product) return;
+      seen.add(id);
+      chosen.push(product);
+    });
+  }
+
+  if (chosen.length < RELATED_LIMIT) {
+    const sameCategory = products.filter(x => x.category === p.category && !seen.has(x.id));
+    shuffled(sameCategory).forEach(product => {
+      if (chosen.length < RELATED_LIMIT) chosen.push(product);
+    });
+  }
+
+  return chosen.slice(0, RELATED_LIMIT);
+}
+
 function openProduct(id){
   const p = products.find(x => x.id === id);
   if (!p) return;
@@ -219,7 +261,9 @@ function openProduct(id){
   document.getElementById('modalAddCart').dataset.id = p.id;
   currentShareProduct = p;
 
-  const related = products.filter(x => x.category === p.category && x.id !== p.id).slice(0,3);
+  const related = getRelatedProducts(p);
+  const relatedTitle = document.querySelector('.related-title');
+  if (relatedTitle) relatedTitle.hidden = related.length === 0;
   document.getElementById('relatedGrid').innerHTML = related.map(r => `
     <div class="related-card" data-id="${r.id}" tabindex="0" role="button" aria-label="Ver ${r.name}">
       <div class="card-img">${productVisual(r)}</div>
