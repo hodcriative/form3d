@@ -2805,6 +2805,149 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Deuses & Mitos em 3D"
   },
+  {
+    id: 189,
+    name: "Chaveiro Garfield",
+    price: 35.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveigarfield/garfieldchave.jpeg",
+      "IMG/produtos/chaveiros/chaveigarfield/garfieldchave2.jpeg",
+      "IMG/produtos/chaveiros/chaveigarfield/garfieldchave3.jpeg",
+      "IMG/produtos/chaveiros/chaveigarfield/garfieldchave4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 190,
+    name: "Chaveiro Fúria da luz",
+    price: 35.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveifurialuz/furiachavei.png",
+      "IMG/produtos/chaveiros/chaveifurialuz/furiachavei2.jpeg",
+
+    ],
+    description: ""
+  },
+  {
+    id: 191,
+    name: "Chaveiro Banguela",
+    price: 35.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveifurialuz/banguechave.jpeg",
+      "IMG/produtos/chaveiros/chaveifurialuz/banguechave2.jpeg",
+
+    ],
+    description: "Fúria da Noite"
+  },
+  {
+    id: 192,
+    name: "Tails",
+    price: 120.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/tails/bonetails.jpeg",
+      "IMG/produtos/geek/tails/bonetails2.jpeg",
+      "IMG/produtos/geek/tails/bonetails3.jpeg",
+      "IMG/produtos/geek/tails/bonetails4.jpeg",
+      "IMG/produtos/geek/tails/bonetails5.jpeg",
+      "IMG/produtos/geek/tails/bonetails6.jpeg",
+
+    ],
+    description: "24cm de Altura"
+  },
+  {
+    id: 193,
+    name: "Mario X Pikachu",
+    price: 87.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/marioxpikachu/mariopikachu.png",
+      "IMG/produtos/geek/marioxpikachu/mariopikachu2.jpeg",
+    ],
+    description: "Figurino"
+  },
+  {
+    id: 194,
+    name: "Pikachu X Fúria da Noite",
+    price: 94.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pikachuxfurianoite/pikachunoite.png",
+      "IMG/produtos/geek/pikachuxfurianoite/pikachunoite2.jpeg",
+    ],
+    description: "Figurino"
+  },
+  {
+    id: 195,
+    name: "Pikachu Rayquaza Poncho",
+    price: 110.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pikachurayqua/raypikachu.png",
+      "IMG/produtos/geek/pikachurayqua/raypikachu2.png",
+      "IMG/produtos/geek/pikachurayqua/raypikachu.png",
+      "IMG/produtos/geek/pikachurayqua/raypikachu2.jpeg",
+    ],
+    description: "Figura Multicolorido"
+  },
+  {
+    id: 196,
+    name: "Enfeite de Oxigenação de Aquário",
+    price: 47.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/enfeites/enfeiteaquario/aquaenfeite.png",
+      "IMG/produtos/enfeites/enfeiteaquario/aquaenfeite2.jpeg",
+      "IMG/produtos/enfeites/enfeiteaquario/aquaenfeite3.jpeg",
+      "IMG/produtos/enfeites/enfeiteaquario/aquaenfeite4.gif",
+    ],
+    description: "Possui Esqueleto Dançarino"
+  },
+  {
+    id: 197,
+    name: "Esqueleto de Tubarão Branco",
+    price: 44.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/esqueletotubarao/tubaesque.png",
+      "IMG/produtos/geek/esqueletotubarao/tubaesque2.png",
+    ],
+    description: ""
+  },
+  {
+    id: 198,
+    name: "Tigela de Pipoca e Doce",
+    price: 160.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/tijelahomemaranha/homemtijela.png",
+      "IMG/produtos/portalatas/tijelahomemaranha/homemtijela.png",
+    ],
+    description: "Versão Homem Aranha"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
