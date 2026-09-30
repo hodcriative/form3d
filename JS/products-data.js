@@ -2773,6 +2773,38 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "21cm de Altura"
   },
+  {
+    id: 187,
+    name: "Capa de Dragão",
+    price: 39.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/protetores/capaisqueirodrag/capadrag.png",
+      "IMG/produtos/protetores/capaisqueirodrag/capadrag2.jpeg",
+      "IMG/produtos/protetores/capaisqueirodrag/capadrag3.png",
+    ],
+    description: "Capa para Isqueiro BIC"
+  },
+  {
+    id: 188,
+    name: "Conjunto de Xadrez de Mitologia Grega",
+    price: 160.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez2.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez3.png",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez4.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez5.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez6.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez7.jpeg",
+    ],
+    description: "Deuses & Mitos em 3D"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
