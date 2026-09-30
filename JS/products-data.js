@@ -2948,6 +2948,56 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: "Versão Homem Aranha"
   },
+  {
+    id: 199,
+    name: "Rex Toy Story",
+    price: 9.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaverextoystory/rexchavei.jpeg",
+      "IMG/produtos/chaveiros/chaverextoystory/rexchavei2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 200,
+    name: "Esqueleto Fofo de Diplodoco",
+    price: 50.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/esqueletodiplodoco/diplodocoesque.jpeg",
+      "IMG/produtos/geek/esqueletodiplodoco/diplodocoesque2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 201,
+    name: "Esqueleto Fofo de Tricerátops",
+    price: 50.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/esqueletodiplodoco/triceratopsesque.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 202,
+    name: "O chaveiro QuickDraw",
+    price: 40.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/esqueletodiplodoco/triceratopsesque.jpeg",
+    ],
+    description: "Mini Pistola & Coldre"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
