@@ -2902,8 +2902,8 @@ window.FORJ3D_PRODUCTS = [
     images: [
       "IMG/produtos/geek/pikachurayqua/raypikachu.png",
       "IMG/produtos/geek/pikachurayqua/raypikachu2.png",
-      "IMG/produtos/geek/pikachurayqua/raypikachu.png",
-      "IMG/produtos/geek/pikachurayqua/raypikachu2.jpeg",
+      "IMG/produtos/geek/pikachurayqua/raypikachu3.png",
+      "IMG/produtos/geek/pikachurayqua/raypikachu4.jpeg",
     ],
     description: "Figura Multicolorido"
   },
@@ -2944,7 +2944,7 @@ window.FORJ3D_PRODUCTS = [
     material: "",
     images: [
       "IMG/produtos/portalatas/tijelahomemaranha/homemtijela.png",
-      "IMG/produtos/portalatas/tijelahomemaranha/homemtijela.png",
+      "IMG/produtos/portalatas/tijelahomemaranha/homemtijela2.png",
     ],
     description: "Versão Homem Aranha"
   },
