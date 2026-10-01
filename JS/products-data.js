@@ -3023,8 +3023,8 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/suportes/supmedalhas/medasup.png",
-      "IMG/produtos/suportes/supmedalhas/medasup2.jpeg",
+      "IMG/produtos/suportes/portmedalhaima/medalhaima.png",
+      "IMG/produtos/suportes/portmedalhaima/medalhaima2.jpeg",
     ],
     description: "Completo com 11 Peças"
   },
@@ -3039,6 +3039,138 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/suportes/supvincisne/cisnesup.png",
       "IMG/produtos/suportes/supvincisne/cisnesup2.jpeg",
       "IMG/produtos/suportes/supvincisne/cisnesup3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 206,
+    name: "Suporte para Garrafa de vinho Tricerátopo",
+    price: 68.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvintriceratopo/tricesup.png",
+      "IMG/produtos/suportes/supvintriceratopo/tricesup2.jpeg",
+      "IMG/produtos/suportes/supvintriceratopo/tricesup3.jpeg",
+      "IMG/produtos/suportes/supvintriceratopo/tricesup4.jpeg",
+    ],
+    description: "Kawaii Dinossauro"
+  },
+  {
+    id: 207,
+    name: "Medalha de São Bento",
+    price: 48.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/medalhasaobento/saobenmeda.jpeg",
+    ],
+    description: "Com Base"
+  },
+  {
+    id: 208,
+    name: "Desert Eagle",
+    price: 94.50,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/deserteagle/eagledesert.jpeg",
+      "IMG/produtos/geek/deserteagle/eagledesert2.jpeg",
+      "IMG/produtos/geek/deserteagle/eagledesert3.jpeg",
+      "IMG/produtos/geek/deserteagle/eagledesert4.png",
+    ],
+    description: "Réplica de Brinquedo"
+  },
+  {
+    id: 209,
+    name: "Chaveiro de Carpa Articulada",
+    price: 20.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei2.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei3.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei4.png",
+    ],
+    description: "Brinquedo de Peixe Flexível"
+  },
+  {
+    id: 210,
+    name: "Chaveiro Mini Hambúrguer",
+    price: 9.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiminihambur/minihamburchavei.png",
+      "IMG/produtos/chaveiros/chaveiminihambur/minihamburchavei2.png",
+      "IMG/produtos/chaveiros/chaveiminihambur/minihamburchavei3.png",
+      "IMG/produtos/chaveiros/chaveiminihambur/minihamburchavei4.png",
+    ],
+    description: ""
+  },
+  {
+    id: 211,
+    name: "Chaveiro Dragão Mecha",
+    price: 10.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag.png",
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag2.png",
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag3.png",
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag4.png",
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 212,
+    name: "Porta-Medalhas Hexagonal",
+    price: 26.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor.jpeg",
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor2.jpeg",
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor3.jpeg",
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor4.jpeg",
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 213,
+    name: "Quebra-Cabeças de Animais 4 em 1",
+    price: 70.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra.png",
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra2.jpeg",
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra3.jpeg",
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra4.jpeg",
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 214,
+    name: "Pekka",
+    price: 47.70,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pekka/brinpekka.png",
     ],
     description: ""
   },
