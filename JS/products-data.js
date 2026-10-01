@@ -2990,13 +2990,57 @@ window.FORJ3D_PRODUCTS = [
     id: 202,
     name: "O chaveiro QuickDraw",
     price: 40.00,
-    category: "Colecionáveis",
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/esqueletodiplodoco/triceratopsesque.jpeg",
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei.png",
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei2.png",
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei3.png",
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei4.png",
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei5.png",
     ],
     description: "Mini Pistola & Coldre"
+  },
+  {
+    id: 203,
+    name: "Suporte de Medalhas de Jiu Jitsu BJJ",
+    price: 51.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supmedalhas/medasup.png",
+      "IMG/produtos/suportes/supmedalhas/medasup2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 204,
+    name: "Porta - Medalhas Hexagonal com Ímãs",
+    price: 120.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supmedalhas/medasup.png",
+      "IMG/produtos/suportes/supmedalhas/medasup2.jpeg",
+    ],
+    description: "Completo com 11 Peças"
+  },
+  {
+    id: 205,
+    name: "Suporte Elegante para Garrafa de Vinho Cisne",
+    price: 80.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvincisne/cisnesup.png",
+      "IMG/produtos/suportes/supvincisne/cisnesup2.jpeg",
+      "IMG/produtos/suportes/supvincisne/cisnesup3.jpeg",
+    ],
+    description: ""
   },
 ];
 
