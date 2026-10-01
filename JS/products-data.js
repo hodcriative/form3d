@@ -3096,6 +3096,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/chaveiros/chaveicarpa/carpachavei2.png",
       "IMG/produtos/chaveiros/chaveicarpa/carpachavei3.png",
       "IMG/produtos/chaveiros/chaveicarpa/carpachavei4.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei5.png",
     ],
     description: "Brinquedo de Peixe Flexível"
   },
