@@ -1775,7 +1775,7 @@ footer::before {
    mostra só 2 sugestões (a 3ª ficaria sozinha na linha de baixo).
    Com o campo related, aparecem os 2 primeiros IDs da lista. */
 @media (max-width: 480px) {
-  .related-grid .related-card:nth-child(n+3) {
+  .related-grid > .card:nth-child(n+3) {
     display: none;
   }
 }
@@ -1790,4 +1790,15 @@ footer::before {
 
 @media (max-width: 560px) {
   .p-logo { height: 36px; margin-bottom: 10px; }
+}
+
+/* "Você também pode gostar": usa o mesmo card do catálogo,
+   no mesmo espaçamento da grade de produtos */
+.related-grid {
+  gap: 20px;
+  perspective: 1200px;
+}
+
+@media (max-width: 560px) {
+  .related-grid { gap: 14px; }
 }

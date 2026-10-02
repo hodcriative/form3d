@@ -271,14 +271,10 @@ function openProduct(id){
   const related = getRelatedProducts(p);
   const relatedTitle = document.querySelector('.related-title');
   if (relatedTitle) relatedTitle.hidden = related.length === 0;
-  document.getElementById('relatedGrid').innerHTML = related.map(r => `
-    <div class="related-card" data-id="${r.id}" tabindex="0" role="button" aria-label="Ver ${r.name}">
-      <div class="card-img">${productVisual(r)}</div>
-      <div class="card-name">${r.name}</div>
-      <div class="card-price">R$ ${r.price.toFixed(2).replace('.',',')}</div>
-    </div>`).join('');
+  // mesmo card do catálogo (categoria, nome, preço e "Ver produto")
+  document.getElementById('relatedGrid').innerHTML = related.map(cardHTML).join('');
 
-  document.getElementById('relatedGrid').querySelectorAll('.related-card').forEach(c => {
+  document.getElementById('relatedGrid').querySelectorAll('.card').forEach(c => {
     c.addEventListener('click', () => openProduct(Number(c.dataset.id)));
     c.addEventListener('keydown', e => {
       if (e.key === 'Enter' || e.key === ' ') {
