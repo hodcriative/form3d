@@ -1370,8 +1370,8 @@ window.FORJ3D_PRODUCTS = [
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/mewtwotcg/mewtwocard.jpeg",
       "IMG/produtos/geek/mewtwotcg/mewtwocard2.jpeg",
+      "IMG/produtos/geek/mewtwotcg/mewtwocard.jpeg",
     ],
     description: "Cartão em Relevo"
   },
@@ -3086,19 +3086,16 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 209,
-    name: "Chaveiro de Carpa Articulada",
-    price: 20.00,
-    category: "Utilidades",
+    name: "Mega Charizard X - 28cm",
+    price: 152.00,
+    category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/chaveiros/chaveicarpa/carpachavei.png",
-      "IMG/produtos/chaveiros/chaveicarpa/carpachavei2.png",
-      "IMG/produtos/chaveiros/chaveicarpa/carpachavei3.png",
-      "IMG/produtos/chaveiros/chaveicarpa/carpachavei4.png",
-      "IMG/produtos/chaveiros/chaveicarpa/carpachavei5.png",
+      "IMG/produtos/geek/megacharix/charix.jpeg",
+      "IMG/produtos/geek/megacharix/charix2.png",
     ],
-    description: "Brinquedo de Peixe Flexível"
+    description: "Pokémon altura 28cm"
   },
   {
     id: 210,
@@ -3190,16 +3187,19 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 216,
-    name: "Mega Charizard X - 28cm",
-    price: 152.00,
-    category: "Colecionáveis",
+    name: "Chaveiro de Carpa Articulada",
+    price: 20.00,
+    category: "Utilidades",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/megacharix/charix.jpeg",
-      "IMG/produtos/geek/megacharix/charix2.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei2.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei3.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei4.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei5.png",
     ],
-    description: "Pokémon altura 28cm"
+    description: "Brinquedo de Peixe Flexível"
   },
 ];
 
