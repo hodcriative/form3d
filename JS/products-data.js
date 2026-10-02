@@ -21,16 +21,20 @@ window.FORJ3D_ICONS = {
 window.FORJ3D_PRODUCTS = [
   {
     id: 1,
-    name: "Mega Charizard X - 28cm",
-    price: 152.00,
+    name: "Pato Donald o Gangster",
+    price: 80.00,
     category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/megacharix/charix.jpeg",
-      "IMG/produtos/geek/megacharix/charix2.png",
+      "IMG/produtos/geek/donaldgangster/donaldgans.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans2.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans3.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans4.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans5.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans6.jpeg",
     ],
-    description: "Pokémon altura 28cm"
+    description: "Possui Alça"
   },
   {
     id: 2,
@@ -62,15 +66,18 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 4,
-    name: "Punisher Sonic",
-    price: 120.00,
+    name: "Shadow the Hedgehog",
+    price: 130.00,
     category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/punishersonic/sonicpuni.jpeg",
-      "IMG/produtos/geek/punishersonic/sonicpuni2.jpeg",
-      "IMG/produtos/geek/punishersonic/sonicpuni3.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe2.png",
+      "IMG/produtos/geek/shadowhege/shadowhe3.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe4.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe5.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe6.jpeg",
     ],
     description: ""
   },
@@ -187,18 +194,15 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 13,
-    name: "Shadow the Hedgehog",
-    price: 130.00,
+    name: "Punisher Sonic",
+    price: 120.00,
     category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/shadowhege/shadowhe.jpeg",
-      "IMG/produtos/geek/shadowhege/shadowhe2.png",
-      "IMG/produtos/geek/shadowhege/shadowhe3.jpeg",
-      "IMG/produtos/geek/shadowhege/shadowhe4.jpeg",
-      "IMG/produtos/geek/shadowhege/shadowhe5.jpeg",
-      "IMG/produtos/geek/shadowhege/shadowhe6.jpeg",
+      "IMG/produtos/geek/punishersonic/sonicpuni.jpeg",
+      "IMG/produtos/geek/punishersonic/sonicpuni2.jpeg",
+      "IMG/produtos/geek/punishersonic/sonicpuni3.jpeg",
     ],
     description: ""
   },
@@ -330,20 +334,16 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 22,
-    name: "Pato Donald o Gangster",
-    price: 80.00,
+    name: "Mega Charizard X - 28cm",
+    price: 152.00,
     category: "Colecionáveis",
     icon: "",
     material: "",
     images: [
-      "IMG/produtos/geek/donaldgangster/donaldgans.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans2.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans3.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans4.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans5.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans6.jpeg",
+      "IMG/produtos/geek/megacharix/charix.jpeg",
+      "IMG/produtos/geek/megacharix/charix2.png",
     ],
-    description: "Possui Alça"
+    description: "Pokémon altura 28cm"
   },
   {
     id: 23,
