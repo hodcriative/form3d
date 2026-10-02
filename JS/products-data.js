@@ -2718,7 +2718,7 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/batestatua/batmanest4.png",
       "IMG/produtos/geek/batestatua/batmanest5.png",
     ],
-    description: "Em Tamnho Real"
+    description: "Em Tamanho Real"
   },
   {
     id: 184,

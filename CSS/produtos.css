@@ -1779,3 +1779,15 @@ footer::before {
     display: none;
   }
 }
+
+/* Logo da FORJ3D acima da categoria, no detalhe do produto */
+.p-logo {
+  display: block;
+  width: auto;
+  height: 44px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 560px) {
+  .p-logo { height: 36px; margin-bottom: 10px; }
+}
