@@ -3175,6 +3175,32 @@ window.FORJ3D_PRODUCTS = [
     ],
     description: ""
   },
+  {
+    id: 215,
+    name: "Mega Charizard X - 18cm",
+    price: 82.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/megacharix/charix.jpeg",
+      "IMG/produtos/geek/megacharix/charix2.png",
+    ],
+    description: "Pokémon altura 18cm"
+  },
+  {
+    id: 216,
+    name: "Mega Charizard X - 28cm",
+    price: 152.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/megacharix/charix.jpeg",
+      "IMG/produtos/geek/megacharix/charix2.png",
+    ],
+    description: "Pokémon altura 28cm"
+  },
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
