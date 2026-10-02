@@ -1,0 +1,3260 @@
+/* =========================================================
+   FORJ3D — Dados compartilhados dos produtos
+   ========================================================= */
+
+window.FORJ3D_CONFIG = {
+  whatsappNumber: "5527997941766"
+};
+
+window.FORJ3D_ICONS = {
+  controle: '<svg viewBox="0 0 100 100" fill="none"><rect x="20" y="30" width="60" height="45" rx="4" stroke="currentColor" stroke-width="2"/><path d="M30 30v-8h40v8" stroke="currentColor" stroke-width="2"/></svg>',
+  vaso: '<svg viewBox="0 0 100 100" fill="none"><path d="M50 20c14 0 22 10 22 24 0 12-10 16-10 28H38c0-12-10-16-10-28 0-14 8-24 22-24Z" stroke="currentColor" stroke-width="2"/></svg>',
+  luminaria: '<svg viewBox="0 0 100 100" fill="none"><path d="M50 18v14M35 55l15-23 15 23z" stroke="currentColor" stroke-width="2"/><rect x="30" y="55" width="40" height="10" rx="2" stroke="currentColor" stroke-width="2"/><path d="M42 65v12h16V65" stroke="currentColor" stroke-width="2"/></svg>',
+  celular: '<svg viewBox="0 0 100 100" fill="none"><rect x="26" y="24" width="48" height="52" rx="8" stroke="currentColor" stroke-width="2"/><path d="M38 65h24" stroke="currentColor" stroke-width="2"/></svg>',
+  miniatura: '<svg viewBox="0 0 100 100" fill="none"><circle cx="50" cy="42" r="16" stroke="currentColor" stroke-width="2"/><path d="M30 78c2-14 10-20 20-20s18 6 20 20" stroke="currentColor" stroke-width="2"/></svg>',
+  organizador: '<svg viewBox="0 0 100 100" fill="none"><rect x="22" y="30" width="56" height="40" rx="4" stroke="currentColor" stroke-width="2"/><path d="M22 46h56M40 30v40M60 30v40" stroke="currentColor" stroke-width="1.4"/></svg>',
+  porta_chaves: '<svg viewBox="0 0 100 100" fill="none"><circle cx="50" cy="30" r="10" stroke="currentColor" stroke-width="2"/><path d="M50 40v34M38 60h24M40 74h20" stroke="currentColor" stroke-width="2"/></svg>',
+  quadro: '<svg viewBox="0 0 100 100" fill="none"><rect x="24" y="22" width="52" height="56" rx="3" stroke="currentColor" stroke-width="2"/><path d="M24 62 42 46l12 12 22-20" stroke="currentColor" stroke-width="2"/></svg>',
+  porta_copo: '<svg viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="26" stroke="currentColor" stroke-width="2"/><circle cx="50" cy="50" r="10" stroke="currentColor" stroke-width="1.4"/></svg>'
+};
+
+window.FORJ3D_PRODUCTS = [
+  {
+    id: 1,
+    name: "Pato Donald o Gangster",
+    price: 80.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/donaldgangster/donaldgans.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans2.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans3.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans4.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans5.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans6.jpeg",
+    ],
+    description: "Possui Alça"
+  },
+  {
+    id: 2,
+    name: "Suporte para Controle Playstation 5 GTA VI",
+    price: 35.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolgta2/supgtaps.jpeg",
+    ],
+    description: "Para Plasytation 5 e Xbox"
+  },
+  {
+    id: 3,
+    name: "Suporte para Garrafas de Vinhos Arara",
+    price: 200.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhoarara/suparara.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara4.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara3.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara2.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 4,
+    name: "Shadow the Hedgehog",
+    price: 130.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/shadowhege/shadowhe.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe2.png",
+      "IMG/produtos/geek/shadowhege/shadowhe3.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe4.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe5.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 5,
+    name: "Suporte Universal para Controle God of War",
+    price: 67.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolkratos/supkratos.jpeg",
+      "IMG/produtos/geek/supcontrolkratos/supkratos2.jpeg",
+    ],
+    description: "Formato do Torso de Kratos"
+  },
+  {
+    id: 6,
+    name: "Suporte para Garrafa de Vinho Anubis",
+    price: 90.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supanubis/supanu.jpeg",
+      "IMG/produtos/suportes/supanubis/supanu2.jpeg",
+      "IMG/produtos/suportes/supanubis/supanu3.jpeg",
+    ],
+    description: "Elegância Egípicia."
+  },
+  {
+    id: 7,
+    name: "Mario X Pikachu",
+    price: 87.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/marioxpikachu/mariopikachu.png",
+      "IMG/produtos/geek/marioxpikachu/mariopikachu2.jpeg",
+    ],
+    description: "Figurino"
+  },
+  {
+    id: 8,
+    name: "Suporte para Controle",
+    price: 69.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolyoshi/supyohi.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi2.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi3.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 9,
+    name: "Suporte para Garrafa de Vinho",
+    price: 89.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supolvo2/suppolvin.jpeg",
+      "IMG/produtos/suportes/supolvo2/suppolvin2.jpeg",
+      "IMG/produtos/suportes/supolvo2/suppolvin3.jpeg",
+      "IMG/produtos/suportes/supolvo2/suppolvin4.jpeg",
+    ],
+    description: "Formato de Polvo."
+  },
+  {
+    id: 10,
+    name: "Capitão América",
+    price: 150.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/capamerica/america.jpeg",
+      "IMG/produtos/geek/capamerica/america2.jpeg",
+      "IMG/produtos/geek/capamerica/america3.jpeg",
+      "IMG/produtos/geek/capamerica/america4.jpeg",
+      "IMG/produtos/geek/capamerica/america5.jpeg",
+    ],
+    description: "22cm de Altura"
+  },
+  {
+    id: 11,
+    name: "Suporte Universal para Controle Senhor dos Aníes",
+    price: 90.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supsenhoraneis/supsaurons.png",
+    ],
+    description: "Formato da Mão de Sauron"
+  },
+  {
+    id: 12,
+    name: "Suporte para Garrafa de Vinho",
+    price: 87.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supflamingobebado/supflamingo.jpeg",
+      "IMG/produtos/suportes/supflamingobebado/supflamingo2.jpeg",
+    ],
+    description: "Formato de Flamingo Bêbado."
+  },
+  {
+    id: 13,
+    name: "Punisher Sonic",
+    price: 120.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/punishersonic/sonicpuni.jpeg",
+      "IMG/produtos/geek/punishersonic/sonicpuni2.jpeg",
+      "IMG/produtos/geek/punishersonic/sonicpuni3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 14,
+    name: "Suporte Universal para Controle GTA VI",
+    price: 160.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolgta/supgta.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta2.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta3.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta4.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta5.jpeg",
+    ],
+    description: "Para Plasytation 5 e Xbox"
+  },
+  {
+    id: 15,
+    name: "Suporte para Garrafa de Vinho",
+    price: 80.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix2.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix3.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix4.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix5.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix6.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix7.jpeg",
+    ],
+    description: "Formato de Fênix"
+  },
+  {
+    id: 16,
+    name: "Boneco Stitch",
+    price: 100.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitch/bonecostitch.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch2.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch3.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch4.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch5.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 17,
+    name: "Suporte Universal para Controle",
+    price: 90.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolwolwe/supwol.jpeg",
+      "IMG/produtos/geek/supcontrolwolwe/supwol2.jpeg",
+      "IMG/produtos/geek/supcontrolwolwe/supwol3.jpeg",
+    ],
+    description: "Design Wolwerine"
+  },
+  {
+    id: 18,
+    name: "Suporte para Garrafa de Vinho",
+    price: 82.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvindrag/supdrag.jpeg",
+      "IMG/produtos/suportes/supvindrag/supdrag2.jpeg",
+      "IMG/produtos/suportes/supvindrag/supdrag3.jpeg",
+      "IMG/produtos/suportes/supvindrag/supdrag4.jpeg",
+    ],
+    description: "Formato de Dragão."
+  },
+  {
+    id: 19,
+    name: "Vegeta Super Sayan 4",
+    price: 176.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper2.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper3.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper4.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper5.jpeg",
+    ],
+    description: "Edição Gangster"
+  },
+  {
+    id: 20,
+    name: "Suporte Universal para Controle Pokémon",
+    price: 40.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcraneocubone/supcubone.jpeg",
+      "IMG/produtos/geek/supcraneocubone/supcubone2.jpeg",
+    ],
+    description: "Formato da Crânio de Cubone"
+  },
+  {
+    id: 21,
+    name: "Suporte para Garrafa de Vinho",
+    price: 80.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supdragaonordico/supnordico.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico2.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico3.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico4.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico5.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico6.jpeg",
+    ],
+    description: "Dragão Nórdigo."
+  },
+  {
+    id: 22,
+    name: "Mega Charizard X - 28cm",
+    price: 152.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/megacharix/charix.jpeg",
+      "IMG/produtos/geek/megacharix/charix2.png",
+    ],
+    description: "Pokémon altura 28cm"
+  },
+  {
+    id: 23,
+    name: "Suporte para Garrafa de Vinho",
+    price: 110.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcranio/cranio.jpeg",
+      "IMG/produtos/suportes/supcranio/cranio2.jpeg",
+      "IMG/produtos/suportes/supcranio/cranio3.jpeg",
+    ],
+    description: "Lâmpada de Crânio"
+  },
+  {
+    id: 24,
+    name: "Scooby Doo Urbano",
+    price: 220.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo.png",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo2.jpeg",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo3.jpeg",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo4.jpeg",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 25,
+    name: "Boneco Homem-Aranha",
+    price: 150.00,
+    category: "Colecionáveis",
+    icon: "controle",
+    material: "PLA · fosco",
+    images: [
+      "IMG/produtos/geek/aranha/arafrente.jpeg",
+      "IMG/produtos/geek/aranha/araesquerda.jpeg",
+      "IMG/produtos/geek/aranha/aradireita.jpeg",
+      "IMG/produtos/geek/aranha/aracosta.jpeg"
+    ],
+    description: "Boneco decorativo do Homem-Aranha impresso em 3D, em pose de ação sobre teia."
+  },
+  {
+    id: 26,
+    name: "Mestre Roshi - Dragon Ball",
+    price: 190.00,
+    category: "Colecionáveis",
+    icon: "vaso",
+    material: "PETG · translúcido",
+    images: [
+      "IMG/produtos/geek/kame/kamefrente.jpeg",
+      "IMG/produtos/geek/kame/kameesq.jpeg",
+      "IMG/produtos/geek/kame/kamelado.jpeg",
+      "IMG/produtos/geek/kame/kamecosta.jpeg",
+    ],
+    description: "Estátua do Mestre Roshi (Dragon Ball) em pose de combate."
+  },
+  {
+    id: 27,
+    name: "Spider-Man - Brand New Day",
+    price: 120.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/aranha2/ara2fren.jpeg",
+      "IMG/produtos/geek/aranha2/ara2esquerda.jpeg",
+      "IMG/produtos/geek/aranha2/ara2costa.jpeg",
+    ],
+    description: "Estátua do Homem-Aranha no icônico traje de Brand New Day, em pose dinâmica de combate."
+  },
+  {
+    id: 28,
+    name: "Batmóvel",
+    price: 350.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/batmov/batfechado.jpeg",
+      "IMG/produtos/geek/batmov/bataberto.jpeg",
+      "IMG/produtos/geek/batmov/batesq.jpeg",
+      "IMG/produtos/geek/batmov/batcima.jpeg",
+    ],
+    description: "Miniatura colecionável detalhada do Batmóvel (Tumbler)."
+  },
+  {
+    id: 29,
+    name: "Estátua Mecha Blastoise",
+    price: 230.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/blastoise/blasfrente.jpeg",
+      "IMG/produtos/geek/blastoise/blaslado2.jpeg",
+      "IMG/produtos/geek/blastoise/blaslado.jpeg",
+      "IMG/produtos/geek/blastoise/blascosta.jpeg",
+    ],
+    description: "Estátua do Blastoise em versão mecha, Multicolorida Separada."
+  },
+  {
+    id: 30,
+    name: "Nossa Senhora Aparecida",
+    price: 25.00,
+    category: "Decoração",
+    icon: "",
+    material: "Imagem de Nossa Senhora Aparecida impressa em 3D, ideal presentes e decorações.",
+    images: [
+      "IMG/produtos/aparecida/apare.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 31,
+    name: "PipeBug Trap",
+    price: 35.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pipebug/pipe.jpeg",
+      "IMG/produtos/geek/pipebug/pipe5.gif",
+      "IMG/produtos/geek/pipebug/pipe2.jpeg",
+      "IMG/produtos/geek/pipebug/pipe3.jpeg",
+      "IMG/produtos/geek/pipebug/pipe4.jpeg",
+    ],
+    description: "Armadilha para insetos em formato do clássico cano verde do Mario, disfarçada de item decorativo."
+  },
+  {
+    id: 32,
+    name: "Protetor de Solo para Plantas",
+    price: 12.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/protetores/protetorplan/prote.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote7.gif",
+      "IMG/produtos/protetores/protetorplan/prote2.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote3.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote4.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote5.jpeg",
+      "IMG/produtos/protetores/protetorplan/prote6.jpeg",
+    ],
+    description: "Disco protetor para vasos de plantas: evita que gatos cavem a terra e afasta insetos, mantendo o solo protegido sem prejudicar o crescimento das raízes."
+  },
+  {
+    id: 33,
+    name: "Bug - Off Snap Can Lid",
+    price: 10.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/protetores/protetorvespa/vespa.jpeg",
+      "IMG/produtos/protetores/protetorvespa/vespa2.jpeg",
+      "IMG/produtos/protetores/protetorvespa/vespa3.jpeg",
+      "IMG/produtos/protetores/protetorvespa/vespa4.jpeg",
+    ],
+    description: "Tampa de encaixe rápido para latas de bebida, feita para impedir que vespas e outros insetos entrem no recipiente em ambientes externos."
+  },
+  {
+    id: 34,
+    name: "Porta Canetas Mario",
+    price: 78.99,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/lixeiraorga/lixe.jpeg",
+      "IMG/produtos/geek/lixeiraorga/lixe2.jpeg",
+      "IMG/produtos/geek/lixeiraorga/lixe3.jpeg",
+      "IMG/produtos/geek/lixeiraorga/lixe4.jpeg",
+    ],
+    description: "Organizador temático inspirado no Mario, com tampa articulada no formato do boné e das luvas do personagem. Pode ser usado como lixeira de mesa, porta-canetas ou organizador de miudezas."
+  },
+  {
+    id: 35,
+    name: "Pegador de Insetos Supremo",
+    price: 35.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/insetosupremo/inseto.jpeg",
+      "IMG/produtos/insetosupremo/inseto5.gif",
+      "IMG/produtos/insetosupremo/inseto2.jpeg",
+      "IMG/produtos/insetosupremo/inseto3.jpeg",
+      "IMG/produtos/insetosupremo/inseto4.jpeg",
+    ],
+    description: "Pegador de insetos com cabo ergonômico e pá curva, projetado para capturar e remover insetos com segurança e sem contato direto."
+  },
+  {
+    id: 36,
+    name: "Luminária Dragon Ball",
+    price: 68.99,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/iluminariadrag/iluminaria.jpeg",
+      "IMG/produtos/geek/iluminariadrag/iluminaria2.jpeg",
+      "IMG/produtos/geek/iluminariadrag/iluminaria3.jpeg",
+      "IMG/produtos/geek/iluminariadrag/iluminaria4.jpeg",
+    ],
+    description: "Luminária decorativa do Son Goku carregando uma Kamehameha, com fio de LED formando o feixe de energia entre as mãos e o cristal na base.",
+  },
+  {
+    id: 37,
+    name: "Mani Dock Max",
+    price: 26.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/manidock/mani1.jpeg",
+      "IMG/produtos/manidock/mani2.jpeg",
+      "IMG/produtos/manidock/mani3.jpeg",
+    ],
+    description: "Suporte ergonômico para apoio dos dedos durante esmaltação ou procedimentos de manicure, com canaletas em U que acomodam até 4 dedos confortavelmente."
+  },
+  {
+    id: 38,
+    name: "Fúria da Luz",
+    price: 60.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/furialuz/furia.jpeg",
+      "IMG/produtos/geek/furialuz/furia2.jpeg",
+    ],
+    description: "Estátua da Fúria da Luz (Light Fury), de Como Treinar o Seu Dragão, com acabamento branco perolado e pose sentada."
+  },
+  {
+    id: 39,
+    name: "Goku SSJ3 Urbano",
+    price: 115.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/gokuurbano/urbano.jpeg",
+      "IMG/produtos/geek/gokuurbano/urbano2.jpeg",
+      "IMG/produtos/geek/gokuurbano/urbano3.jpeg",
+      "IMG/produtos/geek/gokuurbano/urbano4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 40,
+    name: "Decoração para Aniversários",
+    price: 115.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/aniversarios/aniversarios.jpeg",
+      "IMG/produtos/aniversarios/aniversarios2.jpeg",
+      "IMG/produtos/aniversarios/aniversarios15.jpeg",
+      "IMG/produtos/aniversarios/aniversarios18.jpeg",
+      "IMG/produtos/aniversarios/aniversarios26.jpeg",
+      "IMG/produtos/aniversarios/aniversarios30.jpeg",
+      "IMG/produtos/aniversarios/aniversarios40.jpeg",
+      "IMG/produtos/aniversarios/aniversarios50.jpeg",
+      "IMG/produtos/aniversarios/aniversarios60.jpeg",
+      "IMG/produtos/aniversarios/aniversarios60s.jpeg",
+      "IMG/produtos/aniversarios/aniversarios70.jpeg",
+      "IMG/produtos/aniversarios/aniversarios85.jpeg",
+      "IMG/produtos/aniversarios/aniversarios90.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 41,
+    name: "Marcos Fotográficos Bebê 1 Mês - 1 Ano",
+    price: 45.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/bebe1ano/bebe1.jpeg",
+      "IMG/produtos/bebe1ano/bebe2.jpeg",
+      "IMG/produtos/bebe1ano/bebe3.jpeg",
+      "IMG/produtos/bebe1ano/bebe4.jpeg",
+      "IMG/produtos/bebe1ano/bebe5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 42,
+    name: "Goku Multi - Part",
+    price: 110.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/gokumulti/gokumult.jpeg",
+      "IMG/produtos/geek/gokumulti/gokumult3.jpeg",
+      "IMG/produtos/geek/gokumulti/gokumult2.jpeg",
+      "IMG/produtos/geek/gokumulti/gokumult4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 43,
+    name: "Suporte de Guarda - Sol para Telefone",
+    price: 45.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supguardasol/supguarda.jpeg",
+      "IMG/produtos/suportes/supguardasol/supguarda2.jpeg",
+      "IMG/produtos/suportes/supguardasol/supguarda3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 44,
+    name: "Bailarina Giratória - Torre de Rabanetes Antiestresse",
+    price: 30.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/bailarinagira/bailagira2.jpeg",
+      "IMG/produtos/bailarinagira/bailagira.gif",
+      "IMG/produtos/bailarinagira/bailagira3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 45,
+    name: "Chaveiro Giratório Corinthians",
+    price: 13.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveicorin/corintians2.jpeg",
+      "IMG/produtos/chaveiros/chaveicorin/corintians3.jpeg",
+      "IMG/produtos/chaveiros/chaveicorin/corintians.jpeg",
+      "IMG/produtos/chaveiros/chaveicorin/corintians4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 46,
+    name: "Lanterna Chapéu Seletor",
+    price: 70.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/lantechape/lantechapeu.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu2.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu3.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu4.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu5.jpeg",
+      "IMG/produtos/geek/lantechape/lantechapeu6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 47,
+    name: "Fonte de Ambiente Mágica - Perpétuo Móvel",
+    price: 120.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/fontemagic/fonte.jpeg",
+      "IMG/produtos/fontemagic/fonte2.jpeg",
+      "IMG/produtos/fontemagic/fonte3.jpeg",
+      "IMG/produtos/fontemagic/fonte4.jpeg",
+      "IMG/produtos/fontemagic/fonte5.jpeg",
+      "IMG/produtos/fontemagic/fonte6.jpeg",
+      "IMG/produtos/fontemagic/fonte7.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 48,
+    name: "Chaveiro BMW M2",
+    price: 64.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw2.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw3.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw4.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw5.jpeg",
+      "IMG/produtos/chaveiros/chaveibmw/chavebmw6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 49,
+    name: "Suporte para Vinho",
+    price: 40.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinho/sup1.jpeg",
+      "IMG/produtos/suportes/supvinho/sup3.jpeg",
+      "IMG/produtos/suportes/supvinho/sup2.jpeg",
+      "IMG/produtos/suportes/supvinho/sup4.jpeg",
+      "IMG/produtos/suportes/supvinho/sup5.jpeg",
+      "IMG/produtos/suportes/supvinho/sup6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 50,
+    name: "Suporte para Vinho VinoGrace",
+    price: 45.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinograce/vinograce.jpeg",
+      "IMG/produtos/suportes/supvinograce/vinograce3.jpeg",
+      "IMG/produtos/suportes/supvinograce/vinograce2.jpeg",
+      "IMG/produtos/suportes/supvinograce/vinograce4.jpeg",
+    ],
+    description: "Estilo Voronoi"
+  },
+  {
+    id: 51,
+    name: "Suporte para Garrafa de Vinho em Formato de Cachorro",
+    price: 59.98,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhocach/vinhach.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 52,
+    name: "Suporte para Garrafa de Vinho",
+    price: 70.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supganso/suporteganso.jpeg",
+      "IMG/produtos/suportes/supganso/suporteganso2.jpeg",
+      "IMG/produtos/suportes/supganso/suporteganso3.jpeg",
+    ],
+    description: "Formato de Ganso"
+  },
+  {
+    id: 53,
+    name: "Suporte para Garrafa de Vinho do Deus Grego",
+    price: 46.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supgrego/suporgrego.jpeg",
+      "IMG/produtos/suportes/supgrego/suporgrego2.jpeg",
+      "IMG/produtos/suportes/supgrego/suporgrego3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 54,
+    name: "Suporte para Garrafa de Vinho",
+    price: 29.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supbalanco/supbalan2.jpeg",
+      "IMG/produtos/suportes/supbalanco/supbalan3.jpeg",
+      "IMG/produtos/suportes/supbalanco/supbalan.jpeg",
+      "IMG/produtos/suportes/supbalanco/supbalan4.jpeg",
+      "IMG/produtos/suportes/supbalanco/supbalan5.jpeg",
+    ],
+    description: "Balanço Cinétcio Inovador V2"
+  },
+  {
+    id: 55,
+    name: "Suporte para Garrafa de Vinho e Taças",
+    price: 110.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhotaca/supvinta.jpeg",
+      "IMG/produtos/suportes/supvinhotaca/supvinta2.jpeg",
+      "IMG/produtos/suportes/supvinhotaca/supvinta3.jpeg",
+      "IMG/produtos/suportes/supvinhotaca/supvinta4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 56,
+    name: "Suporte para Garrafas de Vinhos Moderno",
+    price: 74.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinmoderno/supmoder.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supmoder2.jpeg",
+      "IMG/produtos/suportes/supvinmoderno/supmoder3.jpeg",
+    ],
+    description: "Versões para 4 e 5 Garrafas"
+  },
+  {
+    id: 57,
+    name: "Suporte De Barril de Vinhos Bag-in-Box",
+    price: 82.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supbarril/supvinbarril.jpeg",
+      "IMG/produtos/suportes/supbarril/supvinbarril2.jpeg",
+      "IMG/produtos/suportes/supbarril/supvinbarril3.jpeg",
+      "IMG/produtos/suportes/supbarril/supvinbarril4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 58,
+    name: "Suporte para Garrafas de Vinhos",
+    price: 92.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinho2/supor.jpeg",
+      "IMG/produtos/suportes/supvinho2/supor2.jpeg",
+      "IMG/produtos/suportes/supvinho2/supor3.jpeg",
+      "IMG/produtos/suportes/supvinho2/supor4.jpeg",
+      "IMG/produtos/suportes/supvinho2/supor5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 59,
+    name: "Suporte para Garrafas de Vinho",
+    price: 62.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhocoelho/supcoelho.jpeg",
+      "IMG/produtos/suportes/supvinhocoelho/supcoelho3.jpeg",
+      "IMG/produtos/suportes/supvinhocoelho/supcoelho2.jpeg",
+    ],
+    description: "Coelho / Coelhinho / Páscoa"
+  },
+  {
+    id: 60,
+    name: "Rack Orgânico para Vinho e Taças",
+    price: 155.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/rackvinho/rackvin.jpeg",
+      "IMG/produtos/rackvinho/rackvin3.jpeg",
+      "IMG/produtos/rackvinho/rackvin2.jpeg",
+      "IMG/produtos/rackvinho/rackvin4.jpeg",
+      "IMG/produtos/rackvinho/rackvin5.jpeg",
+    ],
+    description: "Suporte para 4 Garrafas"
+  },
+  {
+    id: 61,
+    name: "Suporte para Vinho VinoGrace Elegance",
+    price: 42.99,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinograceele/vinele.jpeg",
+      "IMG/produtos/suportes/supvinograceele/vinele3.jpeg",
+      "IMG/produtos/suportes/supvinograceele/vinele2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 62,
+    name: "O Expositor de Vinho",
+    price: 58.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/expositorvin/expovin.jpeg",
+      "IMG/produtos/suportes/expositorvin/expovin2.jpeg",
+      "IMG/produtos/suportes/expositorvin/expovin3.jpeg",
+      "IMG/produtos/suportes/expositorvin/expovin4.jpeg",
+    ],
+    description: "Anel & Base da Montanha da Perdição"
+  },
+  {
+    id: 63,
+    name: "Suporte para Garrafas de Vinho  - Polvo",
+    price: 40.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supolvo/suppolvo1.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo2.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo3.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo4.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo5.jpeg",
+      "IMG/produtos/suportes/supolvo/suppolvo6.jpeg",
+    ],
+    description: "Suporte em Formato de Polvo."
+  },
+  {
+    id: 64,
+    name: "Suporte para Garrafas de Vinho",
+    price: 57.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinho3/vinhosup.jpeg",
+      "IMG/produtos/suportes/supvinho3/vinhosup2.jpeg",
+      "IMG/produtos/suportes/supvinho3/vinhosup3.jpeg",
+      "IMG/produtos/suportes/supvinho3/vinhosup4.jpeg",
+      "IMG/produtos/suportes/supvinho3/vinhosup5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 65,
+    name: "Suporte para Garrafas de Vinho - Dachshund",
+    price: 33.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcachopasco/cachopas.jpeg",
+      "IMG/produtos/suportes/supcachopasco/cachopas2.jpeg",
+      "IMG/produtos/suportes/supcachopasco/cachopas3.jpeg",
+      "IMG/produtos/suportes/supcachopasco/cachopas4.jpeg",
+    ],
+    description: "Cachorro de Páscoa"
+  },
+  {
+    id: 66,
+    name: "Suporte para Garrafas",
+    price: 57.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supportavin/supporta.jpeg",
+      "IMG/produtos/suportes/supportavin/supporta2.jpeg",
+      "IMG/produtos/suportes/supportavin/supporta3.jpeg",
+    ],
+    description: "Porta Vinhos"
+  },
+  {
+    id: 67,
+    name: "Suporte para Garrafa de Vinho",
+    price: 75.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supbasebol/basebol.jpeg",
+      "IMG/produtos/suportes/supbasebol/basebol2.jpeg",
+      "IMG/produtos/suportes/supbasebol/basebol3.jpeg",
+    ],
+    description: "Batedeiro de Beisebol"
+  },
+  {
+    id: 68,
+    name: "Suporte para 5 Garrafas de Vinho",
+    price: 86.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supgarrafas/supvingarra.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra2.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra3.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra4.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra5.jpeg",
+      "IMG/produtos/suportes/supgarrafas/supvingarra6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 69,
+    name: "Suporte para Garrafa de Vinho",
+    price: 140.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinho4/vinsups.jpeg",
+      "IMG/produtos/suportes/supvinho4/vinsups2.jpeg",
+      "IMG/produtos/suportes/supvinho4/vinsups3.jpeg",
+      "IMG/produtos/suportes/supvinho4/vinsups4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 70,
+    name: "Adega de Vinhos Infinita",
+    price: 69.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/adegavinho/adegavin.jpeg",
+      "IMG/produtos/suportes/adegavinho/adegavin2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 71,
+    name: "Suporte Minimalista para Garrafa de Vinho",
+    price: 40.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supmini/supvinmini.jpeg",
+      "IMG/produtos/suportes/supmini/supvinmini2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 72,
+    name: "Suporte para Garrafa de Vinho",
+    price: 69.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcabecroco/supcro.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro2.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro3.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro4.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro5.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro6.jpeg",
+      "IMG/produtos/suportes/supcabecroco/supcro7.jpeg",
+    ],
+    description: "Formato Cabeça de Crocodilo."
+  },
+  {
+    id: 73,
+    name: "Suporte para Copos e Garrafas",
+    price: 92.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcopogarra/supcoga.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga2.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga3.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga4.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga5.jpeg",
+      "IMG/produtos/suportes/supcopogarra/supcoga6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 74,
+    name: "Suporte para Garrafa de Vinho",
+    price: 40.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcanhao/supcan.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan2.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan3.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan4.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan5.jpeg",
+      "IMG/produtos/suportes/supcanhao/supcan6.jpeg",
+    ],
+    description: "Formato de Canhão."
+  },
+  {
+    id: 75,
+    name: "Suporte de Garrafas para Geladeiras e Armários",
+    price: 65.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supgeladeiraarma/supgela.jpeg",
+      "IMG/produtos/suportes/supgeladeiraarma/supgela2.jpeg",
+    ],
+    description: "Coporta 4 ou 6 Garrafas."
+  },
+  {
+    id: 76,
+    name: "Suporte para Garrafa de Vinho",
+    price: 65.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supobsicavalo/supobcava.jpeg",
+      "IMG/produtos/suportes/supobsicavalo/supobcava2.gif",
+    ],
+    description: "Formato de Cavalo de Obsidiana."
+  },
+  {
+    id: 77,
+    name: "Suporte de Prateleira para Copos",
+    price: 69.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supprateleira/supprate.jpeg",
+      "IMG/produtos/suportes/supprateleira/supprate2.jpeg",
+      "IMG/produtos/suportes/supprateleira/supprate3.jpeg",
+    ],
+    description: "Stanley, Yeti, Hydro Flask."
+  },
+  {
+    id: 78,
+    name: "Adega de Vinho para Geladeira",
+    price: 38.98,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/adegageladeira/adegavins.jpeg",
+      "IMG/produtos/suportes/adegageladeira/adegavins2.jpeg",
+      "IMG/produtos/suportes/adegageladeira/adegavins3.jpeg",
+      "IMG/produtos/suportes/adegageladeira/adegavins4.jpeg",
+    ],
+    description: "Empilhável."
+  },
+  {
+    id: 79,
+    name: "Suporte para Garrafa de Vinho",
+    price: 82.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvingolfe/supvingol.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol2.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol3.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol4.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol5.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol6.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol7.jpeg",
+      "IMG/produtos/suportes/supvingolfe/supvingol8.jpeg",
+    ],
+    description: "Bolsa de Golfe."
+  },
+  {
+    id: 80,
+    name: "Suporte para Garrafa de Vinho",
+    price: 67.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supboneconeve/supbuneve.jpeg",
+      "IMG/produtos/suportes/supboneconeve/supbuneve2.jpeg",
+      "IMG/produtos/suportes/supboneconeve/supbuneve3.jpeg",
+      "IMG/produtos/suportes/supboneconeve/supbuneve4.jpeg",
+    ],
+    description: "Formato de Boneco de Neve."
+  },
+  {
+    id: 81,
+    name: "Suporte para Garrafa de Vinho",
+    price: 48.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supchama/supcha.jpeg",
+      "IMG/produtos/suportes/supchama/supcha2.jpeg",
+      "IMG/produtos/suportes/supchama/supcha3.jpeg",
+    ],
+    description: "Formato de Chama."
+  },
+  {
+    id: 82,
+    name: "Suporte para Garrafa de Vinho - Bear With Me",
+    price: 48.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supbearwhi/supbearwhitch.jpeg",
+      "IMG/produtos/suportes/supbearwhi/supbearwhitch2.jpeg",
+      "IMG/produtos/suportes/supbearwhi/supbearwhitch3.jpeg",
+      "IMG/produtos/suportes/supbearwhi/supbearwhitch4.jpeg",
+    ],
+    description: "Presente Divertido."
+  },
+  {
+    id: 83,
+    name: "Suporte para Garrafa de Vinho",
+    price: 45.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinnamorados/supnamo2.jpeg",
+      "IMG/produtos/suportes/supvinnamorados/supnamo.gif",
+      "IMG/produtos/suportes/supvinnamorados/supnamo3.jpeg",
+      "IMG/produtos/suportes/supvinnamorados/supnamo4.jpeg",
+    ],
+    description: "Dia dos Namorados."
+  },
+  {
+    id: 84,
+    name: "Suporte Definitivo para Cama e Sofá",
+    price: 78.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcamasofa/supcama.jpeg",
+      "IMG/produtos/suportes/supcamasofa/supcama2.jpeg",
+      "IMG/produtos/suportes/supcamasofa/supcama3.jpeg",
+    ],
+    description: "Vinhos, Lanches."
+  },
+  {
+    id: 85,
+    name: "Suporte para Garrafa de Vinho",
+    price: 40.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supesqueleto/supesque.jpg",
+    ],
+    description: "Formato de Esqueleto."
+  },
+  {
+    id: 86,
+    name: "Suporte para Garrafa de Vinho",
+    price: 60.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvincobra/supcobra.jpeg",
+      "IMG/produtos/suportes/supvincobra/supcobra2.gif",
+      "IMG/produtos/suportes/supvincobra/supcobra3.jpeg",
+    ],
+    description: "Formato de Cobra."
+  },
+  {
+    id: 87,
+    name: "Suporte para Garrafa de Vinho",
+    price: 60.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvincoracao/supcoracao.jpeg",
+      "IMG/produtos/suportes/supvincoracao/supcoracao2.jpeg",
+      "IMG/produtos/suportes/supvincoracao/supcoracao3.jpeg",
+    ],
+    description: "Formato de Coração."
+  },
+  {
+    id: 88,
+    name: "Suporte para Garrafa de Vinho",
+    price: 80.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvincabecadrag/supcabecadrag3.jpeg",
+      "IMG/produtos/suportes/supvincabecadrag/supcabecadrag2.jpeg",
+      "IMG/produtos/suportes/supvincabecadrag/supcabecadrag.jpeg",
+    ],
+    description: "Formato de Cabeça de Dragão."
+  },
+  {
+    id: 89,
+    name: "Suporte Gigante para Garrafa de Vinho",
+    price: 57.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinpistao/suppistao.jpeg",
+      "IMG/produtos/suportes/supvinpistao/suppistao2.gif",
+      "IMG/produtos/suportes/supvinpistao/suppistao3.jpeg",
+      "IMG/produtos/suportes/supvinpistao/suppistao4.jpeg",
+    ],
+    description: "Formato de Pistão."
+  },
+  {
+    id: 90,
+    name: "Suporte para Garrafa de Vinho",
+    price: 45.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinnoel/supnoel.jpeg",
+      "IMG/produtos/suportes/supvinnoel/supnoel2.jpeg",
+      "IMG/produtos/suportes/supvinnoel/supnoel3.jpeg",
+    ],
+    description: "Decoração de Natal Branco de Papai Noel."
+  },
+  {
+    id: 91,
+    name: "Caixa Expositora de Whisky",
+    price: 170.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/caixawisk/caixwis.jpeg",
+      "IMG/produtos/suportes/caixawisk/caixwis2.gif",
+      "IMG/produtos/suportes/caixawisk/caixwis3.jpeg",
+      "IMG/produtos/suportes/caixawisk/caixwis4.jpeg",
+    ],
+    description: "."
+  },
+  {
+    id: 92,
+    name: "Pokemon Charizard",
+    price: 38.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/charizardams/charizads.jpeg",
+      "IMG/produtos/geek/charizardams/charizads2.gif",
+      "IMG/produtos/geek/charizardams/charizads3.jpeg",
+
+    ],
+    description: "Sem AMS – Fogo Lendário"
+  },
+  {
+    id: 93,
+    name: "Pokemon Blaziken",
+    price: 37.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/blazikenams/blazikenam.jpeg",
+      "IMG/produtos/geek/blazikenams/blazikenam2.gif",
+    ],
+    description: "Sem AMS –  Fúria Ardente para Montar"
+  },
+  {
+    id: 94,
+    name: "Suporte para Controle e Headset",
+    price: 49.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolhead/supconhea.jpeg",
+      "IMG/produtos/geek/supcontrolhead/supconhea2.jpeg",
+      "IMG/produtos/geek/supcontrolhead/supconhea3.jpeg",
+      "IMG/produtos/geek/supcontrolhead/supconhea4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 95,
+    name: "Suporte Duplo para Controle de Playstation 5",
+    price: 33.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supduploplays/supduplo.jpeg",
+      "IMG/produtos/geek/supduploplays/supduplo2.jpeg",
+      "IMG/produtos/geek/supduploplays/supduplo4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 96,
+    name: "Cruz com Híperdetalhes",
+    price: 33.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/cruzhiper/cruzhiperdeta.jpeg",
+      "IMG/produtos/geek/cruzhiper/cruzhiperdeta2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 97,
+    name: "Protetor de Cabo USB-C",
+    price: 12.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/protetores/protetorcabousb/protetorusb.jpeg",
+      "IMG/produtos/protetores/protetorcabousb/protetorusb2.jpeg",
+      "IMG/produtos/protetores/protetorcabousb/protetorusb3.jpeg",
+      "IMG/produtos/protetores/protetorcabousb/protetorusb4.jpeg",
+    ],
+    description: "Atualizado"
+  },
+  {
+    id: 98,
+    name: "Castor Mabel Hoppers",
+    price: 125.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/castormabel/castmabel.jpeg",
+      "IMG/produtos/geek/castormabel/castmabel2.jpeg",
+      "IMG/produtos/geek/castormabel/castmabel3.jpeg",
+      "IMG/produtos/geek/castormabel/castmabel4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 99,
+    name: "Par de Renas Minimalistas",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/renasminimalistas/renasmini.jpeg",
+      "IMG/produtos/renasminimalistas/renasmini2.jpeg",
+      "IMG/produtos/renasminimalistas/renasmini3.jpeg",
+      "IMG/produtos/renasminimalistas/renasmini4.jpeg",
+    ],
+    description: "Decoração Moderna para Lareira"
+  },
+  {
+    id: 100,
+    name: "Mewtwo TCG",
+    price: 33.51,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mewtwotcg/mewtwocard2.jpeg",
+      "IMG/produtos/geek/mewtwotcg/mewtwocard.jpeg",
+    ],
+    description: "Cartão em Relevo"
+  },
+  {
+    id: 101,
+    name: "Suporte GTA VI",
+    price: 39.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolgta3/supgtavis.jpeg",
+      "IMG/produtos/geek/supcontrolgta3/supgtavis2.jpeg",
+      "IMG/produtos/geek/supcontrolgta3/supgtavis3.jpeg",
+      "IMG/produtos/geek/supcontrolgta3/supgtavis4.jpeg",
+    ],
+    description: "Suporte para DualSense e Xbox"
+  },
+  {
+    id: 102,
+    name: "Máscara Bobo da Corte",
+    price: 69.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mascarabobocorte/mascbobo.jpeg",
+      "IMG/produtos/geek/mascarabobocorte/mascbobo2.jpeg",
+    ],
+    description: "Coleção de Máscaras Usáveis"
+  },
+  {
+    id: 103,
+    name: "Observador Alienígena",
+    price: 325.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/observadoralien/observaalien.jpeg",
+      "IMG/produtos/geek/observadoralien/observaalien2.jpeg",
+      "IMG/produtos/geek/observadoralien/observaalien3.jpeg",
+      "IMG/produtos/geek/observadoralien/observaalien4.jpeg",
+    ],
+    description: "3 Pés THEM 1947"
+  },
+  {
+    id: 104,
+    name: "Decoração de Terror de Halloween",
+    price: 78.52,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/haloweencaveira/decohalowen.jpeg",
+      "IMG/produtos/geek/haloweencaveira/decohalowen2.jpeg",
+      "IMG/produtos/geek/haloweencaveira/decohalowen3.jpeg",
+      "IMG/produtos/geek/haloweencaveira/decohalowen4.jpeg",
+      "IMG/produtos/geek/haloweencaveira/decohalowen5.jpeg",
+    ],
+    description: "Caveira & Túmulo"
+  },
+  {
+    id: 105,
+    name: "Bandeja de Cubos de Gelo Pokemon",
+    price: 36.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/bandejagelopoke/bandegepoke.jpeg",
+      "IMG/produtos/geek/bandejagelopoke/bandegepoke2.jpeg",
+      "IMG/produtos/geek/bandejagelopoke/bandegepoke3.jpeg",
+      "IMG/produtos/geek/bandejagelopoke/bandegepoke4.jpeg",
+    ],
+    description: "Forma de Gelo"
+  },
+  {
+    id: 106,
+    name: "Dragão No Monitor",
+    price: 34.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/dragaomonitor/dragmoni.jpeg",
+      "IMG/produtos/geek/dragaomonitor/dragmoni2.jpeg",
+      "IMG/produtos/geek/dragaomonitor/dragmoni3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 107,
+    name: "Suporte universal para Controle GTA VI",
+    price: 68.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolgta4/supunivgta.jpeg",
+      "IMG/produtos/geek/supcontrolgta4/supunivgta2.jpeg",
+      "IMG/produtos/geek/supcontrolgta4/supunivgta3.jpeg",
+      "IMG/produtos/geek/supcontrolgta4/supunivgta4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 108,
+    name: "Brinquedo/Chaveiro Fluffy Tails",
+    price: 31.65,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/fluffysamo/fluffychavei.jpeg",
+      "IMG/produtos/geek/fluffysamo/fluffychavei2.jpeg",
+      "IMG/produtos/geek/fluffysamo/fluffychavei3.jpeg",
+      "IMG/produtos/geek/fluffysamo/fluffychavei4.jpeg",
+      "IMG/produtos/geek/fluffysamo/fluffychavei5.jpeg",
+    ],
+    description: "Cachorro Samoyeda Flexível"
+  },
+  {
+    id: 109,
+    name: "Chaveiro Flamengo",
+    price: 21.74,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiflamengo/mengochavei.jpeg",
+      "IMG/produtos/chaveiros/chaveiflamengo/mengochavei2.jpeg",
+    ],
+    description: "Escudo do Remo"
+  },
+  {
+    id: 110,
+    name: "Chaveiro Fé",
+    price: 16.34,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveife/fechavei.jpeg",
+      "IMG/produtos/chaveiros/chaveife/fechavei3.jpeg",
+      "IMG/produtos/chaveiros/chaveife/fechavei2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 111,
+    name: "Chaveiro de Cruz",
+    price: 17.43,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveicruz/cruzchavei.jpeg",
+      "IMG/produtos/chaveiros/chaveicruz/cruzchavei2.jpeg",
+    ],
+    description: "Símbolo de Coração e Cruz"
+  },
+  {
+    id: 112,
+    name: "Chaveiros Times do Rio de Janeiro",
+    price: 20.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveitimrio/timeriochave.jpeg",
+      "IMG/produtos/chaveiros/chaveitimrio/timeriochave2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 113,
+    name: "Chaveiro Cruz de Jesus",
+    price: 21.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chavecruzje/jechavei.jpeg",
+      "IMG/produtos/chaveiros/chavecruzje/jechavei2.jpeg",
+    ],
+    description: "Crucifixo Cristão 3D"
+  },
+  {
+    id: 114,
+    name: "Chaveiro Jesus Vive",
+    price: 12.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiviveje/jevivechavei.jpeg",
+      "IMG/produtos/chaveiros/chaveiviveje/jevivechavei2.jpeg",
+      "IMG/produtos/chaveiros/chaveiviveje/jevivechavei3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 115,
+    name: "101 Dálmatas",
+    price: 86.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/patchdalmata/dalma.jpeg",
+      "IMG/produtos/geek/patchdalmata/dalma2.jpeg",
+      "IMG/produtos/geek/patchdalmata/dalma3.jpeg",
+      "IMG/produtos/geek/patchdalmata/dalma4.jpeg",
+      "IMG/produtos/geek/patchdalmata/dalma5.jpeg",
+    ],
+    description: "Patch"
+  },
+  {
+    id: 116,
+    name: "Suporte para Latas de Cerveja",
+    price: 87.33,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatacerveja2/supcerjin.png",
+      "IMG/produtos/suportes/suplatacerveja2/supcerjin2.jpeg",
+      "IMG/produtos/suportes/suplatacerveja2/supcerjin3.jpeg",
+      "IMG/produtos/suportes/suplatacerveja2/supcerjin4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 117,
+    name: "Piloto de Motocross",
+    price: 30.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/motocrossmonstro/pilotomonster.jpeg",
+      "IMG/produtos/geek/motocrossmonstro/pilotomonster2.jpeg",
+      "IMG/produtos/geek/motocrossmonstro/pilotomonster3.jpeg",
+      "IMG/produtos/geek/motocrossmonstro/pilotomonster4.jpeg",
+    ],
+    description: "Mini Monster"
+  },
+  {
+    id: 118,
+    name: "Quadro Decorativo Corinthians",
+    price: 46.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/quadros/quadrocorinthians/quadrocorin.jpeg",
+    ],
+    description: "Quadro 3D com Logo"
+  },
+  {
+    id: 119,
+    name: "Porta Lata do Flamengo",
+    price: 150.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portaflamengo/portamengo.jpeg",
+      "IMG/produtos/portalatas/portaflamengo/portamengo2.jpeg",
+    ],
+    description: "Alça e Patch Libertadores"
+  },
+  {
+    id: 120,
+    name: "Porta Lata do Corinthians",
+    price: 170.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portacorinthians/portacorin.jpeg",
+      "IMG/produtos/portalatas/portacorinthians/portacorin2.jpeg",
+    ],
+    description: "Alça e Patch Libertadores"
+  },
+  {
+    id: 121,
+    name: "Troféu do Melhor Pai",
+    price: 37.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/trofeumelhorpai/trofmelhorpai.jpeg",
+      "IMG/produtos/geek/trofeumelhorpai/trofmelhorpai2.jpeg",
+    ],
+    description: "Presente para o Dia dos Pais"
+  },
+  {
+    id: 122,
+    name: "Chaveiro Meu Pai, Meu Orgulho",
+    price: 37.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveipai/chaveipaiorgu.jpeg",
+    ],
+    description: "Presente para o Dia dos Pais"
+  },
+  {
+    id: 123,
+    name: "Porta Chaves",
+    price: 12.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/portachaves/portachavecruz.jpeg",
+      "IMG/produtos/chaveiros/portachaves/portachavecruz2.jpeg",
+      "IMG/produtos/chaveiros/portachaves/portachavecruz3.jpeg",
+    ],
+    description: "Cruz de Batismo"
+  },
+  {
+    id: 124,
+    name: "Luna Park II",
+    price: 650.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/lunapark/parkluna.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna6.gif",
+      "IMG/produtos/geek/lunapark/parkluna3.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna4.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna5.jpeg",
+      "IMG/produtos/geek/lunapark/parkluna2.jpeg",
+    ],
+    description: "Circuito de Bolinhas de Gude"
+  },
+  {
+    id: 125,
+    name: "Porta Cartões",
+    price: 38.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/portacartoesbarbeiro/portbarbeiro.jpeg",
+      "IMG/produtos/suportes/portacartoesbarbeiro/portbarbeiro2.jpeg",
+      "IMG/produtos/suportes/portacartoesbarbeiro/portbarbeiro3.jpeg",
+    ],
+    description: "Visita de Barbeiro"
+  },
+  {
+    id: 126,
+    name: "Stitch",
+    price: 97.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitch2/stitchboneco.jpeg",
+      "IMG/produtos/geek/stitch2/stitchboneco2.jpeg",
+      "IMG/produtos/geek/stitch2/stitchboneco3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 127,
+    name: "Chaveiro Stitch",
+    price: 61.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveirostitch/stichave.jpeg",
+      "IMG/produtos/chaveiros/chaveirostitch/stichave2.jpeg",
+      "IMG/produtos/chaveiros/chaveirostitch/stichave3.jpeg",
+    ],
+    description: "Multicolorido"
+  },
+  {
+    id: 128,
+    name: "Ponto Flexível",
+    price: 52.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pontoflexivelstitch/stitchponto.jpeg",
+      "IMG/produtos/geek/pontoflexivelstitch/stitchponto2.jpeg",
+      "IMG/produtos/geek/pontoflexivelstitch/stitchponto3.jpeg",
+    ],
+    description: "Formato Stitch"
+  },
+  {
+    id: 129,
+    name: "Stitch Mini Flexi",
+    price: 45.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini.jpeg",
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini2.jpeg",
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini3.jpeg",
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini4.jpeg",
+      "IMG/produtos/geek/stitchpontoflexmini/stitchpontomini5.jpeg",
+    ],
+    description: "Figura Articulada Fofa"
+  },
+  {
+    id: 130,
+    name: "Teclado Clicker Fidget Stitch",
+    price: 32.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitchtecladoclicker/teclastitch.jpeg",
+      "IMG/produtos/geek/stitchtecladoclicker/teclastitch2.jpeg",
+      "IMG/produtos/geek/stitchtecladoclicker/teclastitch3.jpeg",
+      "IMG/produtos/geek/stitchtecladoclicker/teclastitch4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 131,
+    name: "Cruz Decorativa Religiosa - Jesus",
+    price: 32.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/cruzdecorativa/cruzdeco.jpeg",
+      "IMG/produtos/geek/cruzdecorativa/cruzdeco3.gif",
+      "IMG/produtos/geek/cruzdecorativa/cruzdeco2.jpeg",
+    ],
+    description: "Base Encaixável"
+  },
+  {
+    id: 132,
+    name: "Balde de Pipoca Hoplita",
+    price: 130.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/baldepipocahoplita/baldecapa2.jpeg",
+      "IMG/produtos/geek/baldepipocahoplita/baldecapa.jpeg",
+    ],
+    description: "Para Sua Próxima Odisseia"
+  },
+  {
+    id: 133,
+    name: "Mickey Mouse",
+    price: 99.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mickeynatal/natalmickey5.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey2.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey3.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey4.jpeg",
+    ],
+    description: "Versão de Natal"
+  },
+  {
+    id: 134,
+    name: "Mickey Mouse - 55cm",
+    price: 580.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mickeynatal/natalmickey.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey2.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey3.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey4.jpeg",
+      "IMG/produtos/geek/mickeynatal/natalmickey5.jpeg",
+    ],
+    description: "Versão de Natal"
+  },
+  {
+    id: 135,
+    name: "Jogo de Equilíbrio",
+    price: 40.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/jogoequidino/dinoequi.jpeg",
+      "IMG/produtos/geek/jogoequidino/dinoequi2.jpeg",
+      "IMG/produtos/geek/jogoequidino/dinoequi3.jpeg",
+    ],
+    description: "Formato de Dinossauro"
+  },
+  {
+    id: 136,
+    name: "Jogo de Equilíbrio",
+    price: 60.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/jogoequidino/dinoequi4.jpeg",
+    ],
+    description: "Formato de Dinossauro"
+  },
+  {
+    id: 137,
+    name: "Jogo de Equilíbrio",
+    price: 68.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/jogoequidrag/dragequi.jpeg",
+      "IMG/produtos/geek/jogoequidrag/dragequi2.jpeg",
+      "IMG/produtos/geek/jogoequidrag/dragequi3.jpeg",
+    ],
+    description: "Formato de Dragão"
+  },
+  {
+    id: 138,
+    name: "Jogo de Equilíbrio",
+    price: 110.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/jogoequipoke/pokeequi.jpeg",
+      "IMG/produtos/geek/jogoequipoke/pokeequi2.jpeg",
+    ],
+    description: "Formato de Pokémom"
+  },
+  {
+    id: 139,
+    name: "Abridor de Abas de Lata de Refrigerante",
+    price: 26.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/abricowboy/cowabri.jpeg",
+    ],
+    description: "Modelo Chapéu de Cowboy"
+  },
+  {
+    id: 140,
+    name: "Suporte para Long Neck",
+    price: 160.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplongneck/suplong.jpeg",
+      "IMG/produtos/suportes/suplongneck/suplong2.jpeg",
+      "IMG/produtos/suportes/suplongneck/suplong3.jpeg",
+      "IMG/produtos/suportes/suplongneck/suplong4.jpeg",
+      "IMG/produtos/suportes/suplongneck/suplong5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 141,
+    name: "Pluto Disney",
+    price: 120.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/plutodisney/displuto.jpeg",
+      "IMG/produtos/geek/plutodisney/displuto2.jpeg",
+      "IMG/produtos/geek/plutodisney/displuto3.jpeg",
+      "IMG/produtos/geek/plutodisney/displuto4.jpeg",
+      "IMG/produtos/geek/plutodisney/displuto5.jpeg",
+    ],
+    description: "25cm de Altura"
+  },
+  {
+    id: 142,
+    name: "Angel - Stitch",
+    price: 84.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/angelstitch/angelsti.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti2.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti3.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti4.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti5.jpeg",
+      "IMG/produtos/geek/angelstitch/angelsti6.jpeg",
+    ],
+    description: "21cm de Altura"
+  },
+  {
+    id: 143,
+    name: "Monkey D. Luffy",
+    price: 70.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/luffy/monkluffy.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy2.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy3.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy4.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy5.jpeg",
+      "IMG/produtos/geek/luffy/monkluffy6.jpeg",
+    ],
+    description: "27cm de Altura"
+  },
+  {
+    id: 144,
+    name: "Suporte para Lata de Monster Energy",
+    price: 94.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatamons/supmonst.jpeg",
+      "IMG/produtos/suportes/suplatamons/supmonst2.jpeg",
+      "IMG/produtos/suportes/suplatamons/supmonst3.jpeg",
+      "IMG/produtos/suportes/suplatamons/supmonst4.jpeg",
+    ],
+    description: "Possui Alça"
+  },
+  {
+    id: 145,
+    name: "Suporte para Latas de Monster Energy",
+    price: 65.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supmonter/suplatamons.jpeg",
+      "IMG/produtos/suportes/supmonter/suplatamons2.jpeg",
+      "IMG/produtos/suportes/supmonter/suplatamons3.jpeg",
+      "IMG/produtos/suportes/supmonter/suplatamons4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 146,
+    name: "Kit Monster",
+    price: 49.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/kitmonster/kitmons.jpeg",
+      "IMG/produtos/geek/kitmonster/kitmons2.jpeg",
+      "IMG/produtos/geek/kitmonster/kitmons3.jpeg",
+      "IMG/produtos/geek/kitmonster/kitmons4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 147,
+    name: "Chaveiro Monster Energy",
+    price: 26.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveimonster/monschavei.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster/monschavei2.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster/monschavei3.jpeg",
+    ],
+    description: "Abridor de Latas"
+  },
+  {
+    id: 148,
+    name: "Porta Lata Monster",
+    price: 60.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portalatasmonster/portamons.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons2.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons3.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons4.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons5.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons6.jpeg",
+      "IMG/produtos/portalatas/portalatasmonster/portamons7.jpeg",
+    ],
+    description: "Garra 3D"
+  },
+  {
+    id: 149,
+    name: "Chaveiro abridor de Latas",
+    price: 25.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveimonster2/monsterchaves.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster2/monsterchaves2.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster2/monsterchaves3.jpeg",
+      "IMG/produtos/chaveiros/chaveimonster2/monsterchaves4.jpeg",
+    ],
+    description: "Garra 3D"
+  },
+  {
+    id: 150,
+    name: "Chaveiro Mini Suporte",
+    price: 10.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiminimonster/monsminicha.jpeg",
+      "IMG/produtos/chaveiros/chaveiminimonster/monsminicha2.jpeg",
+      "IMG/produtos/chaveiros/chaveiminimonster/monsminicha3.jpeg",
+    ],
+    description: "Para Latas de Monster Energy"
+  },
+  {
+    id: 151,
+    name: "Arte de Parede Jesus Cristo",
+    price: 29.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/arteparedeje/paredearte.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 152,
+    name: "Cruz de Jesus Cristo",
+    price: 25.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/cruzje2/jescruz.jpeg",
+      "IMG/produtos/geek/cruzje2/jescruz2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 153,
+    name: "Cristo na Cruz",
+    price: 37.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/cristocruz/cristoarte.jpeg",
+      "IMG/produtos/geek/cristocruz/cristoarte2.jpeg",
+    ],
+    description: "Arte de Parede"
+  },
+  {
+    id: 154,
+    name: "Porta Pincéis de Maquiagem",
+    price: 55.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/portapincel/portpin.jpeg",
+      "IMG/produtos/geek/portapincel/portpin2.jpeg",
+    ],
+    description: "Formato de Laço"
+  },
+  {
+    id: 155,
+    name: "Tigela de Molho para Lanches em Coração",
+    price: 90.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/tijelamolho/molhalanche.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche2.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche3.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche4.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche5.jpeg",
+      "IMG/produtos/geek/tijelamolho/molhalanche6.jpeg",
+    ],
+    description: "Licença Comercial Gratuita"
+  },
+  {
+    id: 156,
+    name: "Kit de Porta-Copos de Pneu de Fórmula 1",
+    price: 50.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portapneu/portapneus.jpeg",
+      "IMG/produtos/portalatas/portapneu/portapneus2.jpeg",
+      "IMG/produtos/portalatas/portapneu/portapneus3.jpeg",
+    ],
+    description: "Possui Suporte de Pit Stop"
+  },
+  {
+    id: 157,
+    name: "Chaveiro Quickdraw II",
+    price: 36.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiquick/chaveiquickdraw.jpeg",
+      "IMG/produtos/chaveiros/chaveiquick/chaveiquickdraw2.jpeg",
+      "IMG/produtos/chaveiros/chaveiquick/chaveiquickdraw3.jpeg",
+      "IMG/produtos/chaveiros/chaveiquick/chaveiquickdraw4.jpeg",
+    ],
+    description: "Edição Revólver"
+  },
+  {
+    id: 158,
+    name: "Bugs Mafioso",
+    price: 230.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/bugsmafioso/bugmafi.jpeg",
+      "IMG/produtos/geek/bugsmafioso/bugmafi2.jpeg",
+    ],
+    description: "Edição Gangster"
+  },
+  {
+    id: 159,
+    name: "Dia dos Pais",
+    price: 40.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/diadospais/paifi.png",
+      "IMG/produtos/diadospais/paifi2.png",
+      "IMG/produtos/diadospais/paifi3.png",
+      "IMG/produtos/diadospais/paifi4.png",
+    ],
+    description: "Pai e Filha - Pai e Filho"
+  },
+  {
+    id: 160,
+    name: "Pato Datty Justiceiro",
+    price: 180.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/patodattyjusti/patojusti.png",
+      "IMG/produtos/geek/patodattyjusti/patojusti2.jpeg",
+      "IMG/produtos/geek/patodattyjusti/patojusti3.jpeg",
+      "IMG/produtos/geek/patodattyjusti/patojusti4.jpeg",
+      "IMG/produtos/geek/patodattyjusti/patojusti5.jpeg",
+      "IMG/produtos/geek/patodattyjusti/patojusti6.gif",
+    ],
+    description: ""
+  },
+  {
+    id: 161,
+    name: "Suporte para Lata Demônio Derretido",
+    price: 80.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatademo/supdemo.png",
+      "IMG/produtos/suportes/suplatademo/supdemo2.jpeg",
+      "IMG/produtos/suportes/suplatademo/supdemo3.jpeg",
+      "IMG/produtos/suportes/suplatademo/supdemo4.jpeg",
+
+    ],
+    description: "Caneca de cerveja"
+  },
+  {
+    id: 162,
+    name: "Porta-copos Giroscópico",
+    price: 69.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portacopogira/portagira.png",
+      "IMG/produtos/portalatas/portacopogira/portagira2.jpeg",
+    ],
+    description: "Para carrinho de bebê"
+  },
+  {
+    id: 163,
+    name: "Porta-Latinha Cthulhu",
+    price: 65.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/portalatacthulhu/portcthulhu.png",
+      "IMG/produtos/portalatas/portalatacthulhu/portcthulhu2.jpeg",
+      "IMG/produtos/portalatas/portalatacthulhu/portcthulhu3.jpeg",
+      "IMG/produtos/portalatas/portalatacthulhu/portcthulhu4.jpeg",
+    ],
+    description: "Para caneca de cerveja alta de 473ml"
+  },
+  {
+    id: 164,
+    name: "Suporte de Lata Lobisomem",
+    price: 85.77,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatalobi/suplobi.jpeg",
+      "IMG/produtos/suportes/suplatalobi/suplobi2.jpeg",
+      "IMG/produtos/suportes/suplatalobi/suplobi3.jpeg",
+      "IMG/produtos/suportes/suplatalobi/suplobi4.jpeg",
+      "IMG/produtos/suportes/suplatalobi/suplobi5.png",
+    ],
+    description: "Para caneca de cerveja"
+  },
+  {
+    id: 165,
+    name: "Suporte de Lata com Alça",
+    price: 87.36,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatacaveira/supcavei.jpeg",
+      "IMG/produtos/suportes/suplatacaveira/supcavei2.gif",
+      "IMG/produtos/suportes/suplatacaveira/supcavei3.png",
+      "IMG/produtos/suportes/suplatacaveira/supcavei4.jpeg",
+      "IMG/produtos/suportes/suplatacaveira/supcavei5.gif",
+      "IMG/produtos/suportes/suplatacaveira/supcavei6.jpeg",
+    ],
+    description: "Estilo caveira"
+  },
+  {
+    id: 166,
+    name: "Suporte de caneca Viking",
+    price: 75.93,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcaneviki/supvikin.jpeg",
+      "IMG/produtos/suportes/supcaneviki/supvikin2.jpeg",
+      "IMG/produtos/suportes/supcaneviki/supvikin3.jpeg",
+    ],
+    description: "Para lata - Cor Única"
+  },
+  {
+    id: 167,
+    name: "Suporte para Latas de Cerveja",
+    price: 71.46,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suplatacerveja/supcerve.jpeg",
+      "IMG/produtos/suportes/suplatacerveja/supcerve2.jpg",
+      "IMG/produtos/suportes/suplatacerveja/supcerve3.jpeg",
+      "IMG/produtos/suportes/suplatacerveja/supcerve4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 168,
+    name: "Patolino X Kratos",
+    price: 210.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/patolinoxkratos/patokrat.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat2.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat3.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat4.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat5.jpeg",
+      "IMG/produtos/geek/patolinoxkratos/patokrat6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 169,
+    name: "Suporte para Copo e Headset",
+    price: 130.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/suppolvohead/supcopohead.png",
+      "IMG/produtos/suportes/suppolvohead/supcopohead2.png",
+    ],
+    description: "Formato de Polvo"
+  },
+  {
+    id: 170,
+    name: "Batman Absoluto",
+    price: 110.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/batmanabsoluto/batabso.jpeg",
+      "IMG/produtos/geek/batmanabsoluto/batabso2.jpeg",
+      "IMG/produtos/geek/batmanabsoluto/batabso3.jpeg",
+      "IMG/produtos/geek/batmanabsoluto/batabso4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 171,
+    name: "Leroy STITCH",
+    price: 150.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/leroystitch/leroysti.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti2.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti3.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti4.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti5.jpeg",
+      "IMG/produtos/geek/leroystitch/leroysti6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 172,
+    name: "Raiden Chibi",
+    price: 95.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/raidenchibi/raidenchi.jpeg",
+      "IMG/produtos/geek/raidenchibi/raidenchi2.jpeg",
+      "IMG/produtos/geek/raidenchibi/raidenchi3.jpeg",
+      "IMG/produtos/geek/raidenchibi/raidenchi4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 173,
+    name: "Ryu",
+    price: 88.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/ryustreet/ryus.jpeg",
+      "IMG/produtos/geek/ryustreet/ryus2.jpeg",
+      "IMG/produtos/geek/ryustreet/ryus3.jpeg",
+      "IMG/produtos/geek/ryustreet/ryus4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 174,
+    name: "Armadura Vestível",
+    price: 900.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/armaduravestivel/cospalyarmadu4.png",
+      "IMG/produtos/geek/armaduravestivel/cospalyarmadu2.jpeg",
+      "IMG/produtos/geek/armaduravestivel/cospalyarmadu3.jpeg",
+      "IMG/produtos/geek/armaduravestivel/cospalyarmadu.jpeg",
+    ],
+    description: "Cosplay Completo"
+  },
+  {
+    id: 175,
+    name: "Mewtwo Pokémon",
+    price: 87.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo.jpeg",
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo2.jpeg",
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo3.jpeg",
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo4.jpeg",
+      "IMG/produtos/geek/mewtwopoke/pokemewtwo5.jpeg",
+    ],
+    description: "Cosplay Completo"
+  },
+  {
+    id: 176,
+    name: "Cyberpunk 2077 DR12",
+    price: 150.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/cyberpunk2077/cyberrevolve.jpeg",
+      "IMG/produtos/geek/cyberpunk2077/cyberrevolve2.jpeg",
+    ],
+    description: "Quasar Revólver Técnico"
+  },
+  {
+    id: 177,
+    name: "Poké - Equilíbrio",
+    price: 185.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pokeequilibrio/equipoke.png",
+      "IMG/produtos/geek/pokeequilibrio/equipoke2.jpeg",
+      "IMG/produtos/geek/pokeequilibrio/equipoke3.jpeg",
+      "IMG/produtos/geek/pokeequilibrio/equipoke4.jpeg",
+      "IMG/produtos/geek/pokeequilibrio/equipoke5.jpeg",
+    ],
+    description: "Jogo do Equilíbrio"
+  },
+  {
+    id: 178,
+    name: "Lâminas do Caos",
+    price: 140.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/laminaskaos/kratoslamina.png",
+      "IMG/produtos/geek/laminaskaos/kratoslamina2.jpeg",
+      "IMG/produtos/geek/laminaskaos/kratoslamina3.jpeg",
+    ],
+    description: "Kratos God of War"
+  },
+  {
+    id: 179,
+    name: "Pikachu Magikarp Poncho",
+    price: 65.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pikachumagi/pikamagi.jpeg",
+      "IMG/produtos/geek/pikachumagi/pikamagi2.jpg",
+      "IMG/produtos/geek/pikachumagi/pikamagi3.jpg",
+      "IMG/produtos/geek/pikachumagi/pikamagi4.png",
+    ],
+    description: ""
+  },
+  {
+    id: 180,
+    name: "Resfriador de lata",
+    price: 55.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/resfriadorcoca/resfriacoca.jpeg",
+    ],
+    description: "Coca-Cola"
+  },
+  {
+    id: 181,
+    name: "Minions Voadores de Ovnis",
+    price: 69.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/minionsovini/ovminion.jpeg",
+      "IMG/produtos/geek/minionsovini/ovminion2.jpeg",
+      "IMG/produtos/geek/minionsovini/ovminion3.png",
+      "IMG/produtos/geek/minionsovini/ovminion4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 182,
+    name: "Yujiro Sigma",
+    price: 62.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/yujirosigma/yujirosi.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 183,
+    name: "Estátua do Batman",
+    price: 1800.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/batestatua/batmanest.png",
+      "IMG/produtos/geek/batestatua/batmanest2.png",
+      "IMG/produtos/geek/batestatua/batmanest3.jpeg",
+      "IMG/produtos/geek/batestatua/batmanest4.png",
+      "IMG/produtos/geek/batestatua/batmanest5.png",
+    ],
+    description: "Em Tamanho Real"
+  },
+  {
+    id: 184,
+    name: "Stitch",
+    price: 90.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitch3/stibune.jpeg",
+      "IMG/produtos/geek/stitch3/stibune2.jpeg",
+      "IMG/produtos/geek/stitch3/stibune3.jpeg",
+      "IMG/produtos/geek/stitch3/stibune4.jpeg",
+      "IMG/produtos/geek/stitch3/stibune5.jpeg",
+      "IMG/produtos/geek/stitch3/stibune6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 185,
+    name: "Bluto Peaky Blinders",
+    price: 155.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/blutopeaky/peakyblu.png",
+      "IMG/produtos/geek/blutopeaky/peakyblu2.jpeg",
+      "IMG/produtos/geek/blutopeaky/peakyblu3.jpeg",
+      "IMG/produtos/geek/blutopeaky/peakyblu4.jpeg",
+    ],
+    description: "Multipartes"
+  },
+  {
+    id: 186,
+    name: "Porta - Chaves",
+    price: 87.55,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/portachavemust/mustanport.png",
+      "IMG/produtos/chaveiros/portachavemust/mustanport2.jpeg",
+      "IMG/produtos/chaveiros/portachavemust/mustanport3.jpeg",
+      "IMG/produtos/chaveiros/portachavemust/mustanport4.jpeg",
+    ],
+    description: "Mustang GT"
+  },
+  {
+    id: 187,
+    name: "Pikachu Urbano",
+    price: 164.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pikaurbano/urbanopika.png",
+      "IMG/produtos/geek/pikaurbano/urbanopika2.jpeg",
+      "IMG/produtos/geek/pikaurbano/urbanopika3.jpeg",
+      "IMG/produtos/geek/pikaurbano/urbanopika4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 188,
+    name: "Angel",
+    price: 115.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/angelstitch/angelsti.webp",
+      "IMG/produtos/geek/angelstitch/angelsti2.webp",
+      "IMG/produtos/geek/angelstitch/angelsti3.webp",
+      "IMG/produtos/geek/angelstitch/angelsti4.webp",
+      "IMG/produtos/geek/angelstitch/angelsti5.webp",
+      "IMG/produtos/geek/angelstitch/angelsti6.webp",
+    ],
+    description: "21cm de Altura"
+  },
+  {
+    id: 189,
+    name: "Capa de Dragão",
+    price: 39.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/protetores/capaisqueirodrag/capadrag.png",
+      "IMG/produtos/protetores/capaisqueirodrag/capadrag2.jpeg",
+      "IMG/produtos/protetores/capaisqueirodrag/capadrag3.png",
+    ],
+    description: "Capa para Isqueiro BIC"
+  },
+  {
+    id: 190,
+    name: "Conjunto de Xadrez de Mitologia Grega",
+    price: 160.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez2.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez3.png",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez4.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez5.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez6.jpeg",
+      "IMG/produtos/geek/xadrezgrego/gregoxadrez7.jpeg",
+    ],
+    description: "Deuses & Mitos em 3D"
+  },
+  {
+    id: 191,
+    name: "Chaveiro Garfield",
+    price: 35.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveigarfield/garfieldchave.jpeg",
+      "IMG/produtos/chaveiros/chaveigarfield/garfieldchave2.jpeg",
+      "IMG/produtos/chaveiros/chaveigarfield/garfieldchave3.jpeg",
+      "IMG/produtos/chaveiros/chaveigarfield/garfieldchave4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 192,
+    name: "Chaveiro Fúria da luz",
+    price: 35.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveifurialuz/furiachavei.png",
+      "IMG/produtos/chaveiros/chaveifurialuz/furiachavei2.jpeg",
+
+    ],
+    description: ""
+  },
+  {
+    id: 193,
+    name: "Chaveiro Banguela",
+    price: 35.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveifurialuz/banguechave.jpeg",
+      "IMG/produtos/chaveiros/chaveifurialuz/banguechave2.jpeg",
+
+    ],
+    description: "Fúria da Noite"
+  },
+  {
+    id: 194,
+    name: "Tails",
+    price: 120.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/tails/bonetails.jpeg",
+      "IMG/produtos/geek/tails/bonetails2.jpeg",
+      "IMG/produtos/geek/tails/bonetails3.jpeg",
+      "IMG/produtos/geek/tails/bonetails4.jpeg",
+      "IMG/produtos/geek/tails/bonetails5.jpeg",
+      "IMG/produtos/geek/tails/bonetails6.jpeg",
+
+    ],
+    description: "24cm de Altura"
+  },
+  {
+    id: 195,
+    name: "Pikachu X Fúria da Noite",
+    price: 94.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pikachuxfurianoite/pikachunoite.png",
+      "IMG/produtos/geek/pikachuxfurianoite/pikachunoite2.jpeg",
+    ],
+    description: "Figurino"
+  },
+  {
+    id: 196,
+    name: "Pikachu Rayquaza Poncho",
+    price: 110.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pikachurayqua/raypikachu.png",
+      "IMG/produtos/geek/pikachurayqua/raypikachu2.png",
+      "IMG/produtos/geek/pikachurayqua/raypikachu3.png",
+      "IMG/produtos/geek/pikachurayqua/raypikachu4.jpeg",
+    ],
+    description: "Figura Multicolorido"
+  },
+  {
+    id: 197,
+    name: "Enfeite de Oxigenação de Aquário",
+    price: 47.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/enfeites/enfeiteaquario/aquaenfeite.png",
+      "IMG/produtos/enfeites/enfeiteaquario/aquaenfeite2.jpeg",
+      "IMG/produtos/enfeites/enfeiteaquario/aquaenfeite3.jpeg",
+      "IMG/produtos/enfeites/enfeiteaquario/aquaenfeite4.gif",
+    ],
+    description: "Possui Esqueleto Dançarino"
+  },
+  {
+    id: 198,
+    name: "Esqueleto de Tubarão Branco",
+    price: 44.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/esqueletotubarao/tubaesque.png",
+      "IMG/produtos/geek/esqueletotubarao/tubaesque2.png",
+    ],
+    description: ""
+  },
+  {
+    id: 199,
+    name: "Tigela de Pipoca e Doce",
+    price: 160.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/portalatas/tijelahomemaranha/homemtijela.png",
+      "IMG/produtos/portalatas/tijelahomemaranha/homemtijela2.png",
+    ],
+    description: "Versão Homem Aranha"
+  },
+  {
+    id: 200,
+    name: "Rex Toy Story",
+    price: 9.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaverextoystory/rexchavei.jpeg",
+      "IMG/produtos/chaveiros/chaverextoystory/rexchavei2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 201,
+    name: "Esqueleto Fofo de Diplodoco",
+    price: 50.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/esqueletodiplodoco/diplodocoesque.jpeg",
+      "IMG/produtos/geek/esqueletodiplodoco/diplodocoesque2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 202,
+    name: "Esqueleto Fofo de Tricerátops",
+    price: 50.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/esqueletodiplodoco/triceratopsesque.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 203,
+    name: "O chaveiro QuickDraw",
+    price: 40.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei.png",
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei2.png",
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei3.png",
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei4.png",
+      "IMG/produtos/chaveiros/chaveiquick2/quickchavei5.png",
+    ],
+    description: "Mini Pistola & Coldre"
+  },
+  {
+    id: 204,
+    name: "Suporte de Medalhas de Jiu Jitsu BJJ",
+    price: 51.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supmedalhas/medasup.png",
+      "IMG/produtos/suportes/supmedalhas/medasup2.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 205,
+    name: "Porta - Medalhas Hexagonal com Ímãs",
+    price: 120.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/portmedalhaima/medalhaima.png",
+      "IMG/produtos/suportes/portmedalhaima/medalhaima2.jpeg",
+    ],
+    description: "Completo com 11 Peças"
+  },
+  {
+    id: 206,
+    name: "Suporte Elegante para Garrafa de Vinho Cisne",
+    price: 80.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvincisne/cisnesup.png",
+      "IMG/produtos/suportes/supvincisne/cisnesup2.jpeg",
+      "IMG/produtos/suportes/supvincisne/cisnesup3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 207,
+    name: "Suporte para Garrafa de vinho Tricerátopo",
+    price: 68.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvintriceratopo/tricesup.png",
+      "IMG/produtos/suportes/supvintriceratopo/tricesup2.jpeg",
+      "IMG/produtos/suportes/supvintriceratopo/tricesup3.jpeg",
+      "IMG/produtos/suportes/supvintriceratopo/tricesup4.jpeg",
+    ],
+    description: "Kawaii Dinossauro"
+  },
+  {
+    id: 208,
+    name: "Medalha de São Bento",
+    price: 48.00,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/medalhasaobento/saobenmeda.jpeg",
+    ],
+    description: "Com Base"
+  },
+  {
+    id: 209,
+    name: "Desert Eagle",
+    price: 94.50,
+    category: "Decoração",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/deserteagle/eagledesert.jpeg",
+      "IMG/produtos/geek/deserteagle/eagledesert2.jpeg",
+      "IMG/produtos/geek/deserteagle/eagledesert3.jpeg",
+      "IMG/produtos/geek/deserteagle/eagledesert4.png",
+    ],
+    description: "Réplica de Brinquedo"
+  },
+  {
+    id: 210,
+    name: "Chaveiro Mini Hambúrguer",
+    price: 9.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveiminihambur/minihamburchavei.png",
+      "IMG/produtos/chaveiros/chaveiminihambur/minihamburchavei2.png",
+      "IMG/produtos/chaveiros/chaveiminihambur/minihamburchavei3.png",
+      "IMG/produtos/chaveiros/chaveiminihambur/minihamburchavei4.png",
+    ],
+    description: ""
+  },
+  {
+    id: 211,
+    name: "Chaveiro Dragão Mecha",
+    price: 10.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag.png",
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag2.png",
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag3.png",
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag4.png",
+      "IMG/produtos/chaveiros/chaveidragmecha/mechadrag5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 212,
+    name: "Porta-Medalhas Hexagonal",
+    price: 26.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor.jpeg",
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor2.jpeg",
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor3.jpeg",
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor4.jpeg",
+      "IMG/produtos/suportes/portamedalhahex/medalhahexpor5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 213,
+    name: "Quebra-Cabeças de Animais 4 em 1",
+    price: 70.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra.png",
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra2.jpeg",
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra3.jpeg",
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra4.jpeg",
+      "IMG/produtos/geek/quebracabecaanimal/animaquebra5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 214,
+    name: "Pekka",
+    price: 47.70,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/pekka/brinpekka.png",
+    ],
+    description: ""
+  },
+  {
+    id: 215,
+    name: "Mega Charizard X - 18cm",
+    price: 82.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/megacharix/charix.jpeg",
+      "IMG/produtos/geek/megacharix/charix2.png",
+    ],
+    description: "Pokémon altura 18cm"
+  },
+  {
+    id: 216,
+    name: "Chaveiro de Carpa Articulada",
+    price: 20.00,
+    category: "Utilidades",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei2.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei3.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei4.png",
+      "IMG/produtos/chaveiros/chaveicarpa/carpachavei5.png",
+    ],
+    description: "Brinquedo de Peixe Flexível"
+  },
+];
+
+window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
+
+/* =========================================================
+   Helpers de imagem otimizada — compartilhados por index.js,
+   cart.js e produtos.js. Toda foto/gif em IMG/produtos/** tem
+   uma versão .webp (cheia) e -thumb.webp (miniatura) gerada
+   por scripts/optimize-images.js. Se a versão otimizada ainda
+   não existir (script não rodou pra ela), o onerror cai de
+   volta pro arquivo original — nada quebra visualmente, só
+   fica mais pesado até rodar o script.
+========================================================= */
+window.FORJ3D_OPTIMIZABLE_EXT = /\.(jpe?g|png|gif)$/i;
+
+window.forj3dToFullSrc = function (src) {
+  return window.FORJ3D_OPTIMIZABLE_EXT.test(src) ? src.replace(window.FORJ3D_OPTIMIZABLE_EXT, '.webp') : src;
+};
+
+window.forj3dToThumbSrc = function (src) {
+  return window.FORJ3D_OPTIMIZABLE_EXT.test(src) ? src.replace(window.FORJ3D_OPTIMIZABLE_EXT, '-thumb.webp') : src;
+};
+
+// Guarda o caminho original num data-attribute; o listener global
+// abaixo troca para ele se o .webp falhar. (Antes era um onerror
+// inline, que a Content-Security-Policy do site bloqueia.)
+window.forj3dFallbackAttr = function (originalSrc) {
+  return `data-fallback-src="${originalSrc}"`;
+};
+
+document.addEventListener('error', function (event) {
+  const img = event.target;
+  if (!img || img.tagName !== 'IMG') return;
+  const fallback = img.getAttribute('data-fallback-src');
+  if (!fallback) return;
+  img.removeAttribute('data-fallback-src'); // só tenta uma vez
+  img.src = fallback;
+}, true);
+
+/* =========================================================
+   FOTOS E MODELOS 3D
+   Fotos e modelos 3D são arquivos do próprio site e não coletam
+   nenhum dado do visitante, então aparecem sempre — não dependem
+   do aviso de cookies. Os helpers abaixo continuam existindo para
+   não quebrar index.js/cart.js/produtos.js e os viewers 3D.
+========================================================= */
+window.FORJ3D_CONSENT_KEY = 'forj3d_cookie_consent';
+
+window.forj3dHasConsent = function () {
+  return true;
+};
+
+window.forj3dMediaAttrs = function (src) {
+  return `src="${src}"`;
+};
+
+window.forj3dReleaseMedia = function () {};
