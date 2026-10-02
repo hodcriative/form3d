@@ -50,7 +50,7 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 3,
-    name: "Suprte para Garrafas de Vinhos Arara",
+    name: "Suporte para Garrafas de Vinhos Arara",
     price: 200.00,
     category: "Organizadores",
     icon: "",
@@ -853,7 +853,7 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 56,
-    name: "Suprte para Garrafas de Vinhos Moderno",
+    name: "Suporte para Garrafas de Vinhos Moderno",
     price: 74.00,
     category: "Organizadores",
     icon: "",
@@ -867,7 +867,7 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 57,
-    name: "Suprte De Barril de Vinhos Bag-in-Box",
+    name: "Suporte De Barril de Vinhos Bag-in-Box",
     price: 82.00,
     category: "Organizadores",
     icon: "",
@@ -882,7 +882,7 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 58,
-    name: "Suprte para Garrafas de Vinhos",
+    name: "Suporte para Garrafas de Vinhos",
     price: 92.00,
     category: "Organizadores",
     icon: "",
@@ -898,7 +898,7 @@ window.FORJ3D_PRODUCTS = [
   },
   {
     id: 59,
-    name: "Suprte para Garrafas de Vinho",
+    name: "Suporte para Garrafas de Vinho",
     price: 62.00,
     category: "Organizadores",
     icon: "",
