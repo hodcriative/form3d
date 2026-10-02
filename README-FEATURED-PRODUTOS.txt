@@ -13,19 +13,14 @@ de cada produto em JS/products-data.js.
 Não é necessário editar o index.html. A Home e o catálogo usam a
 mesma base de produtos (JS/products-data.js).
 
-PRIMEIROS PRODUTOS DO CATÁLOGO (produtos.html)
-----------------------------------------------
-Os produtos que aparecem primeiro no catálogo (ordenação "Relevância")
-são definidos pela lista FORJ3D_CATALOG_ORDER, em JS/products-data.js
-(logo abaixo da lista de categorias):
-
-    window.FORJ3D_CATALOG_ORDER = [209, 80, 36, 175, ...];
-
-- Aparecem nessa ordem; os demais vêm depois, na ordem do cadastro.
-- Vale também dentro de cada categoria do filtro.
-- Para mudar os destaques, troque os IDs da lista. Não é preciso
-  mudar a posição dos produtos no cadastro (isso troca os IDs e pode
-  confundir carrinhos e links já compartilhados).
+ORDEM DO CATÁLOGO (produtos.html)
+---------------------------------
+O catálogo mostra os produtos na mesma ordem em que aparecem em
+JS/products-data.js. Para destacar um produto, mova o bloco inteiro
+dele (de "{" até "},") para mais perto do início da lista.
+Mova o bloco junto com o "id" dele — não troque só o conteúdo entre
+dois blocos, senão os IDs mudam de produto (carrinhos e links
+compartilhados passam a abrir o produto errado).
 
 "VOCÊ TAMBÉM PODE GOSTAR" (sugestões no detalhe do produto)
 -----------------------------------------------------------
@@ -50,8 +45,9 @@ no cadastro dele em JS/products-data.js, com os IDs desejados:
 CADASTRANDO UM PRODUTO NOVO
 ---------------------------
 1. Coloque as fotos em uma pasta dentro de IMG/produtos/.
-2. Adicione o produto no final da lista em JS/products-data.js,
-   usando um "id" que ainda não exista (o próximo número livre).
+2. Adicione o produto em JS/products-data.js (no final da lista, ou
+   mais acima se quiser que apareça antes no catálogo), usando um "id"
+   que ainda não exista: o maior id cadastrado + 1.
 3. Use em "category" uma das categorias do filtro:
    "Decoração", "Colecionáveis", "Utilidades" ou "Organizadores".
 4. Faça o commit e o push para o main. O GitHub gera sozinho as

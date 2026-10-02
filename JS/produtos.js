@@ -51,12 +51,6 @@ function getFiltered(){
     return matchesCategory && matchesSearch && matchesMin && matchesMax;
   });
 
-  if (sortMode === "relevancia") {
-    // destaques de FORJ3D_CATALOG_ORDER primeiro; o resto mantém a ordem do cadastro
-    const order = window.FORJ3D_CATALOG_ORDER || [];
-    const rank = id => { const i = order.indexOf(id); return i === -1 ? Infinity : i; };
-    list.sort((a, b) => rank(a.id) - rank(b.id));
-  }
   if (sortMode === "menor-preco") list.sort((a, b) => a.price - b.price);
   if (sortMode === "maior-preco") list.sort((a, b) => b.price - a.price);
 

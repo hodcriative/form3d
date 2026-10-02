@@ -20,6 +20,362 @@ window.FORJ3D_ICONS = {
 
 window.FORJ3D_PRODUCTS = [
   {
+    id: 209,
+    name: "Mega Charizard X - 28cm",
+    price: 152.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/megacharix/charix.jpeg",
+      "IMG/produtos/geek/megacharix/charix2.png",
+    ],
+    description: "Pokémon altura 28cm"
+  },
+  {
+    id: 80,
+    name: "Suporte para Controle Playstation 5 GTA VI",
+    price: 35.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolgta2/supgtaps.jpeg",
+    ],
+    description: "Para Plasytation 5 e Xbox"
+  },
+  {
+    id: 36,
+    name: "Suprte para Garrafas de Vinhos Arara",
+    price: 200.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhoarara/suparara.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara4.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara3.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara2.jpeg",
+      "IMG/produtos/suportes/supvinhoarara/suparara5.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 175,
+    name: "Punisher Sonic",
+    price: 120.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/punishersonic/sonicpuni.jpeg",
+      "IMG/produtos/geek/punishersonic/sonicpuni2.jpeg",
+      "IMG/produtos/geek/punishersonic/sonicpuni3.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 86,
+    name: "Suporte Universal para Controle God of War",
+    price: 67.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolkratos/supkratos.jpeg",
+      "IMG/produtos/geek/supcontrolkratos/supkratos2.jpeg",
+    ],
+    description: "Formato do Torso de Kratos"
+  },
+  {
+    id: 59,
+    name: "Suporte para Garrafa de Vinho Anubis",
+    price: 90.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supanubis/supanu.jpeg",
+      "IMG/produtos/suportes/supanubis/supanu2.jpeg",
+      "IMG/produtos/suportes/supanubis/supanu3.jpeg",
+    ],
+    description: "Elegância Egípicia."
+  },
+  {
+    id: 193,
+    name: "Mario X Pikachu",
+    price: 87.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/marioxpikachu/mariopikachu.png",
+      "IMG/produtos/geek/marioxpikachu/mariopikachu2.jpeg",
+    ],
+    description: "Figurino"
+  },
+  {
+    id: 82,
+    name: "Suporte para Controle",
+    price: 69.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolyoshi/supyohi.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi2.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi3.jpeg",
+      "IMG/produtos/geek/supcontrolyoshi/supyohi4.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 66,
+    name: "Suporte para Garrafa de Vinho",
+    price: 89.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supolvo2/suppolvin.jpeg",
+      "IMG/produtos/suportes/supolvo2/suppolvin2.jpeg",
+      "IMG/produtos/suportes/supolvo2/suppolvin3.jpeg",
+      "IMG/produtos/suportes/supolvo2/suppolvin4.jpeg",
+    ],
+    description: "Formato de Polvo."
+  },
+  {
+    id: 137,
+    name: "Capitão América",
+    price: 150.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/capamerica/america.jpeg",
+      "IMG/produtos/geek/capamerica/america2.jpeg",
+      "IMG/produtos/geek/capamerica/america3.jpeg",
+      "IMG/produtos/geek/capamerica/america4.jpeg",
+      "IMG/produtos/geek/capamerica/america5.jpeg",
+    ],
+    description: "22cm de Altura"
+  },
+  {
+    id: 84,
+    name: "Suporte Universal para Controle Senhor dos Aníes",
+    price: 90.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supsenhoraneis/supsaurons.png",
+    ],
+    description: "Formato da Mão de Sauron"
+  },
+  {
+    id: 67,
+    name: "Suporte para Garrafa de Vinho",
+    price: 87.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supflamingobebado/supflamingo.jpeg",
+      "IMG/produtos/suportes/supflamingobebado/supflamingo2.jpeg",
+    ],
+    description: "Formato de Flamingo Bêbado."
+  },
+  {
+    id: 164,
+    name: "Shadow the Hedgehog",
+    price: 130.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/shadowhege/shadowhe.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe2.png",
+      "IMG/produtos/geek/shadowhege/shadowhe3.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe4.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe5.jpeg",
+      "IMG/produtos/geek/shadowhege/shadowhe6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 79,
+    name: "Suporte Universal para Controle GTA VI",
+    price: 160.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolgta/supgta.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta2.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta3.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta4.jpeg",
+      "IMG/produtos/geek/supcontrolgta/supgta5.jpeg",
+    ],
+    description: "Para Plasytation 5 e Xbox"
+  },
+  {
+    id: 45,
+    name: "Suporte para Garrafa de Vinho",
+    price: 80.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix2.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix3.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix4.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix5.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix6.jpeg",
+      "IMG/produtos/suportes/supvinhofenix/supvinfenix7.jpeg",
+    ],
+    description: "Formato de Fênix"
+  },
+  {
+    id: 118,
+    name: "Boneco Stitch",
+    price: 100.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/stitch/bonecostitch.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch2.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch3.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch4.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch5.jpeg",
+      "IMG/produtos/geek/stitch/bonecostitch6.jpeg",
+    ],
+    description: ""
+  },
+  {
+    id: 78,
+    name: "Suporte Universal para Controle",
+    price: 90.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcontrolwolwe/supwol.jpeg",
+      "IMG/produtos/geek/supcontrolwolwe/supwol2.jpeg",
+      "IMG/produtos/geek/supcontrolwolwe/supwol3.jpeg",
+    ],
+    description: "Design Wolwerine"
+  },
+  {
+    id: 72,
+    name: "Suporte para Garrafa de Vinho",
+    price: 82.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supvindrag/supdrag.jpeg",
+      "IMG/produtos/suportes/supvindrag/supdrag2.jpeg",
+      "IMG/produtos/suportes/supvindrag/supdrag3.jpeg",
+      "IMG/produtos/suportes/supvindrag/supdrag4.jpeg",
+    ],
+    description: "Formato de Dragão."
+  },
+  {
+    id: 153,
+    name: "Vegeta Super Sayan 4",
+    price: 176.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper2.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper3.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper4.jpeg",
+      "IMG/produtos/geek/vegetasupersayan4/vegetasuper5.jpeg",
+    ],
+    description: "Edição Gangster"
+  },
+  {
+    id: 85,
+    name: "Suporte Universal para Controle Pokémon",
+    price: 40.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/supcraneocubone/supcubone.jpeg",
+      "IMG/produtos/geek/supcraneocubone/supcubone2.jpeg",
+    ],
+    description: "Formato da Crânio de Cubone"
+  },
+  {
+    id: 58,
+    name: "Suporte para Garrafa de Vinho",
+    price: 80.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supdragaonordico/supnordico.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico2.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico3.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico4.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico5.jpeg",
+      "IMG/produtos/suportes/supdragaonordico/supnordico6.jpeg",
+    ],
+    description: "Dragão Nórdigo."
+  },
+  {
+    id: 108,
+    name: "Pato Donald o Gangster",
+    price: 80.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/donaldgangster/donaldgans.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans2.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans3.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans4.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans5.jpeg",
+      "IMG/produtos/geek/donaldgangster/donaldgans6.jpeg",
+    ],
+    description: "Possui Alça"
+  },
+  {
+    id: 41,
+    name: "Suporte para Garrafa de Vinho",
+    price: 110.00,
+    category: "Organizadores",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/suportes/supcranio/cranio.jpeg",
+      "IMG/produtos/suportes/supcranio/cranio2.jpeg",
+      "IMG/produtos/suportes/supcranio/cranio3.jpeg",
+    ],
+    description: "Lâmpada de Crânio"
+  },
+  {
+    id: 185,
+    name: "Scooby Doo Urbano",
+    price: 220.00,
+    category: "Colecionáveis",
+    icon: "",
+    material: "",
+    images: [
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo.png",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo2.jpeg",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo3.jpeg",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo4.jpeg",
+      "IMG/produtos/geek/scoobyurbano/urbanoscoo5.jpeg",
+    ],
+    description: ""
+  },
+  {
     id: 1,
     name: "Boneco Homem-Aranha",
     price: 150.00,
@@ -555,22 +911,6 @@ window.FORJ3D_PRODUCTS = [
     description: "Coelho / Coelhinho / Páscoa"
   },
   {
-    id: 36,
-    name: "Suprte para Garrafas de Vinhos Arara",
-    price: 200.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/suportes/supvinhoarara/suparara.jpeg",
-      "IMG/produtos/suportes/supvinhoarara/suparara4.jpeg",
-      "IMG/produtos/suportes/supvinhoarara/suparara3.jpeg",
-      "IMG/produtos/suportes/supvinhoarara/suparara2.jpeg",
-      "IMG/produtos/suportes/supvinhoarara/suparara5.jpeg",
-    ],
-    description: ""
-  },
-  {
     id: 37,
     name: "Rack Orgânico para Vinho e Taças",
     price: 155.00,
@@ -633,20 +973,6 @@ window.FORJ3D_PRODUCTS = [
     description: "Suporte em Formato de Polvo."
   },
   {
-    id: 41,
-    name: "Suporte para Garrafa de Vinho",
-    price: 110.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/suportes/supcranio/cranio.jpeg",
-      "IMG/produtos/suportes/supcranio/cranio2.jpeg",
-      "IMG/produtos/suportes/supcranio/cranio3.jpeg",
-    ],
-    description: "Lâmpada de Crânio"
-  },
-  {
     id: 42,
     name: "Suporte para Garrafas de Vinho",
     price: 57.00,
@@ -690,24 +1016,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/suportes/supportavin/supporta3.jpeg",
     ],
     description: "Porta Vinhos"
-  },
-  {
-    id: 45,
-    name: "Suporte para Garrafa de Vinho",
-    price: 80.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/suportes/supvinhofenix/supvinfenix.jpeg",
-      "IMG/produtos/suportes/supvinhofenix/supvinfenix2.jpeg",
-      "IMG/produtos/suportes/supvinhofenix/supvinfenix3.jpeg",
-      "IMG/produtos/suportes/supvinhofenix/supvinfenix4.jpeg",
-      "IMG/produtos/suportes/supvinhofenix/supvinfenix5.jpeg",
-      "IMG/produtos/suportes/supvinhofenix/supvinfenix6.jpeg",
-      "IMG/produtos/suportes/supvinhofenix/supvinfenix7.jpeg",
-    ],
-    description: "Formato de Fênix"
   },
   {
     id: 46,
@@ -889,37 +1197,6 @@ window.FORJ3D_PRODUCTS = [
     description: "Empilhável."
   },
   {
-    id: 58,
-    name: "Suporte para Garrafa de Vinho",
-    price: 80.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/suportes/supdragaonordico/supnordico.jpeg",
-      "IMG/produtos/suportes/supdragaonordico/supnordico2.jpeg",
-      "IMG/produtos/suportes/supdragaonordico/supnordico3.jpeg",
-      "IMG/produtos/suportes/supdragaonordico/supnordico4.jpeg",
-      "IMG/produtos/suportes/supdragaonordico/supnordico5.jpeg",
-      "IMG/produtos/suportes/supdragaonordico/supnordico6.jpeg",
-    ],
-    description: "Dragão Nórdigo."
-  },
-  {
-    id: 59,
-    name: "Suporte para Garrafa de Vinho Anubis",
-    price: 90.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/suportes/supanubis/supanu.jpeg",
-      "IMG/produtos/suportes/supanubis/supanu2.jpeg",
-      "IMG/produtos/suportes/supanubis/supanu3.jpeg",
-    ],
-    description: "Elegância Egípicia."
-  },
-  {
     id: 60,
     name: "Suporte para Garrafa de Vinho",
     price: 82.00,
@@ -1012,34 +1289,6 @@ window.FORJ3D_PRODUCTS = [
     description: "Vinhos, Lanches."
   },
   {
-    id: 66,
-    name: "Suporte para Garrafa de Vinho",
-    price: 89.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/suportes/supolvo2/suppolvin.jpeg",
-      "IMG/produtos/suportes/supolvo2/suppolvin2.jpeg",
-      "IMG/produtos/suportes/supolvo2/suppolvin3.jpeg",
-      "IMG/produtos/suportes/supolvo2/suppolvin4.jpeg",
-    ],
-    description: "Formato de Polvo."
-  },
-  {
-    id: 67,
-    name: "Suporte para Garrafa de Vinho",
-    price: 87.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/suportes/supflamingobebado/supflamingo.jpeg",
-      "IMG/produtos/suportes/supflamingobebado/supflamingo2.jpeg",
-    ],
-    description: "Formato de Flamingo Bêbado."
-  },
-  {
     id: 68,
     name: "Suporte para Garrafa de Vinho",
     price: 40.00,
@@ -1092,21 +1341,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/suportes/supvincabecadrag/supcabecadrag.jpeg",
     ],
     description: "Formato de Cabeça de Dragão."
-  },
-  {
-    id: 72,
-    name: "Suporte para Garrafa de Vinho",
-    price: 82.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/suportes/supvindrag/supdrag.jpeg",
-      "IMG/produtos/suportes/supvindrag/supdrag2.jpeg",
-      "IMG/produtos/suportes/supvindrag/supdrag3.jpeg",
-      "IMG/produtos/suportes/supvindrag/supdrag4.jpeg",
-    ],
-    description: "Formato de Dragão."
   },
   {
     id: 73,
@@ -1181,48 +1415,6 @@ window.FORJ3D_PRODUCTS = [
     description: "Sem AMS –  Fúria Ardente para Montar"
   },
   {
-    id: 78,
-    name: "Suporte Universal para Controle",
-    price: 90.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/supcontrolwolwe/supwol.jpeg",
-      "IMG/produtos/geek/supcontrolwolwe/supwol2.jpeg",
-      "IMG/produtos/geek/supcontrolwolwe/supwol3.jpeg",
-    ],
-    description: "Design Wolwerine"
-  },
-  {
-    id: 79,
-    name: "Suporte Universal para Controle GTA VI",
-    price: 160.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/supcontrolgta/supgta.jpeg",
-      "IMG/produtos/geek/supcontrolgta/supgta2.jpeg",
-      "IMG/produtos/geek/supcontrolgta/supgta3.jpeg",
-      "IMG/produtos/geek/supcontrolgta/supgta4.jpeg",
-      "IMG/produtos/geek/supcontrolgta/supgta5.jpeg",
-    ],
-    description: "Para Plasytation 5 e Xbox"
-  },
-  {
-    id: 80,
-    name: "Suporte para Controle Playstation 5 GTA VI",
-    price: 35.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/supcontrolgta2/supgtaps.jpeg",
-    ],
-    description: "Para Plasytation 5 e Xbox"
-  },
-  {
     id: 81,
     name: "Suporte para Controle e Headset",
     price: 49.00,
@@ -1234,21 +1426,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/supcontrolhead/supconhea2.jpeg",
       "IMG/produtos/geek/supcontrolhead/supconhea3.jpeg",
       "IMG/produtos/geek/supcontrolhead/supconhea4.jpeg",
-    ],
-    description: ""
-  },
-  {
-    id: 82,
-    name: "Suporte para Controle",
-    price: 69.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/supcontrolyoshi/supyohi.jpeg",
-      "IMG/produtos/geek/supcontrolyoshi/supyohi2.jpeg",
-      "IMG/produtos/geek/supcontrolyoshi/supyohi3.jpeg",
-      "IMG/produtos/geek/supcontrolyoshi/supyohi4.jpeg",
     ],
     description: ""
   },
@@ -1265,44 +1442,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/geek/supduploplays/supduplo4.jpeg",
     ],
     description: ""
-  },
-  {
-    id: 84,
-    name: "Suporte Universal para Controle Senhor dos Aníes",
-    price: 90.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/supsenhoraneis/supsaurons.png",
-    ],
-    description: "Formato da Mão de Sauron"
-  },
-  {
-    id: 85,
-    name: "Suporte Universal para Controle Pokémon",
-    price: 40.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/supcraneocubone/supcubone.jpeg",
-      "IMG/produtos/geek/supcraneocubone/supcubone2.jpeg",
-    ],
-    description: "Formato da Crânio de Cubone"
-  },
-  {
-    id: 86,
-    name: "Suporte Universal para Controle God of War",
-    price: 67.00,
-    category: "Organizadores",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/supcontrolkratos/supkratos.jpeg",
-      "IMG/produtos/geek/supcontrolkratos/supkratos2.jpeg",
-    ],
-    description: "Formato do Torso de Kratos"
   },
   {
     id: 87,
@@ -1606,23 +1745,6 @@ window.FORJ3D_PRODUCTS = [
     description: ""
   },
   {
-    id: 108,
-    name: "Pato Donald o Gangster",
-    price: 80.00,
-    category: "Colecionáveis",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/donaldgangster/donaldgans.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans2.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans3.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans4.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans5.jpeg",
-      "IMG/produtos/geek/donaldgangster/donaldgans6.jpeg",
-    ],
-    description: "Possui Alça"
-  },
-  {
     id: 109,
     name: "Piloto de Motocross",
     price: 30.00,
@@ -1744,23 +1866,6 @@ window.FORJ3D_PRODUCTS = [
       "IMG/produtos/suportes/portacartoesbarbeiro/portbarbeiro3.jpeg",
     ],
     description: "Visita de Barbeiro"
-  },
-  {
-    id: 118,
-    name: "Boneco Stitch",
-    price: 100.00,
-    category: "Colecionáveis",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/stitch/bonecostitch.jpeg",
-      "IMG/produtos/geek/stitch/bonecostitch2.jpeg",
-      "IMG/produtos/geek/stitch/bonecostitch3.jpeg",
-      "IMG/produtos/geek/stitch/bonecostitch4.jpeg",
-      "IMG/produtos/geek/stitch/bonecostitch5.jpeg",
-      "IMG/produtos/geek/stitch/bonecostitch6.jpeg",
-    ],
-    description: ""
   },
   {
     id: 119,
@@ -2026,22 +2131,6 @@ window.FORJ3D_PRODUCTS = [
     description: "27cm de Altura"
   },
   {
-    id: 137,
-    name: "Capitão América",
-    price: 150.00,
-    category: "Colecionáveis",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/capamerica/america.jpeg",
-      "IMG/produtos/geek/capamerica/america2.jpeg",
-      "IMG/produtos/geek/capamerica/america3.jpeg",
-      "IMG/produtos/geek/capamerica/america4.jpeg",
-      "IMG/produtos/geek/capamerica/america5.jpeg",
-    ],
-    description: "22cm de Altura"
-  },
-  {
     id: 138,
     name: "Suporte para Lata de Monster Energy",
     price: 94.00,
@@ -2258,22 +2347,6 @@ window.FORJ3D_PRODUCTS = [
     description: "Edição Gangster"
   },
   {
-    id: 153,
-    name: "Vegeta Super Sayan 4",
-    price: 176.00,
-    category: "Colecionáveis",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/vegetasupersayan4/vegetasuper.jpeg",
-      "IMG/produtos/geek/vegetasupersayan4/vegetasuper2.jpeg",
-      "IMG/produtos/geek/vegetasupersayan4/vegetasuper3.jpeg",
-      "IMG/produtos/geek/vegetasupersayan4/vegetasuper4.jpeg",
-      "IMG/produtos/geek/vegetasupersayan4/vegetasuper5.jpeg",
-    ],
-    description: "Edição Gangster"
-  },
-  {
     id: 154,
     name: "Dia dos Pais",
     price: 40.00,
@@ -2429,23 +2502,6 @@ window.FORJ3D_PRODUCTS = [
     description: ""
   },
   {
-    id: 164,
-    name: "Shadow the Hedgehog",
-    price: 130.00,
-    category: "Colecionáveis",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/shadowhege/shadowhe.jpeg",
-      "IMG/produtos/geek/shadowhege/shadowhe2.png",
-      "IMG/produtos/geek/shadowhege/shadowhe3.jpeg",
-      "IMG/produtos/geek/shadowhege/shadowhe4.jpeg",
-      "IMG/produtos/geek/shadowhege/shadowhe5.jpeg",
-      "IMG/produtos/geek/shadowhege/shadowhe6.jpeg",
-    ],
-    description: ""
-  },
-  {
     id: 165,
     name: "Suporte para Copo e Headset",
     price: 130.00,
@@ -2595,20 +2651,6 @@ window.FORJ3D_PRODUCTS = [
     description: "Kratos God of War"
   },
   {
-    id: 175,
-    name: "Punisher Sonic",
-    price: 120.00,
-    category: "Colecionáveis",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/punishersonic/sonicpuni.jpeg",
-      "IMG/produtos/geek/punishersonic/sonicpuni2.jpeg",
-      "IMG/produtos/geek/punishersonic/sonicpuni3.jpeg",
-    ],
-    description: ""
-  },
-  {
     id: 176,
     name: "Pikachu Magikarp Poncho",
     price: 65.00,
@@ -2741,22 +2783,6 @@ window.FORJ3D_PRODUCTS = [
     description: ""
   },
   {
-    id: 185,
-    name: "Scooby Doo Urbano",
-    price: 220.00,
-    category: "Colecionáveis",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/scoobyurbano/urbanoscoo.png",
-      "IMG/produtos/geek/scoobyurbano/urbanoscoo2.jpeg",
-      "IMG/produtos/geek/scoobyurbano/urbanoscoo3.jpeg",
-      "IMG/produtos/geek/scoobyurbano/urbanoscoo4.jpeg",
-      "IMG/produtos/geek/scoobyurbano/urbanoscoo5.jpeg",
-    ],
-    description: ""
-  },
-  {
     id: 186,
     name: "Angel",
     price: 115.00,
@@ -2865,19 +2891,6 @@ window.FORJ3D_PRODUCTS = [
 
     ],
     description: "24cm de Altura"
-  },
-  {
-    id: 193,
-    name: "Mario X Pikachu",
-    price: 87.00,
-    category: "Colecionáveis",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/marioxpikachu/mariopikachu.png",
-      "IMG/produtos/geek/marioxpikachu/mariopikachu2.jpeg",
-    ],
-    description: "Figurino"
   },
   {
     id: 194,
@@ -3085,19 +3098,6 @@ window.FORJ3D_PRODUCTS = [
     description: "Réplica de Brinquedo"
   },
   {
-    id: 209,
-    name: "Mega Charizard X - 28cm",
-    price: 152.00,
-    category: "Colecionáveis",
-    icon: "",
-    material: "",
-    images: [
-      "IMG/produtos/geek/megacharix/charix.jpeg",
-      "IMG/produtos/geek/megacharix/charix2.png",
-    ],
-    description: "Pokémon altura 28cm"
-  },
-  {
     id: 210,
     name: "Chaveiro Mini Hambúrguer",
     price: 9.00,
@@ -3204,25 +3204,6 @@ window.FORJ3D_PRODUCTS = [
 ];
 
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
-
-/* =========================================================
-   ORDEM DO CATÁLOGO — produtos que aparecem primeiro em
-   produtos.html (ordenação "Relevância"), na ordem da lista.
-   Alterna personagem → suporte de controle → suporte de vinho.
-   Os demais produtos vêm depois, na ordem do cadastro.
-   Para mudar os destaques, basta trocar os IDs aqui — não é
-   preciso mudar a posição dos produtos no cadastro.
-========================================================= */
-window.FORJ3D_CATALOG_ORDER = [
-  209, 80, 36,   // Mega Charizard X 28cm | Suporte GTA VI | Vinho Arara
-  175, 86, 59,   // Punisher Sonic | Suporte Kratos | Vinho Anúbis
-  193, 82, 66,   // Mario X Pikachu | Suporte Yoshi | Vinho Polvo
-  137, 84, 67,   // Capitão América | Suporte Mão de Dragão | Vinho Flamingo
-  164, 79, 45,   // Shadow | Suporte GTA Wanted | Vinho Fênix
-  118, 78, 72,   // Boneco Stitch | Suporte Manopla | Vinho Dragão Roxo
-  153, 85, 58,   // Vegeta SS4 | Suporte Cubone | Vinho Dragão
-  108, 41, 185,  // Pato Donald Gangster | Vinho Caveira | Scooby Doo Urbano
-];
 
 /* =========================================================
    Helpers de imagem otimizada — compartilhados por index.js,
