@@ -40,15 +40,34 @@ CADASTRANDO UM PRODUTO NOVO
    usando um "id" que ainda não exista (o próximo número livre).
 3. Use em "category" uma das categorias do filtro:
    "Decoração", "Colecionáveis", "Utilidades" ou "Organizadores".
-4. Rode o otimizador de imagens antes de publicar:
+4. Faça o commit e o push para o main. O GitHub gera sozinho as
+   versões .webp das fotos novas e publica o site (ver "PUBLICAÇÃO").
+
+   Se quiser gerar os .webp no seu computador (opcional):
 
        npm install          (só na primeira vez)
        npm run optimize-images
 
-   Ele gera as versões .webp (galeria) e -thumb.webp (cards) de cada
-   foto, que são as que o site carrega. Sem isso, o site carrega a
-   foto original, muito mais pesada.
+   O site carrega só as versões .webp (galeria) e -thumb.webp (cards).
+   As fotos originais ficam apenas no repositório, como matéria-prima.
 
 Obs.: no código, os caminhos das fotos podem ficar com a extensão em
 minúsculo (.png, .gif) mesmo que o arquivo esteja em maiúsculo (.PNG,
 .GIF); o site troca a extensão por .webp automaticamente.
+
+PUBLICAÇÃO (Hostinger)
+----------------------
+O site publicado vem do branch "producao", que é gerado automaticamente
+pelo GitHub (Actions > "Publicar produção") a cada push no main:
+  - gera os .webp de fotos novas;
+  - copia só o que o site usa (sem as fotos originais, ~2 GB);
+  - cria .htaccess (HTTPS, segurança, cache), robots.txt e sitemap.xml.
+Nunca edite o branch "producao" à mão: ele é recriado a cada publicação.
+
+Na Hostinger (hPanel > Avançado > Git), use:
+  Repositório: hodcriative/form3d   Branch: producao   Diretório: public_html
+
+Domínio: o endereço do site fica em deploy/site-url.txt (uma linha).
+Ao definir o domínio definitivo, troque só essa linha — o card do
+WhatsApp, o sitemap e as tags de SEO são atualizados na próxima
+publicação. Configurações do servidor ficam em deploy/htaccess.

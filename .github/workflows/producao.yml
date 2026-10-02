@@ -1,0 +1,64 @@
+# =========================================================
+# FORJ3D — publica o branch "producao" (usado pela Hostinger)
+# ---------------------------------------------------------
+# A cada push no main:
+#   1. gera as versões .webp de fotos novas (npm run optimize-images)
+#   2. monta o site só com os arquivos que ele usa (scripts/build-producao.js)
+#   3. publica o resultado no branch "producao", sempre com um único
+#      commit (sem histórico), para o deploy da Hostinger ficar leve
+# Também pode ser rodado manualmente em Actions > "Publicar produção".
+# =========================================================
+name: Publicar produção
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: producao
+  cancel-in-progress: true
+
+jobs:
+  producao:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci --no-audit --no-fund
+
+      - name: Otimizar fotos novas
+        run: |
+          # o checkout dá a mesma data a todos os arquivos; marcar os .webp
+          # como mais novos faz o otimizador processar só fotos sem .webp
+          find IMG/produtos -name '*.webp' -exec touch {} +
+          npm run optimize-images
+
+      - name: Montar o site de produção
+        run: node scripts/build-producao.js
+
+      - name: Publicar no branch producao
+        working-directory: _producao
+        env:
+          ORIGEM: ${{ github.event.head_commit.message }}
+        run: |
+          RESUMO=$(printf '%s' "${ORIGEM:-manual}" | head -n1)
+          git init -q
+          git checkout -q -b producao
+          git add -A
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898283+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "Publicação de ${GITHUB_SHA::7}: ${RESUMO}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" producao

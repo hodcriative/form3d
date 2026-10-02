@@ -1,0 +1,4 @@
+# Endereço definitivo do site (com https:// e barra no final).
+# Quando o domínio da Hostinger estiver definido, troque a linha abaixo.
+# Ex.: https://www.forj3d.com.br/
+https://hodcriative.github.io/form3d/

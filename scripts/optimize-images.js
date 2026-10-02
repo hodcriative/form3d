@@ -89,7 +89,11 @@ async function processFile(srcPath) {
         .toFile(fullOut);
     }
     if (needsThumb) {
-      await sharp(srcPath, readOpts)
+      // Miniatura sempre como imagem parada (1º quadro, mesmo em GIF):
+      // ela aparece nos cards do catálogo e nas miniaturas da galeria,
+      // onde um GIF animado chegava a pesar 2-3 MB por produto. A
+      // animação continua na versão cheia, exibida na galeria.
+      await sharp(srcPath)
         .rotate()
         .resize({ width: thumbMax, height: thumbMax, fit: 'inside', withoutEnlargement: true })
         .webp({ quality: thumbQuality })

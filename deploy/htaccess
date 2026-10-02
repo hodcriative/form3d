@@ -1,0 +1,69 @@
+# =========================================================
+# FORJ3D — configuração do servidor (Hostinger / Apache)
+# Este arquivo é publicado como ".htaccess" no branch "producao".
+# Edite aqui, em deploy/htaccess, e não direto na Hostinger.
+# =========================================================
+
+Options -Indexes
+DirectoryIndex index.html
+
+# ---------- Sempre HTTPS ----------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# ---------- Tipos de arquivo ----------
+<IfModule mod_mime.c>
+  AddType image/webp            .webp
+  AddType application/wasm      .wasm
+  AddType model/gltf-binary     .glb
+  AddType font/woff2            .woff2
+  AddType image/svg+xml         .svg
+</IfModule>
+
+# ---------- Cabeçalhos de segurança ----------
+# A política de scripts (CSP) já está nas páginas, em <meta>.
+# Aqui entram as proteções que só funcionam como cabeçalho do servidor.
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Content-Security-Policy "frame-ancestors 'self'"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+  Header always set Strict-Transport-Security "max-age=15552000" "expr=%{HTTPS} == 'on'"
+</IfModule>
+
+# ---------- Cache no navegador ----------
+# Fotos, fontes e modelos 3D mudam pouco: ficam guardados por 30 dias.
+# CSS e JS mudam com frequência: 1 hora. Páginas HTML: sempre conferem.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault                      "access plus 1 hour"
+  ExpiresByType text/html             "access plus 0 seconds"
+  ExpiresByType text/css              "access plus 1 hour"
+  ExpiresByType application/javascript "access plus 1 hour"
+  ExpiresByType text/javascript       "access plus 1 hour"
+  ExpiresByType image/webp            "access plus 30 days"
+  ExpiresByType image/png             "access plus 30 days"
+  ExpiresByType image/jpeg            "access plus 30 days"
+  ExpiresByType image/svg+xml         "access plus 30 days"
+  ExpiresByType font/woff2            "access plus 1 year"
+  ExpiresByType model/gltf-binary     "access plus 30 days"
+  ExpiresByType application/wasm      "access plus 30 days"
+</IfModule>
+
+# ---------- Compressão ----------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/javascript text/javascript application/json image/svg+xml application/xml
+</IfModule>
+
+# ---------- Bloqueia arquivos internos ----------
+<FilesMatch "^\.|\.(md|txt|json|lock|sh|yml|yaml)$">
+  Require all denied
+</FilesMatch>
+<Files "robots.txt">
+  Require all granted
+</Files>
