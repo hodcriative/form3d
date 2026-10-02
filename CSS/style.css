@@ -1406,3 +1406,29 @@
     flex-basis: 200px;
   }
 }
+/* =========================================================
+   VITRINE (carrossel da Home) — cards sempre inteiros
+   A largura de cada card é calculada a partir da largura do
+   carrossel, para caber um número exato de cards por vez
+   (nada cortado na borda). Ao avançar, rola 1 card por clique.
+========================================================= */
+#carousel {
+  --per-view: 4;
+  --carousel-gap: 20px;
+  gap: var(--carousel-gap);
+}
+
+#carousel .card {
+  flex: 0 0 calc((100% - (var(--per-view) - 1) * var(--carousel-gap)) / var(--per-view));
+  min-width: 0;
+}
+
+@media (max-width: 1099px) {
+  #carousel { --per-view: 3; }
+}
+
+@media (max-width: 559px) {
+  #carousel { --per-view: 2; --carousel-gap: 12px; }
+  #carousel .card { padding: 10px; }
+  #carousel .card-name { font-size: 13px; }
+}
