@@ -3206,6 +3206,25 @@ window.FORJ3D_PRODUCTS = [
 window.FORJ3D_CATEGORIES = ["Todos", "Decoração", "Colecionáveis", "Utilidades", "Organizadores"];
 
 /* =========================================================
+   ORDEM DO CATÁLOGO — produtos que aparecem primeiro em
+   produtos.html (ordenação "Relevância"), na ordem da lista.
+   Alterna personagem → suporte de controle → suporte de vinho.
+   Os demais produtos vêm depois, na ordem do cadastro.
+   Para mudar os destaques, basta trocar os IDs aqui — não é
+   preciso mudar a posição dos produtos no cadastro.
+========================================================= */
+window.FORJ3D_CATALOG_ORDER = [
+  209, 80, 36,   // Mega Charizard X 28cm | Suporte GTA VI | Vinho Arara
+  175, 86, 59,   // Punisher Sonic | Suporte Kratos | Vinho Anúbis
+  193, 82, 66,   // Mario X Pikachu | Suporte Yoshi | Vinho Polvo
+  137, 84, 67,   // Capitão América | Suporte Mão de Dragão | Vinho Flamingo
+  164, 79, 45,   // Shadow | Suporte GTA Wanted | Vinho Fênix
+  118, 78, 72,   // Boneco Stitch | Suporte Manopla | Vinho Dragão Roxo
+  153, 85, 58,   // Vegeta SS4 | Suporte Cubone | Vinho Dragão
+  108, 41, 185,  // Pato Donald Gangster | Vinho Caveira | Scooby Doo Urbano
+];
+
+/* =========================================================
    Helpers de imagem otimizada — compartilhados por index.js,
    cart.js e produtos.js. Toda foto/gif em IMG/produtos/** tem
    uma versão .webp (cheia) e -thumb.webp (miniatura) gerada

@@ -13,6 +13,20 @@ de cada produto em JS/products-data.js.
 Não é necessário editar o index.html. A Home e o catálogo usam a
 mesma base de produtos (JS/products-data.js).
 
+PRIMEIROS PRODUTOS DO CATÁLOGO (produtos.html)
+----------------------------------------------
+Os produtos que aparecem primeiro no catálogo (ordenação "Relevância")
+são definidos pela lista FORJ3D_CATALOG_ORDER, em JS/products-data.js
+(logo abaixo da lista de categorias):
+
+    window.FORJ3D_CATALOG_ORDER = [209, 80, 36, 175, ...];
+
+- Aparecem nessa ordem; os demais vêm depois, na ordem do cadastro.
+- Vale também dentro de cada categoria do filtro.
+- Para mudar os destaques, troque os IDs da lista. Não é preciso
+  mudar a posição dos produtos no cadastro (isso troca os IDs e pode
+  confundir carrinhos e links já compartilhados).
+
 "VOCÊ TAMBÉM PODE GOSTAR" (sugestões no detalhe do produto)
 -----------------------------------------------------------
 Por padrão, o site sorteia 3 produtos da mesma categoria a cada vez
